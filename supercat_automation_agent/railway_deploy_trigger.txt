@@ -1,0 +1,2 @@
+Force Railway redeploy at 2025-09-30 17:03:26
+Updated main.py should return complete EDP analysis format for Clay integration
