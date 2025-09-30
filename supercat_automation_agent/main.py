@@ -80,13 +80,31 @@ def analyze_company_for_clay(company_name, domain):
     
     return analysis_result
 
-@app.route("/analyze", methods=["POST"])
+@app.route("/analyze", methods=["GET", "POST"])
 def analyze_company():
     """
     Main EDP analysis endpoint for Clay
-    Clay sends: {"company_name": "ABC Corp", "domain": "abc.com"}
-    Returns: Complete EDP analysis in your existing format
+    GET: Returns usage instructions
+    POST: {"company_name": "ABC Corp", "domain": "abc.com"} → Complete EDP analysis
     """
+    if request.method == "GET":
+        return jsonify({
+            "service": "Supercat EDP Analysis API",
+            "usage": {
+                "method": "POST",
+                "url": "/analyze",
+                "headers": {"Content-Type": "application/json"},
+                "body": {
+                    "company_name": "Your Company Name",
+                    "domain": "yourcompany.com"
+                },
+                "returns": "Complete EDP analysis with all pipeline columns"
+            },
+            "example_curl": 'curl -X POST https://your-app.up.railway.app/analyze -H "Content-Type: application/json" -d \'{"company_name":"Test Co","domain":"test.com"}\'',
+            "timestamp": datetime.now().isoformat()
+        }), 200
+    
+    # POST method
     try:
         data = request.get_json()
         
@@ -127,7 +145,7 @@ def analyze_company():
             "timestamp": datetime.now().isoformat()
         }), 500
 
-@app.route("/pain-signal-webhook", methods=["POST"])
+@app.route("/pain-signal-webhook", methods=["GET", "POST"])
 def receive_pain_signal():
     """Legacy webhook endpoint - redirects to /analyze"""
     return analyze_company()
