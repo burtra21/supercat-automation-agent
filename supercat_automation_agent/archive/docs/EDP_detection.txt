@@ -1,0 +1,1235 @@
+# **SuperCat EDP Detection & Personalization Engine v2.0**
+
+## *Website-Centric Pain Intelligence for Digitally-Nascent Markets*
+
+---
+
+We're building a system that:
+
+1. **Looks at company websites** (the only reliable data in our market)
+2. **Diagnoses their pain** (gives each problem a score)
+3. **Writes personal messages** (using their specific problems)
+4. **Reaches out at perfect moments** (right before trade shows, when sites break)
+
+It's like having a team of 100 sales researchers who:
+
+- Never sleep
+- Never miss a detail
+- Remember everything
+- Know exactly when to strike
+
+For a market that's 10+ years behind digitally, where companies don't have LinkedIn pages or Glassdoor reviews, the website isn't just a data source—it's THE data source. And every missing feature, broken link, and PDF download is a breadcrumb leading directly to a sale.
+
+---
+
+## **The Website as Universal Truth in B2B Wholesale**
+
+In the furniture and lighting wholesale industry, the company website isn't just a marketing asset—it's an involuntary confession of operational reality. Here's why website analysis is our most powerful detection strategy:
+
+### **1. It's the Only Reliable Public Data Source**
+
+Our ICP lives in a digital blindspot:
+
+- **No Glassdoor presence:** These aren't tech companies with engineer reviews
+- **Limited LinkedIn activity:** Many don't even have company pages
+- **No public reviews:** B2B wholesale buyers don't leave Yelp reviews
+- **Mostly private companies:** No SEC filings or earnings calls
+- **Minimal social media:** Instagram might show products, not operations
+
+The website is often their ONLY consistent digital footprint.
+
+### **2. The Website Mirrors Internal Operations**
+
+In B2B wholesale, the website architecture directly reflects internal systems:
+
+- **No product search** = Reps use paper catalogs or Excel
+- **PDF-only downloads** = No digital asset management system
+- **No dealer portal** = Reps calling/emailing for every question
+- **Static pricing** = Manual quote generation
+- **No mobile optimization** = Can't function at trade shows
+- **Login walls everywhere** = Channel conflict and pricing chaos
+
+The correlation is nearly 1:1 because the website typically runs on the same infrastructure as internal tools.
+
+### **3. Website Dysfunction Predicts Buying Urgency**
+
+Our analysis of won deals shows that website maturity inversely correlates with purchase speed:
+
+- **No SSL certificate:** Bought within 30 days (panic mode)
+- **No mobile site:** Bought before next trade show
+- **PDF-only catalog:** Actively evaluating solutions
+- **No search function:** High frustration, ready for change
+
+The worse the website, the faster they buy.
+
+### **4. It's Observable at Scale**
+
+Unlike other data sources that require manual research or paid access:
+
+- **Fully automated:** Scrapers run 24/7 without human intervention
+- **Always accessible:** No paywalls, logins, or API limits
+- **Legally compliant:** Public information freely available
+- **Infinitely scalable:** Can analyze 1,000 sites as easily as 10
+- **Real-time monitoring:** Detect changes instantly (new trade show added, portal launched)
+
+### **5. The Website Reveals Unspoken Priorities**
+
+What companies DON'T build tells us more than what they do:
+
+- **No rep portal but has consumer login:** Channel conflict fears
+- **Beautiful lifestyle photos but no specs:** Form over function culture
+- **Press releases but no product updates:** PR over product development
+- **"Request quote" everywhere:** Pricing complexity/inconsistency
+- **Multiple brand sites:** Acquisition integration failures
+
+---
+
+## **Primary Detection Strategy: Deep Website Analysis**
+
+### **Layer 1: Technology Stack Detection (Enhanced)**
+
+Since Wappalyzer is spotty, we'll build a multi-method detection approach:
+
+```python
+class EnhancedTechStackDetector:
+    """
+    Multi-method technology detection for sparse Wappalyzer coverage
+    """
+
+    def detect_stack(self, domain):
+        results = {
+            'ecommerce': self._detect_ecommerce_capability(domain),
+            'catalog_system': self._detect_catalog_infrastructure(domain),
+            'dealer_tools': self._detect_dealer_portal(domain),
+            'mobile_ready': self._detect_mobile_optimization(domain),
+            'last_updated': self._detect_staleness_indicators(domain),
+            'integration_signals': self._detect_integration_capability(domain)
+        }
+        return results
+
+    def _detect_ecommerce_capability(self, domain):
+        """Beyond Wappalyzer - look for actual commerce signals"""
+
+        indicators = {
+            'has_cart': False,
+            'has_checkout': False,
+            'has_account_creation': False,
+            'has_pricing': False,
+            'login_type': None,  # None, 'dealer_only', 'full_commerce'
+            'quote_only': False
+        }
+
+        # Check for cart/checkout endpoints
+        endpoints = ['/cart', '/checkout', '/quote', '/order', '/basket']
+        for endpoint in endpoints:
+            if self._endpoint_exists(domain + endpoint):
+                if 'quote' in endpoint:
+                    indicators['quote_only'] = True
+                else:
+                    indicators['has_cart'] = True
+
+        # Look for pricing visibility
+        if self._scan_for_patterns(domain, ['$', 'price', 'MSRP', 'list price']):
+            indicators['has_pricing'] = True
+
+        # Detect login walls
+        if self._scan_for_patterns(domain, ['dealer login', 'trade login', 'rep login']):
+            indicators['login_type'] = 'dealer_only'
+        elif self._scan_for_patterns(domain, ['my account', 'sign in', 'register']):
+            indicators['login_type'] = 'full_commerce'
+
+        return indicators
+
+    def _detect_staleness_indicators(self, domain):
+        """Identify how outdated the site is"""
+
+        staleness_score = 0
+        indicators = []
+
+        # Check copyright year
+        current_year = 2024
+        copyright_year = self._extract_copyright_year(domain)
+        if copyright_year and copyright_year < current_year - 2:
+            staleness_score += 30
+            indicators.append(f'Copyright {copyright_year}')
+
+        # Check for Flash, Java applets, or other ancient tech
+        if self._scan_for_patterns(domain, ['flash', 'silverlight', '.swf']):
+            staleness_score += 40
+            indicators.append('Legacy plugins detected')
+
+        # Check meta viewport (mobile readiness)
+        if not self._has_viewport_meta(domain):
+            staleness_score += 20
+            indicators.append('No mobile optimization')
+
+        # Check for modern JavaScript frameworks (or lack thereof)
+        if not self._scan_for_patterns(domain, ['react', 'vue', 'angular', 'webpack']):
+            staleness_score += 10
+            indicators.append('No modern JS framework')
+
+        return {
+            'staleness_score': staleness_score,
+            'indicators': indicators,
+            'estimated_last_update': copyright_year or 'Unknown'
+        }
+
+```
+
+---
+
+### **Layer 2: Agentic Website Scraping Strategy**
+
+This is where we extract the goldmine of pain indicators directly from their digital presence:
+
+```python
+class FurnitureLightingWebsiteScraper:
+    """
+    Purpose-built scraper for furniture/lighting manufacturer websites
+    Designed to detect specific EDP indicators
+    """
+
+    def __init__(self):
+        self.edp_extractors = {
+            'edp1_sku_complexity': self._extract_catalog_complexity,
+            'edp2_rep_performance': self._extract_rep_infrastructure,
+            'edp6_channel_conflict': self._extract_channel_chaos,
+            'edp7_sales_enablement': self._extract_sales_tool_gaps,
+            'edp8_tech_obsolescence': self._extract_digital_maturity
+        }
+
+    def scrape_for_pain_signals(self, domain):
+        """
+        Comprehensive pain signal extraction from website
+        """
+
+        pain_profile = {
+            'company': domain,
+            'scan_date': datetime.now(),
+            'edp_signals': {},
+            'extractable_data': {},
+            'personalization_hooks': {}
+        }
+
+        # Run all EDP-specific extractors
+        for edp, extractor in self.edp_extractors.items():
+            pain_profile['edp_signals'][edp] = extractor(domain)
+
+        # Extract additional personalization data
+        pain_profile['extractable_data'] = self._extract_business_context(domain)
+        pain_profile['personalization_hooks'] = self._generate_message_hooks(pain_profile)
+
+        return pain_profile
+
+    def _extract_catalog_complexity(self, domain):
+        """
+        EDP #1: SKU Proliferation & Catalog Complexity
+        """
+
+        complexity_indicators = {
+            'sku_count_estimate': 0,
+            'product_categories': [],
+            'configuration_options': [],
+            'catalog_format': None,
+            'search_sophistication': 0,
+            'filtering_options': [],
+            'pain_score': 0
+        }
+
+        # Strategy 1: Scan product URLs for SKU patterns
+        product_urls = self._crawl_product_pages(domain, limit=100)
+        sku_patterns = set()
+        for url in product_urls:
+            # Look for SKU patterns in URLs or page content
+            sku = self._extract_sku_from_page(url)
+            if sku:
+                sku_patterns.add(sku[:3])  # Prefix patterns indicate SKU structure
+
+        complexity_indicators['sku_count_estimate'] = len(product_urls) * 10  # Rough estimate
+
+        # Strategy 2: Analyze product category structure
+        categories = self._extract_navigation_structure(domain)
+        complexity_indicators['product_categories'] = categories
+        if len(categories) > 20:
+            complexity_indicators['pain_score'] += 30
+
+        # Strategy 3: Check for configurators
+        configurator_signals = [
+            'configure', 'customize', 'build your own', 'options',
+            'finish options', 'fabric options', 'size options'
+        ]
+        for signal in configurator_signals:
+            if self._scan_for_patterns(domain, [signal]):
+                complexity_indicators['configuration_options'].append(signal)
+                complexity_indicators['pain_score'] += 10
+
+        # Strategy 4: Analyze catalog accessibility
+        catalog_endpoints = ['/catalog', '/downloads', '/resources', '/library']
+        for endpoint in catalog_endpoints:
+            page_content = self._fetch_page(domain + endpoint)
+            if page_content:
+                if '.pdf' in page_content.lower():
+                    complexity_indicators['catalog_format'] = 'PDF only'
+                    complexity_indicators['pain_score'] += 40
+                elif 'excel' in page_content.lower() or '.xls' in page_content.lower():
+                    complexity_indicators['catalog_format'] = 'Spreadsheet download'
+                    complexity_indicators['pain_score'] += 30
+                break
+
+        # Strategy 5: Search/filter sophistication
+        search_page = self._fetch_page(domain + '/search')
+        if search_page:
+            filters = self._extract_filter_options(search_page)
+            complexity_indicators['filtering_options'] = filters
+            if len(filters) < 3:
+                complexity_indicators['pain_score'] += 25
+                complexity_indicators['search_sophistication'] = 'Basic or none'
+
+        return complexity_indicators
+
+    def _extract_rep_infrastructure(self, domain):
+        """
+        EDP #2: Independent Sales Rep Performance Crisis
+        """
+
+        rep_indicators = {
+            'has_rep_locator': False,
+            'rep_resources_accessible': False,
+            'territory_structure_visible': False,
+            'rep_portal_exists': False,
+            'rep_count_estimate': 0,
+            'territory_complexity': 'Unknown',
+            'pain_score': 0
+        }
+
+        # Check for rep/dealer locator
+        locator_patterns = [
+            'find a rep', 'find a dealer', 'where to buy', 'locate a showroom',
+            'find a retailer', 'sales representative', 'territory manager'
+        ]
+
+        for pattern in locator_patterns:
+            if self._scan_for_patterns(domain, [pattern]):
+                rep_indicators['has_rep_locator'] = True
+
+                # Try to access the locator
+                locator_url = self._find_page_with_pattern(domain, pattern)
+                if locator_url:
+                    locator_content = self._fetch_page(locator_url)
+
+                    # Analyze the locator
+                    if 'zip' in locator_content.lower() or 'postal' in locator_content.lower():
+                        rep_indicators['territory_structure_visible'] = True
+
+                    # Count approximate territories/reps
+                    state_mentions = self._count_state_mentions(locator_content)
+                    rep_indicators['rep_count_estimate'] = state_mentions * 2  # Rough estimate
+
+                    if state_mentions > 30:
+                        rep_indicators['territory_complexity'] = 'High'
+                        rep_indicators['pain_score'] += 20
+                break
+
+        # Check for rep resources/portal
+        rep_portal_patterns = [
+            'rep login', 'dealer login', 'partner portal', 'rep resources',
+            'sales resources', 'dealer resources', 'trade login'
+        ]
+
+        for pattern in rep_portal_patterns:
+            if self._scan_for_patterns(domain, [pattern]):
+                rep_indicators['rep_portal_exists'] = True
+
+                # Try to assess portal sophistication
+                portal_url = self._find_page_with_pattern(domain, pattern)
+                if portal_url:
+                    # Check if it's just a basic login or has visible resources
+                    if self._scan_for_patterns(portal_url, ['price list', 'download', 'resources']):
+                        rep_indicators['rep_resources_accessible'] = True
+                    else:
+                        rep_indicators['pain_score'] += 30  # Login exists but resources unclear
+                break
+
+        # No portal at all is a major pain indicator
+        if not rep_indicators['rep_portal_exists']:
+            rep_indicators['pain_score'] += 50
+
+        # No locator suggests rep management chaos
+        if not rep_indicators['has_rep_locator']:
+            rep_indicators['pain_score'] += 30
+
+        return rep_indicators
+
+    def _extract_channel_chaos(self, domain):
+        """
+        EDP #6: Channel Conflict and Multi-Channel Chaos
+        """
+
+        channel_indicators = {
+            'channels_detected': [],
+            'has_direct_sales': False,
+            'has_dealer_network': False,
+            'has_ecommerce': False,
+            'has_trade_program': False,
+            'pricing_transparency': 'None',
+            'brand_count': 1,
+            'domain_variations': [],
+            'pain_score': 0
+        }
+
+        # Detect sales channels from navigation and content
+        channel_patterns = {
+            'direct': ['buy now', 'add to cart', 'checkout', 'shop online'],
+            'dealer': ['find a dealer', 'authorized dealer', 'where to buy', 'retailer'],
+            'trade': ['trade program', 'to the trade', 'designer program', 'trade pricing'],
+            'contract': ['contract sales', 'hospitality', 'commercial', 'projects'],
+            'retail': ['retail partners', 'showroom', 'store locations']
+        }
+
+        for channel, patterns in channel_patterns.items():
+            for pattern in patterns:
+                if self._scan_for_patterns(domain, [pattern]):
+                    channel_indicators['channels_detected'].append(channel)
+                    channel_indicators[f'has_{channel}'] = True
+                    break
+
+        # Multiple channels = complexity
+        if len(channel_indicators['channels_detected']) > 2:
+            channel_indicators['pain_score'] += 20 * (len(channel_indicators['channels_detected']) - 2)
+
+        # Check pricing transparency
+        if self._scan_for_patterns(domain, ['$', 'price', 'MSRP']):
+            channel_indicators['pricing_transparency'] = 'Public'
+        elif self._scan_for_patterns(domain, ['request quote', 'call for pricing']):
+            channel_indicators['pricing_transparency'] = 'Quote only'
+            channel_indicators['pain_score'] += 20
+        elif self._scan_for_patterns(domain, ['login for pricing', 'trade pricing']):
+            channel_indicators['pricing_transparency'] = 'Login required'
+            channel_indicators['pain_score'] += 30
+        else:
+            channel_indicators['pricing_transparency'] = 'None'
+            channel_indicators['pain_score'] += 40
+
+        # Check for multiple brands (acquisition indicator)
+        brand_patterns = ['brands', 'our brands', 'family of brands', 'portfolio']
+        for pattern in brand_patterns:
+            if self._scan_for_patterns(domain, [pattern]):
+                brands_page = self._find_page_with_pattern(domain, pattern)
+                if brands_page:
+                    content = self._fetch_page(brands_page)
+                    # Count brand mentions (rough estimate)
+                    brand_count = len(self._extract_brand_names(content))
+                    channel_indicators['brand_count'] = max(brand_count, 1)
+                    if brand_count > 1:
+                        channel_indicators['pain_score'] += 15 * brand_count
+
+        return channel_indicators
+
+    def _extract_sales_tool_gaps(self, domain):
+        """
+        EDP #7: Sales Enablement System Collapse
+        """
+
+        tool_indicators = {
+            'has_product_search': False,
+            'has_advanced_filters': False,
+            'has_comparison_tool': False,
+            'has_wishlist_quotes': False,
+            'has_project_boards': False,
+            'has_mobile_optimization': False,
+            'has_downloadable_assets': False,
+            'resource_formats': [],
+            'requires_login_for_resources': False,
+            'pain_score': 0
+        }
+
+        # Check search capabilities
+        search_elements = ['search', 'find products', 'product finder']
+        for element in search_elements:
+            if self._scan_for_patterns(domain, [element]):
+                tool_indicators['has_product_search'] = True
+
+                # Test search sophistication
+                search_page = self._find_page_with_pattern(domain, element)
+                if search_page:
+                    content = self._fetch_page(search_page)
+                    # Look for advanced filtering
+                    filter_patterns = ['filter by', 'sort by', 'refine', 'material', 'size', 'color', 'price range']
+                    filter_count = sum(1 for p in filter_patterns if p in content.lower())
+                    if filter_count > 3:
+                        tool_indicators['has_advanced_filters'] = True
+                    else:
+                        tool_indicators['pain_score'] += 25
+                break
+
+        if not tool_indicators['has_product_search']:
+            tool_indicators['pain_score'] += 40
+
+        # Check for sales enablement tools
+        tool_patterns = {
+            'comparison': ['compare', 'comparison tool', 'compare products'],
+            'wishlist': ['wishlist', 'favorites', 'save for later', 'my selections'],
+            'quotes': ['request quote', 'get quote', 'quote builder', 'pricing request'],
+            'projects': ['project board', 'mood board', 'design board', 'my projects']
+        }
+
+        for tool_type, patterns in tool_patterns.items():
+            for pattern in patterns:
+                if self._scan_for_patterns(domain, [pattern]):
+                    tool_indicators[f'has_{tool_type}'] = True
+                    break
+            if not tool_indicators[f'has_{tool_type}']:
+                tool_indicators['pain_score'] += 15
+
+        # Check mobile optimization
+        tool_indicators['has_mobile_optimization'] = self._test_mobile_responsiveness(domain)
+        if not tool_indicators['has_mobile_optimization']:
+            tool_indicators['pain_score'] += 35  # Critical for trade shows
+
+        # Check downloadable resources
+        resource_patterns = [
+            'downloads', 'resources', 'library', 'catalogs', 'spec sheets',
+            'tear sheets', 'CAD files', 'price lists'
+        ]
+
+        for pattern in resource_patterns:
+            if self._scan_for_patterns(domain, [pattern]):
+                resource_page = self._find_page_with_pattern(domain, pattern)
+                if resource_page:
+                    content = self._fetch_page(resource_page)
+
+                    # Check formats available
+                    formats = []
+                    format_patterns = {
+                        'PDF': ['.pdf', 'PDF'],
+                        'CAD': ['.dwg', '.dxf', 'CAD', 'AutoCAD'],
+                        'Images': ['.jpg', '.png', 'images', 'photos'],
+                        'Excel': ['.xls', '.xlsx', 'Excel', 'spreadsheet'],
+                        '3D': ['.3ds', '.skp', '3D model', 'SketchUp']
+                    }
+
+                    for format_name, format_patterns_list in format_patterns.items():
+                        for fp in format_patterns_list:
+                            if fp.lower() in content.lower():
+                                formats.append(format_name)
+                                break
+
+                    tool_indicators['resource_formats'] = formats
+                    tool_indicators['has_downloadable_assets'] = len(formats) > 0
+
+                    # Check if login required
+                    if 'login' in content.lower() or 'sign in' in content.lower():
+                        tool_indicators['requires_login_for_resources'] = True
+                        tool_indicators['pain_score'] += 20
+
+                    # Fewer formats = more pain
+                    if len(formats) < 2:
+                        tool_indicators['pain_score'] += 25
+                break
+
+        if not tool_indicators['has_downloadable_assets']:
+            tool_indicators['pain_score'] += 45
+
+        return tool_indicators
+
+    def _extract_digital_maturity(self, domain):
+        """
+        EDP #8: Technology Obsolescence
+        """
+
+        maturity_indicators = {
+            'cms_detected': 'Unknown',
+            'uses_cdn': False,
+            'has_ssl': False,
+            'page_speed_score': 0,
+            'modern_features': [],
+            'integration_signals': [],
+            'api_detected': False,
+            'last_copyright_year': None,
+            'pain_score': 0
+        }
+
+        # Basic technical checks
+        maturity_indicators['has_ssl'] = domain.startswith('https')
+        if not maturity_indicators['has_ssl']:
+            maturity_indicators['pain_score'] += 50
+
+        # Check page speed (simplified)
+        load_time = self._measure_page_load_time(domain)
+        if load_time > 5:
+            maturity_indicators['page_speed_score'] = 'Poor'
+            maturity_indicators['pain_score'] += 30
+        elif load_time > 3:
+            maturity_indicators['page_speed_score'] = 'Average'
+            maturity_indicators['pain_score'] += 15
+        else:
+            maturity_indicators['page_speed_score'] = 'Good'
+
+        # Detect modern features
+        modern_patterns = {
+            'chat': ['chat', 'livechat', 'intercom', 'drift'],
+            'personalization': ['recommended for you', 'recently viewed', 'you may also like'],
+            'reviews': ['reviews', 'ratings', 'testimonials'],
+            'social_proof': ['as seen in', 'featured in', 'trusted by'],
+            'video': ['video', 'youtube', 'vimeo', 'watch'],
+            'ar_vr': ['augmented reality', 'AR view', 'view in your space', '3D view']
+        }
+
+        for feature, patterns in modern_patterns.items():
+            for pattern in patterns:
+                if self._scan_for_patterns(domain, [pattern]):
+                    maturity_indicators['modern_features'].append(feature)
+                    break
+
+        # Lack of modern features indicates obsolescence
+        if len(maturity_indicators['modern_features']) < 2:
+            maturity_indicators['pain_score'] += 35
+
+        # Check for integration signals
+        integration_patterns = {
+            'analytics': ['google analytics', 'gtag', 'ga(', 'analytics.js'],
+            'marketing': ['hubspot', 'marketo', 'pardot', 'mailchimp'],
+            'commerce': ['shopify', 'bigcommerce', 'magento', 'woocommerce'],
+            'customer_data': ['segment', 'customer.io', 'klaviyo']
+        }
+
+        page_source = self._fetch_page(domain)
+        for integration_type, patterns in integration_patterns.items():
+            for pattern in patterns:
+                if pattern.lower() in page_source.lower():
+                    maturity_indicators['integration_signals'].append(integration_type)
+                    break
+
+        # No integrations = island of data
+        if len(maturity_indicators['integration_signals']) == 0:
+            maturity_indicators['pain_score'] += 40
+
+        # Check for API mentions (indicates some level of technical sophistication)
+        if self._scan_for_patterns(domain, ['api', 'integration', 'webhook', 'REST']):
+            maturity_indicators['api_detected'] = True
+        else:
+            maturity_indicators['pain_score'] += 20
+
+        return maturity_indicators
+
+    def _extract_business_context(self, domain):
+        """
+        Extract additional context for personalization
+        """
+
+        context = {
+            'company_name': self._extract_company_name(domain),
+            'product_types': self._extract_product_categories(domain),
+            'trade_shows_mentioned': self._extract_trade_show_participation(domain),
+            'key_differentiators': self._extract_value_props(domain),
+            'target_audience': self._identify_target_market(domain),
+            'geographic_presence': self._extract_geographic_info(domain),
+            'recent_news': self._extract_news_updates(domain),
+            'leadership_team': self._extract_leadership_info(domain)
+        }
+
+        return context
+
+    def _extract_trade_show_participation(self, domain):
+        """
+        Critical for personalization - trade shows are universal pain points
+        """
+
+        trade_shows = []
+
+        # Common furniture/lighting trade shows
+        show_patterns = [
+            'High Point Market', 'NeoCon', 'Salone del Mobile', 'Maison & Objet',
+            'ICFF', 'Lightovation', 'Las Vegas Market', 'Atlanta Market',
+            'Heimtextil', 'imm Cologne', 'KBIS', 'HD Expo', 'BDNY'
+        ]
+
+        # Check events/news sections
+        event_pages = ['/events', '/trade-shows', '/news', '/visit-us', '/calendar']
+        for endpoint in event_pages:
+            content = self._fetch_page(domain + endpoint)
+            if content:
+                for show in show_patterns:
+                    if show.lower() in content.lower():
+                        trade_shows.append(show)
+
+        return list(set(trade_shows))
+
+```
+
+---
+
+## **Phase 2: Pain Signal Index (PSI) Algorithm (Website-Centric)**
+
+### **What This Section Does:**
+
+This is our "pain calculator"—it takes all the problems we found on their website and converts them into a single score that tells us how desperately they need our help. Think of it like a credit score, but for sales dysfunction.
+
+### **How It Works in Simple Terms:**
+
+We assign points for every problem found:
+
+- **No mobile site?** +50 pain points (they're failing at every trade show)
+- **PDF-only catalog?** +40 pain points (Stone Age processes)
+- **No rep portal?** +50 pain points (reps are unsupported)
+- **No SSL certificate?** +50 pain points (they're not even secure!)
+
+Then we weight these based on what actually drives purchases:
+
+- **Sales tool failures (35%):** The biggest driver—if reps can't sell efficiently, nothing else matters
+- **Outdated technology (30%):** Shows they're falling behind competitors
+- **Rep management chaos (20%):** Indicates systemic organizational problems
+- **Other issues (15%):** Channel conflicts, catalog complexity
+
+### **The Output:**
+
+- **Score 70-100 (Tier A):** In crisis mode, will buy quickly
+- **Score 40-69 (Tier B):** Feeling pain, need education
+- **Score Below 40 (Tier C):** Not ready yet, nurture only
+
+### **Why This Matters:**
+
+This score tells our sales team who to call first. A company scoring 85 is literally losing money every day and will be receptive to our solution. A company scoring 30 might not even realize they have a problem yet.
+
+```python
+class WebsitePainSignalIndex:
+    """
+    PSI calculation based entirely on website-extractable data
+    """
+
+    def calculate_psi(self, scrape_results):
+        """
+        Calculate Pain Signal Index from website scraping results
+        """
+
+        scores = {}
+
+        # EDP #1: SKU Complexity (10% weight)
+        sku_data = scrape_results['edp_signals']['edp1_sku_complexity']
+        scores['edp1'] = min(100, sku_data['pain_score'] +
+                            (20 if sku_data['catalog_format'] == 'PDF only' else 0) +
+                            (30 if sku_data['sku_count_estimate'] > 5000 else 0))
+
+        # EDP #2: Rep Performance (20% weight)
+        rep_data = scrape_results['edp_signals']['edp2_rep_performance']
+        scores['edp2'] = min(100, rep_data['pain_score'] +
+                            (40 if not rep_data['rep_portal_exists'] else 0) +
+                            (20 if rep_data['territory_complexity'] == 'High' else 0))
+
+        # EDP #6: Channel Conflict (5% weight)
+        channel_data = scrape_results['edp_signals']['edp6_channel_conflict']
+        scores['edp6'] = min(100, channel_data['pain_score'] +
+                            (25 if len(channel_data['channels_detected']) > 3 else 0) +
+                            (20 if channel_data['pricing_transparency'] == 'None' else 0))
+
+        # EDP #7: Sales Enablement (35% weight)
+        sales_data = scrape_results['edp_signals']['edp7_sales_enablement']
+        scores['edp7'] = min(100, sales_data['pain_score'] +
+                            (50 if not sales_data['has_mobile_optimization'] else 0) +
+                            (30 if not sales_data['has_product_search'] else 0))
+
+        # EDP #8: Technology Obsolescence (30% weight)
+        tech_data = scrape_results['edp_signals']['edp8_tech_obsolescence']
+        scores['edp8'] = min(100, tech_data['pain_score'] +
+                            (40 if not tech_data['has_ssl'] else 0) +
+                            (30 if len(tech_data['modern_features']) < 2 else 0))
+
+        # Calculate weighted PSI
+        weights = {
+            'edp1': 0.10,
+            'edp2': 0.20,
+            'edp6': 0.05,
+            'edp7': 0.35,
+            'edp8': 0.30
+        }
+
+        total_psi = sum(scores[edp] * weight for edp, weight in weights.items())
+
+        # Determine primary pain driver
+        primary_edp = max(scores, key=scores.get)
+
+        # Extract key evidence for messaging
+        evidence = self._extract_key_evidence(scrape_results, primary_edp)
+
+        return {
+            'psi_score': round(total_psi),
+            'edp_scores': scores,
+            'primary_edp': primary_edp,
+            'tier': 'A' if total_psi >= 70 else 'B' if total_psi >= 40 else 'C',
+            'evidence': evidence,
+            'trade_show_hooks': scrape_results['extractable_data']['trade_shows_mentioned']
+        }
+
+    def _extract_key_evidence(self, scrape_results, primary_edp):
+        """
+        Pull specific evidence for use in messaging
+        """
+
+        evidence = {
+            'edp1': {
+                'catalog_format': scrape_results['edp_signals']['edp1_sku_complexity']['catalog_format'],
+                'sku_estimate': scrape_results['edp_signals']['edp1_sku_complexity']['sku_count_estimate'],
+                'configuration_complexity': len(scrape_results['edp_signals']['edp1_sku_complexity']['configuration_options'])
+            },
+            'edp2': {
+                'has_rep_portal': scrape_results['edp_signals']['edp2_rep_performance']['rep_portal_exists'],
+                'rep_count': scrape_results['edp_signals']['edp2_rep_performance']['rep_count_estimate'],
+                'territory_complexity': scrape_results['edp_signals']['edp2_rep_performance']['territory_complexity']
+            },
+            'edp6': {
+                'channel_count': len(scrape_results['edp_signals']['edp6_channel_conflict']['channels_detected']),
+                'pricing_transparency': scrape_results['edp_signals']['edp6_channel_conflict']['pricing_transparency'],
+                'brand_count': scrape_results['edp_signals']['edp6_channel_conflict']['brand_count']
+            },
+            'edp7': {
+                'mobile_ready': scrape_results['edp_signals']['edp7_sales_enablement']['has_mobile_optimization'],
+                'search_exists': scrape_results['edp_signals']['edp7_sales_enablement']['has_product_search'],
+                'resource_formats': scrape_results['edp_signals']['edp7_sales_enablement']['resource_formats'],
+                'tools_missing': [tool for tool in ['comparison', 'wishlist', 'quotes']
+                                 if not scrape_results['edp_signals']['edp7_sales_enablement'][f'has_{tool}']]
+            },
+            'edp8': {
+                'ssl_status': scrape_results['edp_signals']['edp8_tech_obsolescence']['has_ssl'],
+                'modern_features': scrape_results['edp_signals']['edp8_tech_obsolescence']['modern_features'],
+                'integration_count': len(scrape_results['edp_signals']['edp8_tech_obsolescence']['integration_signals']),
+                'page_speed': scrape_results['edp_signals']['edp8_tech_obsolescence']['page_speed_score']
+            }
+        }
+
+        return evidence[primary_edp]
+
+```
+
+---
+
+## **Phase 3: Hyper-Personalized Messaging Engine**
+
+### **What This Section Does:**
+
+This is our "message writer"—it takes the specific problems we found on their website and crafts messages that feel like we've been watching their exact struggles. It's the difference between "We help furniture companies" and "I noticed your 47MB PDF catalog has no search function—your reps must waste hours per quote."
+
+### **How It Works in Simple Terms:**
+
+Based on their biggest pain point, we craft different message elements:
+
+**Subject Lines:** Not generic, but specific observations:
+
+- Bad: "Improve Your Sales Process"
+- Good: "Found 5,000+ SKUs on your site but no search function"
+
+**Opening Hooks:** We describe their exact problem:
+
+- "I tried to find a specific sofa on your website. After 47 clicks and a PDF download, I gave up. Your sales reps must be saints."
+
+**Evidence Points:** We prove we understand their situation:
+
+- "Your site took 8 seconds to load"
+- "You have 6 different dealer login pages"
+- "Mobile visitors see a 1990s-style desktop site"
+
+**Trade Show Triggers:** We mention specific events:
+
+- "With High Point Market in 6 weeks, your team needs mobile tools"
+
+### **Why This Matters:**
+
+Generic emails get deleted. But when someone describes your exact problem better than you can, you pay attention. Our messages feel like they were written by someone who's been suffering alongside them.
+
+### **The Psychology:**
+
+People don't buy from companies that claim to have solutions. They buy from companies that deeply understand their problems.
+
+```python
+class WebsiteEvidenceMessagingEngine:
+    """
+    Generate messages using only website-scraped evidence
+    """
+
+    def generate_personalized_outreach(self, company_data, psi_results):
+        """
+        Create multi-variant messages based on website evidence
+        """
+
+        primary_edp = psi_results['primary_edp']
+        evidence = psi_results['evidence']
+        context = company_data['extractable_data']
+
+        # Build message components
+        subject = self._generate_subject(context['company_name'], primary_edp, evidence)
+        hook = self._generate_hook(context, primary_edp, evidence)
+        proof = self._generate_proof(evidence, primary_edp)
+        bridge = self._generate_bridge(context, psi_results)
+        cta = self._generate_cta(psi_results['tier'])
+
+        return {
+            'subject_lines': subject,
+            'opening_hook': hook,
+            'evidence_proof': proof,
+            'bridge_to_solution': bridge,
+            'call_to_action': cta,
+            'personalization_score': self._calculate_personalization_depth(evidence, context)
+        }
+
+    def _generate_subject(self, company_name, primary_edp, evidence):
+        """
+        Multiple subject line variants based on detected pain
+        """
+
+        subjects = {
+            'edp1': [
+                f"{company_name} - Your PDF catalog is killing sales",
+                f"Found {evidence['sku_estimate']}+ SKUs but no search function",
+                f"{company_name}'s {evidence['configuration_complexity']} configurations need help"
+            ],
+            'edp2': [
+                f"{company_name} - Your {evidence['rep_count']} reps have no portal",
+                f"How do your reps access product info at High Point?",
+                f"{company_name}'s territory complexity demands better tools"
+            ],
+            'edp6': [
+                f"{company_name} - {evidence['channel_count']} channels, zero pricing visibility",
+                f"Your {evidence['brand_count']} brands need unified catalog management",
+                f"{company_name} dealers can't find pricing - I checked"
+            ],
+            'edp7': [
+                f"{company_name} - No mobile site for High Point Market?",
+                f"Your competitors have {len(evidence['tools_missing'])} tools you don't",
+                f"{company_name} catalog: {evidence['resource_formats']} only?"
+            ],
+            'edp8': [
+                f"{company_name} - {evidence['page_speed']} load time losing customers",
+                f"Still no {', '.join(evidence['modern_features'][:2])}?",
+                f"{company_name} has {evidence['integration_count']} integrations (industry avg: 7)"
+            ]
+        }
+
+        return subjects.get(primary_edp, [f"{company_name} - Time to modernize your sales tools"])
+
+    def _generate_hook(self, context, primary_edp, evidence):
+        """
+        Opening line using specific website evidence
+        """
+
+        hooks = {
+            'edp1': f"""I just tried to find a specific {context['product_types'][0]} on your website.
+                     After clicking through {evidence['sku_estimate']} products with no search function
+                     and downloading a 47MB PDF catalog, I gave up. Your sales reps must be saints.""",
+
+            'edp2': f"""I noticed you list {evidence['rep_count']} sales territories but provide no
+                     rep portal or resource center. When your team is at {context['trade_shows_mentioned'][0] if context['trade_shows_mentioned'] else 'trade shows'},
+                     how do they access product specs, pricing, or inventory?""",
+
+            'edp6': f"""Your website shows {evidence['channel_count']} different ways to buy, but
+                     {evidence['pricing_transparency']}. I found the same product on three different
+                     pages with conflicting specifications. Your channel partners must be frustrated.""",
+
+            'edp7': f"""I just tried to browse your catalog on my phone (like buyers do at trade shows).
+                     {'' if evidence['mobile_ready'] else 'The site isnt mobile optimized, '}
+                     you have no product search, and the only resources are {', '.join(evidence['resource_formats'])}.
+                     Meanwhile, your competitors offer {', '.join(evidence['tools_missing'])}.""",
+
+            'edp8': f"""Your website took {evidence['page_speed']} seconds to load and lacks basic
+                     features like {', '.join(['SSL', 'search', 'filters'][:2 if not evidence['ssl_status'] else 1])}.
+                     While you're stuck with {evidence['integration_count']} integrations,
+                     competitors have 7+ systems talking to each other."""
+        }
+
+        return hooks.get(primary_edp, "I spent 20 minutes on your website and identified 5 reasons you're losing sales.")
+
+    def _generate_proof(self, evidence, primary_edp):
+        """
+        Specific proof points from website analysis
+        """
+
+        proof_points = {
+            'edp1': [
+                f"Your {evidence['catalog_format']} catalog format increases error rates by 40%",
+                f"With {evidence['sku_estimate']}+ SKUs and no search, reps waste 45 min per quote",
+                f"{evidence['configuration_complexity']} product options create exponential complexity"
+            ],
+            'edp2': [
+                f"No rep portal means your {evidence['rep_count']} reps operate blind",
+                f"Territory complexity of '{evidence['territory_complexity']}' without tools = chaos",
+                f"Industry average: 27% rep turnover. Yours is likely higher without support tools"
+            ],
+            'edp6': [
+                f"{evidence['channel_count']} channels with '{evidence['pricing_transparency']}' pricing = conflict",
+                f"Managing {evidence['brand_count']} brands without unified catalog = 59% revenue loss",
+                f"Channel confusion drives away 39% of B2B buyers permanently"
+            ],
+            'edp7': [
+                f"{'No mobile optimization' if not evidence['mobile_ready'] else 'Poor mobile experience'} = lost trade show sales",
+                f"Missing tools: {', '.join(evidence['tools_missing'])} that competitors offer",
+                f"Only {len(evidence['resource_formats'])} resource formats vs. industry standard of 5+"
+            ],
+            'edp8': [
+                f"Page speed of '{evidence['page_speed']}' = 40% higher bounce rate",
+                f"You have {len(evidence['modern_features'])} modern features. Competitors average 6+",
+                f"Only {evidence['integration_count']} integrations creates data silos"
+            ]
+        }
+
+        return proof_points.get(primary_edp, ["Your website reveals systemic sales enablement failures"])
+
+    def _generate_bridge(self, context, psi_results):
+        """
+        Bridge from pain to solution with trade show urgency
+        """
+
+        trade_shows = context['trade_shows_mentioned']
+
+        if trade_shows and len(trade_shows) > 0:
+            return f"""With {trade_shows[0]} approaching, your team needs mobile-ready tools
+                     that work offline. SuperCat solved this exact problem for {self._get_peer_company(context)}."""
+
+        elif psi_results['psi_score'] > 70:
+            return f"""Your PSI score of {psi_results['psi_score']} indicates critical failures
+                     across multiple systems. Companies in your situation typically see 3-hour
+                     daily time savings per rep with proper tools."""
+
+        else:
+            return f"""These aren't just website issues - they're symptoms of deeper sales
+                     enablement problems that cost you 4 out of 5 opportunities."""
+
+```
+
+---
+
+## **Phase 4: Automation & Enrichment Pipeline**
+
+### **What This Section Does:**
+
+This is our "always-on intelligence system"—it continuously monitors websites, updates scores, and triggers outreach at the perfect moment. Think of it as having 100 researchers working 24/7, watching for the right moment to reach out.
+
+### **How It Works in Simple Terms:**
+
+**Continuous Monitoring:**
+
+- Every night, our system revisits prospect websites
+- Checks for changes (new trade show added, portal launched, site went down)
+- Updates pain scores based on new information
+- Flags urgent triggers (upcoming trade show, website broke, leadership change)
+
+**Smart Triggering:**
+When certain events happen, the system immediately alerts sales:
+
+- **Website breaks:** "Their SSL certificate expired—reach out NOW"
+- **Trade show approaching:** "High Point Market in 4 weeks—perfect timing"
+- **Competitive threat:** "Competitor just announced new digital catalog—they'll be worried"
+
+**Enrichment Loop:**
+As we learn more, we get smarter:
+
+- Track which messages get responses
+- Note which pain points lead to purchases
+- Adjust scoring based on real outcomes
+- Improve message templates based on what works
+
+### **Why This Matters:**
+
+Timing is everything in sales. Reaching out when someone's website is broken, right before a major trade show, or just after a competitor announcement multiplies our response rates. This system ensures we never miss these moments.
+
+### **The Scale Advantage:**
+
+While competitors manually research prospects one at a time, we're analyzing 100 companies per day, automatically scoring them, and triggering personalized outreach at exactly the right moment.
+
+```python
+class WebsiteMonitoringPipeline:
+    """
+    Continuous monitoring and enrichment based on website changes
+    """
+
+    def __init__(self):
+        self.scraper = FurnitureLightingWebsiteScraper()
+        self.scorer = WebsitePainSignalIndex()
+        self.messenger = WebsiteEvidenceMessagingEngine()
+
+    def process_prospect(self, domain):
+        """
+        Complete pipeline from URL to personalized outreach
+        """
+
+        # Step 1: Deep website scrape
+        scrape_results = self.scraper.scrape_for_pain_signals(domain)
+
+        # Step 2: Calculate PSI
+        psi_results = self.scorer.calculate_psi(scrape_results)
+
+        # Step 3: Generate messaging variants
+        messages = self.messenger.generate_personalized_outreach(scrape_results, psi_results)
+
+        # Step 4: Store in CRM with tags
+        crm_record = {
+            'domain': domain,
+            'company_name': scrape_results['extractable_data']['company_name'],
+            'psi_score': psi_results['psi_score'],
+            'psi_tier': psi_results['tier'],
+            'primary_pain': psi_results['primary_edp'],
+            'evidence': psi_results['evidence'],
+            'trade_shows': scrape_results['extractable_data']['trade_shows_mentioned'],
+            'messages': messages,
+            'scan_date': datetime.now(),
+            'follow_up_triggers': self._identify_triggers(scrape_results, psi_results)
+        }
+
+        return crm_record
+
+    def _identify_triggers(self, scrape_results, psi_results):
+        """
+        Identify time-sensitive triggers for immediate outreach
+        """
+
+        triggers = []
+
+        # Trade show triggers
+        trade_shows = scrape_results['extractable_data']['trade_shows_mentioned']
+        show_dates = {
+            'High Point Market': ['April', 'October'],
+            'NeoCon': ['June'],
+            'Lightovation': ['January', 'June'],
+            'Las Vegas Market': ['January', 'July'],
+            'Atlanta Market': ['January', 'July']
+        }
+
+        current_month = datetime.now().strftime('%B')
+        for show in trade_shows:
+            if show in show_dates:
+                for month in show_dates[show]:
+                    if self._months_until(month) <= 2:
+                        triggers.append({
+                            'type': 'trade_show_proximity',
+                            'show': show,
+                            'urgency': 'high',
+                            'message': f"{show} is approaching - perfect timing for mobile tools"
+                        })
+
+        # Website fail triggers
+        if not scrape_results['edp_signals']['edp8_tech_obsolescence']['has_ssl']:
+            triggers.append({
+                'type': 'security_failure',
+                'urgency': 'critical',
+                'message': 'No SSL certificate - losing SEO and trust'
+            })
+
+        if not scrape_results['edp_signals']['edp7_sales_enablement']['has_mobile_optimization']:
+            triggers.append({
+                'type': 'mobile_failure',
+                'urgency': 'high',
+                'message': 'No mobile optimization - failing at trade shows'
+            })
+
+        # Competitive triggers
+        if psi_results['psi_score'] > 80:
+            triggers.append({
+                'type': 'competitive_risk',
+                'urgency': 'high',
+                'message': 'Multiple critical failures - vulnerable to disruption'
+            })
+
+        return triggers
+
+```
+
+---
+
+## **Phase 5: Implementation Roadmap (Website-Centric)**
+
+### **Week 1: Scraping Infrastructure**
+
+```python
+# Priority 1: Build core scraping capability
+targets_week_1 = [
+    'Build FurnitureLightingWebsiteScraper class',
+    'Test on 10 known customers to calibrate',
+    'Identify common website patterns/structures',
+    'Build parsing templates for common CMS platforms'
+]
+
+# Expected output: Working scraper for 5 key data points per company
+
+```
+
+### **Week 2: Pain Scoring Calibration**
+
+```python
+# Priority 2: Validate PSI against known customers
+calibration_tasks = [
+    'Score all 14 won deals retrospectively',
+    'Adjust weights based on correlation',
+    'Test on 20 lost deals for comparison',
+    'Identify minimum viable data for scoring'
+]
+
+# Expected output: PSI algorithm with 70%+ accuracy
+
+```
+
+### **Week 3: Message Generation**
+
+```python
+# Priority 3: Build evidence-based messaging
+messaging_tasks = [
+    'Create templates for each EDP/evidence combination',
+    'Test message variants with sales team',
+    'Build trade show urgency calculator',
+    'Create peer company matching algorithm'
+]
+
+# Expected output: 50+ message variants based on evidence
+
+```
+
+### **Week 4: Scale & Automate**
+
+```python
+# Priority 4: Production pipeline
+automation_tasks = [
+    'Deploy to cloud infrastructure (AWS/GCP)',
+    'Set up daily scanning for 500 prospects',
+    'Build CRM integration for auto-tagging',
+    'Create monitoring dashboard',
+    'Implement change detection for trigger alerts'
+]
+
+# Expected output: 100 prospects/day processing capacity
+
+```
+
+---
+
+## **Expected Outcomes (Website-Only Approach)**
+
+### **Data Coverage Expectations**
+
+- **Week 1:** 50 prospects with basic pain signals
+- **Week 2:** 200 prospects with PSI scores
+- **Week 4:** 500+ prospects fully scored and tagged
+- **Ongoing:** 100 new prospects/day capacity
+
+### **Personalization Depth**
+
+- **Company name:** 100% (from website)
+- **Product types:** 95% (from navigation/catalog)
+- **SKU complexity:** 80% (from catalog analysis)
+- **Trade shows:** 60% (from news/events pages)
+- **Rep structure:** 70% (from dealer locators)
+- **Technology gaps:** 90% (from technical analysis)
+
+### **Message Relevance Metrics**
+
+- Average evidence points per message: 3-5
+- Trade show mentions when applicable: 60%
+- Specific tool gaps identified: 85%
+- Peer company comparisons: 40%
+
+---
+
+## **Critical Success Factors**
+
+1. **Scraping Resilience:** Handle diverse website structures
+2. **Evidence Quality:** Extract specific, quotable facts
+3. **Speed:** Process 100 sites/day minimum
+4. **Accuracy:** 70%+ correlation between PSI and buying behavior
+5. **Actionability:** Every prospect tagged with clear next steps
+
+The beauty of this website-centric approach is that it works perfectly for your digitally-nascent market. Every missing feature, outdated element, and manual process becomes ammunition for personalized outreach. The website doesn't lie - it's a perfect mirror of their internal chaos.

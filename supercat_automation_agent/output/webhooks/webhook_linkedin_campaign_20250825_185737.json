@@ -1,0 +1,13 @@
+{
+  "webhook_type": "linkedin_campaign",
+  "table_id": "linkedin_table",
+  "data": {
+    "company_name": "9to5 Seating",
+    "company_domain": "9to5seating.com",
+    "linkedin_messages": "[{\"type\": \"connection_request\", \"decision_maker_id\": \"dm_001\", \"message\": \"there, managing rep performance crisis at 9to5 Seating? Helped Butler Specialty solve exactly this. Worth connecting?\", \"send_day\": 0}, {\"type\": \"follow_up\", \"decision_maker_id\": \"dm_001\", \"message\": \"Thanks for connecting! How do you currently track what your reps are doing in the field?\\n\\nThe reason I ask - we helped Universal Furniture solve exactly this challenge and they saw immediate results.\\n\\nWorth a brief call to share their approach?\", \"send_day\": 3}]",
+    "linkedin_count": 2,
+    "campaign_focus": "rep_performance_crisis",
+    "message_quality_score": 1.0,
+    "generation_timestamp": "2025-08-25T18:57:37.693884"
+  }
+}

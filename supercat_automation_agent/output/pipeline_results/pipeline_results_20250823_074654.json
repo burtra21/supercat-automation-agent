@@ -1,0 +1,643 @@
+{
+  "stats": {
+    "processed": 72,
+    "qualified": 20,
+    "sent_to_clay": 20,
+    "saved_to_supabase": 0,
+    "errors": []
+  },
+  "webhooks": [
+    {
+      "company_id": "csv_0003",
+      "company_name": "A & B HOME GROUP, INC.",
+      "domain": "abhomeinc.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 28.05929919137466,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.3,
+        "technology_obsolescence": 0.2,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Emad",
+        "last_name": "Botros",
+        "email": "emadb@abhongda.net",
+        "title": "Director of Operations & Logistics",
+        "linkedin": "https://www.linkedin.com/in/emadbotors/"
+      },
+      "company_info": {
+        "industry": "Wholesale",
+        "employee_count": 43
+      },
+      "analyzed_at": "2025-08-23T07:44:13.555736"
+    },
+    {
+      "company_id": "csv_0009",
+      "company_name": "Atkore",
+      "domain": "atkore.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 28.436657681940698,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.5,
+        "technology_obsolescence": 0,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality",
+        "Manual quote request process"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Eric",
+        "last_name": "Banks",
+        "email": "ebanks@atkore.com",
+        "title": "Vice President, Operations",
+        "linkedin": "https://www.linkedin.com/in/ericbanks1775/"
+      },
+      "company_info": {
+        "industry": "Appliances, Electrical, and Electronics Manufacturing",
+        "employee_count": 1969
+      },
+      "analyzed_at": "2025-08-23T07:44:23.064266"
+    },
+    {
+      "company_id": "csv_0016",
+      "company_name": "Century Furniture",
+      "domain": "centuryfurniture.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 31.132075471698112,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.6,
+        "technology_obsolescence": 0,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality",
+        "PDF-only catalogs detected"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Alesia",
+        "last_name": "Smith",
+        "email": "asmith@centuryfurniture.com",
+        "title": "Research And Development Assistant",
+        "linkedin": "https://www.linkedin.com/in/alesia-smith-416766155/"
+      },
+      "company_info": {
+        "industry": "Furniture",
+        "employee_count": 347
+      },
+      "analyzed_at": "2025-08-23T07:44:33.726934"
+    },
+    {
+      "company_id": "csv_0017",
+      "company_name": "Coaster Company of America",
+      "domain": "coasterfurniture.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 33.423180592991905,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.5,
+        "technology_obsolescence": 0,
+        "rep_performance_crisis": 0.5,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.3
+      },
+      "key_evidence": [
+        "No product search functionality",
+        "Manual dealer login system"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Nelson",
+        "last_name": "Lc",
+        "email": "nlc@coasteramer.com",
+        "title": "Director",
+        "linkedin": "https://www.linkedin.com/in/nelson-lc-294a7537/"
+      },
+      "company_info": {
+        "industry": "Furniture",
+        "employee_count": 327
+      },
+      "analyzed_at": "2025-08-23T07:44:36.062219"
+    },
+    {
+      "company_id": "csv_0020",
+      "company_name": "Dovetail Furniture Pvt Ltd",
+      "domain": "dovetail.in",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 28.05929919137466,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.3,
+        "technology_obsolescence": 0.2,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Radhakrishnan",
+        "last_name": "Nair",
+        "email": "rkn@dovetail.in",
+        "title": "Chief Operating Officer",
+        "linkedin": "https://www.linkedin.com/in/radhakrishnan-nair-96796214b/"
+      },
+      "company_info": {
+        "industry": "Furniture and Home Furnishings Manufacturing",
+        "employee_count": 29
+      },
+      "analyzed_at": "2025-08-23T07:44:52.433271"
+    },
+    {
+      "company_id": "csv_0022",
+      "company_name": "World of Eichholtz",
+      "domain": "eichholtz.com",
+      "tam_tier": "TIER_2_ACTIVE",
+      "psi_score": 38.65229110512129,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.6,
+        "technology_obsolescence": 0.3,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality",
+        "PDF-only catalogs detected"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Dennis",
+        "last_name": "Hendriks ",
+        "email": "dhendriks@eichholtzusa.com",
+        "title": "Vice President Operations",
+        "linkedin": "https://www.linkedin.com/in/dennis-hendriks-523684263/"
+      },
+      "company_info": {
+        "industry": "Furniture and Home Furnishings Manufacturing",
+        "employee_count": 170
+      },
+      "analyzed_at": "2025-08-23T07:44:58.215571"
+    },
+    {
+      "company_id": "csv_0025",
+      "company_name": "Fairmont Designs",
+      "domain": "fairmontdesignshospitality.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 28.05929919137466,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.3,
+        "technology_obsolescence": 0.2,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Jason",
+        "last_name": "Liu",
+        "email": "jasonliu@fairmontdesigns.com",
+        "title": "CEO",
+        "linkedin": "https://www.linkedin.com/in/jason-liu-086a4025/"
+      },
+      "company_info": {
+        "industry": "Furniture",
+        "employee_count": 111
+      },
+      "analyzed_at": "2025-08-23T07:45:04.048718"
+    },
+    {
+      "company_id": "csv_0026",
+      "company_name": "Fanimation",
+      "domain": "fanimation.com",
+      "tam_tier": "TIER_2_ACTIVE",
+      "psi_score": 36.14555256064689,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.6,
+        "technology_obsolescence": 0.2,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality",
+        "PDF-only catalogs detected"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Christopher",
+        "last_name": "Wheeler",
+        "email": "chris.wheeler@fanimation.com",
+        "title": "Vice President Operations",
+        "linkedin": "https://www.linkedin.com/in/christopher-wheeler45/"
+      },
+      "company_info": {
+        "industry": "Manufacturing",
+        "employee_count": 63
+      },
+      "analyzed_at": "2025-08-23T07:45:05.708639"
+    },
+    {
+      "company_id": "csv_0028",
+      "company_name": "F&H Group A/S",
+      "domain": "fh-group.dk",
+      "tam_tier": "TIER_2_ACTIVE",
+      "psi_score": 38.436657681940694,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.5,
+        "technology_obsolescence": 0.2,
+        "rep_performance_crisis": 0.5,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.3
+      },
+      "key_evidence": [
+        "No product search functionality",
+        "Manual dealer login system"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Kim",
+        "last_name": "Dybdal",
+        "email": "d.kim@fh-group.dk",
+        "title": "Head of Export",
+        "linkedin": "https://www.linkedin.com/in/kim-dybdal-6323aa14/"
+      },
+      "company_info": {
+        "industry": "Wholesale",
+        "employee_count": 294
+      },
+      "analyzed_at": "2025-08-23T07:45:14.058189"
+    },
+    {
+      "company_id": "csv_0034",
+      "company_name": "Kaleen Rugs",
+      "domain": "kaleen.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 30.566037735849054,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.3,
+        "technology_obsolescence": 0.3,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality",
+        "No SSL certificate"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Radhe",
+        "last_name": "Rathi",
+        "email": "radhe.rathi@kaleen.com",
+        "title": "Director",
+        "linkedin": "https://www.linkedin.com/in/radhe-rathi-23437676/"
+      },
+      "company_info": {
+        "industry": "Textile Manufacturing",
+        "employee_count": 97
+      },
+      "analyzed_at": "2025-08-23T07:45:23.126856"
+    },
+    {
+      "company_id": "csv_0035",
+      "company_name": "Keystone Collections Group",
+      "domain": "keystonecollects.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 28.05929919137466,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.3,
+        "technology_obsolescence": 0.2,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "David",
+        "last_name": "Kratzenberg",
+        "email": "dwkratzenberg@keystonecollects.com",
+        "title": "Chief Executive Officer",
+        "linkedin": "https://www.linkedin.com/in/david-kratzenberg-a82b25173/"
+      },
+      "company_info": {
+        "industry": "Financial Services",
+        "employee_count": 107
+      },
+      "analyzed_at": "2025-08-23T07:45:24.783242"
+    },
+    {
+      "company_id": "csv_0038",
+      "company_name": "OFS",
+      "domain": "ofs.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 31.132075471698112,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.6,
+        "technology_obsolescence": 0,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality",
+        "PDF-only catalogs detected"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Adam",
+        "last_name": "Bedell",
+        "email": "abedell@ofs.com",
+        "title": "Regional Vice President -Northeast ",
+        "linkedin": "https://www.linkedin.com/in/adambedell/"
+      },
+      "company_info": {
+        "industry": "Furniture",
+        "employee_count": 829
+      },
+      "analyzed_at": "2025-08-23T07:45:31.762509"
+    },
+    {
+      "company_id": "csv_0041",
+      "company_name": "Outdoor Interiors",
+      "domain": "outdoorinteriors.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 28.05929919137466,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.3,
+        "technology_obsolescence": 0.2,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Samantha",
+        "last_name": "Scott",
+        "email": "sscott@outdoorinteriors.com",
+        "title": "Vice President Sales and Operations",
+        "linkedin": "https://www.linkedin.com/in/samantha-scott-2950/"
+      },
+      "company_info": {
+        "industry": "Furniture",
+        "employee_count": 9
+      },
+      "analyzed_at": "2025-08-23T07:45:42.514743"
+    },
+    {
+      "company_id": "csv_0043",
+      "company_name": "Porcelanosa",
+      "domain": "porcelanosa.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 30.566037735849054,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.3,
+        "technology_obsolescence": 0.3,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Manuel",
+        "last_name": "Prior Diago",
+        "email": "mprior@porcelanosa.com",
+        "title": "Executive Director",
+        "linkedin": "https://www.linkedin.com/in/manuel-prior-diago-739823211/"
+      },
+      "company_info": {
+        "industry": "Construction",
+        "employee_count": 3296
+      },
+      "analyzed_at": "2025-08-23T07:45:46.647305"
+    },
+    {
+      "company_id": "csv_0046",
+      "company_name": "Green Furniture Concept",
+      "domain": "greenfc.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 28.05929919137466,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.3,
+        "technology_obsolescence": 0.2,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Joakim",
+        "last_name": "Lundgren",
+        "email": "joakim.lundgren@greenfc.com",
+        "title": "Head of Design & Sustainability",
+        "linkedin": "https://www.linkedin.com/in/joakim-lundgren-a4a3954b/"
+      },
+      "company_info": {
+        "industry": "Furniture and Home Furnishings Manufacturing",
+        "employee_count": 39
+      },
+      "analyzed_at": "2025-08-23T07:45:54.162262"
+    },
+    {
+      "company_id": "csv_0048",
+      "company_name": "Quorum",
+      "domain": "quorum.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 33.45013477088949,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.5,
+        "technology_obsolescence": 0.2,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality",
+        "Manual quote request process"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Jim",
+        "last_name": "Garn",
+        "email": "jim.garn@quorum.com",
+        "title": "Chief Executive Officer",
+        "linkedin": "https://www.linkedin.com/in/jimgarn/"
+      },
+      "company_info": {
+        "industry": "IT Services and IT Consulting",
+        "employee_count": 65
+      },
+      "analyzed_at": "2025-08-23T07:45:58.860504"
+    },
+    {
+      "company_id": "csv_0052",
+      "company_name": "Okamura",
+      "domain": "okamura.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 28.05929919137466,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.3,
+        "technology_obsolescence": 0.2,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Ayumu",
+        "last_name": "Nagai",
+        "email": "ayumu.nagai@us.okamura.com",
+        "title": "Vice President, North America",
+        "linkedin": "https://www.linkedin.com/in/ayumu-nagai-821491113/"
+      },
+      "company_info": {
+        "industry": "Office Furniture and Fixtures Manufacturing",
+        "employee_count": 236
+      },
+      "analyzed_at": "2025-08-23T07:46:09.400322"
+    },
+    {
+      "company_id": "csv_0058",
+      "company_name": "Vice President Business Development",
+      "domain": "sunnydesigns.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 31.132075471698112,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.6,
+        "technology_obsolescence": 0,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality",
+        "PDF-only catalogs detected"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Bill",
+        "last_name": "Caples",
+        "email": "bcaples@greentouchhome.com",
+        "title": "Vice President of Business Development",
+        "linkedin": "https://www.linkedin.com/in/billcaples/"
+      },
+      "company_info": {
+        "industry": "Furniture and Home Furnishings Manufacturing",
+        "employee_count": 37
+      },
+      "analyzed_at": "2025-08-23T07:46:19.659778"
+    },
+    {
+      "company_id": "csv_0064",
+      "company_name": "Acme furniture",
+      "domain": "acmecorp.com",
+      "tam_tier": "TIER_3_NURTURE",
+      "psi_score": 31.132075471698112,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.6,
+        "technology_obsolescence": 0,
+        "rep_performance_crisis": 0.3,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.2
+      },
+      "key_evidence": [
+        "No product search functionality",
+        "PDF-only catalogs detected"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Eric",
+        "last_name": "Wang",
+        "email": "eric.wang@acmecorp.com",
+        "title": "VP Sales",
+        "linkedin": "https://www.linkedin.com/in/eric-wang-6b554829/"
+      },
+      "company_info": {
+        "industry": "Wholesale",
+        "employee_count": 110
+      },
+      "analyzed_at": "2025-08-23T07:46:29.818241"
+    },
+    {
+      "company_id": "csv_0065",
+      "company_name": "Steve Silver Company",
+      "domain": "stevesilver.com",
+      "tam_tier": "TIER_2_ACTIVE",
+      "psi_score": 45.95687331536388,
+      "primary_edp": "sales_enablement_collapse",
+      "edp_scores": {
+        "sales_enablement_collapse": 0.5,
+        "technology_obsolescence": 0.5,
+        "rep_performance_crisis": 0.5,
+        "sku_complexity": 0.4,
+        "channel_conflict": 0.3
+      },
+      "key_evidence": [
+        "No product search functionality",
+        "Manual dealer login system"
+      ],
+      "recommended_approach": "nurture",
+      "contact_info": {
+        "first_name": "Ian",
+        "last_name": "Geltner",
+        "email": "igeltner@stevesilver.com",
+        "title": "VP Sales",
+        "linkedin": "https://www.linkedin.com/in/iangeltner/"
+      },
+      "company_info": {
+        "industry": "Furniture and Home Furnishings Manufacturing",
+        "employee_count": 125
+      },
+      "analyzed_at": "2025-08-23T07:46:32.920600"
+    }
+  ]
+}

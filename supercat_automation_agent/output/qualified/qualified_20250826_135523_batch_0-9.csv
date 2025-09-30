@@ -1,0 +1,11 @@
+company,tier,psi_score,primary_edp,evidence
+9to5 Seating,TIER_2_ACTIVE,38.666666666666664,rep_performance_crisis,"Found 11 PDF downloads - indicates manual processes, No dealer/rep portal detected"
+Abbott Collection,TIER_2_ACTIVE,37.53333333333333,rep_performance_crisis,"No dealer/rep portal detected, No modern web framework detected"
+"A & B HOME GROUP, INC.",TIER_3_NURTURE,23.666666666666668,rep_performance_crisis,"No dealer/rep portal detected, No modern web framework detected"
+"Allstate Floral, Inc.",TIER_2_ACTIVE,50.333333333333336,sales_enablement_collapse,"No product search functionality found, Not mobile optimized - critical for trade shows"
+A. Rudin,TIER_3_NURTURE,23.666666666666668,rep_performance_crisis,"No dealer/rep portal detected, No modern web framework detected"
+Capel Rugs,TIER_2_ACTIVE,37.53333333333333,rep_performance_crisis,"No dealer/rep portal detected, No modern web framework detected"
+Anne McGilvray & Company,TIER_2_ACTIVE,29.25,rep_performance_crisis,"No dealer/rep portal detected, No modern web framework detected"
+Castelle,TIER_1_IMMEDIATE,49.93333333333334,rep_performance_crisis,"No dealer/rep portal detected, Copyright year is 1749 - site appears unmaintained"
+Atkore,TIER_2_ACTIVE,37.53333333333333,rep_performance_crisis,"No dealer/rep portal detected, No modern web framework detected"
+"Golden Rabbit II, Inc.",TIER_2_ACTIVE,37.53333333333333,rep_performance_crisis,"No dealer/rep portal detected, Copyright year is 2023 - site appears unmaintained"

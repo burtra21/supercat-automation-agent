@@ -1,0 +1,176 @@
+{
+  "processing_version": "v2_validated",
+  "timestamp": "2025-08-28T03:46:52.914Z",
+  "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+  
+  "company_name": "9to5 Seating",
+  "domain": "9to5seating.com",
+  "contact_info": {
+    "first_name": "Ed",
+    "last_name": "Lachman",
+    "email": "ed.lachman@9to5seating.com",
+    "title": "Chief Operating Officer"
+  },
+  
+  "psi_analysis": {
+    "weighted_methodology": {
+      "psi_score": 10.5,
+      "tier": "TIER_C_MONITOR",
+      "primary_edp": "EDP7_Sales_Enablement",
+      "qualification_decision": false,
+      "purchase_probability": 0.084
+    },
+    "averaged_methodology": {
+      "psi_score": 7.0,
+      "tier": "TIER_C_MONITOR", 
+      "primary_edp": "EDP1_SKU_Complexity",
+      "operational_intelligence": {
+        "primary_operational_challenge": "EDP1_SKU_Complexity",
+        "severity": "low",
+        "expansion_opportunities": [],
+        "conversation_starters": []
+      }
+    },
+    "methodology_comparison": {
+      "primary_edp_match": false,
+      "psi_difference": 3.5,
+      "strategic_implications": {
+        "primary_edp_alignment": false,
+        "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+        "account_approach": "Crisis intervention first, operational efficiency second",
+        "expansion_potential": "Low - focused pain point approach recommended"
+      }
+    }
+  },
+  
+  "edp_scores": {
+    "EDP1_SKU_Complexity": 7.0,
+    "EDP2_Rep_Management": 7.0,
+    "EDP6_Channel_Conflict": 7.0,
+    "EDP7_Sales_Enablement": 7.0,
+    "EDP8_Technology_Obsolescence": 7.0
+  },
+  
+  "website_analysis": {
+    "sku_analysis": {
+      "sku_count_estimate": 500,
+      "product_categories": ["Office Seating", "Task Chairs", "Executive Chairs"],
+      "category_count": 3,
+      "has_search": false,
+      "search_sophistication": "None",
+      "filter_count": 0,
+      "has_configurator": false,
+      "catalog_format": "Basic website",
+      "pain_score": 40
+    },
+    "rep_analysis": {
+      "has_rep_locator": false,
+      "rep_portal_exists": false,
+      "rep_resources_accessible": false,
+      "territory_structure_visible": false,
+      "rep_count_estimate": 10,
+      "territory_complexity": "Low",
+      "rep_login_keywords": [],
+      "pain_score": 85
+    },
+    "channel_analysis": {
+      "channels_detected": ["Dealer Network"],
+      "channel_count": 1,
+      "has_direct_sales": false,
+      "has_dealer_network": true,
+      "has_ecommerce": false,
+      "has_trade_program": false,
+      "pricing_transparency": "Quote only",
+      "brand_count": 1,
+      "multi_brand_detected": false,
+      "pain_score": 20
+    },
+    "sales_enablement_analysis": {
+      "has_product_search": false,
+      "has_advanced_filters": false,
+      "has_comparison_tool": false,
+      "has_wishlist_quotes": false,
+      "has_project_boards": false,
+      "has_mobile_optimization": true,
+      "has_downloadable_assets": true,
+      "resource_formats": ["PDF"],
+      "missing_tools": ["Product search", "Comparison tool", "Quote builder", "Project boards"],
+      "pain_score": 75
+    },
+    "technology_analysis": {
+      "has_ssl": true,
+      "page_speed_score": "Good",
+      "load_time_seconds": 1.8,
+      "modern_features": ["viewport meta", "service worker"],
+      "modern_feature_count": 2,
+      "javascript_frameworks": ["jquery", "react"],
+      "has_modern_js_framework": true,
+      "cms_detected": "WordPress",
+      "uses_cdn": true,
+      "copyright_year": 2025,
+      "staleness_score": 0,
+      "has_legacy_tech": false,
+      "legacy_tech_found": [],
+      "pain_score": 15
+    }
+  },
+  
+  "business_context": {
+    "trade_shows_mentioned": ["NeoCon"],
+    "trade_show_count": 1,
+    "next_trade_show": "High Point Market",
+    "weeks_to_next_show": 9,
+    "product_types": ["furniture"],
+    "target_audience": "B2B wholesale",
+    "geographic_presence": "USA",
+    "specific_missing_features": ["Product search", "Comparison tool", "Quote builder", "Project boards"]
+  },
+  
+  "messaging": {
+    "weighted_methodology_hook": "",
+    "averaged_methodology_hook": "",
+    "crisis_level": "monitor",
+    "urgency_triggers": [],
+    "evidence_based_hooks": [
+      "No mobile site for High Point Market?",
+      "9to5 Seating: Manual catalog navigation killing productivity",
+      "Your 10 reps have no portal"
+    ]
+  },
+  
+  "evidence_patterns": {
+    "digital_failures": [],
+    "crisis_indicators": [],
+    "competitive_gaps": []
+  },
+  
+  "campaign": {
+    "campaign_type": "educational_nurture",
+    "qualification_tier": "TIER_C_MONITOR",
+    "email_sequence_count": 1,
+    "linkedin_sequence_count": 1,
+    "ad_suggestions_count": 0,
+    "validation_context": {
+      "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+      "methodology_used": "dual_validated",
+      "weighted_psi": 10.5,
+      "averaged_psi": 7.0,
+      "purchase_probability": 0.084,
+      "qualification_accuracy": "85% validated accuracy"
+    },
+    "first_email": {
+      "sequence_step": 1,
+      "send_day": 0,
+      "email_type": "educational_intro",
+      "subject": "Operational efficiency insights for 9to5 Seating",
+      "body": "Educational content about operational improvements...",
+      "methodology": "averaged"
+    },
+    "linkedin_connection": {
+      "type": "educational_content",
+      "message": "Educational LinkedIn content...",
+      "send_day": 0,
+      "methodology": "averaged"
+    }
+  }
+}

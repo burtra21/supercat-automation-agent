@@ -1,0 +1,14 @@
+{
+  "webhook_type": "research_data",
+  "table_id": "research_table",
+  "data": {
+    "company_name": "9to5 Seating",
+    "company_domain": "9to5seating.com",
+    "primary_edp": "rep_performance_crisis",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 42.3,
+    "evidence_used": "[\"No dealer/rep portal detected\", \"No modern web framework detected\"]",
+    "personalization_score": 1.0,
+    "research_timestamp": "2025-08-25T18:57:37.693792"
+  }
+}

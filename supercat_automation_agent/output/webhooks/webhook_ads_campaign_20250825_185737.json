@@ -1,0 +1,12 @@
+{
+  "webhook_type": "ads_campaign",
+  "table_id": "ads_table",
+  "data": {
+    "company_name": "9to5 Seating",
+    "company_domain": "9to5seating.com",
+    "ad_suggestions": "[{\"platform\": \"google\", \"ad_type\": \"search\", \"headlines\": [\"Stop Wasting 3 Hours Daily\", \"Trade Show Order Chaos?\", \"Manual Orders Killing Sales?\"], \"descriptions\": [\"Give reps 15 hours weekly back. Work offline at trade shows. Perfect order accuracy.\", \"Transform manual order processing. Real customer: 'Best thing in 25 years.'\"], \"display_url\": \"supercatsolutions.com/demo\", \"final_url\": \"https://supercatsolutions.com/demo?utm_source=google&utm_medium=cpc&utm_campaign=rep_performance_crisis\", \"keywords\": [\"B2B order management\", \"sales enablement software\", \"trade show order app\", \"furniture sales software\", \"wholesale order management\"], \"negative_keywords\": [\"free\", \"cheap\", \"jobs\", \"careers\"], \"suggested_bid\": 8.5, \"suggested_daily_budget\": 150}, {\"primary_text\": \"Is 9to5 Seating losing sales to rep chaos?\", \"description\": \"See how leading manufacturers eliminated rep performance issues and increased sales 40%.\", \"headline\": \"Free Demo: 9to5 Seating Order Management\", \"call_to_action\": \"Learn More\", \"target_audience\": \"Manufacturing executives\", \"pain_point\": \"rep_performance_crisis\"}, {\"platform\": \"linkedin\", \"ad_type\": \"sponsored_content\", \"headline\": \"**Maximize Your Sales Team's Potential Today!**\", \"description\": \"\", \"call_to_action\": \"\", \"target_audience\": \"Manufacturing executives\", \"pain_point\": \"rep_performance_crisis\"}]",
+    "ad_count": 3,
+    "target_pain_point": "rep_performance_crisis",
+    "generation_timestamp": "2025-08-25T18:57:37.693897"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "company_id": "comp_001",
+  "campaign_type": "multi_channel",
+  "pain_point_focus": "rep_performance_crisis",
+  "primary_hook": null,
+  "message_variants": {
+    "email": [
+      {
+        "sequence_step": 1,
+        "send_day": 0,
+        "subject": "Your rep performance crisis is costing 9to5 Seating $30% of revenue",
+        "body": "Subject: Let\u2019s Turn Hours into Minutes for Your Sales Team\n\nHey there,\n\nI see your sales team is wrestling with a rep performance crisis, putting in over 3 hours daily on manual order processing. That\u2019s time your competitors are using to close deals, thanks to modern tools that shrink this process down to minutes.\n\nJust curious, how do you currently keep tabs on what your reps are doing day-to-day?\n\nBest,\n[Your Name]",
+        "variant": "problem_agitation",
+        "personalization_tokens": {
+          "company_name": "9to5 Seating",
+          "sku_count": 850,
+          "current_system": null
+        }
+      },
+      {
+        "sequence_step": 2,
+        "send_day": 3,
+        "subject": "How Wildwood Lamps solved this",
+        "body": "Subject: Transform Your Rep Performance Like Wildwood Lamps\n\nHi there,\n\nUnderstanding the struggles you face with rep performance, I wanted to share a quick win from Wildwood Lamps: \"I've reduced by a third the number of calls per day.\" Like you, they needed a solution to improve efficiency and reduce pressure on their team. \n\nCould this be the change your team needs?\n\nWorth a quick call?\n\nBest,\n[Your Name]\n9to5 Seating",
+        "variant": "social_proof"
+      },
+      {
+        "sequence_step": 3,
+        "send_day": 7,
+        "subject": "The math on your rep performance crisis problem",
+        "body": "Subject: Quick Win for 9to5 Seating: Boost Rep Performance & Save Big\n\nHi there,\n\nNoticed your team might be hitting a performance speed bump with reps losing up to 3 hours daily on inefficiencies. Here's a thought: what if we could turn that time into savings instead? We're talking about potentially saving $40K annually per rep.\n\nWith your team of 150, that\u2019s a whopping $600K back in your pocket every year. \n\nHow does a quick chat to review the ROI analysis sound? Could be the game changer you need.\n\nBest,\n[Your Name]",
+        "variant": "roi_focus"
+      },
+      {
+        "sequence_step": 4,
+        "send_day": 10,
+        "subject": "While 9to5 Seating uses spreadsheets...",
+        "body": "Subject: Time to Outpace the Competition?\n\nDear [Name],\n\nWhile you're updating spreadsheets, nimble competitors are swiftly capturing market share. Digital-native companies are operating at speeds 40-50% faster than traditional models. Have you considered how many deals you've lost to these faster competitors this quarter? It's critical, yet not too late, to strategize on catching up.\n\nLet's discuss catching up soon.\n\nBest,\n[Your Name]",
+        "variant": "competitive_threat"
+      },
+      {
+        "sequence_step": 5,
+        "send_day": 14,
+        "subject": "Your rep performance crisis is costing 9to5 Seating $30% of revenue",
+        "body": "Subject: How Butler Specialty Tripled Rep Productivity\n\nDear [Name],\n\nJust like 9to5 Seating, Butler Specialty faced challenges in boosting their sales team's productivity. The result? A remarkable 300% increase in rep productivity using eCat. Their secret? \"eCat flexibly configures to the way we do business,\" according to Butler Specialty themselves.\n\nWant to see how they did it?\n\nBest,\n[Your Name]",
+        "variant": "case_study"
+      },
+      {
+        "sequence_step": 6,
+        "send_day": 18,
+        "subject": "9to5 Seating - 5 days wasted daily",
+        "body": "Subject: Enhance Your Efficiency Before It's Too Late\n\nDear [Name],\n\nQuick question: How long can you afford to stay 40% slower than competitors? With trade show season and the end of the quarter fast approaching, time is of the essence. Remember, every day of delay costs money.\n\nCan we schedule a 15-minute call this week to discuss solutions?\n\nBest,\n[Your Name]",
+        "variant": "urgency"
+      },
+      {
+        "sequence_step": 7,
+        "send_day": 21,
+        "subject": "9to5 Seating - 5 hours wasted daily",
+        "body": "Subject: Pausing Our Conversations\n\nDear 9to5 Seating Team,\n\nI've noticed we haven't been in touch recently. I'll assume this project isn't a priority for you at the moment. Please feel free to reach out when the timing is better on your end, and we can revisit our discussions. \n\nP.S. - I thought you might find this resource helpful in the meantime: [case study link].\n\nBest regards,\n\n[Your Name]",
+        "variant": "breakup"
+      }
+    ],
+    "linkedin": [
+      {
+        "type": "connection_request",
+        "decision_maker_id": "dm_001",
+        "message": "there, managing rep performance crisis at 9to5 Seating? Helped Butler Specialty solve exactly this. Worth connecting?",
+        "send_day": 0
+      },
+      {
+        "type": "follow_up",
+        "decision_maker_id": "dm_001",
+        "message": "Thanks for connecting! How do you currently track what your reps are doing in the field?\n\nThe reason I ask - we helped Universal Furniture solve exactly this challenge and they saw immediate results.\n\nWorth a brief call to share their approach?",
+        "send_day": 3
+      }
+    ],
+    "ads": [
+      {
+        "platform": "google",
+        "ad_type": "search",
+        "headlines": [
+          "Stop Wasting 3 Hours Daily",
+          "Trade Show Order Chaos?",
+          "Manual Orders Killing Sales?"
+        ],
+        "descriptions": [
+          "Give reps 15 hours weekly back. Work offline at trade shows. Perfect order accuracy.",
+          "Transform manual order processing. Real customer: 'Best thing in 25 years.'"
+        ],
+        "display_url": "supercatsolutions.com/demo",
+        "final_url": "https://supercatsolutions.com/demo?utm_source=google&utm_medium=cpc&utm_campaign=rep_performance_crisis",
+        "keywords": [
+          "B2B order management",
+          "sales enablement software",
+          "trade show order app",
+          "furniture sales software",
+          "wholesale order management"
+        ],
+        "negative_keywords": [
+          "free",
+          "cheap",
+          "jobs",
+          "careers"
+        ],
+        "suggested_bid": 8.5,
+        "suggested_daily_budget": 150
+      },
+      {
+        "primary_text": "Is 9to5 Seating losing sales to rep chaos?",
+        "description": "See how leading manufacturers eliminated rep performance issues and increased sales 40%.",
+        "headline": "Free Demo: 9to5 Seating Order Management",
+        "call_to_action": "Learn More",
+        "target_audience": "Manufacturing executives",
+        "pain_point": "rep_performance_crisis"
+      },
+      {
+        "platform": "linkedin",
+        "ad_type": "sponsored_content",
+        "headline": "**Maximize Your Sales Team's Potential Today!**",
+        "description": "",
+        "call_to_action": "",
+        "target_audience": "Manufacturing executives",
+        "pain_point": "rep_performance_crisis"
+      }
+    ]
+  },
+  "personalization_tokens": {
+    "company_name": "9to5 Seating",
+    "industry": null,
+    "employee_count": null,
+    "sku_count": 850,
+    "current_erp": null,
+    "trade_show_count": null,
+    "rep_count": null,
+    "years_in_business": 0
+  },
+  "scheduled_start": "2025-08-25T18:56:28.921287"
+}

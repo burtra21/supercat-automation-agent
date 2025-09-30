@@ -1,0 +1,4 @@
+company,tier,psi_score,primary_edp,evidence
+9to5 Seating,TIER_2_ACTIVE,40.333333333333336,rep_performance_crisis,"No product search functionality found, No dealer/rep portal detected"
+Abbott Collection,TIER_2_ACTIVE,37.53333333333333,rep_performance_crisis,"No dealer/rep portal detected, No modern web framework detected"
+"A & B HOME GROUP, INC.",TIER_3_NURTURE,23.666666666666668,rep_performance_crisis,"No dealer/rep portal detected, No modern web framework detected"

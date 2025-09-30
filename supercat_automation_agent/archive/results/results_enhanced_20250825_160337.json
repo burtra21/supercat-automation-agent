@@ -1,0 +1,460 @@
+{
+  "stats": {
+    "processed": 5,
+    "qualified": 5,
+    "sent_to_clay": 5,
+    "campaigns_generated": 0,
+    "saved_to_supabase": 0,
+    "errors": []
+  },
+  "results": [
+    {
+      "company": "9to5 Seating",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.45,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 38.666666666666664,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "Found 11 PDF downloads - indicates manual processes",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.45,
+            "indicators": [
+              "pdf_heavy",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "Found 11 PDF downloads - indicates manual processes",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "9to5seating"
+          },
+          {
+            "type": "trade_show",
+            "value": "neocon"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "",
+              "SEATING",
+              "Stool",
+              "Executive/Conference",
+              "Lounge"
+            ]
+          }
+        ]
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Abbott Collection",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0.3
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0.3,
+            "indicators": [
+              "hidden_pricing"
+            ],
+            "issues": [
+              "Pricing requires login - channel conflict likely"
+            ],
+            "strength": "moderate"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Abbott Wholesale Home D\u00e9cor"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Company History",
+              "Digital Catalogues",
+              "Events, Shows, & Promotions",
+              "Our Team",
+              "Become a Retail Partner"
+            ]
+          }
+        ]
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "A & B HOME GROUP, INC.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": []
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Allstate Floral, Inc.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.8,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "sales_enablement_collapse",
+        "psi_score": 50.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "Not mobile optimized - critical for trade shows",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.8,
+            "indicators": [
+              "no_product_search",
+              "no_mobile_optimization",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "Not mobile optimized - critical for trade shows",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "strong"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Allstate Floral, Inc"
+          }
+        ]
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "A. Rudin",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "A Rudin"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "About",
+              "History",
+              "Videos",
+              "Press & Events",
+              "Green Policy"
+            ]
+          }
+        ]
+      },
+      "status": "qualified"
+    }
+  ],
+  "timestamp": "20250825_160337",
+  "using_enhanced": true
+}

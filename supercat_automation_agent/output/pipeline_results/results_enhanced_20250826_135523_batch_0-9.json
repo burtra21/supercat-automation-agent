@@ -1,0 +1,1001 @@
+{
+  "stats": {
+    "processed": 10,
+    "qualified": 10,
+    "sent_to_clay": 10,
+    "campaigns_generated": 0,
+    "saved_to_supabase": 0,
+    "errors": []
+  },
+  "results": [
+    {
+      "company": "9to5 Seating",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.45,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 38.666666666666664,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "Found 11 PDF downloads - indicates manual processes",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "specific_findings": [
+            "No rep/dealer locator found",
+            "No dedicated rep resources section",
+            "No territory information visible"
+          ],
+          "sales_enablement_collapse": {
+            "score": 0.45,
+            "indicators": [
+              "pdf_heavy",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "Found 11 PDF downloads - indicates manual processes",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "9to5seating"
+          },
+          {
+            "type": "trade_show",
+            "value": "neocon"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "",
+              "SEATING",
+              "Stool",
+              "Executive/Conference",
+              "Lounge"
+            ]
+          }
+        ]
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Abbott Collection",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0.3
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "specific_findings": [
+            "No rep/dealer locator found",
+            "No dedicated rep resources section",
+            "No territory information visible",
+            "Only 0 filter options found on catalog page.",
+            "Product configurator detected - high complexity"
+          ],
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0.3,
+            "indicators": [
+              "hidden_pricing"
+            ],
+            "issues": [
+              "Pricing requires login - channel conflict likely"
+            ],
+            "strength": "moderate"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Abbott Wholesale Home D\u00e9cor"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Company History",
+              "Digital Catalogues",
+              "Events, Shows, & Promotions",
+              "Our Team",
+              "Become a Retail Partner"
+            ]
+          }
+        ]
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "A & B HOME GROUP, INC.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "specific_findings": [
+            "No rep/dealer locator found",
+            "No dedicated rep resources section",
+            "No territory information visible"
+          ],
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": []
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Allstate Floral, Inc.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.8,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "sales_enablement_collapse",
+        "psi_score": 50.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "Not mobile optimized - critical for trade shows",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "specific_findings": [
+            "No product search functionality found",
+            "Not mobile optimized - critical for trade shows",
+            "No dealer/rep portal detected",
+            "No rep/dealer locator found",
+            "No dedicated rep resources section",
+            "No territory information visible"
+          ],
+          "sales_enablement_collapse": {
+            "score": 0.8,
+            "indicators": [
+              "no_product_search",
+              "no_mobile_optimization",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "Not mobile optimized - critical for trade shows",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "strong"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Allstate Floral, Inc"
+          }
+        ]
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "A. Rudin",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "specific_findings": [
+            "No rep/dealer locator found",
+            "No dedicated rep resources section",
+            "No territory information visible"
+          ],
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "A Rudin"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "About",
+              "History",
+              "Videos",
+              "Press & Events",
+              "Green Policy"
+            ]
+          }
+        ]
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Capel Rugs",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0.3
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "specific_findings": [
+            "No rep/dealer locator found",
+            "No dedicated rep resources section",
+            "No territory information visible",
+            "Only 0 filter options found on catalog page.",
+            "Product configurator detected - high complexity"
+          ],
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0.3,
+            "indicators": [
+              "hidden_pricing"
+            ],
+            "issues": [
+              "Pricing requires login - channel conflict likely"
+            ],
+            "strength": "moderate"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Rugs Manufacturer in USA, Importer & Seller"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Shop Rugs By",
+              "Product Type",
+              "Style",
+              "Room",
+              "Color"
+            ]
+          }
+        ]
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Anne McGilvray & Company",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 0.6499999999999999,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0.3
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 29.25,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No dedicated rep resources section",
+          "No territory information visible",
+          "Only 2 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "specific_findings": [
+            "No dedicated rep resources section",
+            "No territory information visible",
+            "Only 2 filter options found on catalog page.",
+            "Product configurator detected - high complexity"
+          ],
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 0.6499999999999999,
+            "indicators": [
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 2 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0.3,
+            "indicators": [
+              "hidden_pricing"
+            ],
+            "issues": [
+              "Pricing requires login - channel conflict likely"
+            ],
+            "strength": "moderate"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Anne McGilvray & Company"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Brands",
+              "Categories",
+              "Apparel & Accessories",
+              "Gift",
+              "Candy"
+            ]
+          }
+        ]
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Castelle",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.4,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 49.93333333333334,
+        "qualification_tier": "TIER_1_IMMEDIATE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "Copyright year is 1749 - site appears unmaintained",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "specific_findings": [
+            "No rep/dealer locator found",
+            "No dedicated rep resources section",
+            "No territory information visible",
+            "Only 0 filter options found on catalog page.",
+            "Product configurator detected - high complexity"
+          ],
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.4,
+            "indicators": [
+              "outdated_copyright",
+              "no_modern_framework"
+            ],
+            "issues": [
+              "Copyright year is 1749 - site appears unmaintained",
+              "No modern web framework detected"
+            ],
+            "strength": "moderate"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "High Quality Handcrafted Luxury Outdoor Furniture - Castelle"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Products",
+              "Collection",
+              "Type",
+              "New Introductions",
+              "Gala"
+            ]
+          }
+        ]
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Atkore",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "specific_findings": [
+            "No rep/dealer locator found",
+            "No dedicated rep resources section",
+            "No territory information visible",
+            "Only 0 filter options found on catalog page.",
+            "Product configurator detected - high complexity"
+          ],
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Electrical Cable Management, Safety, & Infrastructure Solutions"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Careers",
+              "Investors",
+              "Locate an Agent"
+            ]
+          }
+        ]
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Golden Rabbit II, Inc.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "Copyright year is 2023 - site appears unmaintained",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "specific_findings": [
+            "No rep/dealer locator found",
+            "No dedicated rep resources section",
+            "No territory information visible",
+            "Only 0 filter options found on catalog page.",
+            "Product configurator detected - high complexity"
+          ],
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "outdated_copyright"
+            ],
+            "issues": [
+              "Copyright year is 2023 - site appears unmaintained"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Crow Canyon Enamelware - Enamelware, Cookware and Splatterware"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Collections",
+              "By Brand",
+              "Crow Canyon Home",
+              "Catalina",
+              "Splatter"
+            ]
+          }
+        ]
+      },
+      "status": "qualified"
+    }
+  ],
+  "timestamp": "20250826_135523",
+  "batch_info": {
+    "start_index": 0,
+    "end_index": 9,
+    "batch_size": 10,
+    "total_in_csv": 72
+  },
+  "using_enhanced": true
+}

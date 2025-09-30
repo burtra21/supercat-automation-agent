@@ -1,0 +1,166 @@
+# SUPERCAT GTM AUTOMATION AGENT - PROJECT BRIEF
+
+## CRITICAL CONTEXT
+You are building an automated Go-To-Market system for Supercat Solutions, a real company that provides mobile sales enablement software (eCat) for B2B manufacturers and distributors with complex pricing needs.
+
+## BUSINESS CONTEXT
+
+### The Company
+- **Supercat Solutions**: Mobile sales platform for furniture/lighting manufacturers
+- **Product**: eCat - iPad app for sales reps, B2B portal, admin console
+- **Founded**: 2010, established with major clients
+- **Key Differentiator**: Works offline (critical for trade shows), handles complex "Grade Jump Riser Pricing"
+
+### Real Customer Testimonials (USE THESE IN MESSAGING)
+1. Butler Specialty - Monty Sihweil, President: "eCat flexibly configures to the way we do business"
+2. Godinger Silver - Joel Stern, VP IT: "Best thing in 25 years, reps are in love"
+3. Wildwood Lamps - Erin Yevak: "Reduced calls by a third"
+
+### Target Market Problems
+- **30% order error rate** with manual processes (industry average)
+- **5-7% margin erosion** from pricing errors on configurations
+- **40% of rep time** wasted on admin tasks
+- **Trade show chaos**: No WiFi, paper forms, lost orders
+
+## TECHNICAL REQUIREMENTS
+
+### System Architecture
+DATA COLLECTION
+├── Trade Show Scraper (Vegas Market, High Point Market)
+├── Industry Directory Scraper
+└── LinkedIn Sales Navigator Integration
+ENRICHMENT & ANALYSIS
+├── Clay.com API Integration
+├── Pain Signal Detection
+└── EDP (Existential Data Point) Scoring
+CAMPAIGN GENERATION
+├── GPT-4 Message Generation
+├── Personalization Engine
+└── PVP (Permissionless Value Prop) Creator
+MULTI-CHANNEL EXECUTION
+├── Email Sequences (7-touch via SendGrid)
+├── LinkedIn Outreach
+├── Landing Page Generation
+└── Retargeting Setup
+MONITORING & OPTIMIZATION
+├── Response Tracking
+├── A/B Testing
+└── Performance Analytics
+### Database Schema (PostgreSQL/Supabase)
+- companies (with pain scores)
+- trade_shows & exhibitors
+- pain_signals & pain_scores
+- campaign_assets
+- outreach_sequences & touchpoints
+- engagement_events
+- decision_makers
+
+### Key APIs & Integrations
+- Supabase (database)
+- Clay.com (enrichment) 
+- OpenAI GPT-4 (content generation)
+- SendGrid (email)
+- LinkedIn Sales Navigator
+- n8n (workflow automation)
+
+## IMPLEMENTATION PRIORITIES
+
+### Phase 1: Core Pipeline (MUST HAVE)
+1. Trade show exhibitor identification
+2. Pain signal detection from websites
+3. Company enrichment with decision makers
+4. Basic email campaign generation
+5. Campaign execution tracking
+
+### Phase 2: Intelligence Layer
+1. Competitive intelligence monitoring
+2. Advanced EDP scoring
+3. Predictive opportunity scoring
+4. Multi-variant testing
+
+### Phase 3: Scale & Optimize
+1. Additional data sources
+2. Advanced personalization
+3. Full automation
+4. Performance optimization
+
+## CAMPAIGN STRATEGY
+
+### Pain-Based Segments (PRIORITIZED)
+1. **High-Customization Furniture** (0.9 pain score)
+   - Complex configurators, Grade Jump Riser Pricing
+   - Message: Margin erosion from pricing errors
+   
+2. **Trade Show Dependent** (0.85 pain score)  
+   - Major revenue from shows
+   - Message: Risk to booth investment, offline capability
+
+3. **Multi-Brand Distributors** (0.7 pain score)
+   - Managing multiple catalogs
+   - Message: Order accuracy, efficiency
+
+### Message Sequence Structure
+- Email 1: Problem agitation with specific data
+- Email 2: Social proof (real testimonial)
+- Email 3: Feature focus (offline capability)
+- Email 4: ROI calculator/PVP
+- Email 5: Case study
+- Email 6: Urgency creation
+- Email 7: Final offer
+
+### Personalization Requirements
+- Company name and specific pain points
+- Trade show booth numbers and dates
+- Industry-specific terminology
+- Decision maker names and titles
+- Quantified financial impact
+
+## SUCCESS METRICS
+
+### Daily Targets
+- Analyze: 20 companies
+- Qualify: 6 companies (30% rate)
+- Launch: 5 campaigns
+- Send: 35 emails + 10 LinkedIn
+
+### Expected Outcomes (90 days)
+- 600 companies analyzed
+- 180 qualified companies
+- 144 campaigns launched
+- 14-20 responses
+- 6-8 demos scheduled
+- 1-2 closed deals
+- ROI: 10-15x
+
+## EXISTING CODE STRUCTURE
+[The actual folder structure from your project will be inserted here by the generate_context.py script]
+
+## SPECIFIC IMPLEMENTATION NOTES
+
+### IMPORTANT: Use Real Data
+- This is for a REAL company (Supercat Solutions)
+- Use ACTUAL testimonials provided
+- Target REAL trade shows (Vegas Market, High Point)
+- Calculate REAL financial impact
+
+### Messaging Tone
+- Professional but conversational
+- Specific, not generic
+- Data-driven arguments
+- Urgency without being pushy
+
+### Technical Constraints
+- Daily limits: 150 emails, 50 LinkedIn connections
+- Clay credits: 1000/day budget
+- GPT-4 calls: Optimize for cost
+- Respect rate limits on all APIs
+
+## YOUR TASK
+Review the existing code structure, identify gaps, and build the missing components to create a fully functional GTM automation system that can:
+1. Identify high-pain companies daily
+2. Enrich them with decision maker data
+3. Generate personalized campaigns
+4. Execute multi-channel outreach
+5. Track and optimize performance
+
+Focus on practical implementation that can start generating pipeline immediately.
