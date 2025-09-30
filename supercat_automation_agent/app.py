@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Simple Flask webhook receiver for Railway deployment
+Supercat Pain Signal Webhook Receiver
+Simple Flask API for Railway deployment
 """
 
 import json
@@ -33,6 +34,7 @@ def receive_pain_signal():
             'id': len(webhook_storage) + 1,
             'company_name': data.get('company_name', 'Unknown'),
             'domain': data.get('domain', ''),
+            'pain_signals': data.get('pain_signals', {}),
             'payload': data,
             'received_at': datetime.now().isoformat()
         }
@@ -43,6 +45,7 @@ def receive_pain_signal():
         return jsonify({
             "status": "received",
             "webhook_id": webhook_record['id'],
+            "company": webhook_record['company_name'],
             "timestamp": datetime.now().isoformat()
         }), 200
         
@@ -64,23 +67,27 @@ def health_check():
 def root():
     """Root endpoint"""
     return jsonify({
-        "service": "Supercat Pain Signal Receiver",
-        "description": "Receives webhook data from Clay",
+        "service": "🐱 Supercat Pain Signal Receiver",
+        "description": "Receives webhook data from Clay for pain signal processing",
+        "status": "✅ Active",
         "endpoints": {
             "webhook": "/pain-signal-webhook",
             "health": "/health",
             "webhooks": "/webhooks"
         },
-        "webhooks_received": len(webhook_storage),
+        "stats": {
+            "webhooks_received": len(webhook_storage),
+            "last_webhook": webhook_storage[-1]['received_at'] if webhook_storage else "None"
+        },
         "timestamp": datetime.now().isoformat()
     }), 200
 
 @app.route("/webhooks", methods=["GET"])
 def list_webhooks():
-    """List received webhooks"""
+    """List received webhooks for debugging"""
     return jsonify({
         "total_webhooks": len(webhook_storage),
-        "webhooks": webhook_storage[-10:],  # Last 10
+        "recent_webhooks": webhook_storage[-5:],  # Last 5
         "timestamp": datetime.now().isoformat()
     }), 200
 
