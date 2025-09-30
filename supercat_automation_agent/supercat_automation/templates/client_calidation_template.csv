@@ -1,0 +1,4 @@
+company_name,domain,is_customer,customer_tier,known_pain,won_deal
+"Butler Specialty",butlerspecialty.com,TRUE,TIER_1_IMMEDIATE,sales_enablement_collapse,TRUE
+"Godinger Silver",godinger.com,TRUE,TIER_1_IMMEDIATE,technology_obsolescence,TRUE
+"Test Furniture Co",testfurniture.com,FALSE,TIER_3_NURTURE,sku_complexity,FALSE

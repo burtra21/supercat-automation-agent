@@ -1,0 +1,120 @@
+{
+  "webhook_type": "analysis",
+  "company_id": "2cec8321-98c3-4977-9325-f5e0dfd8be59",
+  "company_name": "Anne McGilvray & Company",
+  "domain": "annemcgilvray.com",
+  "tam_tier": "TIER_2_ACTIVE",
+  "psi_score": 29.2,
+  "primary_edp": "rep_performance_crisis",
+  "edp_scores": {
+    "sales_enablement_collapse": 0.25,
+    "technology_obsolescence": 0.2,
+    "rep_performance_crisis": 0.6499999999999999,
+    "sku_complexity": 0.65,
+    "channel_conflict": 0.3
+  },
+  "evidence": [
+    "No dealer/rep portal detected",
+    "No modern web framework detected",
+    "No dedicated rep resources section",
+    "No territory information visible",
+    "Only 2 filter options found on catalog page."
+  ],
+  "detailed_evidence": {
+    "sales_enablement_collapse": {
+      "score": 0.25,
+      "indicators": [
+        "no_dealer_portal"
+      ],
+      "issues": [
+        "No dealer/rep portal detected"
+      ],
+      "strength": "weak"
+    },
+    "technology_obsolescence": {
+      "score": 0.2,
+      "indicators": [
+        "no_modern_framework"
+      ],
+      "issues": [
+        "No modern web framework detected"
+      ],
+      "strength": "weak"
+    },
+    "rep_performance_crisis": {
+      "score": 0.6499999999999999,
+      "indicators": [
+        "no_rep_resources",
+        "no_territory_info"
+      ],
+      "issues": [
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ],
+      "strength": "strong"
+    },
+    "sku_complexity": {
+      "score": 0.65,
+      "indicators": [
+        "limited_filtering",
+        "complex_configurations"
+      ],
+      "issues": [
+        "Only 2 filter options found on catalog page.",
+        "Product configurator detected - high complexity"
+      ],
+      "strength": "strong"
+    },
+    "channel_conflict": {
+      "score": 0.3,
+      "indicators": [
+        "hidden_pricing"
+      ],
+      "issues": [
+        "Pricing requires login - channel conflict likely"
+      ],
+      "strength": "moderate"
+    },
+    "specific_findings": [
+      "No dedicated rep resources section",
+      "No territory information visible",
+      "Only 2 filter options found on catalog page.",
+      "Product configurator detected - high complexity"
+    ]
+  },
+  "urgency_level": "low",
+  "website_analysis": {
+    "technology_stack": {},
+    "seo_metrics": {},
+    "content_analysis": {},
+    "user_experience": {}
+  },
+  "competitive_positioning": {
+    "market_segment": "mid_market",
+    "competitive_threats": [],
+    "differentiation_opportunities": []
+  },
+  "contact_info": {
+    "first_name": "Ms.",
+    "last_name": "Lisa Bach",
+    "email": "lbach@annemcgilvray.com",
+    "title": "Director of Sales & Publisher Relations",
+    "linkedin": "https://www.linkedin.com/in/lisasbach/"
+  },
+  "company_info": {
+    "industry": "Wholesale",
+    "employee_count": 101,
+    "revenue_estimate": "",
+    "headquarters": ""
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-08-26T12:37:44.319923",
+    "data_sources": [
+      "website_analysis",
+      "contact_enrichment"
+    ],
+    "confidence_score": 0.8,
+    "last_updated": "2025-08-26T12:37:44.319942"
+  },
+  "webhook_version": "4.0_analysis"
+}

@@ -1,0 +1,4102 @@
+{
+  "processing_version": "v2_validated",
+  "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+  "timestamp": "20250919_022228",
+  "summary": {
+    "total_processed": 13,
+    "successful": 13,
+    "errors": 0,
+    "success_rate": "100.0%",
+    "qualification_results": {
+      "total_qualified": 1933,
+      "qualification_rate": "14869.2%",
+      "tier_distribution": {
+        "TIER_A_IMMEDIATE": 0,
+        "TIER_B_ACTIVE": 13,
+        "TIER_C_MONITOR": 0,
+        "NOT_QUALIFIED": 0
+      },
+      "tier_a_immediate": 181,
+      "tier_b_active": 1752,
+      "tier_c_monitor": 230
+    },
+    "psi_analysis": {
+      "average_weighted_psi": "55.1%",
+      "psi_range": "43.0% - 65.0%",
+      "high_psi_count": 0,
+      "medium_psi_count": 13,
+      "low_psi_count": 0
+    },
+    "campaign_generation": {
+      "campaigns_generated": 1933,
+      "generation_rate": "14869.2%"
+    },
+    "integration_results": {
+      "sent_to_clay": 2163,
+      "saved_to_supabase": 0,
+      "clay_success_rate": "16638.5%",
+      "supabase_success_rate": "0.0%"
+    }
+  },
+  "stats": {
+    "processed": 2163,
+    "qualified": 1933,
+    "tier_a_immediate": 181,
+    "tier_b_active": 1752,
+    "tier_c_monitor": 230,
+    "sent_to_clay": 2163,
+    "saved_to_supabase": 0,
+    "campaigns_generated": 1933,
+    "errors": []
+  },
+  "results": [
+    {
+      "company_name": "Elco Lighting",
+      "domain": "elcolighting.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:20:18.190984",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://elcolighting.com",
+        "scan_timestamp": "2025-09-19T02:20:18.191897",
+        "EDP1_SKU_Count_Estimate": 500,
+        "EDP1_Product_Categories": [],
+        "EDP1_Category_Count": 0,
+        "EDP1_Configuration_Options": false,
+        "EDP1_Has_Configurator": false,
+        "EDP1_Catalog_Format": "Basic website",
+        "EDP1_Has_Search": false,
+        "EDP1_Search_Sophistication": "None",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 60,
+        "EDP2_Has_Rep_Locator": false,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 10,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 100,
+        "EDP6_Channels_Detected": [],
+        "EDP6_Channel_Count": 0,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": false,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": false,
+        "EDP6_Pricing_Transparency": "Quote only",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 40,
+        "EDP7_Has_Product_Search": false,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": false,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": false,
+        "EDP7_Resource_Formats": [],
+        "EDP7_Resource_Format_Count": 0,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Product search",
+          "Comparison tool",
+          "Quote builder",
+          "Project boards"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 65,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 4.9,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [],
+        "EDP8_Integration_Count": 0,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Unknown",
+        "EDP8_Uses_CDN": true,
+        "EDP8_Copyright_Year": 2025,
+        "EDP8_Staleness_Score": 0,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "lighting"
+        ],
+        "Target_Audience": "Mixed",
+        "Geographic_Presence": "Unknown",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Product search",
+          "Comparison tool",
+          "Quote builder",
+          "Project boards",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": false,
+        "JavaScript_Frameworks": [],
+        "Has_Search_Endpoint": false,
+        "Has_Resources_Page": false,
+        "Has_Events_Page": false,
+        "Broken_Links_Count": 0,
+        "Uses_Modern_CSS": false,
+        "Website_Tech_Stack": [
+          "CDN"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 60.0,
+          "EDP2_Rep_Management": 100.0,
+          "EDP6_Channel_Conflict": 40.0,
+          "EDP7_Sales_Enablement": 65.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 63.45,
+          "primary_edp": "EDP7_Sales_Enablement",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.6979500000000002
+        },
+        "averaged_methodology": {
+          "psi_score": 63.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 65.0,
+                "opportunity": "Secondary pain point with 65.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "No mobile site for High Point Market?",
+            "Elco Lighting: Manual catalog navigation killing productivity",
+            "Your 10 reps have no portal"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [
+            {
+              "edp": "EDP2_Rep_Management",
+              "score": 100.0,
+              "level": "immediate_action_required"
+            }
+          ],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 0.45000000000000284,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "sales_enablement_1",
+            "subject": "Quick question about Elco Lighting's trade show process",
+            "body": "Hi Steve,\n\nNoticed Elco Lighting doesn't have mobile catalog access. When we see this, it usually means:\n\n- Trade show orders written on paper, entered later\n- Reps can't quote without calling the office\n- Show leads lost to slow follow-up\n\nSound familiar? Or have you found workarounds?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "sales_enablement_2",
+            "subject": "Quick story about mobile transformation",
+            "body": "Hi Steve,\n\nQuick story - Godinger Silver's reps used to haul paper catalogs everywhere. Their VP told us that going mobile was \"the best thing that has ever happened to this company in 25 years.\"\n\nThe real impact? Reps actually selling instead of searching through binders.\n\nHow much time do your reps waste on manual lookups?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "sales_enablement_3",
+            "subject": "The mobile gap is real",
+            "body": "Hi Steve,\n\nThe mobile gap is real. While your reps flip through papers, competitors close deals on iPads.\n\nIt's not about being cutting-edge - it's about basic efficiency in 2025.\n\nReady to level the playing field?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed Elco Lighting's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at Elco Lighting:\n\u2022 No mobile site for High Point Market?\n\u2022 Elco Lighting: Manual catalog navigation killing productivity\n\u2022 Your 10 reps have no portal\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "Elco Lighting: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at Elco Lighting. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"Elco Lighting\"",
+              "Elco Lighting operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for Elco Lighting"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "Elco Lighting: $750,000 Crisis Detected",
+            "intro_text": "Attention Elco Lighting leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "Elco Lighting",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 65.0,
+                "opportunity": "Secondary pain point with 65.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 60.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 60.0% severity"
+            },
+            {
+              "edp": "EDP7_Sales_Enablement",
+              "score": 65.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 65.0% severity"
+            }
+          ],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 63.45,
+          "averaged_psi": 63.0,
+          "purchase_probability": 0.6979500000000002,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    },
+    {
+      "company_name": "Intelligent Lighting Controls",
+      "domain": "ilc-usa.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:20:25.455651",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://ilc-usa.com",
+        "scan_timestamp": "2025-09-19T02:20:25.455800",
+        "EDP1_SKU_Count_Estimate": 5000,
+        "EDP1_Product_Categories": [
+          "Greengate Occupancy Sensors, Dimmers, & Switches",
+          "Contact Us",
+          "LightLEEDer Lighting Control Panels",
+          "Greengate Sensors & Switches",
+          "Product Details",
+          "LightLEEDer Panels & Retrofits",
+          "Brochures",
+          "Network Components",
+          "Find A Rep",
+          "Typical Drawings",
+          "my.ilc",
+          "Resources",
+          "ILC-SWX Occupancy Sensors",
+          "Contact",
+          "Support",
+          "ILC-SWX Occupancy Sensors & Switches",
+          "Digital Switches, Touchscreens & User Interfaces",
+          "Wiring Diagrams",
+          "EVO Distributed & Integrated Controls",
+          "Interfaces & Accessories"
+        ],
+        "EDP1_Category_Count": 20,
+        "EDP1_Configuration_Options": false,
+        "EDP1_Has_Configurator": false,
+        "EDP1_Catalog_Format": "Interactive catalog",
+        "EDP1_Has_Search": true,
+        "EDP1_Search_Sophistication": "Basic",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 50,
+        "EDP2_Has_Rep_Locator": true,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 20,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 65,
+        "EDP6_Channels_Detected": [],
+        "EDP6_Channel_Count": 0,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": false,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": false,
+        "EDP6_Pricing_Transparency": "Quote only",
+        "EDP6_Brand_Count": 1,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 40,
+        "EDP7_Has_Product_Search": true,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": false,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": false,
+        "EDP7_Resource_Formats": [],
+        "EDP7_Resource_Format_Count": 0,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Comparison tool",
+          "Quote builder",
+          "Project boards"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 25,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 6.2,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [],
+        "EDP8_Integration_Count": 0,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Drupal",
+        "EDP8_Uses_CDN": false,
+        "EDP8_Copyright_Year": 2025,
+        "EDP8_Staleness_Score": 0,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "lighting",
+          "decor"
+        ],
+        "Target_Audience": "Mixed",
+        "Geographic_Presence": "USA",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Comparison tool",
+          "Quote builder",
+          "Project boards",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": false,
+        "JavaScript_Frameworks": [],
+        "Has_Search_Endpoint": true,
+        "Has_Resources_Page": true,
+        "Has_Events_Page": false,
+        "Broken_Links_Count": 2,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "Drupal"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 50.0,
+          "EDP2_Rep_Management": 65.0,
+          "EDP6_Channel_Conflict": 40.0,
+          "EDP7_Sales_Enablement": 25.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 43.0,
+          "primary_edp": "EDP8_Technology_Obsolescence",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.4515
+        },
+        "averaged_methodology": {
+          "psi_score": 46.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "medium",
+            "expansion_opportunities": [],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "Your 10 reps have no portal"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 3.0,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "technology_1",
+            "subject": "Intelligent Lighting Controls vs digital-native competitors",
+            "body": "Hi Blaise,\n\nI see Intelligent Lighting Controls still relies on PDF catalogs. Companies with manual distribution typically experience:\n\n- Price updates taking 3-5 days to reach reps\n- Conflicting quotes from outdated sheets\n- Reps working from wrong info constantly\n\nIs this creating headaches for your team?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "technology_2",
+            "subject": "The PDF problem gets worse over time",
+            "body": "Hi Blaise,\n\nThe PDF problem gets worse over time. What starts as minor inconsistencies becomes major credibility issues.\n\nWildwood Lamps eliminated this - their manager says she \"reduced calls by a third\" just by getting everyone on the same system.\n\nHow many hours weekly does your team spend on version control?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "technology_3",
+            "subject": "Digital transformation sounds complex",
+            "body": "Hi Blaise,\n\nDigital transformation sounds complex, but it's really about one thing: Can your reps access accurate info instantly?\n\nIf the answer is no, you're fighting with one hand tied.\n\nWant to untie it?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed Intelligent Lighting Controls's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at Intelligent Lighting Controls:\n\u2022 Your 10 reps have no portal\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "Intelligent Lighting Controls: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at Intelligent Lighting Controls. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"Intelligent Lighting Controls\"",
+              "Intelligent Lighting Controls operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for Intelligent Lighting Controls"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "Intelligent Lighting Controls: $750,000 Crisis Detected",
+            "intro_text": "Attention Intelligent Lighting Controls leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "Intelligent Lighting Controls",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "medium",
+            "expansion_opportunities": [],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 43.0,
+          "averaged_psi": 46.0,
+          "purchase_probability": 0.4515,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    },
+    {
+      "company_name": "National Lighting",
+      "domain": "natltg.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:20:33.964251",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://natltg.com",
+        "scan_timestamp": "2025-09-19T02:20:33.964580",
+        "EDP1_SKU_Count_Estimate": 5000,
+        "EDP1_Product_Categories": [
+          "Cove",
+          "Contact Us",
+          "Wall",
+          "Asymmetric",
+          "Surface",
+          "Company",
+          "Cove Products",
+          "Gallery",
+          "Pendant Products",
+          "Perimeter Products",
+          "Contact",
+          "Surface Products",
+          "Asymmetric Products",
+          "Acoustic Options",
+          "Perimeter",
+          "Wall Recessed",
+          "Sales",
+          "Products",
+          "Wood Finish Matching",
+          "Recessed Products"
+        ],
+        "EDP1_Category_Count": 20,
+        "EDP1_Configuration_Options": true,
+        "EDP1_Has_Configurator": true,
+        "EDP1_Catalog_Format": "Interactive catalog",
+        "EDP1_Has_Search": true,
+        "EDP1_Search_Sophistication": "Basic",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 60,
+        "EDP2_Has_Rep_Locator": false,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 100,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 100,
+        "EDP6_Channels_Detected": [],
+        "EDP6_Channel_Count": 0,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": false,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": false,
+        "EDP6_Pricing_Transparency": "Quote only",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 40,
+        "EDP7_Has_Product_Search": true,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": false,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": false,
+        "EDP7_Resource_Formats": [],
+        "EDP7_Resource_Format_Count": 0,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Comparison tool",
+          "Quote builder",
+          "Project boards"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 25,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 6.6,
+        "EDP8_Modern_Features": [
+          "html5"
+        ],
+        "EDP8_Modern_Feature_Count": 1,
+        "EDP8_Integration_Signals": [],
+        "EDP8_Integration_Count": 0,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Wordpress",
+        "EDP8_Uses_CDN": false,
+        "EDP8_Copyright_Year": 2020,
+        "EDP8_Staleness_Score": 100,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "lighting"
+        ],
+        "Target_Audience": "Mixed",
+        "Geographic_Presence": "USA",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Comparison tool",
+          "Quote builder",
+          "Project boards",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": true,
+        "JavaScript_Frameworks": [
+          "jquery"
+        ],
+        "Has_Search_Endpoint": false,
+        "Has_Resources_Page": false,
+        "Has_Events_Page": false,
+        "Broken_Links_Count": 8,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "jquery",
+          "Wordpress"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 60.0,
+          "EDP2_Rep_Management": 100.0,
+          "EDP6_Channel_Conflict": 40.0,
+          "EDP7_Sales_Enablement": 25.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 49.45,
+          "primary_edp": "EDP8_Technology_Obsolescence",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.519225
+        },
+        "averaged_methodology": {
+          "psi_score": 55.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "Your 10 reps have no portal"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [
+            {
+              "edp": "EDP2_Rep_Management",
+              "score": 100.0,
+              "level": "immediate_action_required"
+            }
+          ],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 5.549999999999997,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "technology_1",
+            "subject": "National Lighting vs digital-native competitors",
+            "body": "Hi Warren,\n\nI see National Lighting still relies on PDF catalogs. Companies with manual distribution typically experience:\n\n- Price updates taking 3-5 days to reach reps\n- Conflicting quotes from outdated sheets\n- Reps working from wrong info constantly\n\nIs this creating headaches for your team?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "technology_2",
+            "subject": "The PDF problem gets worse over time",
+            "body": "Hi Warren,\n\nThe PDF problem gets worse over time. What starts as minor inconsistencies becomes major credibility issues.\n\nWildwood Lamps eliminated this - their manager says she \"reduced calls by a third\" just by getting everyone on the same system.\n\nHow many hours weekly does your team spend on version control?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "technology_3",
+            "subject": "Digital transformation sounds complex",
+            "body": "Hi Warren,\n\nDigital transformation sounds complex, but it's really about one thing: Can your reps access accurate info instantly?\n\nIf the answer is no, you're fighting with one hand tied.\n\nWant to untie it?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed National Lighting's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at National Lighting:\n\u2022 Your 10 reps have no portal\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "National Lighting: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at National Lighting. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"National Lighting\"",
+              "National Lighting operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for National Lighting"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "National Lighting: $750,000 Crisis Detected",
+            "intro_text": "Attention National Lighting leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "National Lighting",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 60.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 60.0% severity"
+            }
+          ],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 49.45,
+          "averaged_psi": 55.0,
+          "purchase_probability": 0.519225,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    },
+    {
+      "company_name": "JAYKAL",
+      "domain": "jaykal.net",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:20:42.833152",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://jaykal.net",
+        "scan_timestamp": "2025-09-19T02:20:42.833264",
+        "EDP1_SKU_Count_Estimate": 5000,
+        "EDP1_Product_Categories": [
+          "Rep Agency Login",
+          "Strip Fixture, G2STR-T Full Fixture Series",
+          "Flat Panel - New Full Fixture",
+          "Login",
+          "Controls",
+          "Resources",
+          "Downlight Retrofit",
+          "TAA Products",
+          "Support",
+          "Become a Distributor",
+          "Policies",
+          "Strip Retrofit Kit",
+          "Control Guides",
+          "Register for Account",
+          "Corn Lamps",
+          "Magnetic Retrofit Kits",
+          "VBS Series",
+          "Retrofit Kits",
+          "LumaLinx Essential",
+          "TAA INTERIOR"
+        ],
+        "EDP1_Category_Count": 20,
+        "EDP1_Configuration_Options": false,
+        "EDP1_Has_Configurator": false,
+        "EDP1_Catalog_Format": "Basic website",
+        "EDP1_Has_Search": false,
+        "EDP1_Search_Sophistication": "None",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 90,
+        "EDP2_Has_Rep_Locator": false,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 10,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 100,
+        "EDP6_Channels_Detected": [
+          "Contract Sales"
+        ],
+        "EDP6_Channel_Count": 1,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": false,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": true,
+        "EDP6_Pricing_Transparency": "Quote only",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 40,
+        "EDP7_Has_Product_Search": false,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": false,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": true,
+        "EDP7_Resource_Formats": [
+          "PDF"
+        ],
+        "EDP7_Resource_Format_Count": 1,
+        "EDP7_Requires_Login_Resources": true,
+        "EDP7_Missing_Tools": [
+          "Product search",
+          "Comparison tool",
+          "Quote builder",
+          "Project boards"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 55,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 6.5,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [],
+        "EDP8_Integration_Count": 0,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Wordpress",
+        "EDP8_Uses_CDN": true,
+        "EDP8_Copyright_Year": 2024,
+        "EDP8_Staleness_Score": 20,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "lighting",
+          "outdoor",
+          "decor"
+        ],
+        "Target_Audience": "Mixed",
+        "Geographic_Presence": "USA",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Product search",
+          "Comparison tool",
+          "Quote builder",
+          "Project boards",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": true,
+        "JavaScript_Frameworks": [
+          "jquery",
+          "ember",
+          "webpack"
+        ],
+        "Has_Search_Endpoint": false,
+        "Has_Resources_Page": true,
+        "Has_Events_Page": false,
+        "Broken_Links_Count": 16,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "jquery",
+          "ember",
+          "webpack",
+          "Wordpress",
+          "CDN"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 90.0,
+          "EDP2_Rep_Management": 100.0,
+          "EDP6_Channel_Conflict": 40.0,
+          "EDP7_Sales_Enablement": 55.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 63.55,
+          "primary_edp": "EDP7_Sales_Enablement",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.6990500000000001
+        },
+        "averaged_methodology": {
+          "psi_score": 67.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 90.0,
+                "opportunity": "Secondary pain point with 90.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 55.0,
+                "opportunity": "Secondary pain point with 55.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "Your 10 reps have no portal",
+            "2,000 SKUs but no search function"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 90.0,
+              "level": "immediate_action_required"
+            },
+            {
+              "edp": "EDP2_Rep_Management",
+              "score": 100.0,
+              "level": "immediate_action_required"
+            }
+          ],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 3.450000000000003,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "sales_enablement_1",
+            "subject": "Quick question about JAYKAL's trade show process",
+            "body": "Hi Joe,\n\nNoticed JAYKAL doesn't have mobile catalog access. When we see this, it usually means:\n\n- Trade show orders written on paper, entered later\n- Reps can't quote without calling the office\n- Show leads lost to slow follow-up\n\nSound familiar? Or have you found workarounds?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "sales_enablement_2",
+            "subject": "Quick story about mobile transformation",
+            "body": "Hi Joe,\n\nQuick story - Godinger Silver's reps used to haul paper catalogs everywhere. Their VP told us that going mobile was \"the best thing that has ever happened to this company in 25 years.\"\n\nThe real impact? Reps actually selling instead of searching through binders.\n\nHow much time do your reps waste on manual lookups?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "sales_enablement_3",
+            "subject": "The mobile gap is real",
+            "body": "Hi Joe,\n\nThe mobile gap is real. While your reps flip through papers, competitors close deals on iPads.\n\nIt's not about being cutting-edge - it's about basic efficiency in 2025.\n\nReady to level the playing field?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed JAYKAL's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at JAYKAL:\n\u2022 Your 10 reps have no portal\n\u2022 2,000 SKUs but no search function\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "JAYKAL: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at JAYKAL. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"JAYKAL\"",
+              "JAYKAL operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for JAYKAL"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "JAYKAL: $750,000 Crisis Detected",
+            "intro_text": "Attention JAYKAL leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "JAYKAL",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 90.0,
+                "opportunity": "Secondary pain point with 90.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 55.0,
+                "opportunity": "Secondary pain point with 55.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 90.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "high",
+              "description": "Secondary operational challenge with 90.0% severity"
+            },
+            {
+              "edp": "EDP7_Sales_Enablement",
+              "score": 55.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 55.0% severity"
+            }
+          ],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 63.55,
+          "averaged_psi": 67.0,
+          "purchase_probability": 0.6990500000000001,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    },
+    {
+      "company_name": "Concealite",
+      "domain": "concealite.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:20:51.673661",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://concealite.com",
+        "scan_timestamp": "2025-09-19T02:20:51.673741",
+        "EDP1_SKU_Count_Estimate": 5000,
+        "EDP1_Product_Categories": [
+          "R4000 Series Emergency Lights",
+          "HL-1 Emergency Light",
+          "Conceal X Exit Sign",
+          "Supplier Quote Request",
+          "News",
+          "CE3 Exit Sign",
+          "Emergency Lights",
+          "CE8 Exit Sign",
+          "Indoor Emergency Lights",
+          "Chicago Conceal X Exit Sign",
+          "NYC Conceal X Exit Sign",
+          "CEM5 Emergency Light",
+          "Products",
+          "CEM7 Emergency Light",
+          "Outdoor Emergency Lights",
+          "Supplier Purchase Order",
+          "FA900 Fire Alarm \u2013 Wall Mount",
+          "RMA Request Form",
+          "F5000 Series Emergency Lights",
+          "NYC Invisi-X Exit Sign"
+        ],
+        "EDP1_Category_Count": 20,
+        "EDP1_Configuration_Options": false,
+        "EDP1_Has_Configurator": false,
+        "EDP1_Catalog_Format": "Basic website",
+        "EDP1_Has_Search": false,
+        "EDP1_Search_Sophistication": "None",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 90,
+        "EDP2_Has_Rep_Locator": false,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 10,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 100,
+        "EDP6_Channels_Detected": [],
+        "EDP6_Channel_Count": 0,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": false,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": false,
+        "EDP6_Pricing_Transparency": "Public pricing",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 0,
+        "EDP7_Has_Product_Search": false,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": true,
+        "EDP7_Has_Project_Boards": false,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": false,
+        "EDP7_Resource_Formats": [],
+        "EDP7_Resource_Format_Count": 0,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Product search",
+          "Comparison tool",
+          "Project boards"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 65,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 7.2,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [],
+        "EDP8_Integration_Count": 0,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Wordpress",
+        "EDP8_Uses_CDN": true,
+        "EDP8_Copyright_Year": 2025,
+        "EDP8_Staleness_Score": 0,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "lighting",
+          "outdoor",
+          "decor"
+        ],
+        "Target_Audience": "Mixed",
+        "Geographic_Presence": "Unknown",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Product search",
+          "Comparison tool",
+          "Project boards",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": true,
+        "JavaScript_Frameworks": [
+          "jquery",
+          "ember"
+        ],
+        "Has_Search_Endpoint": false,
+        "Has_Resources_Page": true,
+        "Has_Events_Page": false,
+        "Broken_Links_Count": 4,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "jquery",
+          "ember",
+          "Wordpress",
+          "CDN"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 90.0,
+          "EDP2_Rep_Management": 100.0,
+          "EDP6_Channel_Conflict": 0.0,
+          "EDP7_Sales_Enablement": 65.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 65.05,
+          "primary_edp": "EDP7_Sales_Enablement",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.71555
+        },
+        "averaged_methodology": {
+          "psi_score": 61.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 90.0,
+                "opportunity": "Secondary pain point with 90.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 65.0,
+                "opportunity": "Secondary pain point with 65.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "No mobile site for High Point Market?",
+            "Concealite: Manual catalog navigation killing productivity",
+            "Your 10 reps have no portal",
+            "2,000 SKUs but no search function"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 90.0,
+              "level": "immediate_action_required"
+            },
+            {
+              "edp": "EDP2_Rep_Management",
+              "score": 100.0,
+              "level": "immediate_action_required"
+            }
+          ],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 4.049999999999997,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "sales_enablement_1",
+            "subject": "Quick question about Concealite's trade show process",
+            "body": "Hi Mike,\n\nNoticed Concealite doesn't have mobile catalog access. When we see this, it usually means:\n\n- Trade show orders written on paper, entered later\n- Reps can't quote without calling the office\n- Show leads lost to slow follow-up\n\nSound familiar? Or have you found workarounds?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "sales_enablement_2",
+            "subject": "Quick story about mobile transformation",
+            "body": "Hi Mike,\n\nQuick story - Godinger Silver's reps used to haul paper catalogs everywhere. Their VP told us that going mobile was \"the best thing that has ever happened to this company in 25 years.\"\n\nThe real impact? Reps actually selling instead of searching through binders.\n\nHow much time do your reps waste on manual lookups?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "sales_enablement_3",
+            "subject": "The mobile gap is real",
+            "body": "Hi Mike,\n\nThe mobile gap is real. While your reps flip through papers, competitors close deals on iPads.\n\nIt's not about being cutting-edge - it's about basic efficiency in 2025.\n\nReady to level the playing field?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed Concealite's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at Concealite:\n\u2022 No mobile site for High Point Market?\n\u2022 Concealite: Manual catalog navigation killing productivity\n\u2022 Your 10 reps have no portal\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "Concealite: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at Concealite. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"Concealite\"",
+              "Concealite operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for Concealite"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "Concealite: $750,000 Crisis Detected",
+            "intro_text": "Attention Concealite leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "Concealite",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 90.0,
+                "opportunity": "Secondary pain point with 90.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 65.0,
+                "opportunity": "Secondary pain point with 65.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 90.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "high",
+              "description": "Secondary operational challenge with 90.0% severity"
+            },
+            {
+              "edp": "EDP7_Sales_Enablement",
+              "score": 65.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 65.0% severity"
+            }
+          ],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 65.05,
+          "averaged_psi": 61.0,
+          "purchase_probability": 0.71555,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    },
+    {
+      "company_name": "JAYKAL",
+      "domain": "jaykal.net",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:21:06.128787",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://jaykal.net",
+        "scan_timestamp": "2025-09-19T02:21:06.129094",
+        "EDP1_SKU_Count_Estimate": 5000,
+        "EDP1_Product_Categories": [
+          "Rep Agency Login",
+          "Strip Fixture, G2STR-T Full Fixture Series",
+          "Flat Panel - New Full Fixture",
+          "Login",
+          "Controls",
+          "Resources",
+          "Downlight Retrofit",
+          "TAA Products",
+          "Support",
+          "Become a Distributor",
+          "Policies",
+          "Strip Retrofit Kit",
+          "Control Guides",
+          "Register for Account",
+          "Corn Lamps",
+          "Magnetic Retrofit Kits",
+          "VBS Series",
+          "Retrofit Kits",
+          "LumaLinx Essential",
+          "TAA INTERIOR"
+        ],
+        "EDP1_Category_Count": 20,
+        "EDP1_Configuration_Options": false,
+        "EDP1_Has_Configurator": false,
+        "EDP1_Catalog_Format": "Basic website",
+        "EDP1_Has_Search": false,
+        "EDP1_Search_Sophistication": "None",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 90,
+        "EDP2_Has_Rep_Locator": false,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 10,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 100,
+        "EDP6_Channels_Detected": [
+          "Contract Sales"
+        ],
+        "EDP6_Channel_Count": 1,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": false,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": true,
+        "EDP6_Pricing_Transparency": "Quote only",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 40,
+        "EDP7_Has_Product_Search": false,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": false,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": true,
+        "EDP7_Resource_Formats": [
+          "PDF"
+        ],
+        "EDP7_Resource_Format_Count": 1,
+        "EDP7_Requires_Login_Resources": true,
+        "EDP7_Missing_Tools": [
+          "Product search",
+          "Comparison tool",
+          "Quote builder",
+          "Project boards"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 55,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 12.8,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [],
+        "EDP8_Integration_Count": 0,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Wordpress",
+        "EDP8_Uses_CDN": true,
+        "EDP8_Copyright_Year": 2024,
+        "EDP8_Staleness_Score": 20,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "lighting",
+          "outdoor",
+          "decor"
+        ],
+        "Target_Audience": "Mixed",
+        "Geographic_Presence": "USA",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Product search",
+          "Comparison tool",
+          "Quote builder",
+          "Project boards",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": true,
+        "JavaScript_Frameworks": [
+          "jquery",
+          "ember",
+          "webpack"
+        ],
+        "Has_Search_Endpoint": false,
+        "Has_Resources_Page": true,
+        "Has_Events_Page": false,
+        "Broken_Links_Count": 16,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "jquery",
+          "ember",
+          "webpack",
+          "Wordpress",
+          "CDN"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 90.0,
+          "EDP2_Rep_Management": 100.0,
+          "EDP6_Channel_Conflict": 40.0,
+          "EDP7_Sales_Enablement": 55.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 63.55,
+          "primary_edp": "EDP7_Sales_Enablement",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.6990500000000001
+        },
+        "averaged_methodology": {
+          "psi_score": 67.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 90.0,
+                "opportunity": "Secondary pain point with 90.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 55.0,
+                "opportunity": "Secondary pain point with 55.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "Your 10 reps have no portal",
+            "2,000 SKUs but no search function"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 90.0,
+              "level": "immediate_action_required"
+            },
+            {
+              "edp": "EDP2_Rep_Management",
+              "score": 100.0,
+              "level": "immediate_action_required"
+            }
+          ],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 3.450000000000003,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "sales_enablement_1",
+            "subject": "Quick question about JAYKAL's trade show process",
+            "body": "Hi David,\n\nNoticed JAYKAL doesn't have mobile catalog access. When we see this, it usually means:\n\n- Trade show orders written on paper, entered later\n- Reps can't quote without calling the office\n- Show leads lost to slow follow-up\n\nSound familiar? Or have you found workarounds?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "sales_enablement_2",
+            "subject": "Quick story about mobile transformation",
+            "body": "Hi David,\n\nQuick story - Godinger Silver's reps used to haul paper catalogs everywhere. Their VP told us that going mobile was \"the best thing that has ever happened to this company in 25 years.\"\n\nThe real impact? Reps actually selling instead of searching through binders.\n\nHow much time do your reps waste on manual lookups?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "sales_enablement_3",
+            "subject": "The mobile gap is real",
+            "body": "Hi David,\n\nThe mobile gap is real. While your reps flip through papers, competitors close deals on iPads.\n\nIt's not about being cutting-edge - it's about basic efficiency in 2025.\n\nReady to level the playing field?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed JAYKAL's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at JAYKAL:\n\u2022 Your 10 reps have no portal\n\u2022 2,000 SKUs but no search function\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "JAYKAL: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at JAYKAL. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"JAYKAL\"",
+              "JAYKAL operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for JAYKAL"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "JAYKAL: $750,000 Crisis Detected",
+            "intro_text": "Attention JAYKAL leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "JAYKAL",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 90.0,
+                "opportunity": "Secondary pain point with 90.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 55.0,
+                "opportunity": "Secondary pain point with 55.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 90.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "high",
+              "description": "Secondary operational challenge with 90.0% severity"
+            },
+            {
+              "edp": "EDP7_Sales_Enablement",
+              "score": 55.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 55.0% severity"
+            }
+          ],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 63.55,
+          "averaged_psi": 67.0,
+          "purchase_probability": 0.6990500000000001,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    },
+    {
+      "company_name": "In-es.artdesign",
+      "domain": "in-es.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:21:21.814576",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://in-es.com",
+        "scan_timestamp": "2025-09-19T02:21:21.814758",
+        "EDP1_SKU_Count_Estimate": 2000,
+        "EDP1_Product_Categories": [
+          "Press",
+          "TERRA",
+          "MURO",
+          "Azienda",
+          "ESTERNO",
+          "BATTERIA",
+          "Contatti",
+          "Distribuzione",
+          "SHOP",
+          "TAVOLO",
+          "SOSPENSIONI",
+          "Home",
+          "Collezioni",
+          "Portfolio"
+        ],
+        "EDP1_Category_Count": 14,
+        "EDP1_Configuration_Options": false,
+        "EDP1_Has_Configurator": false,
+        "EDP1_Catalog_Format": "PDF-heavy",
+        "EDP1_Has_Search": false,
+        "EDP1_Search_Sophistication": "None",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 60,
+        "EDP2_Has_Rep_Locator": false,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": true,
+        "EDP2_Rep_Count_Estimate": 100,
+        "EDP2_Territory_Complexity": "Medium",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 100,
+        "EDP6_Channels_Detected": [
+          "Contract Sales"
+        ],
+        "EDP6_Channel_Count": 1,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": false,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": true,
+        "EDP6_Pricing_Transparency": "Public pricing",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 0,
+        "EDP7_Has_Product_Search": false,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": true,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": true,
+        "EDP7_Resource_Formats": [
+          "PDF",
+          "ZIP"
+        ],
+        "EDP7_Resource_Format_Count": 2,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Product search",
+          "Comparison tool",
+          "Quote builder"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 55,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 8.9,
+        "EDP8_Modern_Features": [
+          "html5"
+        ],
+        "EDP8_Modern_Feature_Count": 1,
+        "EDP8_Integration_Signals": [
+          "rest"
+        ],
+        "EDP8_Integration_Count": 1,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Unknown",
+        "EDP8_Uses_CDN": false,
+        "EDP8_Copyright_Year": 2025,
+        "EDP8_Staleness_Score": 0,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "decor"
+        ],
+        "Target_Audience": "Trade only",
+        "Geographic_Presence": "USA",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Product search",
+          "Comparison tool",
+          "Quote builder",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": true,
+        "JavaScript_Frameworks": [
+          "jquery"
+        ],
+        "Has_Search_Endpoint": false,
+        "Has_Resources_Page": true,
+        "Has_Events_Page": false,
+        "Broken_Links_Count": 36,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "jquery"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 60.0,
+          "EDP2_Rep_Management": 100.0,
+          "EDP6_Channel_Conflict": 0.0,
+          "EDP7_Sales_Enablement": 55.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 57.95,
+          "primary_edp": "EDP7_Sales_Enablement",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.6374500000000001
+        },
+        "averaged_methodology": {
+          "psi_score": 53.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 55.0,
+                "opportunity": "Secondary pain point with 55.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "Your 10 reps have no portal"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [
+            {
+              "edp": "EDP2_Rep_Management",
+              "score": 100.0,
+              "level": "immediate_action_required"
+            }
+          ],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 4.950000000000003,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "sales_enablement_1",
+            "subject": "Quick question about In-es.artdesign's trade show process",
+            "body": "Hi Luciano,\n\nNoticed In-es.artdesign doesn't have mobile catalog access. When we see this, it usually means:\n\n- Trade show orders written on paper, entered later\n- Reps can't quote without calling the office\n- Show leads lost to slow follow-up\n\nSound familiar? Or have you found workarounds?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "sales_enablement_2",
+            "subject": "Quick story about mobile transformation",
+            "body": "Hi Luciano,\n\nQuick story - Godinger Silver's reps used to haul paper catalogs everywhere. Their VP told us that going mobile was \"the best thing that has ever happened to this company in 25 years.\"\n\nThe real impact? Reps actually selling instead of searching through binders.\n\nHow much time do your reps waste on manual lookups?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "sales_enablement_3",
+            "subject": "The mobile gap is real",
+            "body": "Hi Luciano,\n\nThe mobile gap is real. While your reps flip through papers, competitors close deals on iPads.\n\nIt's not about being cutting-edge - it's about basic efficiency in 2025.\n\nReady to level the playing field?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed In-es.artdesign's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at In-es.artdesign:\n\u2022 Your 10 reps have no portal\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "In-es.artdesign: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at In-es.artdesign. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"In-es.artdesign\"",
+              "In-es.artdesign operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for In-es.artdesign"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "In-es.artdesign: $750,000 Crisis Detected",
+            "intro_text": "Attention In-es.artdesign leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "In-es.artdesign",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 55.0,
+                "opportunity": "Secondary pain point with 55.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 60.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 60.0% severity"
+            },
+            {
+              "edp": "EDP7_Sales_Enablement",
+              "score": 55.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 55.0% severity"
+            }
+          ],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 57.95,
+          "averaged_psi": 53.0,
+          "purchase_probability": 0.6374500000000001,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    },
+    {
+      "company_name": "Smart Lighting Company",
+      "domain": "thesmartlightingcompany.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:21:33.321809",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://thesmartlightingcompany.com",
+        "scan_timestamp": "2025-09-19T02:21:33.321940",
+        "EDP1_SKU_Count_Estimate": 5000,
+        "EDP1_Product_Categories": [
+          "Product Finder",
+          "HB40HP",
+          "Contact Us",
+          "HB3014",
+          "Rep Portal",
+          "Power Supplies",
+          "Controllers",
+          "Sample Policy",
+          "Videos",
+          "LED Channel",
+          "Cooler Lighting",
+          "HB30PD",
+          "HB50B",
+          "Home",
+          "Flexible LED Strips",
+          "Literature",
+          "Illuminated Handrail",
+          "Landscape Lighting",
+          "About Us",
+          "Architectural Linear"
+        ],
+        "EDP1_Category_Count": 20,
+        "EDP1_Configuration_Options": true,
+        "EDP1_Has_Configurator": true,
+        "EDP1_Catalog_Format": "Interactive catalog",
+        "EDP1_Has_Search": true,
+        "EDP1_Search_Sophistication": "Advanced",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 60,
+        "EDP2_Has_Rep_Locator": true,
+        "EDP2_Rep_Portal_Exists": true,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 50,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [
+          "rep login",
+          "rep portal"
+        ],
+        "EDP2_Rep_Performance_Pain_Score": 15,
+        "EDP6_Channels_Detected": [
+          "Contract Sales"
+        ],
+        "EDP6_Channel_Count": 1,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": false,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": true,
+        "EDP6_Pricing_Transparency": "Quote only",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 40,
+        "EDP7_Has_Product_Search": true,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": true,
+        "EDP7_Has_Project_Boards": true,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": false,
+        "EDP7_Resource_Formats": [],
+        "EDP7_Resource_Format_Count": 0,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Comparison tool"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 25,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 11.0,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [
+          "integration"
+        ],
+        "EDP8_Integration_Count": 1,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Wordpress",
+        "EDP8_Uses_CDN": true,
+        "EDP8_Copyright_Year": 2025,
+        "EDP8_Staleness_Score": 0,
+        "EDP8_Has_Legacy_Tech": true,
+        "EDP8_Legacy_Tech_Found": [
+          "flash"
+        ],
+        "EDP8_Tech_Obsolescence_Pain_Score": 75,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "lighting",
+          "outdoor",
+          "decor"
+        ],
+        "Target_Audience": "B2C retail",
+        "Geographic_Presence": "USA",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Comparison tool"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": true,
+        "JavaScript_Frameworks": [
+          "jquery",
+          "ember"
+        ],
+        "Has_Search_Endpoint": false,
+        "Has_Resources_Page": false,
+        "Has_Events_Page": true,
+        "Broken_Links_Count": 5,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "jquery",
+          "ember",
+          "Wordpress",
+          "CDN"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 60.0,
+          "EDP2_Rep_Management": 15.0,
+          "EDP6_Channel_Conflict": 40.0,
+          "EDP7_Sales_Enablement": 25.0,
+          "EDP8_Technology_Obsolescence": 75.0
+        },
+        "weighted_methodology": {
+          "psi_score": 44.95,
+          "primary_edp": "EDP8_Technology_Obsolescence",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.47197500000000003
+        },
+        "averaged_methodology": {
+          "psi_score": 43.0,
+          "primary_edp": "EDP8_Technology_Obsolescence",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP8_Technology_Obsolescence",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "SSL EXPIRED - customers questioning credibility",
+            "Smart Lighting Company 40% slower than digital competitors"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [
+            {
+              "edp": "EDP8_Technology_Obsolescence",
+              "score": 75.0,
+              "level": "immediate_action_required"
+            }
+          ],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": true,
+          "psi_difference": 1.9500000000000028,
+          "strategic_implications": {
+            "primary_edp_alignment": true,
+            "messaging_strategy": "Unified approach - both methodologies agree on primary pain",
+            "account_approach": "Direct crisis intervention with operational context",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "technology_1",
+            "subject": "Smart Lighting Company vs digital-native competitors",
+            "body": "Hi Marc,\n\nI see Smart Lighting Company still relies on PDF catalogs. Companies with manual distribution typically experience:\n\n- Price updates taking 3-5 days to reach reps\n- Conflicting quotes from outdated sheets\n- Reps working from wrong info constantly\n\nIs this creating headaches for your team?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "technology_2",
+            "subject": "The PDF problem gets worse over time",
+            "body": "Hi Marc,\n\nThe PDF problem gets worse over time. What starts as minor inconsistencies becomes major credibility issues.\n\nWildwood Lamps eliminated this - their manager says she \"reduced calls by a third\" just by getting everyone on the same system.\n\nHow many hours weekly does your team spend on version control?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "technology_3",
+            "subject": "Digital transformation sounds complex",
+            "body": "Hi Marc,\n\nDigital transformation sounds complex, but it's really about one thing: Can your reps access accurate info instantly?\n\nIf the answer is no, you're fighting with one hand tied.\n\nWant to untie it?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed Smart Lighting Company's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at Smart Lighting Company:\n\u2022 SSL EXPIRED - customers questioning credibility\n\u2022 Smart Lighting Company 40% slower than digital competitors\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "Smart Lighting Company: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at Smart Lighting Company. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"Smart Lighting Company\"",
+              "Smart Lighting Company operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for Smart Lighting Company"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "Smart Lighting Company: $750,000 Crisis Detected",
+            "intro_text": "Attention Smart Lighting Company leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "Smart Lighting Company",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP8_Technology_Obsolescence",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP8_Technology_Obsolescence",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 60.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 60.0% severity"
+            }
+          ],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 44.95,
+          "averaged_psi": 43.0,
+          "purchase_probability": 0.47197500000000003,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    },
+    {
+      "company_name": "Solara Custom Doors & Lighting",
+      "domain": "solaracustomdoorsandlighting.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:21:46.570776",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://solaracustomdoorsandlighting.com",
+        "scan_timestamp": "2025-09-19T02:21:46.570828",
+        "EDP1_SKU_Count_Estimate": 5000,
+        "EDP1_Product_Categories": [
+          "Oikos European Style Doors",
+          "Hardware & Pull Handles",
+          "Classic Outdoor Lighting",
+          "Residential Gallery",
+          "Elevate Premium Natural, Porcelain & Quartz",
+          "Architectural Low Profile Gallery",
+          "Classic Custom Doors",
+          "Classic Residential Gallery",
+          "FAQ\u2019s & Maintenance & Trouble Shooting",
+          "Virtual Catalog",
+          "Residential Custom Cabinetry",
+          "Classic Custom Railings, Gates and Balconies",
+          "Wine Cellar Custom Doors",
+          "Transitional-Modern Residential Gallery",
+          "Fireplaces",
+          "Transitional-Modern Outdoor Lighting",
+          "Commercial Gallery",
+          "Lighting",
+          "Finish Options",
+          "Transitional-Modern Interior Lighting"
+        ],
+        "EDP1_Category_Count": 20,
+        "EDP1_Configuration_Options": true,
+        "EDP1_Has_Configurator": true,
+        "EDP1_Catalog_Format": "Interactive catalog",
+        "EDP1_Has_Search": true,
+        "EDP1_Search_Sophistication": "Basic",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 60,
+        "EDP2_Has_Rep_Locator": false,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 10,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 100,
+        "EDP6_Channels_Detected": [
+          "Dealer Network",
+          "Contract Sales"
+        ],
+        "EDP6_Channel_Count": 2,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": true,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": true,
+        "EDP6_Pricing_Transparency": "Quote only",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 40,
+        "EDP7_Has_Product_Search": true,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": true,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": false,
+        "EDP7_Resource_Formats": [],
+        "EDP7_Resource_Format_Count": 0,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Comparison tool",
+          "Quote builder"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 25,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 5.9,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [
+          "rest"
+        ],
+        "EDP8_Integration_Count": 1,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Wordpress",
+        "EDP8_Uses_CDN": false,
+        "EDP8_Copyright_Year": 2025,
+        "EDP8_Staleness_Score": 0,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "lighting",
+          "outdoor",
+          "decor"
+        ],
+        "Target_Audience": "Mixed",
+        "Geographic_Presence": "Unknown",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Comparison tool",
+          "Quote builder",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": true,
+        "JavaScript_Frameworks": [
+          "react",
+          "jquery",
+          "webpack"
+        ],
+        "Has_Search_Endpoint": false,
+        "Has_Resources_Page": false,
+        "Has_Events_Page": true,
+        "Broken_Links_Count": 10,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "react",
+          "jquery",
+          "webpack",
+          "Wordpress"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 60.0,
+          "EDP2_Rep_Management": 100.0,
+          "EDP6_Channel_Conflict": 40.0,
+          "EDP7_Sales_Enablement": 25.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 49.45,
+          "primary_edp": "EDP8_Technology_Obsolescence",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.519225
+        },
+        "averaged_methodology": {
+          "psi_score": 55.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "Your 10 reps have no portal"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [
+            {
+              "edp": "EDP2_Rep_Management",
+              "score": 100.0,
+              "level": "immediate_action_required"
+            }
+          ],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 5.549999999999997,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "technology_1",
+            "subject": "Solara Custom Doors & Lighting vs digital-native competitors",
+            "body": "Hi Rudy,\n\nI see Solara Custom Doors & Lighting still relies on PDF catalogs. Companies with manual distribution typically experience:\n\n- Price updates taking 3-5 days to reach reps\n- Conflicting quotes from outdated sheets\n- Reps working from wrong info constantly\n\nIs this creating headaches for your team?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "technology_2",
+            "subject": "The PDF problem gets worse over time",
+            "body": "Hi Rudy,\n\nThe PDF problem gets worse over time. What starts as minor inconsistencies becomes major credibility issues.\n\nWildwood Lamps eliminated this - their manager says she \"reduced calls by a third\" just by getting everyone on the same system.\n\nHow many hours weekly does your team spend on version control?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "technology_3",
+            "subject": "Digital transformation sounds complex",
+            "body": "Hi Rudy,\n\nDigital transformation sounds complex, but it's really about one thing: Can your reps access accurate info instantly?\n\nIf the answer is no, you're fighting with one hand tied.\n\nWant to untie it?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed Solara Custom Doors & Lighting's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at Solara Custom Doors & Lighting:\n\u2022 Your 10 reps have no portal\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "Solara Custom Doors & Lighting: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at Solara Custom Doors & Lighting. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"Solara Custom Doors & Lighting\"",
+              "Solara Custom Doors & Lighting operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for Solara Custom Doors & Lighting"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "Solara Custom Doors & Lighting: $750,000 Crisis Detected",
+            "intro_text": "Attention Solara Custom Doors & Lighting leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "Solara Custom Doors & Lighting",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 60.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 60.0% severity"
+            }
+          ],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 49.45,
+          "averaged_psi": 55.0,
+          "purchase_probability": 0.519225,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    },
+    {
+      "company_name": "Jefferson Lighting/Lightsmith",
+      "domain": "jeffersonlighting.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:21:55.170703",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://jeffersonlighting.com",
+        "scan_timestamp": "2025-09-19T02:21:55.170868",
+        "EDP1_SKU_Count_Estimate": 5000,
+        "EDP1_Product_Categories": [
+          "Sconce",
+          "Directional",
+          "Healthcare and Retail",
+          "Church Retrofit",
+          "Worship",
+          "Entertainment and Hospitality",
+          "Custom",
+          "Architectural",
+          "Ceiling Mount",
+          "Cascades",
+          "Exterior",
+          "Educational",
+          "Bollard",
+          "Pendant",
+          "Government and Commercial",
+          "Short Pendant",
+          "Chandelier",
+          "Metalwork",
+          "Confessional",
+          "Restoration and Reproduction"
+        ],
+        "EDP1_Category_Count": 20,
+        "EDP1_Configuration_Options": true,
+        "EDP1_Has_Configurator": true,
+        "EDP1_Catalog_Format": "Interactive catalog",
+        "EDP1_Has_Search": true,
+        "EDP1_Search_Sophistication": "Basic",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 60,
+        "EDP2_Has_Rep_Locator": false,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 100,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 100,
+        "EDP6_Channels_Detected": [
+          "Contract Sales"
+        ],
+        "EDP6_Channel_Count": 1,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": false,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": true,
+        "EDP6_Pricing_Transparency": "Quote only",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 40,
+        "EDP7_Has_Product_Search": true,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": true,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": true,
+        "EDP7_Resource_Formats": [
+          "PDF"
+        ],
+        "EDP7_Resource_Format_Count": 1,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Comparison tool",
+          "Quote builder"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 15,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 5.3,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [
+          "rest"
+        ],
+        "EDP8_Integration_Count": 1,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Squarespace",
+        "EDP8_Uses_CDN": true,
+        "EDP8_Copyright_Year": 2025,
+        "EDP8_Staleness_Score": 0,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "lighting",
+          "outdoor"
+        ],
+        "Target_Audience": "B2C retail",
+        "Geographic_Presence": "Worldwide",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Comparison tool",
+          "Quote builder",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": true,
+        "JavaScript_Frameworks": [
+          "jquery"
+        ],
+        "Has_Search_Endpoint": false,
+        "Has_Resources_Page": false,
+        "Has_Events_Page": false,
+        "Broken_Links_Count": 0,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "jquery",
+          "Squarespace",
+          "CDN"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 60.0,
+          "EDP2_Rep_Management": 100.0,
+          "EDP6_Channel_Conflict": 40.0,
+          "EDP7_Sales_Enablement": 15.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 45.95,
+          "primary_edp": "EDP8_Technology_Obsolescence",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.48247500000000004
+        },
+        "averaged_methodology": {
+          "psi_score": 53.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "Your 10 reps have no portal"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [
+            {
+              "edp": "EDP2_Rep_Management",
+              "score": 100.0,
+              "level": "immediate_action_required"
+            }
+          ],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 7.049999999999997,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "technology_1",
+            "subject": "Jefferson Lighting/Lightsmith vs digital-native competitors",
+            "body": "Hi Cory,\n\nI see Jefferson Lighting/Lightsmith still relies on PDF catalogs. Companies with manual distribution typically experience:\n\n- Price updates taking 3-5 days to reach reps\n- Conflicting quotes from outdated sheets\n- Reps working from wrong info constantly\n\nIs this creating headaches for your team?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "technology_2",
+            "subject": "The PDF problem gets worse over time",
+            "body": "Hi Cory,\n\nThe PDF problem gets worse over time. What starts as minor inconsistencies becomes major credibility issues.\n\nWildwood Lamps eliminated this - their manager says she \"reduced calls by a third\" just by getting everyone on the same system.\n\nHow many hours weekly does your team spend on version control?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "technology_3",
+            "subject": "Digital transformation sounds complex",
+            "body": "Hi Cory,\n\nDigital transformation sounds complex, but it's really about one thing: Can your reps access accurate info instantly?\n\nIf the answer is no, you're fighting with one hand tied.\n\nWant to untie it?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed Jefferson Lighting/Lightsmith's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at Jefferson Lighting/Lightsmith:\n\u2022 Your 10 reps have no portal\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "Jefferson Lighting/Lightsmith: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at Jefferson Lighting/Lightsmith. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"Jefferson Lighting/Lightsmith\"",
+              "Jefferson Lighting/Lightsmith operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for Jefferson Lighting/Lightsmith"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "Jefferson Lighting/Lightsmith: $750,000 Crisis Detected",
+            "intro_text": "Attention Jefferson Lighting/Lightsmith leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "Jefferson Lighting/Lightsmith",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 60.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 60.0% severity"
+            }
+          ],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 45.95,
+          "averaged_psi": 53.0,
+          "purchase_probability": 0.48247500000000004,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    },
+    {
+      "company_name": "ILLUMINATION MANAGEMENT",
+      "domain": "illumination-management.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:22:07.723476",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://illumination-management.com",
+        "scan_timestamp": "2025-09-19T02:22:07.723615",
+        "EDP1_SKU_Count_Estimate": 500,
+        "EDP1_Product_Categories": [],
+        "EDP1_Category_Count": 0,
+        "EDP1_Configuration_Options": false,
+        "EDP1_Has_Configurator": false,
+        "EDP1_Catalog_Format": "Basic website",
+        "EDP1_Has_Search": false,
+        "EDP1_Search_Sophistication": "None",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 60,
+        "EDP2_Has_Rep_Locator": false,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 10,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 100,
+        "EDP6_Channels_Detected": [],
+        "EDP6_Channel_Count": 0,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": false,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": false,
+        "EDP6_Pricing_Transparency": "Quote only",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 40,
+        "EDP7_Has_Product_Search": false,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": false,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": false,
+        "EDP7_Resource_Formats": [],
+        "EDP7_Resource_Format_Count": 0,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Product search",
+          "Comparison tool",
+          "Quote builder",
+          "Project boards"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 65,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 4.4,
+        "EDP8_Modern_Features": [
+          "service worker"
+        ],
+        "EDP8_Modern_Feature_Count": 1,
+        "EDP8_Integration_Signals": [],
+        "EDP8_Integration_Count": 0,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Wix",
+        "EDP8_Uses_CDN": true,
+        "EDP8_Copyright_Year": 2023,
+        "EDP8_Staleness_Score": 40,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "lighting",
+          "decor"
+        ],
+        "Target_Audience": "Mixed",
+        "Geographic_Presence": "Unknown",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Product search",
+          "Comparison tool",
+          "Quote builder",
+          "Project boards",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": true,
+        "JavaScript_Frameworks": [
+          "react",
+          "ember",
+          "webpack",
+          "typescript"
+        ],
+        "Has_Search_Endpoint": false,
+        "Has_Resources_Page": false,
+        "Has_Events_Page": false,
+        "Broken_Links_Count": 1,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "react",
+          "ember",
+          "webpack",
+          "typescript",
+          "Wix",
+          "CDN"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 60.0,
+          "EDP2_Rep_Management": 100.0,
+          "EDP6_Channel_Conflict": 40.0,
+          "EDP7_Sales_Enablement": 65.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 63.45,
+          "primary_edp": "EDP7_Sales_Enablement",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.6979500000000002
+        },
+        "averaged_methodology": {
+          "psi_score": 63.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 65.0,
+                "opportunity": "Secondary pain point with 65.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "No mobile site for High Point Market?",
+            "ILLUMINATION MANAGEMENT: Manual catalog navigation killing productivity",
+            "Your 10 reps have no portal"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [
+            {
+              "edp": "EDP2_Rep_Management",
+              "score": 100.0,
+              "level": "immediate_action_required"
+            }
+          ],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 0.45000000000000284,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "sales_enablement_1",
+            "subject": "Quick question about ILLUMINATION MANAGEMENT's trade show process",
+            "body": "Hi Erica,\n\nNoticed ILLUMINATION MANAGEMENT doesn't have mobile catalog access. When we see this, it usually means:\n\n- Trade show orders written on paper, entered later\n- Reps can't quote without calling the office\n- Show leads lost to slow follow-up\n\nSound familiar? Or have you found workarounds?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "sales_enablement_2",
+            "subject": "Quick story about mobile transformation",
+            "body": "Hi Erica,\n\nQuick story - Godinger Silver's reps used to haul paper catalogs everywhere. Their VP told us that going mobile was \"the best thing that has ever happened to this company in 25 years.\"\n\nThe real impact? Reps actually selling instead of searching through binders.\n\nHow much time do your reps waste on manual lookups?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "sales_enablement_3",
+            "subject": "The mobile gap is real",
+            "body": "Hi Erica,\n\nThe mobile gap is real. While your reps flip through papers, competitors close deals on iPads.\n\nIt's not about being cutting-edge - it's about basic efficiency in 2025.\n\nReady to level the playing field?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed ILLUMINATION MANAGEMENT's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at ILLUMINATION MANAGEMENT:\n\u2022 No mobile site for High Point Market?\n\u2022 ILLUMINATION MANAGEMENT: Manual catalog navigation killing productivity\n\u2022 Your 10 reps have no portal\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "ILLUMINATION MANAGEMENT: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at ILLUMINATION MANAGEMENT. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"ILLUMINATION MANAGEMENT\"",
+              "ILLUMINATION MANAGEMENT operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for ILLUMINATION MANAGEMENT"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "ILLUMINATION MANAGEMENT: $750,000 Crisis Detected",
+            "intro_text": "Attention ILLUMINATION MANAGEMENT leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "ILLUMINATION MANAGEMENT",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 65.0,
+                "opportunity": "Secondary pain point with 65.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 60.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 60.0% severity"
+            },
+            {
+              "edp": "EDP7_Sales_Enablement",
+              "score": 65.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 65.0% severity"
+            }
+          ],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 63.45,
+          "averaged_psi": 63.0,
+          "purchase_probability": 0.6979500000000002,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    },
+    {
+      "company_name": "Intelligent Lighting Controls",
+      "domain": "ilc-usa.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:22:14.434746",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://ilc-usa.com",
+        "scan_timestamp": "2025-09-19T02:22:14.434773",
+        "EDP1_SKU_Count_Estimate": 5000,
+        "EDP1_Product_Categories": [
+          "Greengate Occupancy Sensors, Dimmers, & Switches",
+          "Contact Us",
+          "LightLEEDer Lighting Control Panels",
+          "Greengate Sensors & Switches",
+          "Product Details",
+          "LightLEEDer Panels & Retrofits",
+          "Brochures",
+          "Network Components",
+          "Find A Rep",
+          "Typical Drawings",
+          "my.ilc",
+          "Resources",
+          "ILC-SWX Occupancy Sensors",
+          "Contact",
+          "Support",
+          "ILC-SWX Occupancy Sensors & Switches",
+          "Digital Switches, Touchscreens & User Interfaces",
+          "Wiring Diagrams",
+          "EVO Distributed & Integrated Controls",
+          "Interfaces & Accessories"
+        ],
+        "EDP1_Category_Count": 20,
+        "EDP1_Configuration_Options": false,
+        "EDP1_Has_Configurator": false,
+        "EDP1_Catalog_Format": "Interactive catalog",
+        "EDP1_Has_Search": true,
+        "EDP1_Search_Sophistication": "Basic",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 50,
+        "EDP2_Has_Rep_Locator": true,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 20,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 65,
+        "EDP6_Channels_Detected": [],
+        "EDP6_Channel_Count": 0,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": false,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": false,
+        "EDP6_Pricing_Transparency": "Quote only",
+        "EDP6_Brand_Count": 1,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 40,
+        "EDP7_Has_Product_Search": true,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": false,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": false,
+        "EDP7_Resource_Formats": [],
+        "EDP7_Resource_Format_Count": 0,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Comparison tool",
+          "Quote builder",
+          "Project boards"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 25,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 4.1,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [],
+        "EDP8_Integration_Count": 0,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Drupal",
+        "EDP8_Uses_CDN": false,
+        "EDP8_Copyright_Year": 2025,
+        "EDP8_Staleness_Score": 0,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "lighting",
+          "decor"
+        ],
+        "Target_Audience": "Mixed",
+        "Geographic_Presence": "USA",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Comparison tool",
+          "Quote builder",
+          "Project boards",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": false,
+        "JavaScript_Frameworks": [],
+        "Has_Search_Endpoint": true,
+        "Has_Resources_Page": true,
+        "Has_Events_Page": false,
+        "Broken_Links_Count": 2,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "Drupal"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 50.0,
+          "EDP2_Rep_Management": 65.0,
+          "EDP6_Channel_Conflict": 40.0,
+          "EDP7_Sales_Enablement": 25.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 43.0,
+          "primary_edp": "EDP8_Technology_Obsolescence",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.4515
+        },
+        "averaged_methodology": {
+          "psi_score": 46.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "medium",
+            "expansion_opportunities": [],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "Your 10 reps have no portal"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 3.0,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "technology_1",
+            "subject": "Intelligent Lighting Controls vs digital-native competitors",
+            "body": "Hi Ali,\n\nI see Intelligent Lighting Controls still relies on PDF catalogs. Companies with manual distribution typically experience:\n\n- Price updates taking 3-5 days to reach reps\n- Conflicting quotes from outdated sheets\n- Reps working from wrong info constantly\n\nIs this creating headaches for your team?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "technology_2",
+            "subject": "The PDF problem gets worse over time",
+            "body": "Hi Ali,\n\nThe PDF problem gets worse over time. What starts as minor inconsistencies becomes major credibility issues.\n\nWildwood Lamps eliminated this - their manager says she \"reduced calls by a third\" just by getting everyone on the same system.\n\nHow many hours weekly does your team spend on version control?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "technology_3",
+            "subject": "Digital transformation sounds complex",
+            "body": "Hi Ali,\n\nDigital transformation sounds complex, but it's really about one thing: Can your reps access accurate info instantly?\n\nIf the answer is no, you're fighting with one hand tied.\n\nWant to untie it?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP8_Technology_Obsolescence"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed Intelligent Lighting Controls's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at Intelligent Lighting Controls:\n\u2022 Your 10 reps have no portal\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "Intelligent Lighting Controls: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at Intelligent Lighting Controls. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"Intelligent Lighting Controls\"",
+              "Intelligent Lighting Controls operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for Intelligent Lighting Controls"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "Intelligent Lighting Controls: $750,000 Crisis Detected",
+            "intro_text": "Attention Intelligent Lighting Controls leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "Intelligent Lighting Controls",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "medium",
+            "expansion_opportunities": [],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 43.0,
+          "averaged_psi": 46.0,
+          "purchase_probability": 0.4515,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    },
+    {
+      "company_name": "Lighting Services Inc",
+      "domain": "lightingservicesinc.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-09-19T02:22:21.382677",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://lightingservicesinc.com",
+        "scan_timestamp": "2025-09-19T02:22:21.382855",
+        "EDP1_SKU_Count_Estimate": 500,
+        "EDP1_Product_Categories": [],
+        "EDP1_Category_Count": 0,
+        "EDP1_Configuration_Options": false,
+        "EDP1_Has_Configurator": false,
+        "EDP1_Catalog_Format": "Basic website",
+        "EDP1_Has_Search": false,
+        "EDP1_Search_Sophistication": "None",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 60,
+        "EDP2_Has_Rep_Locator": false,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 10,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 100,
+        "EDP6_Channels_Detected": [],
+        "EDP6_Channel_Count": 0,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": false,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": false,
+        "EDP6_Pricing_Transparency": "Quote only",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 40,
+        "EDP7_Has_Product_Search": false,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": false,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": false,
+        "EDP7_Resource_Formats": [],
+        "EDP7_Resource_Format_Count": 0,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Product search",
+          "Comparison tool",
+          "Quote builder",
+          "Project boards"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 65,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 4.5,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [],
+        "EDP8_Integration_Count": 0,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Unknown",
+        "EDP8_Uses_CDN": true,
+        "EDP8_Copyright_Year": 2025,
+        "EDP8_Staleness_Score": 0,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "lighting"
+        ],
+        "Target_Audience": "Mixed",
+        "Geographic_Presence": "Unknown",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Product search",
+          "Comparison tool",
+          "Quote builder",
+          "Project boards",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": false,
+        "JavaScript_Frameworks": [],
+        "Has_Search_Endpoint": false,
+        "Has_Resources_Page": false,
+        "Has_Events_Page": false,
+        "Broken_Links_Count": 0,
+        "Uses_Modern_CSS": false,
+        "Website_Tech_Stack": [
+          "CDN"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 60.0,
+          "EDP2_Rep_Management": 100.0,
+          "EDP6_Channel_Conflict": 40.0,
+          "EDP7_Sales_Enablement": 65.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 63.45,
+          "primary_edp": "EDP7_Sales_Enablement",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.6979500000000002
+        },
+        "averaged_methodology": {
+          "psi_score": 63.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 65.0,
+                "opportunity": "Secondary pain point with 65.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "No mobile site for High Point Market?",
+            "Lighting Services Inc: Manual catalog navigation killing productivity",
+            "Your 10 reps have no portal"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [
+            {
+              "edp": "EDP2_Rep_Management",
+              "score": 100.0,
+              "level": "immediate_action_required"
+            }
+          ],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 0.45000000000000284,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "sales_enablement_1",
+            "subject": "Quick question about Lighting Services Inc's trade show process",
+            "body": "Hi Britt,\n\nNoticed Lighting Services Inc doesn't have mobile catalog access. When we see this, it usually means:\n\n- Trade show orders written on paper, entered later\n- Reps can't quote without calling the office\n- Show leads lost to slow follow-up\n\nSound familiar? Or have you found workarounds?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "sales_enablement_2",
+            "subject": "Quick story about mobile transformation",
+            "body": "Hi Britt,\n\nQuick story - Godinger Silver's reps used to haul paper catalogs everywhere. Their VP told us that going mobile was \"the best thing that has ever happened to this company in 25 years.\"\n\nThe real impact? Reps actually selling instead of searching through binders.\n\nHow much time do your reps waste on manual lookups?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "sales_enablement_3",
+            "subject": "The mobile gap is real",
+            "body": "Hi Britt,\n\nThe mobile gap is real. While your reps flip through papers, competitors close deals on iPads.\n\nIt's not about being cutting-edge - it's about basic efficiency in 2025.\n\nReady to level the playing field?",
+            "methodology": "refined_template",
+            "primary_edp": "EDP7_Sales_Enablement"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed Lighting Services Inc's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at Lighting Services Inc:\n\u2022 No mobile site for High Point Market?\n\u2022 Lighting Services Inc: Manual catalog navigation killing productivity\n\u2022 Your 10 reps have no portal\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "Lighting Services Inc: Crisis Intervention Required",
+              "$750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at Lighting Services Inc. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"Lighting Services Inc\"",
+              "Lighting Services Inc operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for Lighting Services Inc"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "Lighting Services Inc: $750,000 Crisis Detected",
+            "intro_text": "Attention Lighting Services Inc leadership:\n\nYour operations analysis reveals critical failures costing $750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "Lighting Services Inc",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 65.0,
+                "opportunity": "Secondary pain point with 65.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 60.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 60.0% severity"
+            },
+            {
+              "edp": "EDP7_Sales_Enablement",
+              "score": 65.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 65.0% severity"
+            }
+          ],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 63.45,
+          "averaged_psi": 63.0,
+          "purchase_probability": 0.6979500000000002,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    }
+  ]
+}

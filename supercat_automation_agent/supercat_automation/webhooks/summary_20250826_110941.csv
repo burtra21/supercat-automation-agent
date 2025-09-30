@@ -1,0 +1,6 @@
+company_name,domain,tier,psi_score,primary_edp,urgency,email,campaign_strategy
+9to5 Seating,9to5seating.com,TIER_2_ACTIVE,38.7,rep_performance_crisis,medium,ed.lachman@9to5seating.com,educational
+Abbott Collection,abbottcollection.com,TIER_2_ACTIVE,37.5,rep_performance_crisis,medium,lee.a@abbottcollection.com,educational
+"A & B HOME GROUP, INC.",abhomeinc.com,TIER_2_ACTIVE,50.3,sales_enablement_collapse,high,emadb@abhongda.net,aggressive_trade_show
+"Allstate Floral, Inc.",allstatefloral.com,TIER_2_ACTIVE,50.3,sales_enablement_collapse,high,,aggressive_trade_show
+A. Rudin,arudin.com,TIER_3_NURTURE,23.7,rep_performance_crisis,none,npizarro@arudin.com,nurture

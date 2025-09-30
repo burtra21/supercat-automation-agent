@@ -1,0 +1,22 @@
+
+        ========================================
+        TRADE SHOW SCRAPING REPORT
+        ========================================
+        Timestamp: 2025-08-17 09:39:23
+        
+        Summary:
+        - Scrapers Run: 3
+        - Successful: 0
+        - Failed: 3
+        
+        Results:
+        - Total Exhibitors Found: 0
+        - Total Exhibitors Processed & Saved: 0
+        ========================================
+        
+
+--- Run Details ---
+
+❌ vegas_market: WebSocket error: getaddrinfo ENOTFOUND brd.superproxy.io
+❌ high_point: WebSocket error: getaddrinfo ENOTFOUND brd.superproxy.io
+❌ americasmart: WebSocket error: getaddrinfo ENOTFOUND brd.superproxy.io

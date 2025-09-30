@@ -1,0 +1,83 @@
+{
+  "webhook_type": "campaign",
+  "company_id": "70cd3bef-da57-4851-99e3-5d14d25cc351",
+  "company_name": "Atkore",
+  "domain": "atkore.com",
+  "tam_tier": "TIER_1_IMMEDIATE",
+  "psi_score": 42.8,
+  "primary_edp": "rep_performance_crisis",
+  "persona_type": "sales_leadership",
+  "backup_persona": "c_suite",
+  "persona_reason": "Primary EDP is rep_performance_crisis",
+  "urgency_level": "medium",
+  "campaign_strategy": "educational",
+  "days_until_show": -494,
+  "email_sequence": [
+    {
+      "day": 0,
+      "subject": "Why Atkore's top reps are 10x more productive",
+      "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+    },
+    {
+      "day": 3,
+      "subject": "27% rep turnover is killing your growth",
+      "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs Atkore approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+    }
+  ],
+  "linkedin_sequence": [
+    {
+      "type": "connection_request",
+      "message": "Hi {{first_name}}, noticed Atkore works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+    },
+    {
+      "type": "follow_up_message",
+      "day": 7,
+      "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+    }
+  ],
+  "campaign_timeline": {
+    "phase_1": "awareness_building",
+    "phase_2": "educational_content",
+    "phase_3": "soft_engagement",
+    "total_duration_days": 28
+  },
+  "follow_up_schedule": [
+    {
+      "day": 5,
+      "action": "follow_up_email",
+      "channel": "email"
+    },
+    {
+      "day": 12,
+      "action": "linkedin_message",
+      "channel": "linkedin"
+    },
+    {
+      "day": 21,
+      "action": "value_add_email",
+      "channel": "email"
+    }
+  ],
+  "contact_info": {
+    "first_name": "Eric",
+    "last_name": "Banks",
+    "email": "ebanks@atkore.com",
+    "title": "Vice President, Operations",
+    "linkedin": "https://www.linkedin.com/in/ericbanks1775/"
+  },
+  "campaign_metadata": {
+    "created_at": "2025-08-26T12:38:02.760840",
+    "expected_duration": 28,
+    "success_metrics": {
+      "primary_goal": "meeting_booked",
+      "secondary_goal": "demo_scheduled",
+      "engagement_threshold": 0.4,
+      "response_target_days": 7
+    },
+    "optimization_notes": [
+      "Moderate pain - focus on education and ROI demonstration",
+      "Highlight performance tracking and coaching capabilities"
+    ]
+  },
+  "webhook_version": "4.0_campaign"
+}

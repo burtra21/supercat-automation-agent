@@ -1,0 +1,339 @@
+{
+  "processing_version": "v2_validated",
+  "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+  "timestamp": "20250828_042253",
+  "summary": {
+    "total_processed": 1,
+    "successful": 1,
+    "errors": 0,
+    "success_rate": "100.0%",
+    "qualification_results": {
+      "total_qualified": 0,
+      "qualification_rate": "0.0%",
+      "tier_distribution": {
+        "TIER_A_IMMEDIATE": 0,
+        "TIER_B_ACTIVE": 0,
+        "TIER_C_MONITOR": 1,
+        "NOT_QUALIFIED": 0
+      },
+      "tier_a_immediate": 0,
+      "tier_b_active": 0,
+      "tier_c_monitor": 1
+    },
+    "psi_analysis": {
+      "average_weighted_psi": "39.2%",
+      "psi_range": "39.2% - 39.2%",
+      "high_psi_count": 0,
+      "medium_psi_count": 0,
+      "low_psi_count": 1
+    },
+    "campaign_generation": {
+      "campaigns_generated": 0,
+      "generation_rate": "0.0%"
+    },
+    "integration_results": {
+      "sent_to_clay": 1,
+      "saved_to_supabase": 0,
+      "clay_success_rate": "100.0%",
+      "supabase_success_rate": "0.0%"
+    }
+  },
+  "stats": {
+    "processed": 1,
+    "qualified": 0,
+    "tier_a_immediate": 0,
+    "tier_b_active": 0,
+    "tier_c_monitor": 1,
+    "sent_to_clay": 1,
+    "saved_to_supabase": 0,
+    "campaigns_generated": 0,
+    "errors": []
+  },
+  "results": [
+    {
+      "company_name": "9to5 Seating",
+      "domain": "9to5seating.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-08-28T04:22:45.424181",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://9to5seating.com",
+        "scan_timestamp": "2025-08-28T04:22:45.424191",
+        "EDP1_SKU_Count_Estimate": 5000,
+        "EDP1_Product_Categories": [
+          "Lounge",
+          "Corporate",
+          "Additional Resources",
+          "What\u2019s New",
+          "Sales Rep Locator",
+          "Hospitality",
+          "All Seating",
+          "@NCE - Ships in 24 hrs",
+          "Task",
+          "Showroom Virtual Tours",
+          "Back to Application Type",
+          "Seating Category",
+          "Tori",
+          "Back to Seating Category",
+          "Back to Contracts",
+          "Mesh",
+          "View",
+          "Fabric",
+          "Stool",
+          "Product Updates"
+        ],
+        "EDP1_Category_Count": 20,
+        "EDP1_Configuration_Options": true,
+        "EDP1_Has_Configurator": true,
+        "EDP1_Catalog_Format": "PDF-heavy",
+        "EDP1_Has_Search": true,
+        "EDP1_Search_Sophistication": "Basic",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 60,
+        "EDP2_Has_Rep_Locator": true,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 20,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 65,
+        "EDP6_Channels_Detected": [
+          "Dealer Network",
+          "Contract Sales"
+        ],
+        "EDP6_Channel_Count": 2,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": true,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": true,
+        "EDP6_Pricing_Transparency": "Public pricing",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 0,
+        "EDP7_Has_Product_Search": true,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": true,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": true,
+        "EDP7_Resource_Formats": [
+          "PDF"
+        ],
+        "EDP7_Resource_Format_Count": 1,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Comparison tool",
+          "Quote builder"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 15,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 5.4,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [
+          "api"
+        ],
+        "EDP8_Integration_Count": 1,
+        "EDP8_Has_API": true,
+        "EDP8_CMS_Detected": "Wordpress",
+        "EDP8_Uses_CDN": true,
+        "EDP8_Copyright_Year": 2025,
+        "EDP8_Staleness_Score": 0,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [
+          "NeoCon"
+        ],
+        "Trade_Show_Count": 1,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "furniture",
+          "decor"
+        ],
+        "Target_Audience": "Trade only",
+        "Geographic_Presence": "Unknown",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Comparison tool",
+          "Quote builder",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": true,
+        "JavaScript_Frameworks": [
+          "jquery"
+        ],
+        "Has_Search_Endpoint": true,
+        "Has_Resources_Page": true,
+        "Has_Events_Page": true,
+        "Broken_Links_Count": 3,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "jquery",
+          "Wordpress",
+          "CDN"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 60.0,
+          "EDP2_Rep_Management": 65.0,
+          "EDP6_Channel_Conflict": 0.0,
+          "EDP7_Sales_Enablement": 15.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 39.25,
+          "primary_edp": "EDP8_Technology_Obsolescence",
+          "tier": "TIER_C_MONITOR",
+          "qualification_decision": false,
+          "purchase_probability": 0.412125
+        },
+        "averaged_methodology": {
+          "psi_score": 38.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_C_MONITOR",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "medium",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "monitor",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "Your 10 reps have no portal"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 1.25,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "educational_nurture",
+        "qualification_tier": "TIER_C_MONITOR",
+        "primary_methodology": "averaged",
+        "approach": "operational_efficiency_focus",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "operational_assessment",
+            "subject": "Found 9to5 Seating's operational improvement opportunities",
+            "body": "Hey Ed,\n\nI analyzed 9to5 Seating's operations and found several improvement opportunities:\n\n\u2022 SKU Management SKU Complexity: 60% optimization opportunity\n\u2022 Rep Performance Rep Management: 65% optimization opportunity\n\u2022 Technology Technology Obsolescence: 50% optimization opportunity\n\nYour 10 reps have no portal\n\nCompanies with similar profiles typically see:\n\u2022 25-40% productivity improvements  \n\u2022 15-30% error reduction\n\u2022 Better trade show performance\n\nWould you like to see how Butler Specialty optimized their operations?\n\nBest,\n[Your Name]\n\nP.S. No sales pitch - just sharing what worked for similar companies.",
+            "methodology": "averaged",
+            "primary_edp": "EDP2_Rep_Management"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 4,
+            "email_type": "industry_benchmarking",
+            "subject": "How Butler Specialty solved 9to5 Seating's challenges",
+            "body": "Hey Ed,\n\nQuick follow-up on 9to5 Seating's operational analysis.\n\nButler Specialty had similar challenges:\n\"eCat flexibly configures to the way we do business\"\n\nTheir transformation: 300% rep productivity increase\n\nIndustry benchmark data shows companies addressing these gaps see:\n\u2022 47-day average payback period\n\u2022 300% rep productivity increases\n\u2022 40% reduction in manual processes\n\nWant their 12-minute case study video?\n\nBest,\n[Your Name]",
+            "methodology": "averaged",
+            "customer_example": {
+              "company": "Butler Specialty",
+              "quote": "eCat flexibly configures to the way we do business",
+              "transformation": "300% rep productivity increase",
+              "psi_score": 75.0
+            }
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 8,
+            "email_type": "roi_analysis",
+            "subject": "9to5 Seating: $750,000 optimization opportunity",
+            "body": "Hey Ed,\n\nBased on 9to5 Seating's operational analysis, here's the financial impact:\n\nCurrent inefficiencies cost approximately $750,000 annually:\n\u2022 Rep productivity gaps: $300,000\n\u2022 Manual process waste: $262,500\n\u2022 Technology delays: $187,500\n\nButler Specialty recovered their investment in 47 days with similar improvements.\n\nROI calculator for furniture manufacturers?\n\nBest,\n[Your Name]",
+            "methodology": "averaged",
+            "roi_data": {
+              "annual_loss": 750000
+            }
+          },
+          {
+            "sequence_step": 4,
+            "send_day": 12,
+            "email_type": "resource_sharing",
+            "subject": "Resources that helped companies like 9to5 Seating",
+            "body": "Hey Ed,\n\nSharing some resources that helped companies like 9to5 Seating:\n\n\ud83d\udcca 2025 Furniture Industry Efficiency Report\n\ud83d\udccb Operational Assessment Checklist  \n\ud83c\udfaf Trade Show Mobile Strategy Guide\n\nThese are based on our analysis of 15 companies ($2.3M portfolio) in the validation study.\n\nButler Specialty used these exact resources before their transformation.\n\nDownload link?\n\nBest,\n[Your Name]",
+            "methodology": "averaged"
+          },
+          {
+            "sequence_step": 5,
+            "send_day": 16,
+            "email_type": "final_value_offer",
+            "subject": "Final insights for 9to5 Seating (no pitch)",
+            "body": "Hey Ed,\n\nLast note about 9to5 Seating's operational opportunities.\n\nThe companies that acted on similar findings:\n\u2022 Butler Specialty: 300% rep productivity increase\n\u2022 Godinger Silver: \"Best thing in 25 years\"\n\u2022 Wildwood Lamps: 33% fewer support calls\n\nYour analysis shows 3 optimization areas worth $750,000 annually.\n\n15-minute call to share what worked for them? (No pitch, just insights)\n\nBest,\n[Your Name]\n\nP.S. If not interested, I'll stop here. Just wanted to share what helped similar companies.",
+            "methodology": "averaged"
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi Ed,\n\nAnalyzed 9to5 Seating's operations - found some interesting optimization opportunities.\n\nYour 10 reps have no portal\n\nWorth connecting to share insights?\n\nBest,\n[Your Name]",
+            "send_day": 0,
+            "methodology": "averaged"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, Ed!\n\nQuick follow-up on 9to5 Seating's operational analysis:\n\nKey findings:\n\u2022 Your 10 reps have no portal\n\nButler Specialty had similar challenges and saw: 300% rep productivity increase\n\nWorth $750,000 annually in optimization potential.\n\n12-minute case study video? (No pitch, just insights)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "averaged",
+            "customer_example": {
+              "company": "Butler Specialty",
+              "quote": "eCat flexibly configures to the way we do business",
+              "transformation": "300% rep productivity increase",
+              "psi_score": 75.0
+            }
+          }
+        ],
+        "content_suggestions": [
+          {
+            "content_type": "whitepaper",
+            "title": "Operational Efficiency in Furniture Manufacturing",
+            "description": "Best practices for operational improvement"
+          }
+        ],
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 39.25,
+          "averaged_psi": 38.0,
+          "purchase_probability": 0.412125,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "company_id": "24e5f52c-4639-439f-9b54-40d5f60772cf",
+  "company_name": "burton + BURTON",
+  "domain": "burtonandburton.com",
+  "tam_tier": "TIER_3_NURTURE",
+  "psi_score": 38.8,
+  "primary_edp": "rep_performance_crisis",
+  "edp_scores": {
+    "sales_enablement_collapse": 0.3,
+    "technology_obsolescence": 0,
+    "rep_performance_crisis": 1.0,
+    "sku_complexity": 0.4,
+    "channel_conflict": 0.4
+  },
+  "evidence": [
+    "No product search",
+    "No rep locator",
+    "No sales resources",
+    "No territory info",
+    "Large catalog"
+  ],
+  "persona_type": "sales_leadership",
+  "backup_persona": "c_suite",
+  "persona_reason": "Primary EDP is rep_performance_crisis",
+  "urgency_level": "low",
+  "campaign_strategy": "nurture",
+  "days_until_show": -491,
+  "email_sequence": [
+    {
+      "day": 0,
+      "subject": "Why burton + BURTON's top reps are 10x more productive",
+      "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+    },
+    {
+      "day": 3,
+      "subject": "27% rep turnover is killing your growth",
+      "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs burton + BURTON approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+    }
+  ],
+  "linkedin_sequence": [
+    {
+      "type": "connection_request",
+      "message": "Hi {{first_name}}, noticed burton + BURTON works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+    },
+    {
+      "type": "follow_up_message",
+      "day": 7,
+      "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+    }
+  ],
+  "contact_info": {
+    "first_name": "Elaine",
+    "last_name": "Chandler",
+    "email": "echandler@burtonandburton.com",
+    "title": "Corporate Sales Executive",
+    "linkedin": "https://www.linkedin.com/in/elaine-chandler-1810b614a/"
+  },
+  "company_info": {
+    "industry": "Wholesale",
+    "employee_count": 151
+  },
+  "created_at": "2025-08-23T07:15:19.578422",
+  "webhook_version": "2.0"
+}

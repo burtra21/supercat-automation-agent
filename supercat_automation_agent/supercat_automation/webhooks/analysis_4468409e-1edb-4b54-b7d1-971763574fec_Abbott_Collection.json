@@ -1,0 +1,123 @@
+{
+  "webhook_type": "analysis",
+  "company_id": "4468409e-1edb-4b54-b7d1-971763574fec",
+  "company_name": "Abbott Collection",
+  "domain": "abbottcollection.com",
+  "tam_tier": "TIER_2_ACTIVE",
+  "psi_score": 37.5,
+  "primary_edp": "rep_performance_crisis",
+  "edp_scores": {
+    "sales_enablement_collapse": 0.25,
+    "technology_obsolescence": 0.2,
+    "rep_performance_crisis": 1.0,
+    "sku_complexity": 0.65,
+    "channel_conflict": 0.3
+  },
+  "evidence": [
+    "No dealer/rep portal detected",
+    "No modern web framework detected",
+    "No rep/dealer locator found",
+    "No dedicated rep resources section",
+    "Only 0 filter options found on catalog page."
+  ],
+  "detailed_evidence": {
+    "sales_enablement_collapse": {
+      "score": 0.25,
+      "indicators": [
+        "no_dealer_portal"
+      ],
+      "issues": [
+        "No dealer/rep portal detected"
+      ],
+      "strength": "weak"
+    },
+    "technology_obsolescence": {
+      "score": 0.2,
+      "indicators": [
+        "no_modern_framework"
+      ],
+      "issues": [
+        "No modern web framework detected"
+      ],
+      "strength": "weak"
+    },
+    "rep_performance_crisis": {
+      "score": 1.0,
+      "indicators": [
+        "no_rep_locator",
+        "no_rep_resources",
+        "no_territory_info"
+      ],
+      "issues": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ],
+      "strength": "strong"
+    },
+    "sku_complexity": {
+      "score": 0.65,
+      "indicators": [
+        "limited_filtering",
+        "complex_configurations"
+      ],
+      "issues": [
+        "Only 0 filter options found on catalog page.",
+        "Product configurator detected - high complexity"
+      ],
+      "strength": "strong"
+    },
+    "channel_conflict": {
+      "score": 0.3,
+      "indicators": [
+        "hidden_pricing"
+      ],
+      "issues": [
+        "Pricing requires login - channel conflict likely"
+      ],
+      "strength": "moderate"
+    },
+    "specific_findings": [
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "No territory information visible",
+      "Only 0 filter options found on catalog page.",
+      "Product configurator detected - high complexity"
+    ]
+  },
+  "urgency_level": "medium",
+  "website_analysis": {
+    "technology_stack": {},
+    "seo_metrics": {},
+    "content_analysis": {},
+    "user_experience": {}
+  },
+  "competitive_positioning": {
+    "market_segment": "smb",
+    "competitive_threats": [],
+    "differentiation_opportunities": []
+  },
+  "contact_info": {
+    "first_name": "Lee",
+    "last_name": "Abbott",
+    "email": "lee.a@abbottcollection.com",
+    "title": "Vice President",
+    "linkedin": "https://www.linkedin.com/in/lee-abbott-a789694b/"
+  },
+  "company_info": {
+    "industry": "Wholesale",
+    "employee_count": 95,
+    "revenue_estimate": "",
+    "headquarters": ""
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-08-26T13:31:15.745851",
+    "data_sources": [
+      "website_analysis",
+      "contact_enrichment"
+    ],
+    "confidence_score": 0.8,
+    "last_updated": "2025-08-26T13:31:15.745868"
+  },
+  "webhook_version": "4.0_analysis"
+}

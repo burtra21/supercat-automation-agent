@@ -1,0 +1,5 @@
+webhook_type,company_name,domain,tier,psi_score,primary_edp,urgency,email,campaign_strategy
+analysis,9to5 Seating,9to5seating.com,TIER_2_ACTIVE,38.7,rep_performance_crisis,medium,ed.lachman@9to5seating.com,N/A
+analysis,Abbott Collection,abbottcollection.com,TIER_2_ACTIVE,37.5,rep_performance_crisis,medium,lee.a@abbottcollection.com,N/A
+campaign,9to5 Seating,9to5seating.com,TIER_2_ACTIVE,38.7,rep_performance_crisis,medium,ed.lachman@9to5seating.com,educational
+campaign,Abbott Collection,abbottcollection.com,TIER_2_ACTIVE,37.5,rep_performance_crisis,medium,lee.a@abbottcollection.com,educational

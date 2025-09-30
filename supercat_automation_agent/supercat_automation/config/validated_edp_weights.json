@@ -1,0 +1,82 @@
+{
+  "methodology_config": {
+    "primary_method": "weighted",
+    "use_averaged_for_intelligence": true,
+    "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+    "customer_base_analyzed": "$2.3M portfolio, 15 companies, 89 data points"
+  },
+  "weighted_methodology": {
+    "description": "Purchase-driven analysis - validates customer interview findings",
+    "total_weight": 1.0,
+    "weights": {
+      "EDP1_SKU_Complexity": 0.10,
+      "EDP2_Rep_Management": 0.20,
+      "EDP6_Channel_Conflict": 0.05,
+      "EDP7_Sales_Enablement": 0.35,
+      "EDP8_Technology_Obsolescence": 0.30
+    },
+    "validation_results": {
+      "EDP7_primary_percentage": 73,
+      "EDP8_primary_percentage": 27,
+      "other_edps_primary_percentage": 0,
+      "validates_customer_interviews": true
+    }
+  },
+  "averaged_methodology": {
+    "description": "Comprehensive operational analysis - reveals hidden challenges",
+    "weights": {
+      "EDP1_SKU_Complexity": 0.20,
+      "EDP2_Rep_Management": 0.20,
+      "EDP6_Channel_Conflict": 0.20,
+      "EDP7_Sales_Enablement": 0.20,
+      "EDP8_Technology_Obsolescence": 0.20
+    },
+    "validation_results": {
+      "EDP6_primary_percentage": 47,
+      "EDP7_primary_percentage": 33,
+      "EDP2_primary_percentage": 13,
+      "EDP1_primary_percentage": 7,
+      "reveals_operational_challenges": true
+    }
+  },
+  "crisis_thresholds": {
+    "tier_a_immediate": {
+      "weighted_psi_min": 70,
+      "description": "Crisis mode - immediate action required",
+      "customer_percentage": 40,
+      "examples": ["Pebl Furniture (89.7%)", "GlobaLux Lighting (79.75%)", "America's Backyards (75%)"]
+    },
+    "tier_b_active": {
+      "weighted_psi_min": 40,
+      "weighted_psi_max": 69,
+      "description": "Active nurturing required",
+      "customer_percentage": 53
+    },
+    "tier_c_monitor": {
+      "weighted_psi_max": 39,
+      "description": "Monitor for changes",
+      "customer_percentage": 7
+    }
+  },
+  "portfolio_benchmarks": {
+    "average_weighted_psi": 67.2,
+    "crisis_mode_percentage": 40,
+    "qualification_accuracy": 85,
+    "target_accuracy": 95
+  },
+  "gap_analysis_improvements": {
+    "channel_conflict_underweighting": {
+      "current_weight": 0.05,
+      "suggested_weight": 0.15,
+      "reason": "47% show EDP6 primary in averaged analysis"
+    },
+    "rep_management_blindspot": {
+      "issue": "40% lack rep portals but only 13% flagged as primary",
+      "improvement": "Add rep-to-portal ratios and territory complexity multipliers"
+    },
+    "sku_complexity_masking": {
+      "issue": "Extreme SKU counts not triggering primary alerts",
+      "improvement": "Add SKU threshold multipliers above 5,000 units"
+    }
+  }
+}

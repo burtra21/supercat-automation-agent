@@ -1,0 +1,79 @@
+{
+  "company_id": "93156f30-f9ad-4335-a46f-10e4405cd7ab",
+  "company_name": "Atkore",
+  "domain": "atkore.com",
+  "tam_tier": "TIER_2_ACTIVE",
+  "psi_score": 43.6,
+  "primary_edp": "sales_enablement_collapse",
+  "edp_scores": {
+    "sales_enablement_collapse": 0.5,
+    "technology_obsolescence": 0,
+    "rep_performance_crisis": 0.7,
+    "sku_complexity": 0.7,
+    "channel_conflict": 0.4
+  },
+  "evidence": [
+    "No product search",
+    "Manual quote requests",
+    "No rep locator",
+    "No sales resources",
+    "Configuration complexity"
+  ],
+  "persona_type": "sales_leadership",
+  "backup_persona": "c_suite",
+  "persona_reason": "Primary EDP is sales_enablement_collapse",
+  "urgency_level": "medium",
+  "campaign_strategy": "educational",
+  "days_until_show": -491,
+  "email_sequence": [
+    {
+      "day": 0,
+      "subject": "Atkore - Still using paper at trade shows?",
+      "body": "Hi {{first_name}},\n\nI noticed Atkore has a major presence at High Point Market. With the show in -491 days, how are your reps planning to handle orders when they can't access your systems?\n\nLast year, several exhibitors lost over $50K each during WiFi outages.\n\nHow do you currently handle order processing at trade shows?\n\nBest,\n{{sender_name}}"
+    },
+    {
+      "day": 3,
+      "subject": "How Butler Specialty solved this",
+      "body": "{{first_name}},\n\nQuick follow-up - Butler Specialty had the same challenge at High Point. Their President told me: 'eCat flexibly configures to the way we do business'\n\nThey now process orders completely offline. Zero downtime.\n\nWorth a quick call?\n\n{{sender_name}}"
+    },
+    {
+      "day": 7,
+      "subject": "30% order error rate industry average",
+      "body": "{{first_name}},\n\nDid you know the furniture industry averages a 30% order error rate with manual processes?\n\nAt your scale, that could mean $400K+ in lost margin annually.\n\nHere's a 2-minute video showing how eCat eliminates these errors: [link]\n\n{{sender_name}}"
+    },
+    {
+      "day": 10,
+      "subject": "ROI calculator for Atkore",
+      "body": "{{first_name}},\n\nI ran some numbers for Atkore:\n\n- Time saved: 3 hours/day per rep\n- Error reduction: 25%\n- Trade show revenue protection: $150K+\n\nTotal first-year ROI: 412%\n\nWant to see the full breakdown?\n\n{{sender_name}}"
+    },
+    {
+      "day": 14,
+      "subject": "Godinger Silver case study",
+      "body": "{{first_name}},\n\nJoel Stern, VP IT at Godinger Silver, called eCat 'Best thing in 25 years, reps are in love'\n\nThey saw:\n- 67% reduction in order processing time\n- Zero trade show downtime\n- 40% increase in rep productivity\n\nHere's their full story: [link]\n\n{{sender_name}}"
+    }
+  ],
+  "linkedin_sequence": [
+    {
+      "type": "connection_request",
+      "message": "Hi {{first_name}}, noticed Atkore's presence at High Point Market. Managing orders without reliable WiFi must be challenging. Would love to share how similar companies handle this."
+    },
+    {
+      "type": "follow_up_message",
+      "day": 7,
+      "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+    }
+  ],
+  "contact_info": {
+    "first_name": "Eric",
+    "last_name": "Banks",
+    "email": "ebanks@atkore.com",
+    "title": "Vice President, Operations",
+    "linkedin": "https://www.linkedin.com/in/ericbanks1775/"
+  },
+  "company_info": {
+    "industry": "Appliances, Electrical, and Electronics Manufacturing",
+    "employee_count": 1969
+  },
+  "created_at": "2025-08-23T07:20:33.794355",
+  "webhook_version": "2.0"
+}

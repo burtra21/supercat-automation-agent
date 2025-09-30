@@ -1,0 +1,1189 @@
+[
+  {
+    "webhook_type": "analysis",
+    "company_id": "3fda7441-e70c-4e4f-84aa-79ee0572ad6a",
+    "company_name": "9to5 Seating",
+    "domain": "9to5seating.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 40.3,
+    "primary_edp": "rep_performance_crisis",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.5,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.1,
+      "channel_conflict": 0
+    },
+    "evidence": [
+      "No product search functionality found",
+      "No dealer/rep portal detected",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section"
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.5,
+        "indicators": [
+          "no_product_search",
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No product search functionality found",
+          "No dealer/rep portal detected"
+        ],
+        "strength": "moderate"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "no_modern_framework"
+        ],
+        "issues": [
+          "No modern web framework detected"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.1,
+        "indicators": [],
+        "issues": [
+          "Could not find a product or catalog page."
+        ],
+        "strength": "none"
+      },
+      "channel_conflict": {
+        "score": 0,
+        "indicators": [],
+        "issues": [],
+        "strength": "none"
+      },
+      "specific_findings": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ]
+    },
+    "urgency_level": "medium",
+    "website_analysis": {
+      "technology_stack": {},
+      "seo_metrics": {},
+      "content_analysis": {},
+      "user_experience": {}
+    },
+    "competitive_positioning": {
+      "market_segment": "smb",
+      "competitive_threats": [],
+      "differentiation_opportunities": []
+    },
+    "contact_info": {
+      "first_name": "Ed",
+      "last_name": "Lachman",
+      "email": "ed.lachman@9to5seating.com",
+      "title": "Chief Operating Officer",
+      "linkedin": "https://www.linkedin.com/in/ed-lachman-15b1a862/"
+    },
+    "company_info": {
+      "industry": "Furniture and Home Furnishings Manufacturing",
+      "employee_count": 59,
+      "revenue_estimate": "",
+      "headquarters": ""
+    },
+    "analysis_metadata": {
+      "analysis_date": "2025-08-26T12:36:15.221662",
+      "data_sources": [
+        "website_analysis",
+        "contact_enrichment"
+      ],
+      "confidence_score": 0.8,
+      "last_updated": "2025-08-26T12:36:15.221676"
+    },
+    "webhook_version": "4.0_analysis"
+  },
+  {
+    "webhook_type": "analysis",
+    "company_id": "2384b87b-e3f0-4a31-bc77-4d6f88686c8d",
+    "company_name": "Abbott Collection",
+    "domain": "abbottcollection.com",
+    "tam_tier": "TIER_3_NURTURE",
+    "psi_score": 23.7,
+    "primary_edp": "rep_performance_crisis",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.25,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.25,
+      "channel_conflict": 0.3
+    },
+    "evidence": [
+      "No dealer/rep portal detected",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "Only 0 filter options found on catalog page."
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.25,
+        "indicators": [
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No dealer/rep portal detected"
+        ],
+        "strength": "weak"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "no_modern_framework"
+        ],
+        "issues": [
+          "No modern web framework detected"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.25,
+        "indicators": [
+          "limited_filtering"
+        ],
+        "issues": [
+          "Only 0 filter options found on catalog page."
+        ],
+        "strength": "weak"
+      },
+      "channel_conflict": {
+        "score": 0.3,
+        "indicators": [
+          "hidden_pricing"
+        ],
+        "issues": [
+          "Pricing requires login - channel conflict likely"
+        ],
+        "strength": "moderate"
+      },
+      "specific_findings": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ]
+    },
+    "urgency_level": "none",
+    "website_analysis": {
+      "technology_stack": {},
+      "seo_metrics": {},
+      "content_analysis": {},
+      "user_experience": {}
+    },
+    "competitive_positioning": {
+      "market_segment": "smb",
+      "competitive_threats": [],
+      "differentiation_opportunities": []
+    },
+    "contact_info": {
+      "first_name": "Lee",
+      "last_name": "Abbott",
+      "email": "lee.a@abbottcollection.com",
+      "title": "Vice President",
+      "linkedin": "https://www.linkedin.com/in/lee-abbott-a789694b/"
+    },
+    "company_info": {
+      "industry": "Wholesale",
+      "employee_count": 95,
+      "revenue_estimate": "",
+      "headquarters": ""
+    },
+    "analysis_metadata": {
+      "analysis_date": "2025-08-26T12:36:28.304013",
+      "data_sources": [
+        "website_analysis",
+        "contact_enrichment"
+      ],
+      "confidence_score": 0.8,
+      "last_updated": "2025-08-26T12:36:28.304053"
+    },
+    "webhook_version": "4.0_analysis"
+  },
+  {
+    "webhook_type": "analysis",
+    "company_id": "5663eda8-da27-4061-bfc6-f72087c3a49c",
+    "company_name": "A & B HOME GROUP, INC.",
+    "domain": "abhomeinc.com",
+    "tam_tier": "TIER_3_NURTURE",
+    "psi_score": 23.7,
+    "primary_edp": "rep_performance_crisis",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.25,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.25,
+      "channel_conflict": 0
+    },
+    "evidence": [
+      "No dealer/rep portal detected",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "Only 0 filter options found on catalog page."
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.25,
+        "indicators": [
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No dealer/rep portal detected"
+        ],
+        "strength": "weak"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "no_modern_framework"
+        ],
+        "issues": [
+          "No modern web framework detected"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.25,
+        "indicators": [
+          "limited_filtering"
+        ],
+        "issues": [
+          "Only 0 filter options found on catalog page."
+        ],
+        "strength": "weak"
+      },
+      "channel_conflict": {
+        "score": 0,
+        "indicators": [],
+        "issues": [],
+        "strength": "none"
+      },
+      "specific_findings": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ]
+    },
+    "urgency_level": "none",
+    "website_analysis": {
+      "technology_stack": {},
+      "seo_metrics": {},
+      "content_analysis": {},
+      "user_experience": {}
+    },
+    "competitive_positioning": {
+      "market_segment": "smb",
+      "competitive_threats": [],
+      "differentiation_opportunities": []
+    },
+    "contact_info": {
+      "first_name": "Emad",
+      "last_name": "Botros",
+      "email": "emadb@abhongda.net",
+      "title": "Director of Operations & Logistics",
+      "linkedin": "https://www.linkedin.com/in/emadbotors/"
+    },
+    "company_info": {
+      "industry": "Wholesale",
+      "employee_count": 43,
+      "revenue_estimate": "",
+      "headquarters": ""
+    },
+    "analysis_metadata": {
+      "analysis_date": "2025-08-26T12:36:47.232768",
+      "data_sources": [
+        "website_analysis",
+        "contact_enrichment"
+      ],
+      "confidence_score": 0.8,
+      "last_updated": "2025-08-26T12:36:47.232788"
+    },
+    "webhook_version": "4.0_analysis"
+  },
+  {
+    "webhook_type": "analysis",
+    "company_id": "b728a64a-663f-48c6-b9e8-fcb556622d46",
+    "company_name": "Allstate Floral, Inc.",
+    "domain": "allstatefloral.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 50.3,
+    "primary_edp": "sales_enablement_collapse",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.8,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.25,
+      "channel_conflict": 0
+    },
+    "evidence": [
+      "No product search functionality found",
+      "Not mobile optimized - critical for trade shows",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section"
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.8,
+        "indicators": [
+          "no_product_search",
+          "no_mobile_optimization",
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No product search functionality found",
+          "Not mobile optimized - critical for trade shows",
+          "No dealer/rep portal detected"
+        ],
+        "strength": "strong"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "no_modern_framework"
+        ],
+        "issues": [
+          "No modern web framework detected"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.25,
+        "indicators": [
+          "limited_filtering"
+        ],
+        "issues": [
+          "Only 0 filter options found on catalog page."
+        ],
+        "strength": "weak"
+      },
+      "channel_conflict": {
+        "score": 0,
+        "indicators": [],
+        "issues": [],
+        "strength": "none"
+      },
+      "specific_findings": [
+        "No product search functionality found",
+        "Not mobile optimized - critical for trade shows",
+        "No dealer/rep portal detected",
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ]
+    },
+    "urgency_level": "high",
+    "website_analysis": {
+      "technology_stack": {},
+      "seo_metrics": {},
+      "content_analysis": {},
+      "user_experience": {}
+    },
+    "competitive_positioning": {
+      "market_segment": "smb",
+      "competitive_threats": [],
+      "differentiation_opportunities": []
+    },
+    "contact_info": {
+      "first_name": "Tim",
+      "last_name": "Turntine",
+      "email": NaN,
+      "title": "Vice President of Sales",
+      "linkedin": "https://www.linkedin.com/in/tim-turntine-60919b120/"
+    },
+    "company_info": {
+      "industry": "Wholesale",
+      "employee_count": 63,
+      "revenue_estimate": "",
+      "headquarters": ""
+    },
+    "analysis_metadata": {
+      "analysis_date": "2025-08-26T12:36:52.853950",
+      "data_sources": [
+        "website_analysis",
+        "contact_enrichment"
+      ],
+      "confidence_score": 0.8,
+      "last_updated": "2025-08-26T12:36:52.853976"
+    },
+    "webhook_version": "4.0_analysis"
+  },
+  {
+    "webhook_type": "analysis",
+    "company_id": "1f9ee0ed-6a06-4523-994a-6b74dca349c6",
+    "company_name": "A. Rudin",
+    "domain": "arudin.com",
+    "tam_tier": "TIER_3_NURTURE",
+    "psi_score": 23.7,
+    "primary_edp": "rep_performance_crisis",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.25,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.25,
+      "channel_conflict": 0
+    },
+    "evidence": [
+      "No dealer/rep portal detected",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "Only 0 filter options found on catalog page."
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.25,
+        "indicators": [
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No dealer/rep portal detected"
+        ],
+        "strength": "weak"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "no_modern_framework"
+        ],
+        "issues": [
+          "No modern web framework detected"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.25,
+        "indicators": [
+          "limited_filtering"
+        ],
+        "issues": [
+          "Only 0 filter options found on catalog page."
+        ],
+        "strength": "weak"
+      },
+      "channel_conflict": {
+        "score": 0,
+        "indicators": [],
+        "issues": [],
+        "strength": "none"
+      },
+      "specific_findings": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ]
+    },
+    "urgency_level": "none",
+    "website_analysis": {
+      "technology_stack": {},
+      "seo_metrics": {},
+      "content_analysis": {},
+      "user_experience": {}
+    },
+    "competitive_positioning": {
+      "market_segment": "smb",
+      "competitive_threats": [],
+      "differentiation_opportunities": []
+    },
+    "contact_info": {
+      "first_name": "Natalie",
+      "last_name": "Mata Pizarro",
+      "email": "npizarro@arudin.com",
+      "title": "National Sales Director",
+      "linkedin": "https://www.linkedin.com/in/natalie-mata-pizarro-99862461/"
+    },
+    "company_info": {
+      "industry": "Furniture and Home Furnishings Manufacturing",
+      "employee_count": 24,
+      "revenue_estimate": "",
+      "headquarters": ""
+    },
+    "analysis_metadata": {
+      "analysis_date": "2025-08-26T12:37:05.967939",
+      "data_sources": [
+        "website_analysis",
+        "contact_enrichment"
+      ],
+      "confidence_score": 0.8,
+      "last_updated": "2025-08-26T12:37:05.967953"
+    },
+    "webhook_version": "4.0_analysis"
+  },
+  {
+    "webhook_type": "analysis",
+    "company_id": "c3c37a91-0286-43ed-bcda-525fb211a4d6",
+    "company_name": "Capel Rugs",
+    "domain": "capelrugs.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 37.5,
+    "primary_edp": "rep_performance_crisis",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.25,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.65,
+      "channel_conflict": 0.3
+    },
+    "evidence": [
+      "No dealer/rep portal detected",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "Only 0 filter options found on catalog page."
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.25,
+        "indicators": [
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No dealer/rep portal detected"
+        ],
+        "strength": "weak"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "no_modern_framework"
+        ],
+        "issues": [
+          "No modern web framework detected"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.65,
+        "indicators": [
+          "limited_filtering",
+          "complex_configurations"
+        ],
+        "issues": [
+          "Only 0 filter options found on catalog page.",
+          "Product configurator detected - high complexity"
+        ],
+        "strength": "strong"
+      },
+      "channel_conflict": {
+        "score": 0.3,
+        "indicators": [
+          "hidden_pricing"
+        ],
+        "issues": [
+          "Pricing requires login - channel conflict likely"
+        ],
+        "strength": "moderate"
+      },
+      "specific_findings": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible",
+        "Only 0 filter options found on catalog page.",
+        "Product configurator detected - high complexity"
+      ]
+    },
+    "urgency_level": "medium",
+    "website_analysis": {
+      "technology_stack": {},
+      "seo_metrics": {},
+      "content_analysis": {},
+      "user_experience": {}
+    },
+    "competitive_positioning": {
+      "market_segment": "smb",
+      "competitive_threats": [],
+      "differentiation_opportunities": []
+    },
+    "contact_info": {
+      "first_name": "Ron",
+      "last_name": "Capel",
+      "email": "ronc@capel.net",
+      "title": "Managing Director - Retail",
+      "linkedin": "https://www.linkedin.com/in/ron-capel-35877915/"
+    },
+    "company_info": {
+      "industry": "Design Services",
+      "employee_count": 50,
+      "revenue_estimate": "",
+      "headquarters": ""
+    },
+    "analysis_metadata": {
+      "analysis_date": "2025-08-26T12:37:15.347039",
+      "data_sources": [
+        "website_analysis",
+        "contact_enrichment"
+      ],
+      "confidence_score": 0.8,
+      "last_updated": "2025-08-26T12:37:15.347062"
+    },
+    "webhook_version": "4.0_analysis"
+  },
+  {
+    "webhook_type": "analysis",
+    "company_id": "2cec8321-98c3-4977-9325-f5e0dfd8be59",
+    "company_name": "Anne McGilvray & Company",
+    "domain": "annemcgilvray.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 29.2,
+    "primary_edp": "rep_performance_crisis",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.25,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 0.6499999999999999,
+      "sku_complexity": 0.65,
+      "channel_conflict": 0.3
+    },
+    "evidence": [
+      "No dealer/rep portal detected",
+      "No modern web framework detected",
+      "No dedicated rep resources section",
+      "No territory information visible",
+      "Only 2 filter options found on catalog page."
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.25,
+        "indicators": [
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No dealer/rep portal detected"
+        ],
+        "strength": "weak"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "no_modern_framework"
+        ],
+        "issues": [
+          "No modern web framework detected"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 0.6499999999999999,
+        "indicators": [
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.65,
+        "indicators": [
+          "limited_filtering",
+          "complex_configurations"
+        ],
+        "issues": [
+          "Only 2 filter options found on catalog page.",
+          "Product configurator detected - high complexity"
+        ],
+        "strength": "strong"
+      },
+      "channel_conflict": {
+        "score": 0.3,
+        "indicators": [
+          "hidden_pricing"
+        ],
+        "issues": [
+          "Pricing requires login - channel conflict likely"
+        ],
+        "strength": "moderate"
+      },
+      "specific_findings": [
+        "No dedicated rep resources section",
+        "No territory information visible",
+        "Only 2 filter options found on catalog page.",
+        "Product configurator detected - high complexity"
+      ]
+    },
+    "urgency_level": "low",
+    "website_analysis": {
+      "technology_stack": {},
+      "seo_metrics": {},
+      "content_analysis": {},
+      "user_experience": {}
+    },
+    "competitive_positioning": {
+      "market_segment": "mid_market",
+      "competitive_threats": [],
+      "differentiation_opportunities": []
+    },
+    "contact_info": {
+      "first_name": "Ms.",
+      "last_name": "Lisa Bach",
+      "email": "lbach@annemcgilvray.com",
+      "title": "Director of Sales & Publisher Relations",
+      "linkedin": "https://www.linkedin.com/in/lisasbach/"
+    },
+    "company_info": {
+      "industry": "Wholesale",
+      "employee_count": 101,
+      "revenue_estimate": "",
+      "headquarters": ""
+    },
+    "analysis_metadata": {
+      "analysis_date": "2025-08-26T12:37:44.319923",
+      "data_sources": [
+        "website_analysis",
+        "contact_enrichment"
+      ],
+      "confidence_score": 0.8,
+      "last_updated": "2025-08-26T12:37:44.319942"
+    },
+    "webhook_version": "4.0_analysis"
+  },
+  {
+    "webhook_type": "analysis",
+    "company_id": "2b22ab6b-ce7d-402c-b3b3-4d92b4de21f6",
+    "company_name": "Castelle",
+    "domain": "castellefurniture.com",
+    "tam_tier": "TIER_1_IMMEDIATE",
+    "psi_score": 49.9,
+    "primary_edp": "rep_performance_crisis",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.25,
+      "technology_obsolescence": 0.4,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.65,
+      "channel_conflict": 0
+    },
+    "evidence": [
+      "No dealer/rep portal detected",
+      "Copyright year is 1749 - site appears unmaintained",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section"
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.25,
+        "indicators": [
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No dealer/rep portal detected"
+        ],
+        "strength": "weak"
+      },
+      "technology_obsolescence": {
+        "score": 0.4,
+        "indicators": [
+          "outdated_copyright",
+          "no_modern_framework"
+        ],
+        "issues": [
+          "Copyright year is 1749 - site appears unmaintained",
+          "No modern web framework detected"
+        ],
+        "strength": "moderate"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.65,
+        "indicators": [
+          "limited_filtering",
+          "complex_configurations"
+        ],
+        "issues": [
+          "Only 0 filter options found on catalog page.",
+          "Product configurator detected - high complexity"
+        ],
+        "strength": "strong"
+      },
+      "channel_conflict": {
+        "score": 0,
+        "indicators": [],
+        "issues": [],
+        "strength": "none"
+      },
+      "specific_findings": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible",
+        "Only 0 filter options found on catalog page.",
+        "Product configurator detected - high complexity"
+      ]
+    },
+    "urgency_level": "medium",
+    "website_analysis": {
+      "technology_stack": {},
+      "seo_metrics": {},
+      "content_analysis": {},
+      "user_experience": {}
+    },
+    "competitive_positioning": {
+      "market_segment": "smb",
+      "competitive_threats": [],
+      "differentiation_opportunities": []
+    },
+    "contact_info": {
+      "first_name": "Sergio",
+      "last_name": "Flores",
+      "email": "sflores@castellefurniture.com",
+      "title": "Vice President Operations",
+      "linkedin": "https://www.linkedin.com/in/sergio-flores-55830916/"
+    },
+    "company_info": {
+      "industry": "Furniture and Home Furnishings Manufacturing",
+      "employee_count": 69,
+      "revenue_estimate": "",
+      "headquarters": ""
+    },
+    "analysis_metadata": {
+      "analysis_date": "2025-08-26T12:37:52.908431",
+      "data_sources": [
+        "website_analysis",
+        "contact_enrichment"
+      ],
+      "confidence_score": 0.8,
+      "last_updated": "2025-08-26T12:37:52.908446"
+    },
+    "webhook_version": "4.0_analysis"
+  },
+  {
+    "webhook_type": "analysis",
+    "company_id": "3164a72d-6ad5-49f0-ac4c-0d40840bebb8",
+    "company_name": "Atkore",
+    "domain": "atkore.com",
+    "tam_tier": "TIER_1_IMMEDIATE",
+    "psi_score": 42.8,
+    "primary_edp": "rep_performance_crisis",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.25,
+      "technology_obsolescence": 0.4,
+      "rep_performance_crisis": 0.7,
+      "sku_complexity": 0.65,
+      "channel_conflict": 0
+    },
+    "evidence": [
+      "No dealer/rep portal detected",
+      "Copyright year is 26 - site appears unmaintained",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section"
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.25,
+        "indicators": [
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No dealer/rep portal detected"
+        ],
+        "strength": "weak"
+      },
+      "technology_obsolescence": {
+        "score": 0.4,
+        "indicators": [
+          "outdated_copyright",
+          "no_modern_framework"
+        ],
+        "issues": [
+          "Copyright year is 26 - site appears unmaintained",
+          "No modern web framework detected"
+        ],
+        "strength": "moderate"
+      },
+      "rep_performance_crisis": {
+        "score": 0.7,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.65,
+        "indicators": [
+          "limited_filtering",
+          "complex_configurations"
+        ],
+        "issues": [
+          "Only 0 filter options found on catalog page.",
+          "Product configurator detected - high complexity"
+        ],
+        "strength": "strong"
+      },
+      "channel_conflict": {
+        "score": 0,
+        "indicators": [],
+        "issues": [],
+        "strength": "none"
+      },
+      "specific_findings": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "Only 0 filter options found on catalog page.",
+        "Product configurator detected - high complexity"
+      ]
+    },
+    "urgency_level": "medium",
+    "website_analysis": {
+      "technology_stack": {},
+      "seo_metrics": {},
+      "content_analysis": {},
+      "user_experience": {}
+    },
+    "competitive_positioning": {
+      "market_segment": "enterprise",
+      "competitive_threats": [],
+      "differentiation_opportunities": []
+    },
+    "contact_info": {
+      "first_name": "Eric",
+      "last_name": "Banks",
+      "email": "ebanks@atkore.com",
+      "title": "Vice President, Operations",
+      "linkedin": "https://www.linkedin.com/in/ericbanks1775/"
+    },
+    "company_info": {
+      "industry": "Appliances, Electrical, and Electronics Manufacturing",
+      "employee_count": 1969,
+      "revenue_estimate": "",
+      "headquarters": ""
+    },
+    "analysis_metadata": {
+      "analysis_date": "2025-08-26T12:38:02.760654",
+      "data_sources": [
+        "website_analysis",
+        "contact_enrichment"
+      ],
+      "confidence_score": 0.8,
+      "last_updated": "2025-08-26T12:38:02.760684"
+    },
+    "webhook_version": "4.0_analysis"
+  },
+  {
+    "webhook_type": "analysis",
+    "company_id": "4a4d0105-52b9-447f-9a5f-b2424bc1d0e3",
+    "company_name": "Golden Rabbit II, Inc.",
+    "domain": "crowcanyonhome.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 37.5,
+    "primary_edp": "rep_performance_crisis",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.25,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.65,
+      "channel_conflict": 0
+    },
+    "evidence": [
+      "No dealer/rep portal detected",
+      "Copyright year is 2023 - site appears unmaintained",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "Only 0 filter options found on catalog page."
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.25,
+        "indicators": [
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No dealer/rep portal detected"
+        ],
+        "strength": "weak"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "outdated_copyright"
+        ],
+        "issues": [
+          "Copyright year is 2023 - site appears unmaintained"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.65,
+        "indicators": [
+          "limited_filtering",
+          "complex_configurations"
+        ],
+        "issues": [
+          "Only 0 filter options found on catalog page.",
+          "Product configurator detected - high complexity"
+        ],
+        "strength": "strong"
+      },
+      "channel_conflict": {
+        "score": 0,
+        "indicators": [],
+        "issues": [],
+        "strength": "none"
+      },
+      "specific_findings": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible",
+        "Only 0 filter options found on catalog page.",
+        "Product configurator detected - high complexity"
+      ]
+    },
+    "urgency_level": "medium",
+    "website_analysis": {
+      "technology_stack": {},
+      "seo_metrics": {},
+      "content_analysis": {},
+      "user_experience": {}
+    },
+    "competitive_positioning": {
+      "market_segment": "smb",
+      "competitive_threats": [],
+      "differentiation_opportunities": []
+    },
+    "contact_info": {
+      "first_name": "Cara",
+      "last_name": "Barde",
+      "email": "cara@crowcanyonhome.com",
+      "title": "Owner/President",
+      "linkedin": "https://www.linkedin.com/in/carabarde/"
+    },
+    "company_info": {
+      "industry": "Wholesale",
+      "employee_count": 21,
+      "revenue_estimate": "",
+      "headquarters": ""
+    },
+    "analysis_metadata": {
+      "analysis_date": "2025-08-26T12:38:11.715621",
+      "data_sources": [
+        "website_analysis",
+        "contact_enrichment"
+      ],
+      "confidence_score": 0.8,
+      "last_updated": "2025-08-26T12:38:11.715671"
+    },
+    "webhook_version": "4.0_analysis"
+  }
+]

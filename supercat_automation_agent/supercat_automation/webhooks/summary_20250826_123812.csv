@@ -1,0 +1,21 @@
+webhook_type,company_name,domain,tier,psi_score,primary_edp,urgency,email,campaign_strategy
+analysis,9to5 Seating,9to5seating.com,TIER_2_ACTIVE,40.3,rep_performance_crisis,medium,ed.lachman@9to5seating.com,N/A
+analysis,Abbott Collection,abbottcollection.com,TIER_3_NURTURE,23.7,rep_performance_crisis,none,lee.a@abbottcollection.com,N/A
+analysis,"A & B HOME GROUP, INC.",abhomeinc.com,TIER_3_NURTURE,23.7,rep_performance_crisis,none,emadb@abhongda.net,N/A
+analysis,"Allstate Floral, Inc.",allstatefloral.com,TIER_2_ACTIVE,50.3,sales_enablement_collapse,high,,N/A
+analysis,A. Rudin,arudin.com,TIER_3_NURTURE,23.7,rep_performance_crisis,none,npizarro@arudin.com,N/A
+analysis,Capel Rugs,capelrugs.com,TIER_2_ACTIVE,37.5,rep_performance_crisis,medium,ronc@capel.net,N/A
+analysis,Anne McGilvray & Company,annemcgilvray.com,TIER_2_ACTIVE,29.2,rep_performance_crisis,low,lbach@annemcgilvray.com,N/A
+analysis,Castelle,castellefurniture.com,TIER_1_IMMEDIATE,49.9,rep_performance_crisis,medium,sflores@castellefurniture.com,N/A
+analysis,Atkore,atkore.com,TIER_1_IMMEDIATE,42.8,rep_performance_crisis,medium,ebanks@atkore.com,N/A
+analysis,"Golden Rabbit II, Inc.",crowcanyonhome.com,TIER_2_ACTIVE,37.5,rep_performance_crisis,medium,cara@crowcanyonhome.com,N/A
+campaign,9to5 Seating,9to5seating.com,TIER_2_ACTIVE,40.3,rep_performance_crisis,medium,ed.lachman@9to5seating.com,educational
+campaign,Abbott Collection,abbottcollection.com,TIER_3_NURTURE,23.7,rep_performance_crisis,none,lee.a@abbottcollection.com,nurture
+campaign,"A & B HOME GROUP, INC.",abhomeinc.com,TIER_3_NURTURE,23.7,rep_performance_crisis,none,emadb@abhongda.net,nurture
+campaign,"Allstate Floral, Inc.",allstatefloral.com,TIER_2_ACTIVE,50.3,sales_enablement_collapse,high,,aggressive_trade_show
+campaign,A. Rudin,arudin.com,TIER_3_NURTURE,23.7,rep_performance_crisis,none,npizarro@arudin.com,nurture
+campaign,Capel Rugs,capelrugs.com,TIER_2_ACTIVE,37.5,rep_performance_crisis,medium,ronc@capel.net,educational
+campaign,Anne McGilvray & Company,annemcgilvray.com,TIER_2_ACTIVE,29.2,rep_performance_crisis,low,lbach@annemcgilvray.com,nurture
+campaign,Castelle,castellefurniture.com,TIER_1_IMMEDIATE,49.9,rep_performance_crisis,medium,sflores@castellefurniture.com,educational
+campaign,Atkore,atkore.com,TIER_1_IMMEDIATE,42.8,rep_performance_crisis,medium,ebanks@atkore.com,educational
+campaign,"Golden Rabbit II, Inc.",crowcanyonhome.com,TIER_2_ACTIVE,37.5,rep_performance_crisis,medium,cara@crowcanyonhome.com,educational

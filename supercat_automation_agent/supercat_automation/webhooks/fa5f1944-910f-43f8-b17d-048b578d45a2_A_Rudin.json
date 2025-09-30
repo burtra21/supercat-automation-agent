@@ -1,0 +1,121 @@
+{
+  "company_id": "fa5f1944-910f-43f8-b17d-048b578d45a2",
+  "company_name": "A. Rudin",
+  "domain": "arudin.com",
+  "tam_tier": "TIER_3_NURTURE",
+  "psi_score": 23.7,
+  "primary_edp": "rep_performance_crisis",
+  "edp_scores": {
+    "sales_enablement_collapse": 0.25,
+    "technology_obsolescence": 0.2,
+    "rep_performance_crisis": 1.0,
+    "sku_complexity": 0.25,
+    "channel_conflict": 0
+  },
+  "evidence": [
+    "No dealer/rep portal detected",
+    "No modern web framework detected",
+    "No rep/dealer locator found",
+    "No dedicated rep resources section",
+    "Only 0 filter options found on catalog page."
+  ],
+  "detailed_evidence": {
+    "sales_enablement_collapse": {
+      "score": 0.25,
+      "indicators": [
+        "no_dealer_portal"
+      ],
+      "issues": [
+        "No dealer/rep portal detected"
+      ],
+      "strength": "weak"
+    },
+    "technology_obsolescence": {
+      "score": 0.2,
+      "indicators": [
+        "no_modern_framework"
+      ],
+      "issues": [
+        "No modern web framework detected"
+      ],
+      "strength": "weak"
+    },
+    "rep_performance_crisis": {
+      "score": 1.0,
+      "indicators": [
+        "no_rep_locator",
+        "no_rep_resources",
+        "no_territory_info"
+      ],
+      "issues": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ],
+      "strength": "strong"
+    },
+    "sku_complexity": {
+      "score": 0.25,
+      "indicators": [
+        "limited_filtering"
+      ],
+      "issues": [
+        "Only 0 filter options found on catalog page."
+      ],
+      "strength": "weak"
+    },
+    "channel_conflict": {
+      "score": 0,
+      "indicators": [],
+      "issues": [],
+      "strength": "none"
+    },
+    "specific_findings": [
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "No territory information visible"
+    ]
+  },
+  "persona_type": "sales_leadership",
+  "backup_persona": "c_suite",
+  "persona_reason": "Primary EDP is rep_performance_crisis",
+  "urgency_level": "none",
+  "campaign_strategy": "nurture",
+  "days_until_show": -494,
+  "email_sequence": [
+    {
+      "day": 0,
+      "subject": "Why A. Rudin's top reps are 10x more productive",
+      "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+    },
+    {
+      "day": 3,
+      "subject": "27% rep turnover is killing your growth",
+      "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs A. Rudin approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+    }
+  ],
+  "linkedin_sequence": [
+    {
+      "type": "connection_request",
+      "message": "Hi {{first_name}}, noticed A. Rudin works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+    },
+    {
+      "type": "follow_up_message",
+      "day": 7,
+      "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+    }
+  ],
+  "contact_info": {
+    "first_name": "Natalie",
+    "last_name": "Mata Pizarro",
+    "email": "npizarro@arudin.com",
+    "title": "National Sales Director",
+    "linkedin": "https://www.linkedin.com/in/natalie-mata-pizarro-99862461/"
+  },
+  "company_info": {
+    "industry": "Furniture and Home Furnishings Manufacturing",
+    "employee_count": 24
+  },
+  "created_at": "2025-08-26T11:09:40.789838",
+  "webhook_version": "3.0"
+}

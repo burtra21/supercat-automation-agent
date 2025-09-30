@@ -1,0 +1,118 @@
+{
+  "webhook_type": "analysis",
+  "company_id": "3164a72d-6ad5-49f0-ac4c-0d40840bebb8",
+  "company_name": "Atkore",
+  "domain": "atkore.com",
+  "tam_tier": "TIER_1_IMMEDIATE",
+  "psi_score": 42.8,
+  "primary_edp": "rep_performance_crisis",
+  "edp_scores": {
+    "sales_enablement_collapse": 0.25,
+    "technology_obsolescence": 0.4,
+    "rep_performance_crisis": 0.7,
+    "sku_complexity": 0.65,
+    "channel_conflict": 0
+  },
+  "evidence": [
+    "No dealer/rep portal detected",
+    "Copyright year is 26 - site appears unmaintained",
+    "No modern web framework detected",
+    "No rep/dealer locator found",
+    "No dedicated rep resources section"
+  ],
+  "detailed_evidence": {
+    "sales_enablement_collapse": {
+      "score": 0.25,
+      "indicators": [
+        "no_dealer_portal"
+      ],
+      "issues": [
+        "No dealer/rep portal detected"
+      ],
+      "strength": "weak"
+    },
+    "technology_obsolescence": {
+      "score": 0.4,
+      "indicators": [
+        "outdated_copyright",
+        "no_modern_framework"
+      ],
+      "issues": [
+        "Copyright year is 26 - site appears unmaintained",
+        "No modern web framework detected"
+      ],
+      "strength": "moderate"
+    },
+    "rep_performance_crisis": {
+      "score": 0.7,
+      "indicators": [
+        "no_rep_locator",
+        "no_rep_resources"
+      ],
+      "issues": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section"
+      ],
+      "strength": "strong"
+    },
+    "sku_complexity": {
+      "score": 0.65,
+      "indicators": [
+        "limited_filtering",
+        "complex_configurations"
+      ],
+      "issues": [
+        "Only 0 filter options found on catalog page.",
+        "Product configurator detected - high complexity"
+      ],
+      "strength": "strong"
+    },
+    "channel_conflict": {
+      "score": 0,
+      "indicators": [],
+      "issues": [],
+      "strength": "none"
+    },
+    "specific_findings": [
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "Only 0 filter options found on catalog page.",
+      "Product configurator detected - high complexity"
+    ]
+  },
+  "urgency_level": "medium",
+  "website_analysis": {
+    "technology_stack": {},
+    "seo_metrics": {},
+    "content_analysis": {},
+    "user_experience": {}
+  },
+  "competitive_positioning": {
+    "market_segment": "enterprise",
+    "competitive_threats": [],
+    "differentiation_opportunities": []
+  },
+  "contact_info": {
+    "first_name": "Eric",
+    "last_name": "Banks",
+    "email": "ebanks@atkore.com",
+    "title": "Vice President, Operations",
+    "linkedin": "https://www.linkedin.com/in/ericbanks1775/"
+  },
+  "company_info": {
+    "industry": "Appliances, Electrical, and Electronics Manufacturing",
+    "employee_count": 1969,
+    "revenue_estimate": "",
+    "headquarters": ""
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-08-26T12:38:02.760654",
+    "data_sources": [
+      "website_analysis",
+      "contact_enrichment"
+    ],
+    "confidence_score": 0.8,
+    "last_updated": "2025-08-26T12:38:02.760684"
+  },
+  "webhook_version": "4.0_analysis"
+}

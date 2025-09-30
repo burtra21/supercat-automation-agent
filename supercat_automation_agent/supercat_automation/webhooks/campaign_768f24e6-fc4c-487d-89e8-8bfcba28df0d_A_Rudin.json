@@ -1,0 +1,83 @@
+{
+  "webhook_type": "campaign",
+  "company_id": "768f24e6-fc4c-487d-89e8-8bfcba28df0d",
+  "company_name": "A. Rudin",
+  "domain": "arudin.com",
+  "tam_tier": "TIER_3_NURTURE",
+  "psi_score": 23.7,
+  "primary_edp": "rep_performance_crisis",
+  "persona_type": "sales_leadership",
+  "backup_persona": "c_suite",
+  "persona_reason": "Primary EDP is rep_performance_crisis",
+  "urgency_level": "none",
+  "campaign_strategy": "nurture",
+  "days_until_show": -494,
+  "email_sequence": [
+    {
+      "day": 0,
+      "subject": "Why A. Rudin's top reps are 10x more productive",
+      "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+    },
+    {
+      "day": 3,
+      "subject": "27% rep turnover is killing your growth",
+      "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs A. Rudin approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+    }
+  ],
+  "linkedin_sequence": [
+    {
+      "type": "connection_request",
+      "message": "Hi {{first_name}}, noticed A. Rudin works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+    },
+    {
+      "type": "follow_up_message",
+      "day": 7,
+      "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+    }
+  ],
+  "campaign_timeline": {
+    "phase_1": "relationship_building",
+    "phase_2": "value_demonstration",
+    "phase_3": "long_term_engagement",
+    "total_duration_days": 60
+  },
+  "follow_up_schedule": [
+    {
+      "day": 7,
+      "action": "educational_content",
+      "channel": "email"
+    },
+    {
+      "day": 21,
+      "action": "industry_insights",
+      "channel": "linkedin"
+    },
+    {
+      "day": 42,
+      "action": "check_in",
+      "channel": "email"
+    }
+  ],
+  "contact_info": {
+    "first_name": "Natalie",
+    "last_name": "Mata Pizarro",
+    "email": "npizarro@arudin.com",
+    "title": "National Sales Director",
+    "linkedin": "https://www.linkedin.com/in/natalie-mata-pizarro-99862461/"
+  },
+  "campaign_metadata": {
+    "created_at": "2025-08-26T12:37:05.968000",
+    "expected_duration": 60,
+    "success_metrics": {
+      "primary_goal": "relationship_building",
+      "secondary_goal": "awareness_increase",
+      "engagement_threshold": 0.2,
+      "response_target_days": 30
+    },
+    "optimization_notes": [
+      "Lower pain - build relationship and awareness first",
+      "Highlight performance tracking and coaching capabilities"
+    ]
+  },
+  "webhook_version": "4.0_campaign"
+}

@@ -1,0 +1,22 @@
+
+        ========================================
+        TRADE SHOW SCRAPING REPORT
+        ========================================
+        Timestamp: 2025-08-16 08:24:03
+        
+        Summary:
+        - Scrapers Run: 3
+        - Successful: 1
+        - Failed: 2
+        
+        Results:
+        - Total Exhibitors Found: 0
+        - Total Exhibitors Processed & Saved: 0
+        ========================================
+        
+
+--- Run Details ---
+
+❌ Unknown: Timeout 5000ms exceeded.
+✅ High Point Market: 0 found, 0 processed
+❌ Unknown: Timeout 20000ms exceeded.

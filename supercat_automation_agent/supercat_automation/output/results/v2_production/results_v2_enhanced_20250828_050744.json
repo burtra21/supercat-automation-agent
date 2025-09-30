@@ -1,0 +1,413 @@
+{
+  "processing_version": "v2_validated",
+  "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+  "timestamp": "20250828_050744",
+  "summary": {
+    "total_processed": 1,
+    "successful": 1,
+    "errors": 0,
+    "success_rate": "100.0%",
+    "qualification_results": {
+      "total_qualified": 1,
+      "qualification_rate": "100.0%",
+      "tier_distribution": {
+        "TIER_A_IMMEDIATE": 0,
+        "TIER_B_ACTIVE": 1,
+        "TIER_C_MONITOR": 0,
+        "NOT_QUALIFIED": 0
+      },
+      "tier_a_immediate": 0,
+      "tier_b_active": 1,
+      "tier_c_monitor": 0
+    },
+    "psi_analysis": {
+      "average_weighted_psi": "66.8%",
+      "psi_range": "66.8% - 66.8%",
+      "high_psi_count": 0,
+      "medium_psi_count": 1,
+      "low_psi_count": 0
+    },
+    "campaign_generation": {
+      "campaigns_generated": 1,
+      "generation_rate": "100.0%"
+    },
+    "integration_results": {
+      "sent_to_clay": 1,
+      "saved_to_supabase": 0,
+      "clay_success_rate": "100.0%",
+      "supabase_success_rate": "0.0%"
+    }
+  },
+  "stats": {
+    "processed": 1,
+    "qualified": 1,
+    "tier_a_immediate": 0,
+    "tier_b_active": 1,
+    "tier_c_monitor": 0,
+    "sent_to_clay": 1,
+    "saved_to_supabase": 0,
+    "campaigns_generated": 1,
+    "errors": []
+  },
+  "results": [
+    {
+      "company_name": "Pebl Furniture",
+      "domain": "peblfurniture.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-08-28T05:07:30.520278",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://peblfurniture.com",
+        "scan_timestamp": "2025-08-28T05:07:30.520288",
+        "EDP1_SKU_Count_Estimate": 800,
+        "EDP1_Product_Categories": [
+          "awards",
+          "contact",
+          "furniture",
+          "about",
+          "news"
+        ],
+        "EDP1_Category_Count": 5,
+        "EDP1_Configuration_Options": true,
+        "EDP1_Has_Configurator": true,
+        "EDP1_Catalog_Format": "Basic website",
+        "EDP1_Has_Search": false,
+        "EDP1_Search_Sophistication": "None",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 70,
+        "EDP2_Has_Rep_Locator": false,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 100,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 100,
+        "EDP6_Channels_Detected": [
+          "Dealer Network",
+          "Contract Sales"
+        ],
+        "EDP6_Channel_Count": 2,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": true,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": true,
+        "EDP6_Pricing_Transparency": "Quote only",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 40,
+        "EDP7_Has_Product_Search": false,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": true,
+        "EDP7_Has_Project_Boards": true,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": false,
+        "EDP7_Resource_Formats": [],
+        "EDP7_Resource_Format_Count": 0,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Product search",
+          "Comparison tool"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 65,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 11.5,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [
+          "rest"
+        ],
+        "EDP8_Integration_Count": 1,
+        "EDP8_Has_API": false,
+        "EDP8_CMS_Detected": "Unknown",
+        "EDP8_Uses_CDN": false,
+        "EDP8_Copyright_Year": 2025,
+        "EDP8_Staleness_Score": 0,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [],
+        "Trade_Show_Count": 0,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "furniture",
+          "lighting",
+          "outdoor",
+          "decor"
+        ],
+        "Target_Audience": "Mixed",
+        "Geographic_Presence": "Worldwide",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Product search",
+          "Comparison tool",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": false,
+        "JavaScript_Frameworks": [],
+        "Has_Search_Endpoint": false,
+        "Has_Resources_Page": false,
+        "Has_Events_Page": true,
+        "Broken_Links_Count": 20,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": []
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 70.0,
+          "EDP2_Rep_Management": 100.0,
+          "EDP6_Channel_Conflict": 40.0,
+          "EDP7_Sales_Enablement": 65.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 66.75,
+          "primary_edp": "EDP7_Sales_Enablement",
+          "tier": "TIER_B_ACTIVE",
+          "qualification_decision": true,
+          "purchase_probability": 0.7342500000000001
+        },
+        "averaged_methodology": {
+          "psi_score": 65.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_B_ACTIVE",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 70.0,
+                "opportunity": "Secondary pain point with 70.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 65.0,
+                "opportunity": "Secondary pain point with 65.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "active",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "No mobile site for High Point Market?",
+            "Pebl Furniture: Manual catalog navigation killing productivity",
+            "Your 50 reps have no portal",
+            "150 SKUs but no search function"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [
+            {
+              "edp": "EDP2_Rep_Management",
+              "score": 100.0,
+              "level": "immediate_action_required"
+            }
+          ],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 1.75,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "crisis_intervention",
+        "qualification_tier": "TIER_B_ACTIVE",
+        "primary_methodology": "weighted",
+        "secondary_intelligence": "averaged",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "crisis_identification_template",
+            "subject": "Found Pebl Furniture's $3,750,000 productivity leak",
+            "body": "Hey John,\n\nI analyzed Pebl Furniture's sales process and found you're losing ~3 hours daily per rep on manual order processing - that's $3,750,000 in lost productivity annually.\n\n\u2022 No mobile site for High Point Market?\n\u2022 Pebl Furniture: Manual catalog navigation killing productivity\n\u2022 Your 50 reps have no portal\n\nButler Specialty had identical issues. Fixed in 14 days, ROI in 47 days.\n\nWalk me through what happens when a rep takes an order at a trade show today?\n\n15-minute call to show you their solution?\n\nBest,\n[Your Name]",
+            "methodology": "template",
+            "source": "proven_template"
+          },
+          {
+            "sequence_step": 2,
+            "send_day": 3,
+            "email_type": "evidence_proof_template",
+            "subject": "How Pebl Furniture eliminated your exact problem",
+            "body": "Hey John,\n\nPebl Furniture had Pebl Furniture's exact problem:\n\n\"Manual catalog navigation killing productivity\"\n\nTheir transformation:\n\u2022 Order time: 4 hours \u2192 15 minutes\n\u2022 Error rate: 30% \u2192 <1%\n\u2022 Eliminated 3 hours daily per rep waste\n\u2022 47-day payback period\n\nProven across $2.3M customer portfolio.\n\nWant their implementation playbook?\n\nBest,\n[Your Name]",
+            "methodology": "template",
+            "source": "proven_template"
+          },
+          {
+            "sequence_step": 3,
+            "send_day": 7,
+            "email_type": "customer_validation_template",
+            "subject": "3 companies solved Pebl Furniture's exact challenges",
+            "body": "Hey John,\n\n3 companies solved Pebl Furniture's challenges:\n\n\u2022 Butler Specialty: 300% rep productivity increase\n\u2022 Godinger Silver: \"Best thing in 25 years\"\n\u2022 Wildwood Lamps: 33% fewer support calls\n\nAll report 25-40% productivity increases within 90 days.\n\n12-minute video showing their results?\n\nBest,\n[Your Name]",
+            "methodology": "template",
+            "source": "proven_template"
+          },
+          {
+            "sequence_step": 4,
+            "send_day": 10,
+            "email_type": "roi_analysis_template",
+            "subject": "$3,750,000 impact for Pebl Furniture",
+            "body": "Hey John,\n\nPebl Furniture's current inefficiencies:\n\n\u2022 Productivity loss: $1,500,000/year\n\u2022 Error costs: $1,312,500/year  \n\u2022 Trade show waste: $937,500/year\n\u2022 Total impact: $3,750,000/year\n\nInvestment: $20K/year\nPayback: 47 days (validated across 15 customers)\n5-Year ROI: 937x\n\nWant your custom ROI model? Takes 15 minutes.\n\nBest,\n[Your Name]",
+            "methodology": "template",
+            "source": "proven_template"
+          },
+          {
+            "sequence_step": 5,
+            "send_day": 14,
+            "email_type": "competitive_threat_claude",
+            "subject": "3 competitors just passed Pebl Furniture",
+            "body": "Hey John,\n\nWhile Pebl Furniture uses manual processes, 3 direct competitors digitized in 2024:\n\n\u2022 Universal Furniture: 25% sales increase\n\u2022 Theodore Alexander: 40% faster quotes  \n\u2022 Butler Specialty: 300% rep productivity\n\nYour competitors are 40% faster. Quote time: Them (minutes) vs You (hours).\n\nShould we discuss closing this gap before High Point Market?\n\nBest,\n[Your Name]",
+            "methodology": "claude",
+            "source": "claude_generated",
+            "claude_prompt": "Write a direct, punchy B2B sales email about competitive threats.\n\nContext:\n- Company: Pebl Furniture\n- Contact: John\n- Evidence: No mobile site for High Point Market?\n- Competitors: Universal Furniture, Theodore Alexander, Butler Specialty\n\nRequirements:\n- Start with \"Hey John,\"\n- Lead with competitive reality: \"While Pebl Furniture uses manual processes, 3 competitors digitized in 2024\"\n- List specific competitor wins: Universal (25% sales increase), Theodore Alexander (40% faster quotes), Butler (300% rep productivity)\n- Include urgency: \"Your competitors are 40% faster. Quote time: Them (minutes) vs You (hours)\"\n- End with: \"Should we discuss closing this gap before High Point Market?\"\n- Keep under 80 words\n- No corporate speak, direct and urgent tone\n\nGenerate ONLY the email body, no subject line."
+          },
+          {
+            "sequence_step": 6,
+            "send_day": 18,
+            "email_type": "trade_show_urgency_claude",
+            "subject": "35 days to High Point Market - Pebl Furniture ready?",
+            "body": "Hey John,\n\n35 days until High Point Market.\n\nYour $32,000 booth investment is at risk. Without mobile orders, you'll lose 60% of opportunities to competitors who can quote on-spot.\n\nSetup takes 14 days. Must start this week to be ready.\n\n15-minute call to map out implementation?\n\nBest,\n[Your Name]",
+            "methodology": "claude",
+            "source": "claude_generated",
+            "claude_prompt": "Write a direct, urgent B2B sales email about trade show deadlines.\n\nContext:\n- Company: Pebl Furniture\n- Contact: John\n- Trade show: High Point Market in 35 days\n- Booth investment: $32,000\n- Risk: 60% opportunity loss without mobile capability\n\nRequirements:\n- Start with \"Hey John,\"\n- Create urgency: \"35 days until High Point Market\"\n- Highlight risk: \"Your $32,000 booth investment is at risk\"\n- Specific threat: \"Without mobile orders, you'll lose 60% of opportunities to competitors who can quote on-spot\"\n- Timeline pressure: \"Setup takes 14 days. Must start this week to be ready\"\n- End with: \"15-minute call to map out implementation?\"\n- Keep under 70 words\n- Direct, urgent tone\n\nGenerate ONLY the email body, no subject line."
+          },
+          {
+            "sequence_step": 7,
+            "send_day": 22,
+            "email_type": "case_study_deep_dive_claude",
+            "subject": "How Pebl Furniture saved $650,000 annually",
+            "body": "Hey John,\n\nPebl Furniture case study deep dive:\n\nSituation: 8,000 SKUs, 4-hour order cycle, 30% error rate\n\nSolution: Deployed in 14 days, customized for their pricing model\n\nResults (90 days):\n\u2022 Order time: 4 hours \u2192 15 minutes\n\u2022 Errors: 30% \u2192 <1%\n\u2022 Eliminated 3 hours daily per rep waste\n\u2022 Annual savings: $650,000\n\nCustomer: \"Manual catalog navigation killing productivity\"\n\nWant their implementation playbook? (12-minute video)\n\nBest,\n[Your Name]",
+            "methodology": "claude",
+            "source": "claude_generated",
+            "claude_prompt": "Write a detailed B2B case study email with specific transformation data.\n\nContext:\n- Company: Pebl Furniture\n- Contact: John\n- Case study: Pebl Furniture\n- Quote: \"Manual catalog navigation killing productivity\"\n- Transformation: Eliminated 3 hours daily per rep waste\n\nRequirements:\n- Start with \"Hey John,\"\n- Deep dive into Pebl Furniture's transformation\n- Include specific before/after metrics: 8,000 SKUs, 4-hour order cycle \u2192 15 minutes, 30% errors \u2192 <1%\n- Timeline: \"Deployed in 14 days, customized for their pricing model\"\n- Results: \"Order time: 4 hours \u2192 15 minutes, Errors: 30% \u2192 <1%, Annual savings: $650,000\"\n- Customer quote: \"Manual catalog navigation killing productivity\"\n- End with: \"Want their implementation playbook? (12-minute video)\"\n- Keep under 100 words\n- Focus on specific transformation details\n\nGenerate ONLY the email body, no subject line."
+          },
+          {
+            "sequence_step": 8,
+            "send_day": 25,
+            "email_type": "final_breakup_claude",
+            "subject": "Resources for Pebl Furniture (breaking up)",
+            "body": "Hey John,\n\nHaven't heard back, assuming this isn't a priority right now.\n\nBefore I go, here's some value:\n\u2022 ROI Calculator for furniture manufacturers\n\u2022 2025 State of Furniture Sales report\n\u2022 High Point Market success guide\n\nWarning: Butler Specialty waited 2 years, cost them $1.4M.\n\nDoor remains open if priorities change.\n\nBest,\n[Your Name]",
+            "methodology": "claude",
+            "source": "claude_generated",
+            "claude_prompt": "Write a professional breakup email with value.\n\nContext:\n- Company: Pebl Furniture\n- Contact: John\n- Lost value: $3,750,000 annually\n- Warning example: Butler Specialty waited 2 years, cost them $1.4M\n\nRequirements:\n- Start with \"Hey John,\"\n- Acknowledge no response: \"Haven't heard back, assuming not a priority\"\n- Offer value before leaving: ROI Calculator, 2025 Furniture Sales report, High Point Market guide\n- Include warning: \"Butler Specialty waited 2 years, cost them $1.4M\"\n- Professional close: \"Door remains open if priorities change\"\n- Keep under 80 words\n- Professional but include consequence warning\n\nGenerate ONLY the email body, no subject line."
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "connection_request",
+            "message": "Hi [first_name], analyzed Pebl Furniture's operations. ... Worth connecting?",
+            "send_day": 0,
+            "methodology": "weighted"
+          },
+          {
+            "type": "follow_up",
+            "message": "Thanks for connecting, [first_name]!\n\nFound 3 critical issues at Pebl Furniture:\n\u2022 No mobile site for High Point Market?\n\u2022 Pebl Furniture: Manual catalog navigation killing productivity\n\u2022 Your 50 reps have no portal\n\nButler Specialty had identical problems. Fixed in 14 days, ROI in 47 days.\n\nWant their transformation playbook? (No pitch required)\n\nBest,\n[Your Name]",
+            "send_day": 3,
+            "methodology": "weighted"
+          }
+        ],
+        "ad_suggestions": [
+          {
+            "platform": "google_search",
+            "headlines": [
+              "Pebl Furniture: Crisis Intervention Required",
+              "$3,750,000 Annual Loss Detected",
+              "Immediate Action Needed"
+            ],
+            "descriptions": [
+              "Found critical operational failures at Pebl Furniture. Butler Specialty fixed identical issues in 14 days.",
+              "Your competitors are 40% faster. Don't let manual processes kill your business."
+            ],
+            "keywords": [
+              "\"Pebl Furniture\"",
+              "Pebl Furniture operational efficiency",
+              "furniture sales automation",
+              "trade show mobile ordering"
+            ],
+            "landing_page": "Crisis intervention page for Pebl Furniture"
+          },
+          {
+            "platform": "linkedin_sponsored",
+            "headline": "Pebl Furniture: $3,750,000 Crisis Detected",
+            "intro_text": "Attention Pebl Furniture leadership:\n\nYour operations analysis reveals critical failures costing $3,750,000 annually.\n\n3 competitors digitized in 2024. Each reports 25-40% sales increases.\n\nSee how Butler Specialty eliminated identical challenges.",
+            "call_to_action": "Get Crisis Analysis",
+            "target_company": "Pebl Furniture",
+            "target_titles": [
+              "VP Sales",
+              "President",
+              "Owner"
+            ]
+          }
+        ],
+        "operational_intelligence": {
+          "averaged_primary_edp": "EDP2_Rep_Management",
+          "operational_challenges": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "high",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 70.0,
+                "opportunity": "Secondary pain point with 70.0% severity"
+              },
+              {
+                "edp": "EDP7_Sales_Enablement",
+                "score": 65.0,
+                "opportunity": "Secondary pain point with 65.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          },
+          "expansion_opportunities": [
+            {
+              "edp": "EDP1_SKU_Complexity",
+              "score": 70.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 70.0% severity"
+            },
+            {
+              "edp": "EDP7_Sales_Enablement",
+              "score": 65.0,
+              "opportunity_type": "secondary_pain_point",
+              "expansion_potential": "medium",
+              "description": "Secondary operational challenge with 65.0% severity"
+            }
+          ],
+          "conversation_starters": []
+        },
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 66.75,
+          "averaged_psi": 65.0,
+          "purchase_probability": 0.7342500000000001,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    }
+  ]
+}

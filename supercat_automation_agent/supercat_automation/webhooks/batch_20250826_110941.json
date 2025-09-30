@@ -1,0 +1,679 @@
+[
+  {
+    "company_id": "d669e618-6327-40fe-93b3-2fc53312f3d5",
+    "company_name": "9to5 Seating",
+    "domain": "9to5seating.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 38.7,
+    "primary_edp": "rep_performance_crisis",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.45,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.25,
+      "channel_conflict": 0
+    },
+    "evidence": [
+      "Found 11 PDF downloads - indicates manual processes",
+      "No dealer/rep portal detected",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section"
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.45,
+        "indicators": [
+          "pdf_heavy",
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "Found 11 PDF downloads - indicates manual processes",
+          "No dealer/rep portal detected"
+        ],
+        "strength": "moderate"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "no_modern_framework"
+        ],
+        "issues": [
+          "No modern web framework detected"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.25,
+        "indicators": [
+          "limited_filtering"
+        ],
+        "issues": [
+          "Only 0 filter options found on catalog page."
+        ],
+        "strength": "weak"
+      },
+      "channel_conflict": {
+        "score": 0,
+        "indicators": [],
+        "issues": [],
+        "strength": "none"
+      },
+      "specific_findings": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ]
+    },
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "medium",
+    "campaign_strategy": "educational",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why 9to5 Seating's top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs 9to5 Seating approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed 9to5 Seating works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Ed",
+      "last_name": "Lachman",
+      "email": "ed.lachman@9to5seating.com",
+      "title": "Chief Operating Officer",
+      "linkedin": "https://www.linkedin.com/in/ed-lachman-15b1a862/"
+    },
+    "company_info": {
+      "industry": "Furniture and Home Furnishings Manufacturing",
+      "employee_count": 59
+    },
+    "created_at": "2025-08-26T11:08:55.790258",
+    "webhook_version": "3.0"
+  },
+  {
+    "company_id": "be8123fd-5f9d-49bc-bb12-e958aeae437e",
+    "company_name": "Abbott Collection",
+    "domain": "abbottcollection.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 37.5,
+    "primary_edp": "rep_performance_crisis",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.25,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.65,
+      "channel_conflict": 0.3
+    },
+    "evidence": [
+      "No dealer/rep portal detected",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "Only 0 filter options found on catalog page."
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.25,
+        "indicators": [
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No dealer/rep portal detected"
+        ],
+        "strength": "weak"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "no_modern_framework"
+        ],
+        "issues": [
+          "No modern web framework detected"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.65,
+        "indicators": [
+          "limited_filtering",
+          "complex_configurations"
+        ],
+        "issues": [
+          "Only 0 filter options found on catalog page.",
+          "Product configurator detected - high complexity"
+        ],
+        "strength": "strong"
+      },
+      "channel_conflict": {
+        "score": 0.3,
+        "indicators": [
+          "hidden_pricing"
+        ],
+        "issues": [
+          "Pricing requires login - channel conflict likely"
+        ],
+        "strength": "moderate"
+      },
+      "specific_findings": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible",
+        "Only 0 filter options found on catalog page.",
+        "Product configurator detected - high complexity"
+      ]
+    },
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "medium",
+    "campaign_strategy": "educational",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why Abbott Collection's top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs Abbott Collection approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed Abbott Collection works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Lee",
+      "last_name": "Abbott",
+      "email": "lee.a@abbottcollection.com",
+      "title": "Vice President",
+      "linkedin": "https://www.linkedin.com/in/lee-abbott-a789694b/"
+    },
+    "company_info": {
+      "industry": "Wholesale",
+      "employee_count": 95
+    },
+    "created_at": "2025-08-26T11:09:10.355798",
+    "webhook_version": "3.0"
+  },
+  {
+    "company_id": "6e445643-9dba-4454-afdc-54e6096bf377",
+    "company_name": "A & B HOME GROUP, INC.",
+    "domain": "abhomeinc.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 50.3,
+    "primary_edp": "sales_enablement_collapse",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.8,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.1,
+      "channel_conflict": 0
+    },
+    "evidence": [
+      "No product search functionality found",
+      "Not mobile optimized - critical for trade shows",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section"
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.8,
+        "indicators": [
+          "no_product_search",
+          "no_mobile_optimization",
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No product search functionality found",
+          "Not mobile optimized - critical for trade shows",
+          "No dealer/rep portal detected"
+        ],
+        "strength": "strong"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "no_modern_framework"
+        ],
+        "issues": [
+          "No modern web framework detected"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.1,
+        "indicators": [],
+        "issues": [
+          "Could not find a product or catalog page."
+        ],
+        "strength": "none"
+      },
+      "channel_conflict": {
+        "score": 0,
+        "indicators": [],
+        "issues": [],
+        "strength": "none"
+      },
+      "specific_findings": [
+        "No product search functionality found",
+        "Not mobile optimized - critical for trade shows",
+        "No dealer/rep portal detected",
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ]
+    },
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is sales_enablement_collapse",
+    "urgency_level": "high",
+    "campaign_strategy": "aggressive_trade_show",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "A & B HOME GROUP, INC. - Still using paper at trade shows?",
+        "body": "Hi {{first_name}},\n\nI noticed A & B HOME GROUP, INC. has a major presence at High Point Market. With the show in -494 days, how are your reps planning to handle orders when they can't access your systems?\n\nLast year, several exhibitors lost over $50K each during WiFi outages.\n\nHow do you currently handle order processing at trade shows?\n\nBest,\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "How Butler Specialty solved this",
+        "body": "{{first_name}},\n\nQuick follow-up - Butler Specialty had the same challenge at High Point. Their President told me: 'eCat flexibly configures to the way we do business'\n\nThey now process orders completely offline. Zero downtime.\n\nWorth a quick call?\n\n{{sender_name}}"
+      },
+      {
+        "day": 7,
+        "subject": "30% order error rate industry average",
+        "body": "{{first_name}},\n\nDid you know the furniture industry averages a 30% order error rate with manual processes?\n\nAt your scale, that could mean $400K+ in lost margin annually.\n\nHere's a 2-minute video showing how eCat eliminates these errors: [link]\n\n{{sender_name}}"
+      },
+      {
+        "day": 10,
+        "subject": "ROI calculator for A & B HOME GROUP, INC.",
+        "body": "{{first_name}},\n\nI ran some numbers for A & B HOME GROUP, INC.:\n\n- Time saved: 3 hours/day per rep\n- Error reduction: 25%\n- Trade show revenue protection: $150K+\n\nTotal first-year ROI: 412%\n\nWant to see the full breakdown?\n\n{{sender_name}}"
+      },
+      {
+        "day": 14,
+        "subject": "Godinger Silver case study",
+        "body": "{{first_name}},\n\nJoel Stern, VP IT at Godinger Silver, called eCat 'Best thing in 25 years, reps are in love'\n\nThey saw:\n- 67% reduction in order processing time\n- Zero trade show downtime\n- 40% increase in rep productivity\n\nHere's their full story: [link]\n\n{{sender_name}}"
+      },
+      {
+        "day": 18,
+        "subject": "Last chance before -494 days to show",
+        "body": "{{first_name}},\n\nWith High Point Market approaching fast, you're running out of time to get a solution in place.\n\nImplementation takes just 2 weeks. Your reps could be fully trained before the show.\n\nCan we schedule 15 minutes this week?\n\n{{sender_name}}"
+      },
+      {
+        "day": 21,
+        "subject": "Should I close your file?",
+        "body": "{{first_name}},\n\nI've reached out several times about solving A & B HOME GROUP, INC.'s order processing challenges.\n\nIf this isn't a priority, I'll close your file and stop following up.\n\nBut if you're still losing money on manual processes, just reply 'interested' and I'll send over some times to connect.\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed A & B HOME GROUP, INC.'s presence at High Point Market. Managing orders without reliable WiFi must be challenging. Would love to share how similar companies handle this."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Emad",
+      "last_name": "Botros",
+      "email": "emadb@abhongda.net",
+      "title": "Director of Operations & Logistics",
+      "linkedin": "https://www.linkedin.com/in/emadbotors/"
+    },
+    "company_info": {
+      "industry": "Wholesale",
+      "employee_count": 43
+    },
+    "created_at": "2025-08-26T11:09:23.194750",
+    "webhook_version": "3.0"
+  },
+  {
+    "company_id": "da083545-1086-4c0c-9425-39f7324d629e",
+    "company_name": "Allstate Floral, Inc.",
+    "domain": "allstatefloral.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 50.3,
+    "primary_edp": "sales_enablement_collapse",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.8,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.25,
+      "channel_conflict": 0
+    },
+    "evidence": [
+      "No product search functionality found",
+      "Not mobile optimized - critical for trade shows",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section"
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.8,
+        "indicators": [
+          "no_product_search",
+          "no_mobile_optimization",
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No product search functionality found",
+          "Not mobile optimized - critical for trade shows",
+          "No dealer/rep portal detected"
+        ],
+        "strength": "strong"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "no_modern_framework"
+        ],
+        "issues": [
+          "No modern web framework detected"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.25,
+        "indicators": [
+          "limited_filtering"
+        ],
+        "issues": [
+          "Only 0 filter options found on catalog page."
+        ],
+        "strength": "weak"
+      },
+      "channel_conflict": {
+        "score": 0,
+        "indicators": [],
+        "issues": [],
+        "strength": "none"
+      },
+      "specific_findings": [
+        "No product search functionality found",
+        "Not mobile optimized - critical for trade shows",
+        "No dealer/rep portal detected",
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ]
+    },
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is sales_enablement_collapse",
+    "urgency_level": "high",
+    "campaign_strategy": "aggressive_trade_show",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Allstate Floral, Inc. - Still using paper at trade shows?",
+        "body": "Hi {{first_name}},\n\nI noticed Allstate Floral, Inc. has a major presence at High Point Market. With the show in -494 days, how are your reps planning to handle orders when they can't access your systems?\n\nLast year, several exhibitors lost over $50K each during WiFi outages.\n\nHow do you currently handle order processing at trade shows?\n\nBest,\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "How Butler Specialty solved this",
+        "body": "{{first_name}},\n\nQuick follow-up - Butler Specialty had the same challenge at High Point. Their President told me: 'eCat flexibly configures to the way we do business'\n\nThey now process orders completely offline. Zero downtime.\n\nWorth a quick call?\n\n{{sender_name}}"
+      },
+      {
+        "day": 7,
+        "subject": "30% order error rate industry average",
+        "body": "{{first_name}},\n\nDid you know the furniture industry averages a 30% order error rate with manual processes?\n\nAt your scale, that could mean $400K+ in lost margin annually.\n\nHere's a 2-minute video showing how eCat eliminates these errors: [link]\n\n{{sender_name}}"
+      },
+      {
+        "day": 10,
+        "subject": "ROI calculator for Allstate Floral, Inc.",
+        "body": "{{first_name}},\n\nI ran some numbers for Allstate Floral, Inc.:\n\n- Time saved: 3 hours/day per rep\n- Error reduction: 25%\n- Trade show revenue protection: $150K+\n\nTotal first-year ROI: 412%\n\nWant to see the full breakdown?\n\n{{sender_name}}"
+      },
+      {
+        "day": 14,
+        "subject": "Godinger Silver case study",
+        "body": "{{first_name}},\n\nJoel Stern, VP IT at Godinger Silver, called eCat 'Best thing in 25 years, reps are in love'\n\nThey saw:\n- 67% reduction in order processing time\n- Zero trade show downtime\n- 40% increase in rep productivity\n\nHere's their full story: [link]\n\n{{sender_name}}"
+      },
+      {
+        "day": 18,
+        "subject": "Last chance before -494 days to show",
+        "body": "{{first_name}},\n\nWith High Point Market approaching fast, you're running out of time to get a solution in place.\n\nImplementation takes just 2 weeks. Your reps could be fully trained before the show.\n\nCan we schedule 15 minutes this week?\n\n{{sender_name}}"
+      },
+      {
+        "day": 21,
+        "subject": "Should I close your file?",
+        "body": "{{first_name}},\n\nI've reached out several times about solving Allstate Floral, Inc.'s order processing challenges.\n\nIf this isn't a priority, I'll close your file and stop following up.\n\nBut if you're still losing money on manual processes, just reply 'interested' and I'll send over some times to connect.\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed Allstate Floral, Inc.'s presence at High Point Market. Managing orders without reliable WiFi must be challenging. Would love to share how similar companies handle this."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Tim",
+      "last_name": "Turntine",
+      "email": NaN,
+      "title": "Vice President of Sales",
+      "linkedin": "https://www.linkedin.com/in/tim-turntine-60919b120/"
+    },
+    "company_info": {
+      "industry": "Wholesale",
+      "employee_count": 63
+    },
+    "created_at": "2025-08-26T11:09:29.131497",
+    "webhook_version": "3.0"
+  },
+  {
+    "company_id": "fa5f1944-910f-43f8-b17d-048b578d45a2",
+    "company_name": "A. Rudin",
+    "domain": "arudin.com",
+    "tam_tier": "TIER_3_NURTURE",
+    "psi_score": 23.7,
+    "primary_edp": "rep_performance_crisis",
+    "edp_scores": {
+      "sales_enablement_collapse": 0.25,
+      "technology_obsolescence": 0.2,
+      "rep_performance_crisis": 1.0,
+      "sku_complexity": 0.25,
+      "channel_conflict": 0
+    },
+    "evidence": [
+      "No dealer/rep portal detected",
+      "No modern web framework detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "Only 0 filter options found on catalog page."
+    ],
+    "detailed_evidence": {
+      "sales_enablement_collapse": {
+        "score": 0.25,
+        "indicators": [
+          "no_dealer_portal"
+        ],
+        "issues": [
+          "No dealer/rep portal detected"
+        ],
+        "strength": "weak"
+      },
+      "technology_obsolescence": {
+        "score": 0.2,
+        "indicators": [
+          "no_modern_framework"
+        ],
+        "issues": [
+          "No modern web framework detected"
+        ],
+        "strength": "weak"
+      },
+      "rep_performance_crisis": {
+        "score": 1.0,
+        "indicators": [
+          "no_rep_locator",
+          "no_rep_resources",
+          "no_territory_info"
+        ],
+        "issues": [
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "strength": "strong"
+      },
+      "sku_complexity": {
+        "score": 0.25,
+        "indicators": [
+          "limited_filtering"
+        ],
+        "issues": [
+          "Only 0 filter options found on catalog page."
+        ],
+        "strength": "weak"
+      },
+      "channel_conflict": {
+        "score": 0,
+        "indicators": [],
+        "issues": [],
+        "strength": "none"
+      },
+      "specific_findings": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ]
+    },
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "none",
+    "campaign_strategy": "nurture",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why A. Rudin's top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs A. Rudin approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed A. Rudin works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Natalie",
+      "last_name": "Mata Pizarro",
+      "email": "npizarro@arudin.com",
+      "title": "National Sales Director",
+      "linkedin": "https://www.linkedin.com/in/natalie-mata-pizarro-99862461/"
+    },
+    "company_info": {
+      "industry": "Furniture and Home Furnishings Manufacturing",
+      "employee_count": 24
+    },
+    "created_at": "2025-08-26T11:09:40.789838",
+    "webhook_version": "3.0"
+  }
+]

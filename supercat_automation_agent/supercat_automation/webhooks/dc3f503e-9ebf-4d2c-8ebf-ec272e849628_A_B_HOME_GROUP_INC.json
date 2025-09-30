@@ -1,0 +1,121 @@
+{
+  "company_id": "dc3f503e-9ebf-4d2c-8ebf-ec272e849628",
+  "company_name": "A & B HOME GROUP, INC.",
+  "domain": "abhomeinc.com",
+  "tam_tier": "TIER_2_ACTIVE",
+  "psi_score": 40.3,
+  "primary_edp": "rep_performance_crisis",
+  "edp_scores": {
+    "sales_enablement_collapse": 0.5,
+    "technology_obsolescence": 0.2,
+    "rep_performance_crisis": 1.0,
+    "sku_complexity": 0.1,
+    "channel_conflict": 0
+  },
+  "evidence": [
+    "No product search functionality found",
+    "No dealer/rep portal detected",
+    "No modern web framework detected",
+    "No rep/dealer locator found",
+    "No dedicated rep resources section"
+  ],
+  "detailed_evidence": {
+    "sales_enablement_collapse": {
+      "score": 0.5,
+      "indicators": [
+        "no_product_search",
+        "no_dealer_portal"
+      ],
+      "issues": [
+        "No product search functionality found",
+        "No dealer/rep portal detected"
+      ],
+      "strength": "moderate"
+    },
+    "technology_obsolescence": {
+      "score": 0.2,
+      "indicators": [
+        "no_modern_framework"
+      ],
+      "issues": [
+        "No modern web framework detected"
+      ],
+      "strength": "weak"
+    },
+    "rep_performance_crisis": {
+      "score": 1.0,
+      "indicators": [
+        "no_rep_locator",
+        "no_rep_resources",
+        "no_territory_info"
+      ],
+      "issues": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ],
+      "strength": "strong"
+    },
+    "sku_complexity": {
+      "score": 0.1,
+      "indicators": [],
+      "issues": [
+        "Could not find a product or catalog page."
+      ],
+      "strength": "none"
+    },
+    "channel_conflict": {
+      "score": 0,
+      "indicators": [],
+      "issues": [],
+      "strength": "none"
+    },
+    "specific_findings": [
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "No territory information visible"
+    ]
+  },
+  "persona_type": "sales_leadership",
+  "backup_persona": "c_suite",
+  "persona_reason": "Primary EDP is rep_performance_crisis",
+  "urgency_level": "medium",
+  "campaign_strategy": "educational",
+  "days_until_show": -494,
+  "email_sequence": [
+    {
+      "day": 0,
+      "subject": "Why A & B HOME GROUP, INC.'s top reps are 10x more productive",
+      "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+    },
+    {
+      "day": 3,
+      "subject": "27% rep turnover is killing your growth",
+      "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs A & B HOME GROUP, INC. approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+    }
+  ],
+  "linkedin_sequence": [
+    {
+      "type": "connection_request",
+      "message": "Hi {{first_name}}, noticed A & B HOME GROUP, INC. works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+    },
+    {
+      "type": "follow_up_message",
+      "day": 7,
+      "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+    }
+  ],
+  "contact_info": {
+    "first_name": "Emad",
+    "last_name": "Botros",
+    "email": "emadb@abhongda.net",
+    "title": "Director of Operations & Logistics",
+    "linkedin": "https://www.linkedin.com/in/emadbotors/"
+  },
+  "company_info": {
+    "industry": "Wholesale",
+    "employee_count": 43
+  },
+  "created_at": "2025-08-26T09:20:40.964184",
+  "webhook_version": "3.0"
+}

@@ -1,0 +1,862 @@
+[
+  {
+    "webhook_type": "campaign",
+    "company_id": "22e1b6b0-c87d-4b47-9756-025fefe0b09b",
+    "company_name": "9to5 Seating",
+    "domain": "9to5seating.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 40.3,
+    "primary_edp": "rep_performance_crisis",
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "medium",
+    "campaign_strategy": "educational",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why 9to5 Seating's top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs 9to5 Seating approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed 9to5 Seating works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "campaign_timeline": {
+      "phase_1": "awareness_building",
+      "phase_2": "educational_content",
+      "phase_3": "soft_engagement",
+      "total_duration_days": 28
+    },
+    "follow_up_schedule": [
+      {
+        "day": 5,
+        "action": "follow_up_email",
+        "channel": "email"
+      },
+      {
+        "day": 12,
+        "action": "linkedin_message",
+        "channel": "linkedin"
+      },
+      {
+        "day": 21,
+        "action": "value_add_email",
+        "channel": "email"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Ed",
+      "last_name": "Lachman",
+      "email": "ed.lachman@9to5seating.com",
+      "title": "Chief Operating Officer",
+      "linkedin": "https://www.linkedin.com/in/ed-lachman-15b1a862/"
+    },
+    "campaign_metadata": {
+      "created_at": "2025-08-26T12:36:15.221723",
+      "expected_duration": 28,
+      "success_metrics": {
+        "primary_goal": "qualified_conversation",
+        "secondary_goal": "content_engagement",
+        "engagement_threshold": 0.3,
+        "response_target_days": 14
+      },
+      "optimization_notes": [
+        "Moderate pain - focus on education and ROI demonstration",
+        "Highlight performance tracking and coaching capabilities"
+      ]
+    },
+    "webhook_version": "4.0_campaign"
+  },
+  {
+    "webhook_type": "campaign",
+    "company_id": "9c7ff50e-27b1-48b6-9cb8-b6c163ebd5b8",
+    "company_name": "Abbott Collection",
+    "domain": "abbottcollection.com",
+    "tam_tier": "TIER_3_NURTURE",
+    "psi_score": 23.7,
+    "primary_edp": "rep_performance_crisis",
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "none",
+    "campaign_strategy": "nurture",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why Abbott Collection's top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs Abbott Collection approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed Abbott Collection works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "campaign_timeline": {
+      "phase_1": "relationship_building",
+      "phase_2": "value_demonstration",
+      "phase_3": "long_term_engagement",
+      "total_duration_days": 60
+    },
+    "follow_up_schedule": [
+      {
+        "day": 7,
+        "action": "educational_content",
+        "channel": "email"
+      },
+      {
+        "day": 21,
+        "action": "industry_insights",
+        "channel": "linkedin"
+      },
+      {
+        "day": 42,
+        "action": "check_in",
+        "channel": "email"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Lee",
+      "last_name": "Abbott",
+      "email": "lee.a@abbottcollection.com",
+      "title": "Vice President",
+      "linkedin": "https://www.linkedin.com/in/lee-abbott-a789694b/"
+    },
+    "campaign_metadata": {
+      "created_at": "2025-08-26T12:36:28.304268",
+      "expected_duration": 60,
+      "success_metrics": {
+        "primary_goal": "relationship_building",
+        "secondary_goal": "awareness_increase",
+        "engagement_threshold": 0.2,
+        "response_target_days": 30
+      },
+      "optimization_notes": [
+        "Lower pain - build relationship and awareness first",
+        "Highlight performance tracking and coaching capabilities"
+      ]
+    },
+    "webhook_version": "4.0_campaign"
+  },
+  {
+    "webhook_type": "campaign",
+    "company_id": "5747a20c-7229-4697-beae-f0da3f68b23e",
+    "company_name": "A & B HOME GROUP, INC.",
+    "domain": "abhomeinc.com",
+    "tam_tier": "TIER_3_NURTURE",
+    "psi_score": 23.7,
+    "primary_edp": "rep_performance_crisis",
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "none",
+    "campaign_strategy": "nurture",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why A & B HOME GROUP, INC.'s top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs A & B HOME GROUP, INC. approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed A & B HOME GROUP, INC. works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "campaign_timeline": {
+      "phase_1": "relationship_building",
+      "phase_2": "value_demonstration",
+      "phase_3": "long_term_engagement",
+      "total_duration_days": 60
+    },
+    "follow_up_schedule": [
+      {
+        "day": 7,
+        "action": "educational_content",
+        "channel": "email"
+      },
+      {
+        "day": 21,
+        "action": "industry_insights",
+        "channel": "linkedin"
+      },
+      {
+        "day": 42,
+        "action": "check_in",
+        "channel": "email"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Emad",
+      "last_name": "Botros",
+      "email": "emadb@abhongda.net",
+      "title": "Director of Operations & Logistics",
+      "linkedin": "https://www.linkedin.com/in/emadbotors/"
+    },
+    "campaign_metadata": {
+      "created_at": "2025-08-26T12:36:47.232863",
+      "expected_duration": 60,
+      "success_metrics": {
+        "primary_goal": "relationship_building",
+        "secondary_goal": "awareness_increase",
+        "engagement_threshold": 0.2,
+        "response_target_days": 30
+      },
+      "optimization_notes": [
+        "Lower pain - build relationship and awareness first",
+        "Highlight performance tracking and coaching capabilities"
+      ]
+    },
+    "webhook_version": "4.0_campaign"
+  },
+  {
+    "webhook_type": "campaign",
+    "company_id": "b4bf503a-6963-4b2a-a786-ec98dba9f79c",
+    "company_name": "Allstate Floral, Inc.",
+    "domain": "allstatefloral.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 50.3,
+    "primary_edp": "sales_enablement_collapse",
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is sales_enablement_collapse",
+    "urgency_level": "high",
+    "campaign_strategy": "aggressive_trade_show",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Allstate Floral, Inc. - Still using paper at trade shows?",
+        "body": "Hi {{first_name}},\n\nI noticed Allstate Floral, Inc. has a major presence at High Point Market. With the show in -494 days, how are your reps planning to handle orders when they can't access your systems?\n\nLast year, several exhibitors lost over $50K each during WiFi outages.\n\nHow do you currently handle order processing at trade shows?\n\nBest,\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "How Butler Specialty solved this",
+        "body": "{{first_name}},\n\nQuick follow-up - Butler Specialty had the same challenge at High Point. Their President told me: 'eCat flexibly configures to the way we do business'\n\nThey now process orders completely offline. Zero downtime.\n\nWorth a quick call?\n\n{{sender_name}}"
+      },
+      {
+        "day": 7,
+        "subject": "30% order error rate industry average",
+        "body": "{{first_name}},\n\nDid you know the furniture industry averages a 30% order error rate with manual processes?\n\nAt your scale, that could mean $400K+ in lost margin annually.\n\nHere's a 2-minute video showing how eCat eliminates these errors: [link]\n\n{{sender_name}}"
+      },
+      {
+        "day": 10,
+        "subject": "ROI calculator for Allstate Floral, Inc.",
+        "body": "{{first_name}},\n\nI ran some numbers for Allstate Floral, Inc.:\n\n- Time saved: 3 hours/day per rep\n- Error reduction: 25%\n- Trade show revenue protection: $150K+\n\nTotal first-year ROI: 412%\n\nWant to see the full breakdown?\n\n{{sender_name}}"
+      },
+      {
+        "day": 14,
+        "subject": "Godinger Silver case study",
+        "body": "{{first_name}},\n\nJoel Stern, VP IT at Godinger Silver, called eCat 'Best thing in 25 years, reps are in love'\n\nThey saw:\n- 67% reduction in order processing time\n- Zero trade show downtime\n- 40% increase in rep productivity\n\nHere's their full story: [link]\n\n{{sender_name}}"
+      },
+      {
+        "day": 18,
+        "subject": "Last chance before -494 days to show",
+        "body": "{{first_name}},\n\nWith High Point Market approaching fast, you're running out of time to get a solution in place.\n\nImplementation takes just 2 weeks. Your reps could be fully trained before the show.\n\nCan we schedule 15 minutes this week?\n\n{{sender_name}}"
+      },
+      {
+        "day": 21,
+        "subject": "Should I close your file?",
+        "body": "{{first_name}},\n\nI've reached out several times about solving Allstate Floral, Inc.'s order processing challenges.\n\nIf this isn't a priority, I'll close your file and stop following up.\n\nBut if you're still losing money on manual processes, just reply 'interested' and I'll send over some times to connect.\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed Allstate Floral, Inc.'s presence at High Point Market. Managing orders without reliable WiFi must be challenging. Would love to share how similar companies handle this."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "campaign_timeline": {
+      "phase_1": "immediate_outreach",
+      "phase_2": "pre_show_follow_up",
+      "phase_3": "show_meeting_request",
+      "total_duration_days": -494
+    },
+    "follow_up_schedule": [
+      {
+        "day": 3,
+        "action": "personal_follow_up",
+        "channel": "email"
+      },
+      {
+        "day": 7,
+        "action": "linkedin_message",
+        "channel": "linkedin"
+      },
+      {
+        "day": 10,
+        "action": "phone_call",
+        "channel": "phone"
+      },
+      {
+        "day": 14,
+        "action": "final_email",
+        "channel": "email"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Tim",
+      "last_name": "Turntine",
+      "email": NaN,
+      "title": "Vice President of Sales",
+      "linkedin": "https://www.linkedin.com/in/tim-turntine-60919b120/"
+    },
+    "campaign_metadata": {
+      "created_at": "2025-08-26T12:36:52.854082",
+      "expected_duration": 21,
+      "success_metrics": {
+        "primary_goal": "qualified_conversation",
+        "secondary_goal": "content_engagement",
+        "engagement_threshold": 0.3,
+        "response_target_days": 14
+      },
+      "optimization_notes": [
+        "Moderate pain - focus on education and ROI demonstration",
+        "Focus on rep productivity and sales process efficiency"
+      ]
+    },
+    "webhook_version": "4.0_campaign"
+  },
+  {
+    "webhook_type": "campaign",
+    "company_id": "768f24e6-fc4c-487d-89e8-8bfcba28df0d",
+    "company_name": "A. Rudin",
+    "domain": "arudin.com",
+    "tam_tier": "TIER_3_NURTURE",
+    "psi_score": 23.7,
+    "primary_edp": "rep_performance_crisis",
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "none",
+    "campaign_strategy": "nurture",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why A. Rudin's top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs A. Rudin approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed A. Rudin works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "campaign_timeline": {
+      "phase_1": "relationship_building",
+      "phase_2": "value_demonstration",
+      "phase_3": "long_term_engagement",
+      "total_duration_days": 60
+    },
+    "follow_up_schedule": [
+      {
+        "day": 7,
+        "action": "educational_content",
+        "channel": "email"
+      },
+      {
+        "day": 21,
+        "action": "industry_insights",
+        "channel": "linkedin"
+      },
+      {
+        "day": 42,
+        "action": "check_in",
+        "channel": "email"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Natalie",
+      "last_name": "Mata Pizarro",
+      "email": "npizarro@arudin.com",
+      "title": "National Sales Director",
+      "linkedin": "https://www.linkedin.com/in/natalie-mata-pizarro-99862461/"
+    },
+    "campaign_metadata": {
+      "created_at": "2025-08-26T12:37:05.968000",
+      "expected_duration": 60,
+      "success_metrics": {
+        "primary_goal": "relationship_building",
+        "secondary_goal": "awareness_increase",
+        "engagement_threshold": 0.2,
+        "response_target_days": 30
+      },
+      "optimization_notes": [
+        "Lower pain - build relationship and awareness first",
+        "Highlight performance tracking and coaching capabilities"
+      ]
+    },
+    "webhook_version": "4.0_campaign"
+  },
+  {
+    "webhook_type": "campaign",
+    "company_id": "c13b8257-c44d-4020-9a19-a2c76b63211a",
+    "company_name": "Capel Rugs",
+    "domain": "capelrugs.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 37.5,
+    "primary_edp": "rep_performance_crisis",
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "medium",
+    "campaign_strategy": "educational",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why Capel Rugs's top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs Capel Rugs approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed Capel Rugs works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "campaign_timeline": {
+      "phase_1": "awareness_building",
+      "phase_2": "educational_content",
+      "phase_3": "soft_engagement",
+      "total_duration_days": 28
+    },
+    "follow_up_schedule": [
+      {
+        "day": 5,
+        "action": "follow_up_email",
+        "channel": "email"
+      },
+      {
+        "day": 12,
+        "action": "linkedin_message",
+        "channel": "linkedin"
+      },
+      {
+        "day": 21,
+        "action": "value_add_email",
+        "channel": "email"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Ron",
+      "last_name": "Capel",
+      "email": "ronc@capel.net",
+      "title": "Managing Director - Retail",
+      "linkedin": "https://www.linkedin.com/in/ron-capel-35877915/"
+    },
+    "campaign_metadata": {
+      "created_at": "2025-08-26T12:37:15.347109",
+      "expected_duration": 28,
+      "success_metrics": {
+        "primary_goal": "qualified_conversation",
+        "secondary_goal": "content_engagement",
+        "engagement_threshold": 0.3,
+        "response_target_days": 14
+      },
+      "optimization_notes": [
+        "Lower pain - build relationship and awareness first",
+        "Highlight performance tracking and coaching capabilities"
+      ]
+    },
+    "webhook_version": "4.0_campaign"
+  },
+  {
+    "webhook_type": "campaign",
+    "company_id": "be3767f8-c8d2-47ce-b3a9-e9149104939c",
+    "company_name": "Anne McGilvray & Company",
+    "domain": "annemcgilvray.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 29.2,
+    "primary_edp": "rep_performance_crisis",
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "low",
+    "campaign_strategy": "nurture",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why Anne McGilvray & Company's top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs Anne McGilvray & Company approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed Anne McGilvray & Company works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "campaign_timeline": {
+      "phase_1": "relationship_building",
+      "phase_2": "value_demonstration",
+      "phase_3": "long_term_engagement",
+      "total_duration_days": 60
+    },
+    "follow_up_schedule": [
+      {
+        "day": 7,
+        "action": "educational_content",
+        "channel": "email"
+      },
+      {
+        "day": 21,
+        "action": "industry_insights",
+        "channel": "linkedin"
+      },
+      {
+        "day": 42,
+        "action": "check_in",
+        "channel": "email"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Ms.",
+      "last_name": "Lisa Bach",
+      "email": "lbach@annemcgilvray.com",
+      "title": "Director of Sales & Publisher Relations",
+      "linkedin": "https://www.linkedin.com/in/lisasbach/"
+    },
+    "campaign_metadata": {
+      "created_at": "2025-08-26T12:37:44.319994",
+      "expected_duration": 60,
+      "success_metrics": {
+        "primary_goal": "qualified_conversation",
+        "secondary_goal": "content_engagement",
+        "engagement_threshold": 0.3,
+        "response_target_days": 14
+      },
+      "optimization_notes": [
+        "Lower pain - build relationship and awareness first",
+        "Highlight performance tracking and coaching capabilities"
+      ]
+    },
+    "webhook_version": "4.0_campaign"
+  },
+  {
+    "webhook_type": "campaign",
+    "company_id": "ffa1e8cb-2800-41be-9703-026094bb2f7b",
+    "company_name": "Castelle",
+    "domain": "castellefurniture.com",
+    "tam_tier": "TIER_1_IMMEDIATE",
+    "psi_score": 49.9,
+    "primary_edp": "rep_performance_crisis",
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "medium",
+    "campaign_strategy": "educational",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why Castelle's top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs Castelle approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed Castelle works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "campaign_timeline": {
+      "phase_1": "awareness_building",
+      "phase_2": "educational_content",
+      "phase_3": "soft_engagement",
+      "total_duration_days": 28
+    },
+    "follow_up_schedule": [
+      {
+        "day": 5,
+        "action": "follow_up_email",
+        "channel": "email"
+      },
+      {
+        "day": 12,
+        "action": "linkedin_message",
+        "channel": "linkedin"
+      },
+      {
+        "day": 21,
+        "action": "value_add_email",
+        "channel": "email"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Sergio",
+      "last_name": "Flores",
+      "email": "sflores@castellefurniture.com",
+      "title": "Vice President Operations",
+      "linkedin": "https://www.linkedin.com/in/sergio-flores-55830916/"
+    },
+    "campaign_metadata": {
+      "created_at": "2025-08-26T12:37:52.908490",
+      "expected_duration": 28,
+      "success_metrics": {
+        "primary_goal": "meeting_booked",
+        "secondary_goal": "demo_scheduled",
+        "engagement_threshold": 0.4,
+        "response_target_days": 7
+      },
+      "optimization_notes": [
+        "Moderate pain - focus on education and ROI demonstration",
+        "Highlight performance tracking and coaching capabilities"
+      ]
+    },
+    "webhook_version": "4.0_campaign"
+  },
+  {
+    "webhook_type": "campaign",
+    "company_id": "70cd3bef-da57-4851-99e3-5d14d25cc351",
+    "company_name": "Atkore",
+    "domain": "atkore.com",
+    "tam_tier": "TIER_1_IMMEDIATE",
+    "psi_score": 42.8,
+    "primary_edp": "rep_performance_crisis",
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "medium",
+    "campaign_strategy": "educational",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why Atkore's top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs Atkore approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed Atkore works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "campaign_timeline": {
+      "phase_1": "awareness_building",
+      "phase_2": "educational_content",
+      "phase_3": "soft_engagement",
+      "total_duration_days": 28
+    },
+    "follow_up_schedule": [
+      {
+        "day": 5,
+        "action": "follow_up_email",
+        "channel": "email"
+      },
+      {
+        "day": 12,
+        "action": "linkedin_message",
+        "channel": "linkedin"
+      },
+      {
+        "day": 21,
+        "action": "value_add_email",
+        "channel": "email"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Eric",
+      "last_name": "Banks",
+      "email": "ebanks@atkore.com",
+      "title": "Vice President, Operations",
+      "linkedin": "https://www.linkedin.com/in/ericbanks1775/"
+    },
+    "campaign_metadata": {
+      "created_at": "2025-08-26T12:38:02.760840",
+      "expected_duration": 28,
+      "success_metrics": {
+        "primary_goal": "meeting_booked",
+        "secondary_goal": "demo_scheduled",
+        "engagement_threshold": 0.4,
+        "response_target_days": 7
+      },
+      "optimization_notes": [
+        "Moderate pain - focus on education and ROI demonstration",
+        "Highlight performance tracking and coaching capabilities"
+      ]
+    },
+    "webhook_version": "4.0_campaign"
+  },
+  {
+    "webhook_type": "campaign",
+    "company_id": "29ced521-5db0-4b70-af3b-14e6d03914f6",
+    "company_name": "Golden Rabbit II, Inc.",
+    "domain": "crowcanyonhome.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 37.5,
+    "primary_edp": "rep_performance_crisis",
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "medium",
+    "campaign_strategy": "educational",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why Golden Rabbit II, Inc.'s top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs Golden Rabbit II, Inc. approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed Golden Rabbit II, Inc. works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "campaign_timeline": {
+      "phase_1": "awareness_building",
+      "phase_2": "educational_content",
+      "phase_3": "soft_engagement",
+      "total_duration_days": 28
+    },
+    "follow_up_schedule": [
+      {
+        "day": 5,
+        "action": "follow_up_email",
+        "channel": "email"
+      },
+      {
+        "day": 12,
+        "action": "linkedin_message",
+        "channel": "linkedin"
+      },
+      {
+        "day": 21,
+        "action": "value_add_email",
+        "channel": "email"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Cara",
+      "last_name": "Barde",
+      "email": "cara@crowcanyonhome.com",
+      "title": "Owner/President",
+      "linkedin": "https://www.linkedin.com/in/carabarde/"
+    },
+    "campaign_metadata": {
+      "created_at": "2025-08-26T12:38:11.715780",
+      "expected_duration": 28,
+      "success_metrics": {
+        "primary_goal": "qualified_conversation",
+        "secondary_goal": "content_engagement",
+        "engagement_threshold": 0.3,
+        "response_target_days": 14
+      },
+      "optimization_notes": [
+        "Lower pain - build relationship and awareness first",
+        "Highlight performance tracking and coaching capabilities"
+      ]
+    },
+    "webhook_version": "4.0_campaign"
+  }
+]

@@ -1,0 +1,11 @@
+company_name,domain,tier,psi_score,primary_edp,urgency,email,campaign_strategy
+9to5 Seating,9to5seating.com,TIER_3_NURTURE,32.4,rep_performance_crisis,low,ed.lachman@9to5seating.com,nurture
+Abbott Collection,abbottcollection.com,TIER_3_NURTURE,27.2,rep_performance_crisis,low,lee.a@abbottcollection.com,nurture
+"A & B HOME GROUP, INC.",abhomeinc.com,TIER_3_NURTURE,26.1,rep_performance_crisis,low,emadb@abhongda.net,nurture
+"Allstate Floral, Inc.",allstatefloral.com,TIER_3_NURTURE,34.1,rep_performance_crisis,low,,nurture
+A. Rudin,arudin.com,TIER_3_NURTURE,27.2,rep_performance_crisis,low,npizarro@arudin.com,nurture
+Capel Rugs,capelrugs.com,TIER_3_NURTURE,31.9,rep_performance_crisis,low,ronc@capel.net,nurture
+Anne McGilvray & Company,annemcgilvray.com,TIER_3_NURTURE,31.3,rep_performance_crisis,low,lbach@annemcgilvray.com,nurture
+Castelle,castellefurniture.com,TIER_2_ACTIVE,42.8,rep_performance_crisis,medium,sflores@castellefurniture.com,educational
+Atkore,atkore.com,TIER_2_ACTIVE,43.6,sales_enablement_collapse,medium,ebanks@atkore.com,educational
+"Golden Rabbit II, Inc.",crowcanyonhome.com,TIER_3_NURTURE,31.9,rep_performance_crisis,low,cara@crowcanyonhome.com,nurture

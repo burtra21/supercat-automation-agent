@@ -1,0 +1,209 @@
+{
+  "messaging_framework": {
+    "source": "C2 Supercat Customer Pain Signal Validation Study",
+    "approach": "Evidence-based crisis intervention vs generic value propositions",
+    "success_metrics": {
+      "target_response_rate": 35,
+      "target_qualification_accuracy": 85,
+      "target_sales_cycle": 45
+    }
+  },
+  "weighted_methodology_hooks": {
+    "description": "Crisis intervention messaging for immediate purchase motivation",
+    "EDP7_Sales_Enablement": {
+      "primary_hook": "No mobile site for High Point Market?",
+      "evidence_patterns": [
+        "No product search function",
+        "Mobile optimization failure", 
+        "Manual catalog navigation",
+        "No offline capability"
+      ],
+      "crisis_indicators": [
+        "Trade show approaching without mobile capability",
+        "Manual order processing with complex SKU matrix",
+        "No search function with high SKU count"
+      ],
+      "urgency_triggers": [
+        "Trade show in {days_to_show} days",
+        "Competitors have mobile ordering",
+        "Losing 60% of opportunities to mobile-enabled competitors"
+      ],
+      "subject_line_templates": [
+        "{company_name}: No mobile site for High Point Market?",
+        "Found {company_name}'s ${annual_cost:,} productivity leak",
+        "{company_name}: Manual catalog navigation killing productivity"
+      ]
+    },
+    "EDP8_Technology_Obsolescence": {
+      "primary_hook": "SSL EXPIRED - customers questioning credibility",
+      "evidence_patterns": [
+        "No SSL certificate",
+        "Legacy technology stack",
+        "Poor page load times (>3.5s)",
+        "Infrastructure gaps"
+      ],
+      "crisis_indicators": [
+        "SSL certificate missing or expired",
+        "Load times 40-50% slower than competitors",
+        "Legacy systems causing customer abandonment"
+      ],
+      "urgency_triggers": [
+        "Security warnings driving customers away",
+        "Competitors 40-50% faster",
+        "Infrastructure failures during peak traffic"
+      ],
+      "subject_line_templates": [
+        "{company_name}: SSL EXPIRED - immediate action required",
+        "{load_time}s load time losing customers",
+        "{company_name} 40% slower than digital competitors"
+      ]
+    }
+  },
+  "averaged_methodology_intelligence": {
+    "description": "Operational efficiency context for discovery and account planning",
+    "EDP6_Channel_Conflict": {
+      "intelligence_hook": "{channel_count} channels, zero pricing visibility",
+      "evidence_patterns": [
+        "Multiple channels with pricing opacity",
+        "Channel pricing transparency issues",
+        "Cross-channel coordination failures"
+      ],
+      "conversation_starters": [
+        "How do you manage pricing across {channel_count} channels?",
+        "What's your biggest challenge with channel coordination?",
+        "How do reps handle pricing discrepancies between channels?"
+      ]
+    },
+    "EDP2_Rep_Management": {
+      "intelligence_hook": "Your {rep_count} reps have no portal",
+      "evidence_patterns": [
+        "No rep portal infrastructure",
+        "Territory management chaos",
+        "Rep support system failures"
+      ],
+      "conversation_starters": [
+        "How do your {rep_count} reps access product information?",
+        "What's your biggest rep productivity challenge?",
+        "How do you track rep performance across territories?"
+      ]
+    },
+    "EDP1_SKU_Complexity": {
+      "intelligence_hook": "{sku_count:,} SKUs but no search function",
+      "evidence_patterns": [
+        "High SKU count without search capability",
+        "Complex product configurations",
+        "Manual catalog navigation"
+      ],
+      "conversation_starters": [
+        "How do customers find products in your {sku_count:,} SKU catalog?",
+        "What's the biggest challenge with product complexity?",
+        "How do reps handle configuration questions?"
+      ]
+    }
+  },
+  "crisis_company_examples": {
+    "tier_a_immediate": {
+      "pebl_furniture": {
+        "psi_score": 89.7,
+        "primary_edp": "EDP7_Sales_Enablement",
+        "crisis_hook": "No mobile site for High Point Market?",
+        "evidence": "No product search, 150 SKUs, mobile failures, no SSL",
+        "smoking_gun": "Manual catalog navigation with complex SKU matrix"
+      },
+      "globalux_lighting": {
+        "psi_score": 79.75,
+        "primary_edp": "EDP7_Sales_Enablement", 
+        "crisis_hook": "No mobile site for High Point Market?",
+        "evidence": "Mobile optimization complete failure, 3.5s load times",
+        "smoking_gun": "Mobile failures devastate trade show performance"
+      },
+      "americas_backyards": {
+        "psi_score": 75.0,
+        "primary_edp": "EDP7_Sales_Enablement",
+        "crisis_hook": "No mobile site for High Point Market?",
+        "evidence": "No search function, no mobile optimization",
+        "smoking_gun": "Outdoor furniture complexity requires search capability"
+      }
+    }
+  },
+  "evidence_based_patterns": {
+    "digital_failures_that_predict_purchases": {
+      "no_product_search": {
+        "frequency": "27% of customers",
+        "correlation": "EDP7 - 100% correlation",
+        "message_trigger": "Manual catalog navigation killing productivity"
+      },
+      "mobile_optimization_failure": {
+        "frequency": "20% of customers", 
+        "correlation": "EDP7 - 100% correlation",
+        "message_trigger": "Trade show visitors get broken experience"
+      },
+      "channel_pricing_opacity": {
+        "frequency": "53% of customers",
+        "correlation": "EDP6 - Primary driver in averaged analysis",
+        "message_trigger": "{channel_count} channels, zero pricing visibility"
+      },
+      "rep_portal_absence": {
+        "frequency": "40% of customers",
+        "correlation": "EDP2 - Primary concern in averaged analysis", 
+        "message_trigger": "Your {rep_count} reps have no portal"
+      },
+      "ssl_certificate_missing": {
+        "frequency": "13% of customers",
+        "correlation": "EDP8 - 93% correlation",
+        "message_trigger": "SSL EXPIRED - customers questioning credibility"
+      }
+    }
+  },
+  "messaging_personalization": {
+    "company_size_adjustments": {
+      "high_rep_companies": {
+        "threshold": ">50 reps",
+        "emphasis": "Rep productivity and territory management",
+        "hook_modifier": "Your {rep_count} reps losing 3 hours daily"
+      },
+      "high_sku_companies": {
+        "threshold": ">5000 SKUs",
+        "emphasis": "Catalog complexity and search functionality",
+        "hook_modifier": "{sku_count:,} SKUs but customers can't find products"
+      },
+      "multi_channel_companies": {
+        "threshold": ">2 channels",
+        "emphasis": "Channel coordination and pricing transparency",
+        "hook_modifier": "{channel_count} channels creating pricing chaos"
+      }
+    },
+    "industry_specific_hooks": {
+      "lighting_manufacturers": {
+        "trade_show_critical": true,
+        "mobile_weight_multiplier": 1.3,
+        "hook": "Trade show visitors expect mobile ordering capability"
+      },
+      "furniture_manufacturers": {
+        "configurator_critical": true,
+        "sku_complexity_multiplier": 1.2,
+        "hook": "Complex configurations require digital tools"
+      },
+      "multi_brand_companies": {
+        "channel_conflict_critical": true,
+        "channel_weight_multiplier": 1.4,
+        "hook": "Multiple brands need unified channel strategy"
+      }
+    }
+  },
+  "competitive_displacement_messaging": {
+    "urgency_creation": {
+      "digital_competitors": [
+        "Universal Furniture", 
+        "Theodore Alexander",
+        "Butler Specialty"
+      ],
+      "competitive_advantage_lost": {
+        "quote_time": "Them (minutes) vs You (hours)",
+        "error_rates": "Them (<1%) vs You (30%)",
+        "trade_show_orders": "Them (real-time) vs You (next day)"
+      },
+      "market_reality_hook": "Companies on manual processes in 2025 won't exist in 2027"
+    }
+  }
+}

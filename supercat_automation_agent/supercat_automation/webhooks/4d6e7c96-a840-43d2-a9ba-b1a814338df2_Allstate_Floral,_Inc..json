@@ -1,0 +1,64 @@
+{
+  "company_id": "4d6e7c96-a840-43d2-a9ba-b1a814338df2",
+  "company_name": "Allstate Floral, Inc.",
+  "domain": "allstatefloral.com",
+  "tam_tier": "TIER_3_NURTURE",
+  "psi_score": 34.1,
+  "primary_edp": "rep_performance_crisis",
+  "edp_scores": {
+    "sales_enablement_collapse": 0.3,
+    "technology_obsolescence": 0,
+    "rep_performance_crisis": 1.0,
+    "sku_complexity": 0.4,
+    "channel_conflict": 0
+  },
+  "evidence": [
+    "No product search",
+    "No rep locator",
+    "No sales resources",
+    "No territory info",
+    "Large catalog"
+  ],
+  "persona_type": "sales_leadership",
+  "backup_persona": "c_suite",
+  "persona_reason": "Primary EDP is rep_performance_crisis",
+  "urgency_level": "low",
+  "campaign_strategy": "nurture",
+  "days_until_show": -491,
+  "email_sequence": [
+    {
+      "day": 0,
+      "subject": "Why Allstate Floral, Inc.'s top reps are 10x more productive",
+      "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+    },
+    {
+      "day": 3,
+      "subject": "27% rep turnover is killing your growth",
+      "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs Allstate Floral, Inc. approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+    }
+  ],
+  "linkedin_sequence": [
+    {
+      "type": "connection_request",
+      "message": "Hi {{first_name}}, noticed Allstate Floral, Inc. works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+    },
+    {
+      "type": "follow_up_message",
+      "day": 7,
+      "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+    }
+  ],
+  "contact_info": {
+    "first_name": "Tim",
+    "last_name": "Turntine",
+    "email": NaN,
+    "title": "Vice President of Sales",
+    "linkedin": "https://www.linkedin.com/in/tim-turntine-60919b120/"
+  },
+  "company_info": {
+    "industry": "Wholesale",
+    "employee_count": 63
+  },
+  "created_at": "2025-08-23T07:15:10.039882",
+  "webhook_version": "2.0"
+}

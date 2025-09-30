@@ -1,0 +1,22 @@
+
+            ========================================
+            TRADE SHOW SCRAPING REPORT
+            ========================================
+            Timestamp: 2025-08-16 08:12:41
+            
+            Summary:
+            - Scrapers Run: 3
+            - Successful: 0
+            - Failed: 3
+            
+            Results:
+            - Total Exhibitors Found: 0
+            - Total Exhibitors Processed: 0
+            - Processing Rate: 0.0%
+            
+            Details:
+            
+❌ Unknown: 'coroutine' object is not subscriptable
+❌ Unknown: 'coroutine' object is not subscriptable
+❌ Unknown: 'coroutine' object is not subscriptable
+========================================

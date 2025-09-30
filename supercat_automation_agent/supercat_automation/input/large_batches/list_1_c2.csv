@@ -1,0 +1,926 @@
+first_name,last_name,title,company_name,domain,industry,employee_count,LinkedIn Profile,email
+Isaac,Kubryk,Chief Executive Officer & Founder,"Global Allies, LLC",globalallies.com,,10,,Isaac@globalallies.com
+Michael,J Mcclaflin,Chief Information & Technology Officer,Flexsteel,flexsteelstore.com,,,https://www.linkedin.com/in/mmcclaflin,mmcclaflin@flexsteel.com
+Steve,Smitson,CEO,ETHERIUM LIGHTING LLC,etheriumled.com/,,,,Steve@etheriumled.com
+Peter,W Robinson,CEO,Eleanor Rigby Leather Company,eleanorrigbyleather.com,,10,https://www.linkedin.com/in/peter-w-robinson-7392b18b,Peter@eleanorrigbyhome.com
+German,Rebruj,CEO,International Home Miami Corp,internationalhomemiami.com/,,6,https://www.linkedin.com/in/german-rebruj-b74a16220,grebruj@internationalhomemiami.com
+Wei,Wang,CEO,"US Power Solution Industries, Inc.",uspsi-inc.com,,,,WWang@uspsi-inc.com
+Michael,Arash Hadaghian,CEO,Iconic Furniture Company,iconicfurnitureco.com,,,https://www.linkedin.com/in/michael-arash-hadaghian-0aa055142,MichaelH@iconicfurnitureco.com
+Kevin,Choi,CEO,Impressions Vanity,impressionsvanity.com,,,https://www.linkedin.com/in/kevin-choi-99a6b2184/,Kevin@impressionsvanity.com
+Kenysha,Wilson,Administrative Office Manager and Logistics Coordinator,Matteo Lighting Ltd.,matteolighting.com/,,5,https://www.linkedin.com/in/kenysha-wilson-a75246370,kenysha.w@matteolighting.com
+Laura,Park,Artist/Designer/Owner,Laura Park Designs,lauraparkdesigns.com,,13,https://www.linkedin.com/in/laura-park-078871163,Laura@lauraparkdesigns.com
+Marie,Noble,Director of Operations,Laura Park Designs,lauraparkdesigns.com,,13,https://www.linkedin.com/in/marie-noble-9a8b96141,Marie@lauraparkdesigns.com
+Federico,Ofman,Director of Business Development and Operations,International Home Miami Corp,internationalhomemiami.com/,,6,,FOfman@internationalhomemiami.com
+Ladawnya,Ruffin,Customer Service Representative,ETHERIUM LIGHTING LLC,etheriumled.com/,,,,Ladawnya@etheriumled.com
+Joel,Handschin,Director Of Operations,Laura Park Designs,lauraparkdesigns.com,,13,https://www.linkedin.com/in/joel-handschin-2a8232141,Joel@lauraparkdesigns.com
+Tanner,Lent,Co-Founder,1889WaxLighting,1889waxlighting.com,,,https://www.linkedin.com/in/tanner-lent-b2723826a/,Tanner@1889waxlighting.com
+Wendy,Schwartz,Co-founder and Design Principal,Cuff Studio,cuffstudio.com,,3,https://www.linkedin.com/in/wendy-schwartz-720b2534,Wendy@cuffstudio.com
+Eustachio,Nicoletti,CMD NICOLETTIHOME,G. NICOLETTI TRADE SPA,nicolettihome.com,,1,https://it.linkedin.com/in/eustachio-nicoletti-43817435,Eustachio@nicolettihome.com
+Pierangelo,Colacicco,Chief Technology,Natuzzi Italia,natuzzi.com.co,,,,pcolacicco@natuzzi.com
+Nick,Geimer,Co-founder and Managing Partner,Ngala Trading Co.,ngalatrading.com,,4,https://www.linkedin.com/in/nick-geimer-ngala-trading,Nick@ngalatrading.com
+Sam,Z Miller,Chief Revenue Officer,ECI Software Solutions,ecisolutions.com,,,https://www.linkedin.com/in/sam-z-miller-34a54a5/,SMiller@ecisolutions.com
+Jared,Perry,Chief Revenue Officer (CRO),Make-A-Wish America,wish.org,,,https://www.linkedin.com/in/jared-perry-97038243/,JPerry@wish.org
+Terri,Harwood,Chief Operating Officer,MarketTime,markettime.com,,,https://www.linkedin.com/in/terriharwood/,THarwood@markettime.com
+Lorraine,Mulligan,Founder and Designer,Ellen Ash Collection,lamstudiosinc.com,,,,Lorraine@lamstudiosinc.com
+Jonathan,Freidzon,Executive VP of Sales,International Home Miami Corp,internationalhomemiami.com/,,6,https://www.linkedin.com/in/jonathan-freidzon-3b87b469,Jonathan@internationalhomemiami.com
+Spencer,Frazier,Executive Vice President of Sales and Marketing,"J.B. Hunt Transport Services, Inc.",jbhunt.com,,,https://www.linkedin.com/in/spencer-frazier-a4436310/,spencer.frazier@jbhunt.com
+Shawna,R Lawyer,Exterior/Transitional Design and Sales Mgr,Designer's Patio,designerspatio.com,,3,https://www.linkedin.com/in/shawna-r-lawyer-0604477,Shawna@designerspatio.com
+John,Dagostino,Executive Sales Director,ams OSRAM,ams-osram.com,,,https://www.linkedin.com/in/john-dagostino-3943595/,John.DAgostino@ams-osram.com
+Tench,Tilghman,Division President,Lennar,lennar.com,,,https://www.linkedin.com/in/tench-tilghman-3a918910/,Tench.Tilghman@lennar.com
+Katrina,Couch,Director of Showrooms,Wells Abbott,wellsabbott.com,,1,https://www.linkedin.com/in/katrina-couch-8b545014,KCouch@wellsabbott.com
+David,Djaniants,Director of Sales & Marketing,Neon Textiles,neontextiles.com,,1,https://www.linkedin.com/in/david-djaniants,DD@neontextiles.com
+Yadira,Cepeda,Director of Sales Development & Customer Service,Roland DGA,rolanddga.com,,,https://www.linkedin.com/in/yadira-cepeda-1198ab18/,YadiraC@rolanddga.com
+Luis,Flores,Director of Sales - Central Region,ams OSRAM,ams-osram.com,,,https://www.linkedin.com/in/luis-flores-191a358/,Luis.Flores@ams-osram.com
+Natalie,Irwin,Director of Sales and Head of Sales,Ngala Trading Co.,ngalatrading.com,,4,https://www.linkedin.com/in/natalie-irwin-5b03561b8,Natalie@ngalatrading.com
+Ryan,Maloney,Director of Sales,Ebel Inc.,ebelinc.com,,,https://www.linkedin.com/in/ryan-maloney-b75424163/,Ryan@ebelinc.com
+Sid,Lambert,Director of Sales,Roland DGA,rolanddga.com,,,https://www.linkedin.com/in/sid-lambert-41011850/,SLambert@rolanddga.com
+Nico,Chan,"Manager, Warehouse",Matteo Lighting Ltd.,matteolighting.com/,,5,https://www.linkedin.com/pub/dir/Nico/Chan,nico@matteolighting.com
+Claudia,Jennings,"Manager, Sa Operations",Ngala Trading Co.,ngalatrading.com,,4,https://www.linkedin.com/pub/dir/Claudia/Jennings,Claudia@ngalatrading.com
+Barrington,Carter,IT Manager,The University of Texas at Austin,utexas.edu,,,https://www.linkedin.com/in/barringtoncarter/,Barrington@utexas.edu
+Jeff,Patstone,IS Manager,Roland DGA,rolanddga.com,,,https://www.linkedin.com/in/jeffpatstone/,JPatstone@rolanddga.com
+Cole,Kaiser,IT Business Relationship Manager,Flexsteel,flexsteelstore.com,,,https://www.linkedin.com/in/cole-kaiser-a9785120a,ckaiser@flexsteel.com
+Astor,Chan,General Manager,Danny's Fine Porcelain,dannysporcelain.com,,,,Astor@dannysporcelain.com
+Carole,Fdez Davila,Gerente comercial,SALROSA,salrosa.cl,,3,https://www.linkedin.com/company/sal-rosa,carole@salrosa.cl
+David,Nelson,"General Counsel, Vice President of Operations and Corporate Secretary",Roland DGA,rolanddga.com,,,https://www.linkedin.com/in/yourfavoritegc/,DNelson@rolanddga.com
+Pasquale,Natuzzi,"Founder, Executive Chairman & CEO",Natuzzi Italia,natuzzi.com.co,,,,natuzzi@natuzzi.com
+Joe,Jackman,President,ALMAG Aluminum,almag.com,,,https://www.linkedin.com/in/joe-jackman-80060a7/,Joe.Jackman@almag.com
+Steve,Parris,Owner,PD Home and Garden,pdhomeandgarden.com,,9,https://www.linkedin.com/in/steve-parris-37977822,Steve@pdhomeandgarden.com
+John,Berezny,Owner,1889 Wax Lighting,1889waxlighting.com,,2,https://www.linkedin.com/in/john-berezny-5369ba1aa,John@1889waxlighting.com
+Melissa,Johnson Roberts,Owner and CEO,Swank Lighting,swanklighting.com,,3,https://www.linkedin.com/in/melissadjohnson,Melissa@swanklighting.com
+Doreen,Chan,Oversea Sales Director,HERCULUX OPTICS,hkoptics.com/en/index.php,,,https://www.linkedin.com/in/doreen-chan,doreen@hkoptics.com
+Elaine,Scarborough,Operations Manager,Wells Abbott,wellsabbott.com,,1,https://www.linkedin.com/in/elaine-scarborough-265178b3,EScarborough@wellsabbott.com
+Jeff,Lehman,National Sales Manager,Matteo Lighting Ltd.,matteolighting.com/,,5,https://www.linkedin.com/in/jeff-lehman-0870349,jeff@matteolighting.com
+Kristy,Bickings,National Sales Manager,"Ebel, Inc.",ebelinc.com/,,10,https://www.linkedin.com/in/kristy-bickings-9099b912,Kristy@ebelinc.com
+Greg,Waylock,Principal & Oklahoma Territory,Cassmeyer Collection,cassmeyercollection.com,,3,https://www.linkedin.com/pub/dir/Greg/Waylock?trk=public_profile_samename_see_all,Greg@cassmeyercollection.com
+Kristi,Bender,Principal and Co-Founder,Cuff Studio,cuffstudio.com,,3,https://www.linkedin.com/in/kristi-bender-09143924b,Kristi@cuffstudio.com
+Barry,Schneider,President and COO,"Steel Dynamics, Inc",steeldynamics.com,,,https://www.linkedin.com/in/barry-schneider-382b2311/,Barry.Schneider@steeldynamics.com
+Lauren,Hudson,President + CEO,The Wells Companies,wellsabbott.com,,1,https://www.linkedin.com/in/lauren-hudson-038a46178,LHudson@wellsabbott.com
+Derek,Schmidt,President and CEO,Flexsteel,flexsteelstore.com,,,https://www.linkedin.com/in/derekpschmidt,dschmidt@flexsteel.com
+Shelley,Simpson,President and Chief Executive Officer,"J.B. Hunt Transport Services, Inc.",jbhunt.com,,,https://www.linkedin.com/in/shelley-simpson-3a571b10/,shelley.simpson@jbhunt.com
+Carla,Caetta,Sales/Customer Service Manager,"US Power Solution Industries, Inc.",uspsi-inc.com,,,https://www.linkedin.com/in/carla-caetta-b8bb9514,CCaetta@uspsi-inc.com
+Anjani,Baranwal,President,Hinges Furniture,hingesdesign.com,,3,https://www.linkedin.com/in/anjani-baranwal-29b4b11ab,Anjani@hingesdesign.com
+Brad,Clarkson,President,J. Marshall Design,jmarshalldesign.com,,4,https://www.linkedin.com/in/brad-clarkson-3b4aa412,BClarkson@jmarshalldesign.com
+Ramon,Cordova,President,Sonoran Range,sonoranrange.com/,,2,https://www.linkedin.com/in/ramon-cordova-91b2b012,ramon@sonoranrange.com
+Jim,Lewis,President,Millennium Lighting,millenniumlighting.com,,23,https://www.linkedin.com/in/jim-lewis-4646145a,Jim.Lewis@millenniumlighting.com
+Christopher,Thorpe,President,The Eleanor Rigby Leather Company,eleanorrigbyleather.com,,10,https://www.linkedin.com/in/christopher-thorpe-ab35944b,Christopher@eleanorrigbyhome.com
+Johnna,Dobbs,Vice President,Couture Lamps,couturelamps.com/,,2,https://www.linkedin.com/in/johnna-dobbs-840945a2,Johnna@couturelamps.com
+Jamie,Fiorda,"SVP, Product Marketing",IDG (International Data Group),idg.com,,,https://www.linkedin.com/in/fiorda/,Jamie.Fiorda@idg.com
+Neil,Morrow,Sr. Director - Americas Mass Market Sales,ams OSRAM,ams-osram.com,,,https://www.linkedin.com/in/neilmorrow/,Neil.Morrow@ams-osram.com
+Jill,Wendell,"Showroom Sales Manager, Houston and Houston Sales Manager",The Wells Companies,wellsabbott.com,,1,https://www.linkedin.com/in/jill-wendell-824aa329,JWendell@wellsabbott.com
+Alana,Hollander Sophocleous,Studio Manager,Cuff Studio,cuffstudio.com,,3,https://www.linkedin.com/in/alana-hollander-sophocleous-948111a2,Alana@cuffstudio.com
+Conrad,Rodriguez,Senior Vice President of Sales & Marketing Americas,ams OSRAM,ams-osram.com,,,https://www.linkedin.com/in/conrad-rodriguez-1275951/,Conrad.Rodriguez@ams-osram.com
+Dock,Mackie,Senior Vice President of Customer Experience and Revenue Operations,MarketTime,markettime.com,,,https://www.linkedin.com/in/dock-mackie-9388b638/,Dock@markettime.com
+Kent,Hampton,Senior Vice President of Sales,PROTECTALL,myprotectall.com,,,https://www.linkedin.com/in/kent-hampton-b529b86/,KHampton@myprotectall.com
+James,Balestrieri,Senior Vice President of Sales,ECI Software Solutions,ecisolutions.com,,,https://www.linkedin.com/in/james-balestrieri-56172413/,JBalestrieri@ecisolutions.com
+Alyssa,Weiss,Senior Sales Director,"Global Allies, LLC",globalallies.com,,10,,Alyssa@globalallies.com
+Jono,Smith,"Senior Director, Communications & Digital",Make-A-Wish America,wish.org,,,https://www.linkedin.com/in/jono-smith-51b2b2/,JSmith@wish.org
+Daniel,Sardina,Senior Vice President,Jiecang Linear Motion,jiecang.com,,,https://www.linkedin.com/in/daniel-sardina-2227aa86/,daniel@jiecang.com
+Michael,Novak,"Sales, Marketing, Product Development",PD Home and Garden,pdhomeandgarden.com,,9,https://www.linkedin.com/in/michael-novak-6408975,Michael@pdhomeandgarden.com
+Neal,Kring,Sales Operations Manager,"Couture Lamps, Inc.",couturelamps.com/,,2,https://www.linkedin.com/in/neal-kring-03bb88110,NKring@couturelamps.com
+Nick,Jones,Sales Manager,BASELITE CORP,baselite.com/,,12,https://www.linkedin.com/in/nick-jones-a62061185,njones@baselite.com
+Jody,Rowland,Vice President Operations,Lennar,lennar.com,,,https://www.linkedin.com/in/jodyrowland/,Jody.Rowland@lennar.com
+Anand,Singhania,"Vice President, Pricing & Operations",IDG (International Data Group),idg.com,,,https://www.linkedin.com/in/anandsinghania/,Anand.Singhania@idg.com
+Dan,Johansen,Vice President of Sales & Product Management,Roland DGA,rolanddga.com,,,https://www.linkedin.com/in/danjohansen1/,DJohansen@rolanddga.com
+Ron,Devorsky,"Vice President, Sales",Millennium Lighting,millenniumlighting.com,,23,https://www.linkedin.com/in/rondevorsky,Ron.Devorsky@millenniumlighting.com
+Priyanka,Paithankar,Vice President of Research at UT Energy Club,The University of Texas at Austin,utexas.edu,,,https://www.linkedin.com/in/priyanka-paithankar-b64039184/,Priyanka.Paithankar@utexas.edu
+Tom,Latta,Vice President of Sales,ECI Software Solutions,ecisolutions.com,,,https://www.linkedin.com/in/tomlatta/,TLatta@ecisolutions.com
+Nate,Peo,Vice President of Purchasing,Lennar,lennar.com,,,https://www.linkedin.com/in/natepeo/,Nate.Peo@lennar.com
+Saurabh,Dixit,Vice President of Revenue Operations,ECI Software Solutions,ecisolutions.com,,,https://www.linkedin.com/in/saurabh-dixit-60091b3/,SDIXIT@ecisolutions.com
+Bill,Miller,Vice President of Data Services,MarketTime,markettime.com,,,https://www.linkedin.com/in/bill-miller-4097744/,BMiller@markettime.com
+Monica,Wheaton,Vice President of Customer Success for Residential Home Construction,ECI Software Solutions,ecisolutions.com,,,https://www.linkedin.com/in/mswheaton/,MWheaton@ecisolutions.com
+Bill,Cheung,"Vice President, Asia Operations","Global Allies, LLC",globalallies.com,,10,https://hk.linkedin.com/in/bill-cheung-5031a24,Bill@globalallies.com
+Barry,Gober,"Vice President, Demand Generation",ECI Software Solutions,ecisolutions.com,,,https://www.linkedin.com/in/barry-gober-atx/,BGober@ecisolutions.com
+Bob,Francis,Vice President / CIO,"Steel Dynamics, Inc",steeldynamics.com,,,https://www.linkedin.com/in/bob-francis-124224/,B.Francis@steeldynamics.com
+David,Crimmins,"VP, Sales and Product Management",Flexsteel,flexsteelstore.com,,,https://www.linkedin.com/in/david-crimmins-747ab434,dcrimmins@allweatherathome.ca
+Joseph,Hemway,VP of Information Technology & CIO,Pratt Institute,pratt.edu,,,https://www.linkedin.com/in/joseph-hemway-88b07a14/,JHemway@pratt.edu
+Michael,Peng,VP and Co-founder,HERCULUX OPTICS,hkoptics.com/en/index.php,,,https://hk.linkedin.com/in/michael-peng-herculux,michael@hkoptics.com
+Kai,Ebel,VP,"Ebel, Inc.",ebelinc.com/,,10,https://www.linkedin.com/in/kai-ebel-5535ab91,Kai@ebelinc.com
+Louis,Nguyen,VP OF SALES,ETHERIUM LIGHTING LLC,etheriumled.com/,,,,Louis@etheriumled.com
+Brian,Desbiens,VP of Retail Sales,Flexsteel,flexsteelstore.com,,,https://www.linkedin.com/in/brian-des-biens-2381455,bdesbiens@flexsteel.com
+Richard,Poinsatte,Vice President & Treasurer,"Steel Dynamics, Inc",steeldynamics.com,,,https://www.linkedin.com/in/richard-poinsatte-b003824/,Richard.Poinsatte@steeldynamics.com
+Randall,Clark,IT Manager / Web Developer / Marketing,Piedmont Furniture Industries Inc.,ctcpfi.com,,,https://www.linkedin.com/in/randall-clark-348672b2,randallclark@ctcpfi.com
+Kelvin,Chew,President,"Kel-Toy, Inc.",keltoy.com,,,,kelvinchew@pfs.org.sg
+Rahul,Malhotra,Owner/CEO,Trendily Home Collection,trendilyhomecollection.com,,,https://www.linkedin.com/in/rahul-malhotra-13638919,Rahul@trendilyhomecollection.com
+My,Lai,Customer Service,"Kel-Toy, Inc.",keltoy.com,,,,my@keltoy.com
+Rocky,Choi,Warehouse Manager,"Kel-Toy, Inc.",keltoy.com,,,https://www.linkedin.com/in/rocky-choi-a58611a,rocky@keltoy.com
+Michael,Wainwright,Owner,Michael Wainwright,michaelwainwright.com/,,,,Michael@michaelwainwright.com
+Brian,Polka,Technical Coordinator,Briarwood Lane,briarwoodlane.net/,,,,brian@briarwoodlane.net
+Dawn,Barcia,Bookkeeper and Customer Service,Briarwood Lane,briarwoodlane.net/,,,,dawn@briarwoodlane.net
+Michael,Yang,Group CEO,Access Global Home Inc.,aghfurn.com,,,https://www.linkedin.com/in/michael-yang-596b1334,Michael@aghfurn.com
+Bette,Demeri,Marketing & Sales Coordinator,Michael Wainwright,michaelwainwright.com/,,,,Bette@michaelwainwright.com
+Michael,Brennan,CEO,Briarwood Lane,briarwoodlane.net/,,,https://www.linkedin.com/in/michael-brennan-376b04b4,mike@briarwoodlane.net
+Cheryl,Abel Hodges,Chief Executive Officer,Calvin Klein,calvinklein.us,,,https://www.linkedin.com/in/cherylabelhodges,cheryl.abel-hodges@tommyjohn.com
+Page,Farmer,Marketing Leader,Memoire Design™ by Mainlty Baskets Home,memoiredesign.com,,,,Page@memoiredesign.com
+Robyn,Bailey,CEO & Owner,Memoire Design™ by Mainlty Baskets Home,memoiredesign.com,,,,Robyn@memoiredesign.com
+Asher,Holman,Owner and Gaffer,Small Batch Glass,smallbatchglassblowing.com,,,,Asher@smallbatchglassblowing.com
+Frederic,Raffenne,CEO/USA President,Les Jardins,lesjardins.us,,,https://www.linkedin.com/in/frederic-raffenne-571bb819,FR@lesjardins.us
+Chris,Wang,Director of Operations,Les Jardins,lesjardins.us,,,https://www.linkedin.com/in/chris-wang-74524556,CW@lesjardins.us
+Page,Farmer,Sales & Marketing Manager,Memoire Design by Mainly Baskets Home,memoiredesign.com/,,,,Page@memoiredesign.com
+Geri,Aldrich,Office Manager and EA,Memoire Design by Mainly Baskets Home,memoiredesign.com/,,,,Geri@memoiredesign.com
+Robyn,Bailey,CEO & Owner,Memoire Design by Mainly Baskets Home,memoiredesign.com/,,,https://www.linkedin.com/in/robynjbailey,Robyn@memoiredesign.com
+Janette,Mcginness,Sales Director,Briarwood Lane,briarwoodlane.net/,,,https://www.linkedin.com/in/janette-mcginness1024,janette@briarwoodlane.net
+Will,Mallory,Owner,Mallory Planters & Gardens,mpgwholesale.com/,,,https://www.linkedin.com/in/will-mallory-3702a83a,Will@mpgwholesale.com
+Erica,Marie Chacon,Owner,Erica Marie Interiors,ericamarieinteriors.com,,,,Erica@ericamarieinteriors.com
+Evan,Bush,Owner,Evan Reid,evanreid.com,,,https://www.linkedin.com/in/evan-bush-2098a8177,Evan@evanreid.com
+Julia,Mccabe,Social Media Manager and Marketer,Threads Soft Goods,threads-softgoods.com,,,,Julia@threadssoftgoods.com
+Eileen,Applebaum,Founder and President,Threads Soft Goods,threads-softgoods.com,,,https://www.linkedin.com/in/eileenapplebaum,Eileen@threadssoftgoods.com
+Ada,Chan,Manager,Danny's Fine Porcelain,dannysporcelain.com,,,,Ada@dannysporcelain.com
+Kathleen,Catabay,"Manager, Finance",ETHERIUM LIGHTING LLC,etheriumled.com/,,,,Kathleen@etheriumled.com
+Lee,Roski,Owner,Lee Roski Ltd.,leeroski.com/,,,https://www.linkedin.com/in/lee-roski-roski-860aa5342,lroski@leeroskiltd.com
+Alexandra,Wright Manini,Executive Board Member,Steinkult GmbH,stein-kult.com,,,,alexandra@stein-kult.com
+Pankaj,Nagpal,President,Beyond Cushions,beyondcushions.com/,,,https://www.linkedin.com/company/beyond-cushions,pankaj@beyondcushions.com
+Chris,Epke,Sales Manager,Fibre By Auskin,myfibreshop.com,,,,chris@auskin.com
+Emily,Giese,Marketing Director,Cody Foster and Co.,codyfoster.com,,,https://www.linkedin.com/in/emily-giese-160a018b,emily@codyfoster.com
+Will,Grisack,Business Development Manager,Lineage Collections,lineage-furniture.com,,,https://www.linkedin.com/in/will-grisack-402557287,will@lineage-collections.com
+Justin,Jeangerard,CEO,Lineage Collections,lineage-furniture.com,,,https://www.linkedin.com/in/justin-jeangerard,justin@lineage-collections.com
+Al,Bolton,Managing Partner,High Point Exhibitions,highpointexhibitions.com,,,,AlBolton@highpointexhibitions.com
+Sara,Grant,VP of Sales,Gross Stabil Corporation,grossstabil.com,,,,sgrant@grossstabil.com
+Michelle,Klingler,General Manager,Gross Stabil Corporation,grossstabil.com,,,,mklingler@grossstabil.com
+Debbie,Mathis,Director of Sales and Marketing,"MooMoo Designs, Inc.",moomoo-designs.com,,,https://www.linkedin.com/in/debbie-mathis-97029515,Debbie@moomoo-designs.com
+Kyle,B Barrett,President and Co-founder,Barrett Bergmann Home,barrettbergmannhome.com,,,,Kyle@shopbbh.com
+Ann,Feldstein,Fractional Chief Sales and Marketing Officer,Barrett Bergmann Home,barrettbergmannhome.com,,,,Ann@shopbbh.com
+Brent,Swim,CEO/Purchasing Manager,Cody Foster and Co.,codyfoster.com,,,https://www.linkedin.com/in/brent-swim-1164a022,brent@codyfoster.com
+Jessica,Zabonick,Customer Service,Gross Stabil Corporation,grossstabil.com,,,,jzabonick@grossstabil.com
+Karen,Harvey Pricken,"Senior Manager, Client Relations",Villa & House,villahouse.vn,,,https://www.linkedin.com/in/karen-harvey-rockaway,karen.harvey@vandh.com
+Luca,Rensi,President and COO,Villa & House,villahouse.vn,,,https://www.linkedin.com/in/luca-rensi-b8205a26,luca.rensi@vandh.com
+Joan,Durand,Executive Project Manager/CFO,X Rocker,xrockergaming.com,,,https://www.linkedin.com/in/joan-durand-50a7b37,JDurand@xrockergaming.com
+Bryan,Howard,National Sales Account Manager,X Rocker,xrockergaming.com,,,https://www.linkedin.com/in/bryan-howard-3999589,BHoward@xrockergaming.com
+Richele,Larder,"Manager, Sales & Business Development",Gross Stabil Corporation,grossstabil.com,,,,rlarder@grossstabil.com
+Sascha,S Thiesen,President/CEO,Gross Stabil Corporation,grossstabil.com,,,,sthiesen@grossstabil.com
+Juan,Hernandez,President,"MooMoo Designs, Inc.",moomoo-designs.com,,,https://www.dnb.com/contact-directory/contact-profile.juan_hernandez.39404724205b908143ce742d4b2cd105.html,Juan@moomoo-designs.com
+Ichiro,Tokiwa,Vice President Operations,Ultraleather,ultraleather.com/,,,,itokiwa@ultrafabricsinc.com
+Sergio,Prosperino,"Senior Vice President - Sales, Marketing & Brand",Ultraleather,ultraleather.com/,,,,sprosperino@ultrafabricsinc.com
+Clay,Rosenberg,CEO,Ultraleather,ultraleather.com/,,,,crosenberg@bpulse.net
+Skye,Huang,Sales Director,"YOOLUX TECHNOLOGY CO,LTD",yoolux.com/,,,https://www.linkedin.com/in/skye-huang-391490177,skye@yoolux.com
+Michele,Clemetsen,"Manager, Digital Merchandising",Vaxcel,vaxcelinternational.com,,,https://www.linkedin.com/in/michele-clemetsen,mclemetsen@vaxcel.com
+Bryan,Sprinkles,VP Sales & Development,Whitewood Industries,whitewood.net,,,https://www.linkedin.com/in/bryan-sprinkles-6a50626,b.sprinkles@whitewood.net
+Diane,Salmon,National Sales,AFD Home,afdhome.com,,6,https://www.linkedin.com/in/diane-salmon-a1928273,DSalmon@afdhome.com
+Y.,Ron Feibel,President,Whitewood Industries,whitewood.net,,,https://www.linkedin.com/in/y-ron-feibel-a543443a,r.feibel@whitewood.net
+Jorge,Mata,CEO,Whitewood Industries,whitewood.net,,,https://www.linkedin.com/in/jorge-mata-1137a6327,j.mata@whitewood.net
+Matthew,Eouse,Managing Director,AFD Home,afdhome.com,,6,https://www.linkedin.com/company/afd-home,MEouse@afdhome.com
+Wade,Bryan,Sales Representative,"Goetz, Inc.",goetzinc.com/,,,https://www.linkedin.com/in/rwbryan,WBryan@goetzinc.com
+Lillie,Della Santa,General Manager Goetz Divisions and Director of Showrooms & Operations,"Goetz, Inc.",goetzinc.com/,,,https://www.linkedin.com/in/lillie-della-santa-79522a17,LDellaSanta@goetzinc.com
+Richard,Barnett,Vice President,ALEAL by Planum Furniture,planumfurniture.net,,,,richard.barnett@nearmap.com
+Dennis,Thompson,Vice President Sales & Marketing,"Goetz, Inc.",goetzinc.com/,,,https://www.linkedin.com/in/dennis-thompson-0215416,dthompson@goetzinc.com
+Martyn,Travers,National Sales Manager,Justice Design Group,justicedesigngroup.com/,,,,martyn.travers@wellworking.co.uk
+Michael,Tucker,National Specification Sales Manager,Justice Design Group,justicedesigngroup.com/,,,,michael.tucker@frasercoast.qld.gov.au
+Yesenia,Villa,Ecommerce Specialist,"AMAX LIGHTING, INC.",amaxlighting.com/,,2,https://www.linkedin.com/in/yesenia-villa-62b574282,yesenia@amaxlighting.com
+Tim,Rofloc,Vice President & Corporate Sales,"AMAX LIGHTING, INC.",amaxlighting.com/,,2,https://www.linkedin.com/in/tim-rofloc-860a6424,timrofloc@amaxlighting.com
+Eddy,Hernandez,General Manager,"AMAX LIGHTING, INC.",amaxlighting.com/,,2,https://www.linkedin.com/in/eddy-hernandez-642771a5,eddy@amaxlighting.com
+Fabio,Orlandini,Chief Commercial Officer for North America,Khatod Optoelectronic Srl,khatod.com/en/,"Appliances, Electrical, and Electronics Manufacturing",36,,F.Orlandini@khatod.com
+Mitchell,Spero,Chairman Of The Board,BOCK LIGHTING,bocklighting.com/,"Appliances, Electrical, and Electronics Manufacturing",14,https://www.linkedin.com/company/bocklight,MSpero@bocklighting.com
+Jim,Grady,CFO,A.L.P. Lighting Components,alpadvantage.com/,"Appliances, Electrical, and Electronics Manufacturing",136,https://www.linkedin.com/pub/dir/Jim/Grady?trk=public_profile_samename-see-all,JimGrady@alpadvantage.com
+Peter,Meng,CEO and founder,EUCHIPS,euchips.us/,"Appliances, Electrical, and Electronics Manufacturing",4,https://hk.linkedin.com/in/yongbiao%EF%BC%88peter%EF%BC%89-meng-3a5a3430,Peter@euchips.us
+Janis,Zeltins,CEO,VIZULO Solutions,vizulo.com/en,"Appliances, Electrical, and Electronics Manufacturing",52,https://lv.linkedin.com/in/janis-zeltins-8b91b842,Janis.Zeltins@vizulo.com
+Sumit,Tomar,CEO,Adura LLC,adurasolutions.com/,"Appliances, Electrical, and Electronics Manufacturing",20,https://www.linkedin.com/in/imstomar,Sumit@adurasolutions.com
+Ira,Greenberg,CEO,KEYSTONE TECHNOLOGIES,keystonetech.com/,"Appliances, Electrical, and Electronics Manufacturing",192,https://www.linkedin.com/in/ira-greenberg-b525a64,Ira@keystonetech.com
+Steve,Brown,CEO,A.L.P. Lighting Components,alpadvantage.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/steve-brown-43586a133/,SteveBrown@alpadvantage.com
+Todd,Tiberi Lc,Director of National Account Sales,KEYSTONE TECHNOLOGIES,keystonetech.com/,"Appliances, Electrical, and Electronics Manufacturing",192,https://www.linkedin.com/in/todd-tiberi-lc-a5966214,TTiberi@keystonetech.com
+Kevin,Mcgroarty,"Director of National Sales, U.S.A.",LED Smart Inc.,ledsmart.com/,"Appliances, Electrical, and Electronics Manufacturing",56,https://www.linkedin.com/in/kevin-mcgroarty-5ba89820,Kevin.McGroarty@ledsmart.com
+Danyell,Ventura,Director of Information Technology,TCP Lighting,tcpi.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/danyell-ventura-561a4612/,dventura@tcpi.com
+Jevgenijs,Lipinskis,Director of Business Development,VIZULO Solutions,vizulo.com/en,"Appliances, Electrical, and Electronics Manufacturing",52,https://lv.linkedin.com/in/jevgenijs-lipinskis,Jevgenijs.Lipinskis@vizulo.com
+Dick,Tang,Director and Vice President of Sales and Marketing,"Hengdian Group Tospo Lighting Co., Ltd.",tospolighting.com/,"Appliances, Electrical, and Electronics Manufacturing",189,https://www.linkedin.com/company/hengdian-group-tospo-lighting-co-ltd-,Dick.Tang@tospolighting.com
+Verlette,Rollins,Controller / Partner,"ENVOY LIGHTING, INC.",envoylighting.com/,"Appliances, Electrical, and Electronics Manufacturing",10,,Verlette@envoylighting.com
+Leon,Li,Co-founder and COO,Red Sky Lighting LLC.,redskylighting.com/,"Appliances, Electrical, and Electronics Manufacturing",26,https://hk.linkedin.com/in/lilue,Leon@redskylighting.com
+Bob,Sinai,Co founder - CEO,Deco Lighting,getdeco.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/bob-sinai-25aaa621/,Bob@getdeco.com
+Mika,Simonen,Chief Supply Chain Officer,"LEDiL, INC.",ledil.com/,"Appliances, Electrical, and Electronics Manufacturing",123,,Mika.Simonen@ledil.com
+David,Behnke,Chief Operations Officer / Co-Founder,SENSORWORX,sensorworx.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/david-behnke-8730b78/,dave@sensorworx.com
+Selina,Lo,Chief Operating Officer,Traxon e:cue,traxon-ecue.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/selina-lo-a704987/,Selina.Lo@traxon-ecue.com
+Aleksandrs,Galanovs,Export Manager,VIZULO Solutions,vizulo.com/en,"Appliances, Electrical, and Electronics Manufacturing",52,https://lv.linkedin.com/in/aleksandrs-galanovs-87109241,Aleksandrs.Galanovs@vizulo.com
+Jack,Serhofer,Executive VP,LUXRITE,luxrite.com/,"Appliances, Electrical, and Electronics Manufacturing",16,https://www.linkedin.com/in/jack-serhofer-5049a588,jack@allstarlighting.com
+Jon,Perper,Founder,ZLEDLighting,zledlighting.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/jon-perper-15353a165/,Jon@zledlighting.com
+Alice,Sawaya,Executive Assistant to CEO,"Khatod North America, LLC",khatod.com/en/,"Appliances, Electrical, and Electronics Manufacturing",36,,A.Sawaya@khatod.com
+Scott,Fleischer,Executive Vice President,Mercury Lighting,mercltg.com/,"Appliances, Electrical, and Electronics Manufacturing",10,https://www.linkedin.com/in/scott-fleischer-7776b198,scott@mercltg.com
+Paulin,Tham,Executive Vice President,JESCO Lighting,jescolighting.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/paulin-tham-15671812/,paulin@jescolighting.com
+Jirina,Nyznerova,Executive Vice President,MP Lighting,mplighting.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/jirina-nyznerova-7115548a/,Jirina@mplighting.com
+Lu,,Executive-level Sales & Marketing professional,Adura LLC,adurasolutions.com/,"Appliances, Electrical, and Electronics Manufacturing",20,https://www.linkedin.com/in/lutiendo,Lu@adurasolutions.com
+Jacques,Fischer,Director System Solutions and Product Portfolio,TRAXON TECHNOLOGIES / E:CUE LIGHTING CONTROL,traxon-ecue.com/,"Appliances, Electrical, and Electronics Manufacturing",129,https://hk.linkedin.com/in/jacques-fischer-605a1711,Jacques.Fischer@traxon-ecue.com
+Joseph,Scarbrough,Director of Sales - Strategic Accounts,Keystone Technologies,keystonetech.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/joseph-scarbrough-1468a459/,JScarbrough@keystonetech.com
+Patrick,Slater,Director of Sales - NUVO Lighting,"Satco Products, Incorporated",satco.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/patrick-slater-44687b31/,PatrickSlater@satco.com
+Roz,Sobosle,Director of Sales - Strategic Accounts,Keystone Technologies,keystonetech.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/roz-sobosle-63376968/,RSobosle@keystonetech.com
+Michael,Marcus,"Director, Sales & Marketing",WAVE LIGHTING,wavelighting.com/,"Appliances, Electrical, and Electronics Manufacturing",8,https://www.linkedin.com/in/michael-marcus-8a187b10,mike@wavelighting.com
+Cody,Chambers,Director Of Sales- Sign Channel,Keystone Technologies,keystonetech.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/cody-chambers-86286455/,CChambers@keystonetech.com
+Brittany,Mcmurray,Director of Product Management,TCP Lighting,tcpi.com/,"Appliances, Electrical, and Electronics Manufacturing",163,,bmcmurray@tcpi.com
+M.j.,Noorani,Marketing Director,BEYOND LED TECHNOLOGY,beyondledtechnology.com/,"Appliances, Electrical, and Electronics Manufacturing",38,https://www.linkedin.com/in/m-j-noorani-89b70a1b,MJ@beyondledtechnology.com
+Naren,Pillai,Managing Director,Red Sky Lighting LLC.,redskylighting.com/,"Appliances, Electrical, and Electronics Manufacturing",26,https://cn.linkedin.com/in/naren-pillai-09b29729/ar,Naren@redskylighting.com
+Meghan,Mcleod,Marketing & Sales Director,Arkalumen Inc.,arkalumen.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/meghan-mcleod-66168139/,Meghan.McLeod@arkalumen.com
+Linda,Detlava,Marketing Manager,VIZULO Solutions,vizulo.com/en,"Appliances, Electrical, and Electronics Manufacturing",52,https://lv.linkedin.com/in/linda-detlava-6a50151b,Linda@vizulo.com
+Dave,Young,National Controls Sales Manager,TRAXON TECHNOLOGIES / E:CUE LIGHTING CONTROL,traxon-ecue.com/,"Appliances, Electrical, and Electronics Manufacturing",129,https://www.linkedin.com/in/dave-young-66774970,Dave.Young@traxon-ecue.com
+Martin,Ortiz,Latin America Sales Director,LED One,ledonecorp.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/martin-ortiz-72756217/,Martin.Ortiz@ledonecorp.com
+Andy,Jia,"IT, Field and Product Support",SPRING LIGHTING GROUP INC,slgus.com/,"Appliances, Electrical, and Electronics Manufacturing",29,https://www.linkedin.com/in/andy-jia-12232082,Andy.Jia@slgus.com
+Emilyn,Blevins,Inside Sales Manager (East),"ESPEN TECHNOLOGY, INC.",espentech.com/,"Appliances, Electrical, and Electronics Manufacturing",36,https://www.linkedin.com/in/emilyn-blevins-4837a117,Emilyn@espentech.com
+Liisa,Lehtela,HR Director,"LEDiL, INC.",ledil.com/,"Appliances, Electrical, and Electronics Manufacturing",123,,Liisa.Lehtela@ledil.com
+Michelle,Rocha,Inside Sales Manager,TRAXON TECHNOLOGIES / E:CUE LIGHTING CONTROL,traxon-ecue.com/,"Appliances, Electrical, and Electronics Manufacturing",129,https://www.linkedin.com/in/michelle-rocha-350b86a3,Michelle.Rocha@traxon-ecue.com
+Mantas,Adomaitis,Head of Sales,NORTHCLIFFE LIGHTING,northcliffe.org/,"Appliances, Electrical, and Electronics Manufacturing",36,https://lt.linkedin.com/in/mantas-adomaitis-237187121,Mantas.Adomaitis@northcliffe.org
+Anuj,Kumar,Head of Operations,TRAXON TECHNOLOGIES / E:CUE LIGHTING CONTROL,traxon-ecue.com/,"Appliances, Electrical, and Electronics Manufacturing",129,https://in.linkedin.com/in/anuj-kumar-581b83b,Anuj.Kumar@traxon-ecue.com
+Eli,Koplowitz,Head of National Sales,LUXRITE,luxrite.com/,"Appliances, Electrical, and Electronics Manufacturing",16,https://www.linkedin.com/in/elikoplowitz,eli@allstarlighting.com
+Ellis,Yan,Founder/President/CEO,TCP Lighting,tcpi.com/,"Appliances, Electrical, and Electronics Manufacturing",163,,eyan@tcpi.com
+Ayman,Yaghi,General Manager,ARKALUMEN INC.,arkalumen.com/,"Appliances, Electrical, and Electronics Manufacturing",17,https://ca.linkedin.com/in/ayman-yaghi-29928413,Ayman@arkalumen.com
+Imantas,Vaitiekunas,General Manager,NORTHCLIFFE LIGHTING,northcliffe.org/,"Appliances, Electrical, and Electronics Manufacturing",36,https://lt.linkedin.com/in/imantas-vaitiekunas-20060645,Imantas.Vaitiekunas@northcliffe.org
+Leo,L,Founder & CEO,SOLTECH-Smart Solar Lighting,soltechlighting.com/products,"Appliances, Electrical, and Electronics Manufacturing",12,,Leo@soltechlighting.com
+Ben,Swedberg,President,"LEDiL, INC.",ledil.com/,"Appliances, Electrical, and Electronics Manufacturing",123,https://www.linkedin.com/in/ben-swedberg-32780513,Ben.Swedberg@ledil.com
+Ashley,Gloster,President,GM Lighting,gmlighting.net,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/ashley-gloster-88b3a51/,AGloster@gmlighting.net
+Richard,Zhang,President,Espen Technology,espentech.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/richard-zhang-1b114241/,Richard@espentech.com
+Donny,Wall,President,Bill Brown Sales,billbrownsales.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/donny-wall-b34a429/,DonnyWall@billbrownsales.com
+David,Brown,President,A.L.P. Lighting Components,alpadvantage.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/david-brown-0b2407b/,DavidBrown@alpadvantage.com
+Greg,Kay,Owner and CEO,PureEdge Lighting,pureedgelighting.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/greg-kay-4253689/,Greg@pureedgelighting.com
+Bill,Burke,Regional Sales Manager,SPRING LIGHTING GROUP INC,slgus.com/,"Appliances, Electrical, and Electronics Manufacturing",29,https://www.linkedin.com/in/bill-burke-a723a574,Bill@slgus.com
+Boyd,Coleman,Regional Sales Leader,"Satco Products, Incorporated",satco.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/boydrcoleman/,BoydColeman@satco.com
+Beth,Vancil,Regional Sales Manager,WAVE LIGHTING,wavelighting.com/,"Appliances, Electrical, and Electronics Manufacturing",8,https://rocketreach.co/beth-vancil-email_115906412,Beth@wavelighting.com
+Michael,Malvin,Principal,BILL BROWN SALES,billbrownsales.com/,"Appliances, Electrical, and Electronics Manufacturing",16,https://www.linkedin.com/in/michael-malvin-7664a380,MichaelMalvin@billbrownsales.com
+Lee,Greenberg,President of Sales/Partner,"ENVOY LIGHTING, INC.",envoylighting.com/,"Appliances, Electrical, and Electronics Manufacturing",10,https://www.linkedin.com/in/lee-greenberg-78a795a9,LGreenberg@envoylighting.com
+Ben,Hahn,President / Co-Founder,SENSORWORX,sensorworx.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/benhahn1/,Ben@sensorworx.com
+Richard,Kurtz,President & C.E.O.,"JESCO LIGHTING GROUP, LLC",jescolighting.com/,"Appliances, Electrical, and Electronics Manufacturing",41,https://www.linkedin.com/in/richard-kurtz-b427108,rkurtz@jescolighting.com
+Michael,Wu,President & CEO,SPRING LIGHTING GROUP INC,slgus.com/,"Appliances, Electrical, and Electronics Manufacturing",29,https://www.linkedin.com/in/michael-wu-b72908118,Michael.Wu@slgus.com
+Michael,T,President and Owner,Red Sky Lighting,redskylighting.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/michaeltianesg/,mike@redskylighting.com
+Bill,Gildin,"President, CEO","Satco Products, Inc.Nuvo Lighting",satco.com/,"Appliances, Electrical, and Electronics Manufacturing",183,https://www.linkedin.com/company/satco-products,BillG@satco.com
+George,Serhofer,President and CEO,LUXRITE,luxrite.com/,"Appliances, Electrical, and Electronics Manufacturing",16,https://www.linkedin.com/in/george-serhofer-5a834316,sam@allstarlighting.com
+Stephen,Shen,President,EUCHIPS,euchips.us/,"Appliances, Electrical, and Electronics Manufacturing",4,https://www.linkedin.com/company/euchips-us,Stephen@euchips.us
+Sean,Murray,President,ARKALUMEN INC.,arkalumen.com/,"Appliances, Electrical, and Electronics Manufacturing",17,https://www.linkedin.com/company/arkalumen,Sean@arkalumen.com
+Emma,Price,President,EDISON PRICE LIGHTING,epl.com/,"Appliances, Electrical, and Electronics Manufacturing",34,https://www.linkedin.com/in/emma-price-4650b19,EPrice@epl.com
+Steven,Yao,Vice President,"JESCO LIGHTING GROUP, LLC",jescolighting.com/,"Appliances, Electrical, and Electronics Manufacturing",41,https://www.linkedin.com/in/steven-yao-24088570,steveny@jescolighting.com
+Kris,Vasoya,President,Adura LLC,adurasolutions.com/,"Appliances, Electrical, and Electronics Manufacturing",20,https://www.linkedin.com/in/kris-vasoya-80871b3,Kris.Vasoya@adurasolutions.com
+Venesa,Hoffmann,Transformational Digitalization Leader | Product-Led Growth Strategist | Innovation Architect | CDO,BORA Lüftungstechnik GmbH,bora.com,"Appliances, Electrical, and Electronics Manufacturing",723,https://de.linkedin.com/in/venesa,V.Hoffmann@bora.com
+Nina,Kraus,US Vice President of Bid Management,SITECO,siteco.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/nina-kraus-68a001111/,N.Kraus@siteco.com
+Lauri,Haarala,Technical Sales Manager,"LEDiL, INC.",ledil.com/,"Appliances, Electrical, and Electronics Manufacturing",123,https://www.linkedin.com/in/lauri-haarala-471312102,Lauri.Haarala@ledil.com
+Bill,Tortora,SVP Sales,TCP Lighting,tcpi.com/,"Appliances, Electrical, and Electronics Manufacturing",163,,btortora@tcpi.com
+Dee,Erdei,Territory Account Executive,"JESCO LIGHTING GROUP, LLC",jescolighting.com/,"Appliances, Electrical, and Electronics Manufacturing",41,https://www.linkedin.com/in/dee-erdei-a3785817,deee@jescolighting.com
+Paul,Speero,SVP Operations,TCP Lighting,tcpi.com/,"Appliances, Electrical, and Electronics Manufacturing",163,,pspeero@tcpi.com
+Jason,Samuelian Lc,Senior Vice President of Sales and Marketing,Espen Technology,espentech.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/jasonsamuelian/,JSamuelian@espentech.com
+Brian,Brandes,Senior Vice President,"Satco Products, Incorporated",satco.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/brian-brandes-2799161b8/,BrianBrandes@satco.com
+William,Qin,Senior Software Engineer,LED Smart Inc.,ledsmart.com/,"Appliances, Electrical, and Electronics Manufacturing",56,https://ca.linkedin.com/company/ledsmartinc,William.Qin@ledsmart.com
+Harold,Creech,"Sales, Vice President at Lumencia Lighting","ENVOY LIGHTING, INC.",envoylighting.com/,"Appliances, Electrical, and Electronics Manufacturing",10,https://www.linkedin.com/in/harold-creech-67092a1a,HCreech@envoylighting.com
+Abdul,Aslami,Sales & Marketing Director,Adura LLC,adurasolutions.com/,"Appliances, Electrical, and Electronics Manufacturing",20,https://www.linkedin.com/in/abdul-aslami-711828248,Abdul@adurasolutions.com
+Desiree,Wartenbe,Sales Support Manager,LED Smart Inc.,ledsmart.com/,"Appliances, Electrical, and Electronics Manufacturing",56,https://ca.linkedin.com/in/desiree-wartenbe-7017401a,Desiree@ledsmart.com
+Scott,Simmons,Sales Operations Manager,TCP Lighting,tcpi.com/,"Appliances, Electrical, and Electronics Manufacturing",163,,ssimmons@tcpi.com
+Kristaps,Balodis,Sales Manager,VIZULO Solutions,vizulo.com/en,"Appliances, Electrical, and Electronics Manufacturing",52,https://lv.linkedin.com/in/kristaps-balodis-85b07a31,Kristaps.Balodis@vizulo.com
+Chandler,Hancock,Vice President of Sports Lighting,SLG Lighting,slgus.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/chandler-hancock-0812591a2/,Chandler.Hancock@slgus.com
+Josh,Insogna,Vice President of Sales - Distributor Channel,KEYSTONE TECHNOLOGIES,keystonetech.com/,"Appliances, Electrical, and Electronics Manufacturing",192,https://www.linkedin.com/in/josh-insogna-b774117a,Josh@keystonetech.com
+Harry,Tsai,Sales Director,"LEDiL, INC.",ledil.com/,"Appliances, Electrical, and Electronics Manufacturing",123,https://www.linkedin.com/in/harry-tsai-8b398041,Harry.Tsai@ledil.com
+Dennis,Crawford Lc,Vice President of Sales,SOLTECH & SUPER EMPOWER—WE EMPOWER WATT MATTERS,soltechlighting.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/dennis-crawford-lc-ies-85137a62/,Dennis.Crawford@soltechlighting.com
+Drew,Goldman,Vice President of Sales,PureEdge Lighting,pureedgelighting.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/drew-goldman-81b9b79/,drew@pureedgelighting.com
+Jacob,Glazer,"Vice President, Sales",WAVE LIGHTING,wavelighting.com/,"Appliances, Electrical, and Electronics Manufacturing",8,https://www.linkedin.com/in/jacobglazer,Jacob@wavelighting.com
+Hakop,Goorji,Vice President of Engineering,PureEdge Lighting,pureedgelighting.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/hakop-goorji-66141911/,hgoorji@pureedgelighting.com
+Greg,Mckenzie,Vice President - North American Sales,"Hengdian Group Tospo Lighting Co., Ltd.",tospolighting.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/greg-mckenzie-3a37624/,greg.mckenzie@tospolighting.com
+Clint,Wells,Western Regional Sales Manager,SPRING LIGHTING GROUP INC,slgus.com/,"Appliances, Electrical, and Electronics Manufacturing",29,https://www.linkedin.com/in/clwells,Clint.Wells@slgus.com
+Daniel,Grumney,Western Regional Sales Manager,Red Sky Lighting LLC.,redskylighting.com/,"Appliances, Electrical, and Electronics Manufacturing",26,https://www.linkedin.com/in/danielgrumney0341l31,Daniel@redskylighting.com
+Jeff,Roeder,Western Area Regional Sales Manager,"LEDiL, INC.",ledil.com/,"Appliances, Electrical, and Electronics Manufacturing",123,https://www.linkedin.com/in/jeff-roeder-47917a1,Jeff.Roeder@ledil.com
+Petit,Le Favor,West Coast Regional Sales Manager,"ENVOY LIGHTING, INC.",envoylighting.com/,"Appliances, Electrical, and Electronics Manufacturing",10,,Petit@envoylighting.com
+Alan,Dorsky,VP Sales and Marketing,A.L.P. Lighting Components,alpadvantage.com,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/alan-dorsky/,AlanDorsky@alpadvantage.com
+Sam,Gross,VP Sales,"JESCO LIGHTING GROUP, LLC",jescolighting.com/,"Appliances, Electrical, and Electronics Manufacturing",41,https://www.linkedin.com/company/jesco-led,sgross@jescolighting.com
+Joe,Damiani,VP of Sales,GM Lighting,gmlighting.net,"Appliances, Electrical, and Electronics Manufacturing",,https://www.linkedin.com/in/joe-damiani-72a9981a/,JDamiani@gmlighting.net
+Andrew,Joseph,VP of OEM Sales,KEYSTONE TECHNOLOGIES,keystonetech.com/,"Appliances, Electrical, and Electronics Manufacturing",192,https://www.linkedin.com/in/andrew-joseph-a1412237,Andrew@keystonetech.com
+Sam,Alicea,VP of Purchasing & Quotation / Partner,"ENVOY LIGHTING, INC.",envoylighting.com/,"Appliances, Electrical, and Electronics Manufacturing",10,https://www.linkedin.com/in/sam-alicea-8634aa1a7,SAlicea@envoylighting.com
+Brian,Gilbert,Director Of Operations,ZLEDLIGHTING,zledlighting.com/,"Appliances, Electrical, and Electronics Manufacturing",10,https://www.linkedin.com/in/brian-gilbert-218586155,BrianG@zledlighting.com
+Drew,Goldman,Vice President of Sales,PUREEDGE LIGHTING,pureedgelighting.com/,"Appliances, Electrical, and Electronics Manufacturing",41,https://www.linkedin.com/in/drew-goldman-81b9b79,drew@pureedgelighting.com
+Mark,Sutor,Operation Manager,PUREEDGE LIGHTING,pureedgelighting.com/,"Appliances, Electrical, and Electronics Manufacturing",41,https://www.linkedin.com/in/mark-sutor-baa56a171,msutor@pureedgelighting.com
+Jon,Perper,Founder/President,ZLEDLIGHTING,zledlighting.com/,"Appliances, Electrical, and Electronics Manufacturing",10,https://www.linkedin.com/in/jon-perper-15353a165,Jon@zledlighting.com
+Gregory,Kay,Owner and CEO,PUREEDGE LIGHTING,pureedgelighting.com/,"Appliances, Electrical, and Electronics Manufacturing",41,https://www.linkedin.com/in/greg-kay-4253689,gkay@pureedgelighting.com
+Hakop,Goorji,Vice President of Engineering,PUREEDGE LIGHTING,pureedgelighting.com/,"Appliances, Electrical, and Electronics Manufacturing",41,https://www.linkedin.com/in/hakop-goorji-66141911,hgoorji@pureedgelighting.com
+Sophie,Chenel,CEO,Procedes Chenel International,chenel.com,Architecture and Planning,26,https://fr.linkedin.com/in/sophie-ch%C3%A9nel-procedeschenel,S.Chenel@chenel.com
+Raluca,Balan,Export Sales Manager,Procedes Chenel International,chenel.com,Architecture and Planning,26,https://fr.linkedin.com/in/raluca-balan-03453920/en,R.Balan@chenel.com
+Chuck,Marksberry,President,"CHC ART, Inc.",chcart.com,Artists and Writers,5,https://www.linkedin.com/company/chcart,Chuck@chcart.com
+Samantha,Sollinger,Showroom Sales Manager,"CHC ART, Inc.",chcart.com,Artists and Writers,5,https://www.linkedin.com/in/samanthasollingergoruck,Samantha@chcart.com
+Danielle,Barrett,E-Commerce Director,Furniture Classics,furnitureclassics.com/,Automation Machinery Manufacturing,19,,Danielle@furnitureclassics.com
+Molly,Tilman,Head of Retail Operations,Furniture Classics,furnitureclassics.com/,Automation Machinery Manufacturing,19,,Molly@furnitureclassics.com
+Michael,Ricks,President,Furniture Classics,furnitureclassics.com/,Automation Machinery Manufacturing,19,https://www.linkedin.com/in/michael-ricks-12b68a4,Michael@furnitureclassics.com
+Terrell,Matthews,Shipping & Operations Manager,Furniture Classics,furnitureclassics.com/,Automation Machinery Manufacturing,19,,Terrell@furnitureclassics.com
+Stacie,Hodge,Vice President of Customer Relations,Furniture Classics,furnitureclassics.com/,Automation Machinery Manufacturing,19,,Stacie@furnitureclassics.com
+Cody,Davis,Business Development Manager,Katonah Architectural Hardware Lighting Furniture,katonahhardware.com,Building Materials,17,,Cody@katonahhardware.com
+Jenny,Green,Operations and Marketing Director,Material Intelligence LLC,materialintelligence.com,Building Materials,2,https://www.linkedin.com/pub/dir/Jenny/Green,Jenny@materialintelligence.com
+Kenn,Busch,Publisher and Founder,Material Intelligence,materialintelligence.com,Building Materials,2,https://www.linkedin.com/in/kenn-busch,Kenn@materialintelligence.com
+Susan,Schmidt,"President, Katonah Chicago",Katonah Architectural Hardware Lighting Furniture,katonahhardware.com,Building Materials,17,,Susan@katonahhardware.com
+Andrew,Baren,President,Katonah Architectural Hardware Lighting Furniture,katonahhardware.com,Building Materials,17,,Andrew@katonahhardware.com
+Tessa,Russell,Showroom Manager,Katonah Architectural Hardware Lighting Furniture,katonahhardware.com,Building Materials,17,,Tessa@katonahhardware.com
+Hannah,W,International Senior Sales Manager,Bene.Luxic,beneluxic.com/,Business Consulting and Services,7,https://www.linkedin.com/in/hannah-w-27317480,Hannah@beneluxic.com
+Kristin,Benedetto,Founder & CEO,Bene.Luxic,beneluxic.com/,Business Consulting and Services,7,https://www.linkedin.com/company/beneluxic,Kristin@beneluxic.com
+Amy,Rossiter,Sales & Operations Coordinator,Bene.Luxic,beneluxic.com/,Business Consulting and Services,7,https://uk.linkedin.com/in/amy-rossiter-795373101,Amy@beneluxic.com
+Camilla,Anderson,Sales Manager,Bene.Luxic,beneluxic.com/,Business Consulting and Services,7,https://uk.linkedin.com/in/camilla-anderson-07014b65,Camilla@beneluxic.com
+William,Yue,President,Unlimited Containers Inc,unlimitedcontainers.com,Business Supplies and Equipment,11,https://www.linkedin.com/in/william-yue-a4431438,WYue@unlimitedcontainers.com
+Ashley,Alderson,Founder,The Boutique Hub,theboutiquehub.com,Community Services,,https://www.linkedin.com/in/ashley-alderson-234b0750/,Ashley@theboutiquehub.com
+Samantha,Conner,Director of Wholesale,The Boutique Hub,theboutiquehub.com,Community Services,30,https://www.linkedin.com/in/samanthaconner1,Samantha@theboutiquehub.com
+Dane,Cohen,Director of Retail Development,The Boutique Hub,theboutiquehub.com,Community Services,30,https://www.linkedin.com/in/danecohen,Dane@theboutiquehub.com
+Jim,Mcmaster,Divisional Vice President,C.R. Plastic Products,crpproducts.com,Consumer Goods,,https://www.linkedin.com/in/jim-mcmaster-5b0a59132/,jmcmaster@crplastics.com
+Matt,White,Director of Sales and Strategic Partnerships,C.R. Plastic Products,crpproducts.com,Consumer Goods,,https://www.linkedin.com/in/white-matt-2a79513/,mwhite@crplastics.com
+Lauren,Weinstein,Director of Sales,Go Home,gohomeltd.com/,Consumer Goods,29,https://www.linkedin.com/in/lauren-weinstein-5962a1153,LaurenW@gohomeltd.com
+Julie,Fry,Owner/CEO/PRESIDENT,"Select Artificials, Inc.",selectartificials.com,Consumer Goods,20,https://www.linkedin.com/in/julie-fry-49634213,JFry@selectartificials.com
+Ludger,Busche,Senior Vice President,"KETTLER International, Inc.",kettlerusa.com,Consumer Goods,,https://www.linkedin.com/in/ludger-busche-4925ab45/,LBusche@kettlerusa.com
+Stephen,Mannix,SENIOR VICE PRESIDENT,"KETTLER International, Inc.",kettlerusa.com,Consumer Goods,,https://www.linkedin.com/in/stephen-mannix-06a13032/,SMannix@kettlerusa.com
+David,Kyles,Chief Information Officer,MDC Interior Solutions,mdcwall.com,Design Services,218,https://www.linkedin.com/in/david-kyles-9a2b128,David@mdcwall.com
+Robbie,Cook,CEO/President,Hester & Cook,hesterandcook.com/,Design Services,36,https://www.linkedin.com/in/robbie-cook-7a629768,Robbie@hesterandcook.com
+Janet,Morais,CEO & Founder Luxury Brand KOKET,KOKET,bykoket.com,Design Services,,https://www.linkedin.com/in/janetmorais/,Morais@bykoket.com
+Angie,Hester Cook,CEO,Hester & Cook,hesterandcook.com/,Design Services,36,https://www.linkedin.com/in/angie-hester-cook-b118a23b,Angie@hesterandcook.com
+Steve,Spencer,"Business Development, Most Excellent Outside Sales Dictator",Shelfology,shelfology.com,Design Services,31,https://www.linkedin.com/in/steve-d-spencer,Steve.Spencer@shelfology.com
+Paul,Golaszewski,"Executive Director, Residential Sales",Waterworks,waterworks.com,Design Services,892,,Paul.Golaszewski@waterworks.com
+Jossue,Maldonado,IT Manager,Tai Ping,taipingcarpets.com,Design Services,,https://www.linkedin.com/in/jossue-maldonado-47812412/,JossueMaldonado@taipingcarpets.com
+Jesse,James,Founder & President,Shoppe Object,shoppeobject.com,Design Services,8,https://www.linkedin.com/in/jesse-james-3301aa5,Jesse@shoppeobject.com
+Kevin,Anderson,"Owner + Founder, Founder + CEO",Shelfology,shelfology.com,Design Services,31,https://www.linkedin.com/in/kevinganderson,Kevin@shelfology.com
+Suzanne,Duin,Owner,Maison Maison,maisonmaisondesign.com,Design Services,,https://www.linkedin.com/in/suzanne-duin-807a038/,Suzanne@maisonmaisondesign.com
+Ralph,Bennett,President & CFO,Waterworks,waterworks.com,Design Services,,https://www.linkedin.com/in/ralph-bennett-935ba21/,RBennett@waterworks.com
+Deb,Arpert,SVP Operations,Waterworks,waterworks.com,Design Services,892,,darpert@waterworks.com
+Greg,Wittlinger,Vice President Sales,MDC Interior Solutions,mdcwall.com,Design Services,,https://www.linkedin.com/in/greg-wittlinger/,GWittlinger@mdcwall.com
+Eric,A Sanchez,Vice President of Client Experience,Waterworks,waterworks.com,Design Services,,https://www.linkedin.com/in/eric-a-sanchez-cpa/,ESanchez@waterworks.com
+Steven,Toia,Vice President - Commercial Sales,Waterworks,waterworks.com,Design Services,,https://www.linkedin.com/in/steven-toia-34bb996/,Steven.Toia@waterworks.com
+Renata,Bokalo,"VP, Shoppe Object Show Director; Director of Sales",Shoppe Object,shoppeobject.com,Design Services,8,https://www.linkedin.com/in/renata-bokalo-%F0%9F%87%BA%F0%9F%87%A6-176b2430,Renata@shoppeobject.com
+Randy,Kabat,VP Product Development & Merchandising,Waterworks,waterworks.com,Design Services,,https://www.linkedin.com/in/randy-kabat-77455a26/,RKabat@waterworks.com
+Tom,Gabriele,VP Information Technology,Waterworks,waterworks.com,Design Services,892,https://www.linkedin.com/in/tom-gabriele-6b35447,tgabriele@waterworks.com
+Melissa,Moss,Director of Sales,Maison Maison Design,maisonmaisondesign.com,Design Services,9,https://www.linkedin.com/in/melissa-m-moss,Melissa@maisonmaisondesign.com
+Teresa,Martinez,Interior Designer/Project and Office Manager,Maison Maison Design,maisonmaisondesign.com,Design Services,9,https://www.linkedin.com/in/teresa-martinez-0354a21a2,Teresa@maisonmaisondesign.com
+Suzanne,Duin,Owner,Maison Maison Design,maisonmaisondesign.com,Design Services,9,https://www.linkedin.com/in/suzanne-duin-807a038,Suzanne@maisonmaisondesign.com
+Tage,Juhl Finninge,COO,Piffany Copenhagen,piffany.eu,Design Services,29,https://dk.linkedin.com/company/piffany-copenhagen,tjf@piffany.eu
+Michael,Kupka,Chief Executive Officer,BIOS,bioslighting.com/,Electric Lighting Equipment Manufacturing,28,https://www.linkedin.com/company/bioslighting,MKupka@bioslighting.com
+Chelsea,Geller,Business Development,"GoodLite, Lighting Manufacturer",gllite.com/,Electric Lighting Equipment Manufacturing,6,https://www.linkedin.com/in/chelsea-geller-a79b28212,Chelsea@gllite.com
+Małgorzata,Drozd,Controlling Manager,Schwung Lighting,schwung.design,Electric Lighting Equipment Manufacturing,19,https://pl.linkedin.com/in/ma%C5%82gorzata-drozd-179813201,Malgorzata.Drozd@schwung.design
+Ming,Li,"Chief Operating Officer, US and Canada",LEDVANCE,ledvanceus.com/,Electric Lighting Equipment Manufacturing,,https://www.linkedin.com/in/ming-li-4364b110,ming.li@ledvance.com
+Daniel,Torres,Founder & CEO,Jungo Lighting,jungo.lighting/,Electric Lighting Equipment Manufacturing,23,https://mx.linkedin.com/in/daniel-torres-6b839350,DTorres@jungo.lighting
+Meltem,Kayadelen,Export Sales,Maviay Energy Lighting LLC,milled.com.tr/,Electric Lighting Equipment Manufacturing,14,,meltem@milled.com.tr
+Kora,Zeng,Founder,"Carro USA, Inc.",carrousa.com/,Electric Lighting Equipment Manufacturing,6,https://www.linkedin.com/in/kora-zeng-565a991b1,kora@carrousa.com
+Sandra,Hunter,"Ecommerce Manager / Manager, Sales & E Commerce","Carro USA, Inc.",carrousa.com/,Electric Lighting Equipment Manufacturing,6,https://www.linkedin.com/in/sandra-hunter-86133233a,sandra@carrousa.com
+Jon,Capacci,Director of Sales - Trade (C&I) US,LEDVANCE,ledvanceus.com/,Electric Lighting Equipment Manufacturing,,https://www.linkedin.com/in/jon-capacci-85a15174,jon.capacci@ledvance.com
+Izzy,Orzel,Director of Sales & Business Development,Goodlite Products,gllite.com/,Electric Lighting Equipment Manufacturing,6,https://www.linkedin.com/in/izzyorzel,Izzy@gllite.com
+Yunus,Tutan,Marketing Manager,Maviay Energy Lighting LLC,milled.com.tr/,Electric Lighting Equipment Manufacturing,14,,yunus@milled.com.tr
+Marcin,Grochola,Head of Sales,Schwung Lighting,schwung.design,Electric Lighting Equipment Manufacturing,19,https://pl.linkedin.com/in/marcingrochola,marcin.grochola@schwung.design
+Yusuf,Tutan,General Manager,Maviay Energy Lighting LLC,milled.com.tr/,Electric Lighting Equipment Manufacturing,14,https://tr.linkedin.com/in/yusuf-tutan-35385263,yusuf@milled.com.tr
+Laurence,St Ives,President / CEO,Organic Lighting / Orgatech,organiclighting.com/,Electric Lighting Equipment Manufacturing,8,https://www.linkedin.com/in/laurence-st-ives-6aa53225b,Laurence@organiclighting.com
+Rob,Karen,President,EELP Lighting,eelp.net/,Electric Lighting Equipment Manufacturing,4,https://www.linkedin.com/company/eelp-versaled-lighting,RKaren@eelp.net
+Jonathan,Lubeck,USC Region CEO - LEDVANCE US & Canada,LEDVANCE,ledvanceus.com/,Electric Lighting Equipment Manufacturing,,https://www.linkedin.com/in/jonathan-lubeck-6a20a881,jonathan.lubeck@ledvance.com
+Emrullah,Ozger,Sales & Marketing Specialist,Maviay Energy Lighting LLC,milled.com.tr/,Electric Lighting Equipment Manufacturing,14,,emrullah@milled.com.tr
+Graham,Wark,"Vice President of Trade Sales, U.S.",LEDVANCE,ledvanceus.com/,Electric Lighting Equipment Manufacturing,,https://www.linkedin.com/posts/electrical-business-network_graham-wark-returns-to-ledvance-as-vice-president-activity-7284641308558737409-aYLQ,g.wark@ledvance.com
+Jennifer,Bassuk,"VP, Strategic Partnerships",BIOS Lighting,bioslighting.com,Electric Lighting Equipment Manufacturing,,https://www.linkedin.com/in/jennifer-bassuk-6171b/,JBassuk@bioslighting.com
+Jim,Stephens,VP Horticulture Sales,BIOS Lighting,bioslighting.com,Electric Lighting Equipment Manufacturing,,https://www.linkedin.com/in/jim-stephens-27444b79/,JStephens@bioslighting.com
+Satish,Gupta,Director of Sales and Product Development,OVERDRIVE LIGHTING,overdrive-lighting.com,Electric Lighting Equipment Manufacturing,10,https://ca.linkedin.com/in/satish-gupta-57b15328,Satish@overdrive-lighting.com
+Craig,Singer,President,Inner Circle Distribution,icd-usa.com,Entertainment Providers,,https://www.linkedin.com/in/craig-singer-5b28918/,CSinger@icd-usa.com
+Filippo,Frigeri,VP of Sales & Marketing,Inner Circle Distribution,icd-usa.com,Entertainment Providers,,https://www.linkedin.com/in/filippo-frigeri-82409240/,FFrigeri@icd-usa.com
+Bill,Bush,Chief Commercial Officer,Customatic Technologies,customatictechnologies.com,Furniture,9,,bill.bush@customaticbeds.com
+Glenn,Lawson,Chief Creative Officer/Founder,Lawson-Fenning,lawsonfenning.com,Furniture,21,https://www.linkedin.com/in/glenn-lawson-25a4696,Glenn@lawsonfenning.com
+Robert,Bramble,CEO and Owner,Bramble & Steven Shell,brambleco.com/,Furniture,17,https://www.linkedin.com/in/robert-bramble-51b93990,Robert@brambleco.com
+Doug,Rozenboom,CEO,Worthen Custom Iron & Brass Furniture,worthenfurniture.com,Furniture,9,https://www.linkedin.com/company/worthen-furniture,Doug@worthenfurniture.com
+Nathan,Cressman,CEO,Magnussen Home Furnishings,3121home.com,Furniture,,https://www.linkedin.com/in/nathan-cressman-05181a14a/,NCressman@magnussen.com
+Isaac,Hadida,CEO,Casabianca Home,casabianca.com,Furniture,,https://www.linkedin.com/in/isaac-hadida-9a542574/,isaac@casabiancafurniture.com
+Jillian,Mccarty,B2B Operations Manager,Customatic Sleep Technologies,customatictechnologies.com,Furniture,9,https://www.linkedin.com/in/mccartyjillian,jillian.mccarty@customaticbeds.com
+Ken,Croft,Director of Engineering,H. M. Richards Inc,hmrichards.com,Furniture,189,https://www.linkedin.com/in/ken-croft-029558b9,KCroft@hmrichards.com
+Tricia,Rouse,Co-Owner,Green Gables Furniture,greengablesfurniture.com,Furniture,8,https://www.linkedin.com/in/tricia-rouse-048783190,Tricia@greengablesfurniture.com
+Kim,Digilio,COO,Lawson-Fenning,lawsonfenning.com,Furniture,21,https://www.linkedin.com/in/kim-digilio-0a001a46,Kim@lawsonfenning.com
+Carson,Simmons,Chief Operating Officer,BedTech,bedtech.com,Furniture,,https://www.linkedin.com/in/carson-simmons-b3733540/,Carson@bedtech.com
+Joanna,Leung,Chief Strategy & Innovation Officer,Ratana International,ratana.com/,Furniture,56,,Joanna@ratana.com
+Rebecca,Colyn,"Chief Operating Officer, N Amer",Magnussen Home Furnishings,3121home.com,Furniture,,https://www.linkedin.com/in/rebecca-colyn-a5a56a11/,RColyn@magnussen.com
+Kimberly,Letson,Engineering Manager,H. M. Richards Inc,hmrichards.com,Furniture,189,https://www.linkedin.com/in/kimberly-letson-056a2223,KLetson@hmrichards.com
+Alyssa,Prohias Deninger,Director of Sales,Lawson-Fenning,lawsonfenning.com,Furniture,,https://www.linkedin.com/in/alyssa-prohías-deninger-51452353/,Alyssa@lawsonfenning.com
+Monica,Partalis,Director of Sales and Marketing,Jeffan International,jeffan.com/,Furniture,9,https://www.linkedin.com/in/monica-chang-partalis,Monica@jeffan.com
+Matt,Fogerty,Director of Sales,Home Furnishings Association - HFA,myhfa.org,Furniture,,https://www.linkedin.com/in/matt-fogerty-7070a812/,mfogerty@myhfa.org
+Adam,Mendes,Director of Production,Lawson-Fenning,lawsonfenning.com,Furniture,21,https://www.linkedin.com/in/adam-mendes-673a3175,Adam@lawsonfenning.com
+Tina,Li,"Global Director, Operations",Ratana International,ratana.com/,Furniture,56,,Tina@ratana.com
+Isaac,Hadida,"Founder, CEO, and Inventor",Casabianca Home,casabianca.com,Furniture,4,https://www.linkedin.com/company/casabianca-home,isaac@casabiancafurniture.com
+Darren,Sparks,President,BedTech,bedtech.com,Furniture,,https://www.linkedin.com/in/darren-sparks-67075b70/,Darren@bedtech.com
+Federico,Saoncella,Owner & Sales Manager,Sevensedie SRL,sevensedie.com,Furniture,12,https://it.linkedin.com/in/federico-saoncella-b282b5125,Federico.Saoncella@sevensedie.com
+Bob,Rouse,Owner,Green Gables Furniture,greengablesfurniture.com,Furniture,8,https://www.linkedin.com/in/bobrouse1,Bob@greengablesfurniture.com
+Massimo,Ongaro,Owner and General Manager,Sevensedie SRL,sevensedie.com,Furniture,12,https://it.linkedin.com/in/massimo-ongaro-85bab48,Massimo@sevensedie.com
+David,Kalb,Operations Manager,Fuse Goods,bmclab.com,Furniture,1,https://www.linkedin.com/in/david-kalb-589059123,David@bmclab.com
+Christine,Van Tassell,National Sales Manager,Sorelle Furniture,sorellefurniture.com,Furniture,7,https://www.linkedin.com/company/sorelle-furniture,Christine@sorellefurniture.com
+Fred,Van Donkelaar,National Sales Manager,Fuse Goods,bmclab.com,Furniture,1,https://www.linkedin.com/in/fred-van-donkelaar-038a0022,Fred@bmclab.com
+Rob,Rosenberg,President & CEO,Planned Furniture Promotions,pfpnow.com,Furniture,113,https://www.linkedin.com/in/rob-rosenberg-0391636a,rob@pfpnow.com
+Matt,Van Bemmelen,Sales,Fuse Goods,bmclab.com,Furniture,1,https://www.linkedin.com/in/matt-vanbemmelen-9273555b,Matt@bmclab.com
+Biljana,Angelovski,Sales and Marketing Director,prostoria ltd,prostoria.eu,Furniture,,https://www.linkedin.com/in/biljana-angelovski-149283161/,bangelovski@prostoria.eu
+Joel,Gauthier,President,Fuse Goods,bmclab.com,Furniture,1,https://www.linkedin.com/in/joel-gauthier-76620a30,Joel@bmclab.com
+Caroline,Shibata,President,Jeffan International,jeffan.com/,Furniture,9,https://www.linkedin.com/in/caroline-shibata-6652aa49,CShibata@jeffan.com
+Brandon,Sparks,President,BedTech,bedtech.com,Furniture,21,https://www.linkedin.com/in/brandon-sparks-1436b773,Brandon@bedtech.com
+Roy,Hester,"Sr. Vice President, Managing Director",Planned Furniture Promotions,pfpnow.com,Furniture,113,https://www.linkedin.com/in/roy-hester-82229b127,roy@pfpnow.com
+Tom,Liddell,"Sr. Vice President, Managing Director",Planned Furniture Promotions,pfpnow.com,Furniture,113,https://www.linkedin.com/in/thomas-liddell-83848534,tom@pfpnow.com
+Sheila,Luciano,Senior Vice President of Business Development,Customatic Technologies,customatictechnologies.com,Furniture,9,https://www.linkedin.com/in/sheila-luciano-a5866143,sheila.luciano@customaticbeds.com
+Christa,Albrecht,Senior Vice President Sales,Magnussen Home Furnishings,3121home.com,Furniture,,https://www.linkedin.com/in/christa-albrecht-66166a20/,CAlbrecht@magnussen.com
+Babbi,Schuch,Senior Customer Service Manager,Jeffan International,jeffan.com/,Furniture,9,,Babbi@jeffan.com
+Andrea,Banda,"VP, Sales, Marketing & Merchandising",H. M. Richards Inc,hmrichards.com,Furniture,189,https://www.linkedin.com/in/andrea-banda-0718664,ABanda@hmrichards.com
+Lisa,Samuels,VP of Sales and Marketing,The Bramble Company,brambleco.com,Furniture,,https://www.linkedin.com/in/lisa-samuels-706550a5/,Lisa@brambleco.com
+Mark,Peregrym,VP of Sales,Green Gables Furniture,greengablesfurniture.com,Furniture,8,https://www.linkedin.com/in/mark-peregrym-1b935212a,Mark@greengablesfurniture.com
+Mark,Peregrym,VP of Sales,GREEN GABLES FURNITURE,greengablesfurniture.com,Furniture,,https://www.linkedin.com/in/mark-peregrym-1b935212a/,Mark@greengablesfurniture.com
+Michelle,Harvey,Vice President Supply and Demand,Magnussen Home Furnishings,3121home.com,Furniture,,https://www.linkedin.com/in/michelle-harvey-75403115/,MHarvey@magnussen.com
+Jason,March,Chief Financial Officer,IDEAITALIA CONTEMPORARY FURNITURE CORP,ideaitaliausa.com,Furniture and Home Furnishings Manufacturing,21,https://www.linkedin.com/in/jason-march-2079b131,MarchJ@ideaitaliausa.com
+Paul,Knapp,CEO & President,FiberBuilt Umbrellas & Cushions Inc,fiberbuiltumbrellas.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/paul-knapp-27550717/,Paul@fiberbuiltumbrellas.com
+Kate,Carret,CEO & Co-Owner,Seaside Casual Furniture,seasidecasual.com/,Furniture and Home Furnishings Manufacturing,39,https://www.linkedin.com/in/kate-carret-3b949134,KCarret@seasidecasual.com
+Russ,Barnes,CEO at Wildwood/Chelsea House,Wildwood,wildwoodhome.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/russ-barnes-82a41435/,Russ@wildwoodhome.com
+Jim,Miller,"CEO, Founder, Owner, President",DutchCrafters Amish Furniture,dutchcrafters.com,Furniture and Home Furnishings Manufacturing,38,http://linkedin.com/company/dutchcrafters-amish-furniture,jim@dutchcrafters.com
+Rebekah,Osborn,CEO and Owner,Beyond Borders Furniture Co,beyondbordersimports.com,Furniture and Home Furnishings Manufacturing,4,https://www.linkedin.com/in/rebekah-osborn-577b024,Rebekah@beyondbordersimports.com
+Luigi,Billiani,CEO,Billiani,billiani.it,Furniture and Home Furnishings Manufacturing,20,https://www.linkedin.com/in/leonardobilliani,Luigi.Billiani@billiani.it
+Eddie,Greene,CEO,CAROLINA CHAIR AND TABLE,carolinachairandtable.com,Furniture and Home Furnishings Manufacturing,7,https://www.linkedin.com/in/eddie-greene-3171a216,eddie@carolinachairandtable.com
+Brad,Cates,CEO,Sarreid Ltd,sarreid.com/,Furniture and Home Furnishings Manufacturing,31,https://www.linkedin.com/in/brad-cates-a5838657,bwc@sarreid.com
+Peter,Yee,C.E.O.,"Maria Yee, Inc.",mariayee.com,Furniture and Home Furnishings Manufacturing,14,https://www.linkedin.com/in/peter-yee-a41853b5,peter@mariayee.com
+Christian,Vetterer,CEO,Visplay,visplay.com,Furniture and Home Furnishings Manufacturing,57,https://de.linkedin.com/in/christian-vetterer-40940310b,Christian.Vetterer@visplay.com
+Jean,Liu,CEO,Woodard Furniture,woodard-furniture.com,Furniture and Home Furnishings Manufacturing,57,https://www.linkedin.com/company/woodard-furniture,JLiu@woodard-furniture.com
+Andrew,Crone,CEO,Chaddock,chaddockhome.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/andrew-crone-13558328/,ACrone@chaddock.com
+Michael,Arredondo,Business Owner,United Leather Usa,unitedleatherusa.com/,Furniture and Home Furnishings Manufacturing,4,https://www.linkedin.com/in/michael-arredondo-a3641b17a,michael@vintageleathermanufacturing.com
+Jonathan,Chang,Account Manager,Boraam Industries,boraamindustries.com,Furniture and Home Furnishings Manufacturing,15,https://www.linkedin.com/in/jonathan-chang1,Jonathan.Chang@boraamindustries.com
+April,Broadnax,Account Specialist,Carolina Chair & Table,carolinachairandtable.com,Furniture and Home Furnishings Manufacturing,7,https://www.linkedin.com/company/carolina-chair-and-table,AprilB@carolinachairandtable.com
+Kari-jo,Koshes,Director of Operations,DutchCrafters Amish Furniture,dutchcrafters.com,Furniture and Home Furnishings Manufacturing,38,https://www.linkedin.com/in/kari-jo-koshes-412945a5,KariJo@dutchcrafters.com
+Allen,Kline,Accounting / Bookkeeper,Canal Dover Furniture,canaldover.com,Furniture and Home Furnishings Manufacturing,12,https://www.linkedin.com/in/allen-kline-213285302,AllenK@canaldover.com
+Marie,Bellwoar,Administrative Coordinator,Boraam Industries,boraamindustries.com,Furniture and Home Furnishings Manufacturing,15,https://www.linkedin.com/in/marie-bellwoar-7b171842,marie@boraamindustries.com
+Vecan,Choi,Director of Innovation and Technology,Monarch Specialties Inc.,monarchspec.com,Furniture and Home Furnishings Manufacturing,42,,VecanC@monarchspec.com
+Nathan,Godwin,Director of Information Systems,"Sarreid, Ltd.",sarreid.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/nathan-godwin-50608b14/,nathan.godwin@sarreid.com
+Mark,Cliffe,Director of International & Commercial Sales,Berlin Gardens,berlingardensllc.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/mark-cliffe-b6571b10/,mark.c@berlingardensllc.com
+Elizabeth,Grovenstein,Director of Key Account Sales and Development,Jamie Young Co.,jamieyoung.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/elizabeth-grovenstein-5208155/,Elizabeth@jamieyoung.com
+Dustan,Steiner,Director of Cabinet Sales,Berlin Gardens,berlingardensllc.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/dustan-steiner-4b4b01180/,dustan.s@berlingardensllc.com
+Owen,Yoder,Director of Application Development,Berlin Gardens,berlingardensllc.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/owen-yoder-8662a69b/,Owen@berlingardensllc.com
+Abby,Bennett,Director of Business Development,ICON Bunks,iconbunks.com,Furniture and Home Furnishings Manufacturing,2,https://www.linkedin.com/in/abigailb5,Abby@iconbunks.com
+Shmaya,Krinsky,CTO,TOV Furniture,tovfurniture.com,Furniture and Home Furnishings Manufacturing,52,,Shmaya@tovfurniture.com
+Maribel,Leon,Co Partner/CO-Founder,United Leather Usa,unitedleatherusa.com/,Furniture and Home Furnishings Manufacturing,4,https://www.linkedin.com/in/maribel-leon-9930b6263,Maribel@unitedleatherusa.com
+Holly,Lightfoot,Director of Product Development,Armen Living Furniture,armenliving.com/,Furniture and Home Furnishings Manufacturing,29,https://www.linkedin.com/in/holly-lightfoot-6bbb7227,Holly@armenliving.com
+Kelly,B,Director Information Technology Infrastructure and Service Desk,POLYWOOD,polywood.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/kelly-b-50b4b112/,kbello@polywood.com
+Joey,Shamie,Co-President,Delta Children,deltachildren.com,Furniture and Home Furnishings Manufacturing,179,https://www.linkedin.com/in/joe-shamie-34a99b5b,JShamie@deltachildren.com
+Nolan,Sullivan,Director of Operations,ICON Bunks,iconbunks.com,Furniture and Home Furnishings Manufacturing,2,https://www.linkedin.com/in/nolan-sullivan-530442228,Nolan@iconbunks.com
+Rafael,Adriaensens,COO & Sales Director,"Maria Yee, Inc.",mariayee.com,Furniture and Home Furnishings Manufacturing,14,https://be.linkedin.com/in/rafael-adriaensens-71a9a836,rafael@mariayee.com
+Joe,Craddock,Co-Founder & CTO,FurnitureDealer.Net,furnituredealer.net,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/joecraddock/,Joe@furnituredealer.net
+Chaya,Krinsky,Co-Founder and Lead Designer,TOV Furniture,tovfurniture.com,Furniture and Home Furnishings Manufacturing,52,https://www.linkedin.com/in/chaya-krinsky-0466a3ba,Chaya@tovfurniture.com
+Jodie,Webb Ca,Co-Founder,Autonomous Furniture,autonomousfurniture.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/jodie-webb-cpa-ca-6042437/,Jodie@autonomousfurniture.com
+Miao,Xue,"CIO, Co-owner",DutchCrafters Amish Furniture,dutchcrafters.com,Furniture and Home Furnishings Manufacturing,38,https://ca.linkedin.com/in/miao-xue-0bb582223,MXue@dutchcrafters.com
+Matthew,Coblentz,Chief Operating Officer | Wholesale Operations,HighTek Outdoor Living LLC,hightekoutdoor.com,Furniture and Home Furnishings Manufacturing,4,https://www.linkedin.com/in/matthew-coblentz-744b51131,matthew.coblentz@genesys.com
+Rami,Talj,Chief Operating Officer,Iconic Home UAE - Baker Furniture & McGuire,iconichomeuae.com,Furniture and Home Furnishings Manufacturing,3,https://ae.linkedin.com/in/rami-talj-ab8976155,Rami.Talj@iconichomeuae.com
+Joe,Parent,Chief Operating Officer,Seaside Casual Furniture,seasidecasual.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/joe-parent-0a9088121/,JParent@seasidecasual.com
+Baila,Bree,Chief Operating Officer,TOV Furniture,tovfurniture.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/baila-bree-50209033/,Baila@tovfurniture.com
+Andy,Bernstein,Founder & CEO,FurnitureDealer.Net,furnituredealer.net,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/4andybernstein/,Andy@furnituredealer.net
+Matthew,Coblentz,Chief Operating Officer,HighTek Outdoor Living,hightekoutdoor.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/matthew-coblentz-744b51131/,matthew.coblentz@genesys.com
+Gary,Helman,Founder and President,Empire Art Direct,empireartdirect.com,Furniture and Home Furnishings Manufacturing,7,https://www.linkedin.com/in/gary-helman-0433857,Gary@empireartdirect.com
+Trinh,Kost,Financial Controller,TELOS FURNITURE,telosfurniture.com,Furniture and Home Furnishings Manufacturing,13,https://www.linkedin.com/in/trinh-kost-cpa-formerly-trinh-kern-6a3a83103,Trinh.Kost@telosfurniture.com
+Laura,Tiberio,Export Sales,Billiani,billiani.it,Furniture and Home Furnishings Manufacturing,20,,Laura@billiani.it
+Louis,Hoffstein,EVP Sales,Delta Children,deltachildren.com,Furniture and Home Furnishings Manufacturing,179,https://www.linkedin.com/in/louis-hoffstein-68a23725,LHoffstein@deltachildren.com
+Robert,Perilstein,Director Visplay North America,Visplay,visplay.com,Furniture and Home Furnishings Manufacturing,57,,Robert.Perilstein@visplay.com
+Jessi,Walters,E-commerce Account Manager,TOV Furniture,tovfurniture.com,Furniture and Home Furnishings Manufacturing,52,https://www.linkedin.com/in/jessi-walters-181725139,jessi.w@tovfurniture.com
+Wiwin,Handayani,"Director, Sales (USA)",Beyond Borders Furniture Co,beyondbordersimports.com,Furniture and Home Furnishings Manufacturing,4,https://www.linkedin.com/in/lsieh,wiwin@beyondbordersimports.com
+Cassie,Wagner,Ecommerce,Armen Living Furniture,armenliving.com/,Furniture and Home Furnishings Manufacturing,29,https://www.linkedin.com/in/cassie-wagner-4278553a,Cassie@armenliving.com
+Dave,Toth,"Director, Sales & Marketing / Senior Vice President",CorLiving Distribution,corliving.com,Furniture and Home Furnishings Manufacturing,39,https://ca.linkedin.com/in/davetoth,DToth@corliving.com
+Robert,Hosking,Director of Warehousing and Logistics,American Homestead Furniture,americanhomesteadfurniture.com,Furniture and Home Furnishings Manufacturing,6,https://www.linkedin.com/in/robert-hosking-8a8735106,rob@americanhomesteadfurniture.com
+Grace,Miller,Director of US Sales,Beyond Borders Furniture Co,beyondbordersimports.com,Furniture and Home Furnishings Manufacturing,4,https://www.linkedin.com/in/gracethompsonmiller,Grace@beyondbordersimports.com
+Caleb,Burnett,Director of Sales Operations,Summer Classics,summerclassics.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/caleb-burnett-8aa23b141/,calebb@summerclassics.com
+Danny,Harris,National Sales Manager,Monarch Specialties Inc.,monarchspec.com,Furniture and Home Furnishings Manufacturing,42,,DannyH@monarchspec.com
+Jennifer,Owens,Director of Sales,POLYWOOD,polywood.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/jennifer-owens-5a4a6684/,jowens@polywood.com
+Yesim,Avunduk,Managing Director,Bellona USA,bellonausa.com,Furniture and Home Furnishings Manufacturing,16,https://www.linkedin.com/in/yesimavunduk,Yesim@bellonausa.com
+Veronik,Romanutti,Managing Director,Billiani,billiani.it,Furniture and Home Furnishings Manufacturing,20,https://it.linkedin.com/in/veronikromanutti/it,Veronik.Romanutti@billiani.it
+Jacob,Jolman,Managing Director,Montage Furniture Services / Protection 1st,montagefs.com,Furniture and Home Furnishings Manufacturing,103,https://www.linkedin.com/in/jacob-jolman-cma-cfm-60429b11,Jacob.Jolman@montagefs.com
+Jonelle,Villas,IT Manager,Lloyd Flanders,lloydflanders.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/jonelle-villas-12a967252/,jvillas@lloydflanders.com
+Philipp,Kern,IT Consultant and Developer,Visplay,visplay.com,Furniture and Home Furnishings Manufacturing,57,,Philipp.Kern@visplay.com
+John,Nicholls P,National Sales Manager,Elegant Lighting,elegantlighting.com,Furniture and Home Furnishings Manufacturing,67,https://www.linkedin.com/in/john-nicholls-p-5420765,john.p@elegantlighting.com
+Su,Yadana,International Logistics Manager,Boraam Industries,boraamindustries.com,Furniture and Home Furnishings Manufacturing,15,https://www.linkedin.com/in/su-yadana-327189153,Su@boraamindustries.com
+Susan,Taylor,Inside Sales Specialist & Customer Service Representative,Seaside Casual Furniture,seasidecasual.com/,Furniture and Home Furnishings Manufacturing,39,https://www.linkedin.com/in/susan-taylor-0281125,STaylor@seasidecasual.com
+Erin,Simon,Inside Sales Specialist & Customer Service Representative,Seaside Casual Furniture,seasidecasual.com/,Furniture and Home Furnishings Manufacturing,39,https://www.linkedin.com/in/erin-simon-3307271405,ESimon@seasidecasual.com
+Christeen,Jorno,Inside Sales Manager,DutchCrafters Amish Furniture,dutchcrafters.com,Furniture and Home Furnishings Manufacturing,38,https://www.linkedin.com/in/christeen-jorno,Christeen@dutchcrafters.com
+Markus,Prange,"Head of Sales, DACH",Visplay,visplay.com,Furniture and Home Furnishings Manufacturing,57,,Markus.Prange@visplay.com
+Elisabetta,Bressan,IMPIEGATA COMMERCIALE,Billiani,billiani.it,Furniture and Home Furnishings Manufacturing,20,,Elisabetta.Bressan@billiani.it
+Gary,Watton,"Head of Region - Visplay UK, IE & Scandinavia",Visplay,visplay.com,Furniture and Home Furnishings Manufacturing,57,https://uk.linkedin.com/in/garyjonwatton,Gary.Watton@visplay.com
+Ozkan,Bidav,Head of IT,Bellona USA,bellonausa.com,Furniture and Home Furnishings Manufacturing,16,https://www.linkedin.com/in/ozkan-bidav-83032295,Ozkan@bellonausa.com
+Gloria,Nadalin,Global Sales Director,Billiani,billiani.it,Furniture and Home Furnishings Manufacturing,20,https://it.linkedin.com/in/gloria-nadalin-46644528,Gloria.Nadalin@billiani.it
+Jordan,Beckner,Founding Partner/President of Sales,FiberBuilt Umbrellas & Cushions Inc,fiberbuiltumbrellas.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/jordan-beckner-2b462352/,Jordan@fiberbuiltumbrellas.com
+Kiana,Mills,Founders Associate / Sales Director,Valyou by DGC International,valyoufurniture.com,Furniture and Home Furnishings Manufacturing,38,https://www.linkedin.com/in/kianamillshawaii,Kiana@valyoufurniture.com
+Paolo,Tomasella,President,Tomasella,tomasella.it,Furniture and Home Furnishings Manufacturing,107,https://it.linkedin.com/in/paolo-tomasella-8b2b06a,Paolo.Tomasella@tomasella.it
+David,Berger,President,Monarch Specialties Inc.,monarchspec.com,Furniture and Home Furnishings Manufacturing,42,,DavidB@monarchspec.com
+Sam,Yoder,President,Berlin Gardens,berlingardensllc.com/,Furniture and Home Furnishings Manufacturing,44,https://www.linkedin.com/company/berlin-gardens-llc,Sam@berlingardensllc.com
+Jamie,Young Jeter,President,Jamie Young Company,jamieyoung.com/,Furniture and Home Furnishings Manufacturing,43,https://www.linkedin.com/in/jamie-young-jeter-5436b56,Jamie@jamieyoung.com
+Nathan,Chetrit,President,American Homestead Furniture,americanhomesteadfurniture.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/nathan-chetrit-73b1752a8/,Nathan@americanhomesteadfurniture.com
+Jorge,Contreras,President,Sofamaster,sofamaster.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/jorge-contreras-ba51a325/,Jorge.Contreras@sofamaster.com
+Charlie,Wang,President,AC Pacific,acpacific.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/charlie-wang-040a5536/,Charlie@acpacific.com
+Eric,Parsons,President,Jensen Outdoor,jensenoutdoor.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/eric-parsons-5853b617/,EParsons@jensenoutdoor.com
+Dan,Minor,President,Charleston Forge,charlestonforge.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/dan-minor-398a927/,DMinor@charlestonforge.com
+Joe,Shamie,President,Delta Children,deltachildren.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/joe-shamie-34a99b5b/,joe@deltachildren.com
+Chris,Putrimas,Owner & CEO,Teak Warehouse,teakwarehouse.com,Furniture and Home Furnishings Manufacturing,18,https://www.linkedin.com/in/chris-putrimas-33026b1,Chris@teakwarehouse.com
+Charles,Hoffman,Partner,Sarreid Ltd,sarreid.com/,Furniture and Home Furnishings Manufacturing,31,https://www.linkedin.com/in/charles-hoffman-600a8438,cah@sarreid.com
+Ryan,Hershberger,Owner-President,Canal Dover Furniture,canaldover.com,Furniture and Home Furnishings Manufacturing,12,https://www.linkedin.com/in/ryan-hershberger-80a8a0158,RyanH@canaldover.com
+Jason,Clary,Owner & CEO,ICON Bunks,iconbunks.com,Furniture and Home Furnishings Manufacturing,2,,Jason@iconbunks.com
+Bailee,Ann Nebeker,Owner,American Homestead Furniture,americanhomesteadfurniture.com,Furniture and Home Furnishings Manufacturing,6,https://www.linkedin.com/in/baileenebeker,Bailee@americanhomesteadfurniture.com
+Janis,Tilgass,Owner,PLYCOLLECTION,plycollection.com,Furniture and Home Furnishings Manufacturing,1,https://lv.linkedin.com/in/janis-tilgass-5265843a,JT@plycollection.com
+Jessica,Pakzad Bennett,Owner,Ebanista,ebanista.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/jessica-pakzad-bennett-5231a66/,Jessica@ebanista.com
+Agnes,Zhi,Overseas Sales / Sales Manager,"Guangzhou Pure Faith Technology Co., Ltd.",purefaith.cn,Furniture and Home Furnishings Manufacturing,15,https://cn.linkedin.com/in/agnes-zhi-64892692,agneszhi@purefaith.cn
+Rebekah,Osborn,Owner,Beyond Borders Furniture Co.,beyondbordersimports.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/rebekah-osborn-577b024/,Rebekah@beyondbordersimports.com
+Jessica,Johnson,Operations VP,Teak Warehouse,teakwarehouse.com,Furniture and Home Furnishings Manufacturing,18,https://www.linkedin.com/in/jessicajohnson1992,Jessica@teakwarehouse.com
+Lily,Wu,Overseas Sales / Product Manager,"Guangzhou Pure Faith Technology Co., Ltd.",purefaith.cn,Furniture and Home Furnishings Manufacturing,15,https://cn.linkedin.com/in/lily-wu-armrest-purefaith-a0179b191,lily.wu@purefaith.cn
+Bob,Ross,National Sales Manager,Kalco Lighting,kalco.com,Furniture and Home Furnishings Manufacturing,6,,BRoss@kalco.com
+Leo,Yang,Network & Systems Administrator / Developer,CorLiving Distribution,corliving.com,Furniture and Home Furnishings Manufacturing,39,https://ca.linkedin.com/in/leo-yang-9816b95b,LYang@corliving.com
+Brian,Montoya,National Trade Manager,Teak Warehouse,teakwarehouse.com,Furniture and Home Furnishings Manufacturing,18,https://www.linkedin.com/in/brian-montoya-a7b7b710,Brian@teakwarehouse.com
+Brian,J Dickey,Regional Vice President of Sales,Montage Furniture Services / Protection 1st,montagefs.com,Furniture and Home Furnishings Manufacturing,103,https://www.linkedin.com/in/bjdgoblue,Brian.Dickey@montagefs.com
+Marty,Durkin,Regional Vice President of Sales,Montage,montagefs.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/marty-durkin-4861643/,MartyDurkin@montagefs.com
+Marco,Magni,Presidente,"Magniflex USA Ltd, Inc.",magniflex.com,Furniture and Home Furnishings Manufacturing,85,https://www.linkedin.com/in/marco-magni-388536b,Marco@magniflex.us
+Silvana,Tregua,President of Sales and Operations,Tonin Casa,tonincasausa.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/silvana-tregua/,silvana@tonincasausa.com
+Bew,White,President & CEO,Summer Classics,summerclassics.com/,Furniture and Home Furnishings Manufacturing,230,https://www.linkedin.com/company/summerclassics,Bew@summerclassics.com
+Carlo,Bargagli,President and CEO,Ideaitalia Contemporary Furniture,ideaitaliausa.com,Furniture and Home Furnishings Manufacturing,21,https://www.linkedin.com/in/carlo-bargagli-86234689,Carlo@ideaitaliausa.com
+Semih,Gencer,Sales Champion,Bellona USA,bellonausa.com,Furniture and Home Furnishings Manufacturing,16,https://www.linkedin.com/in/semih-gencer-58b345133/en,Semih@bellonausa.com
+Katelyn,Reese,Sales & Customer Service Manager,Seaside Casual Furniture,seasidecasual.com/,Furniture and Home Furnishings Manufacturing,39,https://www.linkedin.com/in/katelyn-reese-5a6109122,KReese@seasidecasual.com
+Snehal,Shah,President,Kalco Lighting,kalco.com,Furniture and Home Furnishings Manufacturing,6,,Snehal.Shah@kalco.com
+Brian,Bunch,President,CAROLINA CHAIR AND TABLE COMPANY INC,carolinachairandtable.com,Furniture and Home Furnishings Manufacturing,7,https://www.linkedin.com/in/brian-bunch-096a46302,BrianB@carolinachairandtable.com
+Sean,Grimberg,President,TELOS FURNITURE,telosfurniture.com,Furniture and Home Furnishings Manufacturing,13,https://www.linkedin.com/in/sean-grimberg-66610ba2,Sean.Grimberg@telosfurniture.com
+Nathan,Chetrit,President,American Homestead Furniture,americanhomesteadfurniture.com,Furniture and Home Furnishings Manufacturing,6,https://www.linkedin.com/in/nathan-chetrit-73b1752a8,Nathan@americanhomesteadfurniture.com
+Tammy,Ou,President,Bella Esprit by US Tamex,bellaesprit.com,Furniture and Home Furnishings Manufacturing,2,https://www.linkedin.com/in/tammy-ou-20589a57,Tammy@bellaesprit.com
+Julio,Rojas,President,Fiberbuilt Umbrellas & Cushion,fiberbuiltumbrellas.com/,Furniture and Home Furnishings Manufacturing,20,https://www.linkedin.com/in/julio-rojas-59bb79b4,Julio@fiberbuiltumbrellas.com
+Alex,Sarratt,President,Sarreid Ltd,sarreid.com/,Furniture and Home Furnishings Manufacturing,31,https://www.linkedin.com/in/alex-sarratt-53b01a103,ars@sarreid.com
+Kevin,Kevonian,President,Armen Living Furniture,armenliving.com/,Furniture and Home Furnishings Manufacturing,29,https://www.linkedin.com/company/armen-living,Kevin@armenliving.com
+Rachel,Eubank,President,Sticks,sticks.com,Furniture and Home Furnishings Manufacturing,34,https://www.linkedin.com/in/rachel-eubank-35b9766,REubank@sticks.com
+Maria,Yee,President,"Maria Yee, Inc.",mariayee.com,Furniture and Home Furnishings Manufacturing,14,https://www.linkedin.com/in/maria-yee-6805b11a,maria@mariayee.com
+Rory,Rehmert,President,Castelle Furniture Co.,castellefurniture.com/,Furniture and Home Furnishings Manufacturing,69,https://www.linkedin.com/in/rory-rehmert-6a978613,RRehmert@castellefurniture.com
+Terri,Rogers,President,"O.W. Lee Co., Inc.",owlee.com/,Furniture and Home Furnishings Manufacturing,68,https://www.linkedin.com/in/terri-rogers-b322184,TRogers@owlee.com
+Doug,Walsh,President,Teak Warehouse,teakwarehouse.com,Furniture and Home Furnishings Manufacturing,18,https://www.linkedin.com/in/douglas-walsh-1654a231,Doug@teakwarehouse.com
+William,White,President,Gabriella White LLC,gabbyhome.com,Furniture and Home Furnishings Manufacturing,63,https://www.linkedin.com/in/william-white-44143b26,William@gabbyhome.com
+Anja,Boye Kristensen,"US National Sales, Operation & Support",NATURES Collection USA,naturescollection.us,Furniture and Home Furnishings Manufacturing,18,https://www.linkedin.com/in/anja-boye-kristensen-6144687,ak@naturescollection.us
+Perry,Solomon,Sr Vice President Residential Sales,Woodard Furniture,woodard-furniture.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/perry-solomon-83758719/,PSolomon@woodard-furniture.com
+Heather,Anderson,Showroom Operations Manager,DutchCrafters Amish Furniture,dutchcrafters.com,Furniture and Home Furnishings Manufacturing,38,https://www.linkedin.com/in/heather-anderson-50302040,Heather@dutchcrafters.com
+Storey,Smith,Shipping Coordinator,Ideaitalia Contemporary Furniture,ideaitaliausa.com,Furniture and Home Furnishings Manufacturing,21,https://www.linkedin.com/in/storey-smith-55875324,SmithS@ideaitaliausa.com
+Phil,Devero,Senior Vice President of Sales,Jamie Young Company,jamieyoung.com/,Furniture and Home Furnishings Manufacturing,43,https://www.linkedin.com/in/phil-devero-842a4a1a,Phil@jamieyoung.com
+Klein,Fan,Senior Sales Manager - Chairs,"Guangzhou Pure Faith Technology Co., Ltd.",purefaith.cn,Furniture and Home Furnishings Manufacturing,15,https://cn.linkedin.com/in/klein-fan-87b332163,klein.fan@purefaith.cn
+Jerry,Grabenstein,Sales & Market Development,Berlin Gardens,berlingardensllc.com/,Furniture and Home Furnishings Manufacturing,44,https://www.linkedin.com/in/jerry-grabenstein-18220139,jerry.g@berlingardensllc.com
+Brenda,Pereyda,Sales Manager,OW Lee,owlee.com/,Furniture and Home Furnishings Manufacturing,68,https://www.linkedin.com/in/brenda-pereyda-b3446814,BPereyda@owlee.com
+Todd,Wingrove,Vice President Sales,Agio USA,agio-usa.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/todd-wingrove-6687055/,Todd@agio-usa.com
+Matt,Mastroine,Vice President of Technology,Berlin Gardens,berlingardensllc.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/matt-mastroine-82622b6/,Matt@berlingardensllc.com
+Bob,Doerksen,Vice President of Technology Services,Montage Furniture Services / Protection 1st,montagefs.com,Furniture and Home Furnishings Manufacturing,103,https://www.linkedin.com/in/bob-doerksen-2a35003b,Bob.Doerksen@montagefs.com
+James,Pitchley,Sales Director,SBFI Group,sbfi-financial.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/james-pitchley-93856123/,james.pitchley@sbfi.com
+Jessica,Johnson M B A B S,Vice President Operations,Teak Warehouse,teakwarehouse.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/jessicajohnson1992/,Jessica@teakwarehouse.com
+Sergio,Flores,Vice President Operations,Castelle,castellefurniture.com/,Furniture and Home Furnishings Manufacturing,69,,SFlores@castellefurniture.com
+Jason,Ellens,Vice President of Sales - Furniture Division,Montage,montagefs.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/jason-ellens-49054a41/,Jason.Ellens@montagefs.com
+Cathy,Carey,Vice President of Sales,Chaddock,chaddockhome.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/cathy-carey-77579a23/,CCarey@chaddock.com
+Bryan,Echols,Vice President of Sales,Jensen Outdoor,jensenoutdoor.com,Furniture and Home Furnishings Manufacturing,15,https://www.linkedin.com/posts/eric-parsons-5853b617_i-am-thrilled-to-officially-welcome-bryan-activity-7358554214467313664-ZiFi,BEchols@jensenoutdoor.com
+Ian,Hays,Vice President Sales North America,"Magniflex USA Ltd., Inc.",magniflex.com,Furniture and Home Furnishings Manufacturing,85,https://www.linkedin.com/in/ihays/,Ian.Hays@magniflex.us
+Mckenna,Brown,Vice President of Product and Design,Teak Warehouse,teakwarehouse.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/mckenna-brown-424098301/,McKenna@teakwarehouse.com
+Ben,Erickson,Vice President of Information Technology,Summer Classics,summerclassics.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/ben-erickson-1032909/,Ben@summerclassics.com
+Seth,Beardsley,Vice President of Operations,Delta Children,deltachildren.com,Furniture and Home Furnishings Manufacturing,179,,SBeardsley@deltachildren.com
+Leisa,Mccollister,Vice President of Marketing,OW Lee,owlee.com/,Furniture and Home Furnishings Manufacturing,68,,Leisa@owlee.com
+Melissa,Schwartz,Vice President- National Accounts,Empire Art Direct,empireartdirect.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/melissa-schwartz-hinton-7667a212/,Melissa@empireartdirect.com
+Melissa,Schwartz,Vice President- National Accounts,Empire Art Direct,empireartdirect.com,Furniture and Home Furnishings Manufacturing,7,https://www.linkedin.com/in/melissa-schwartz-7667a212,Melissa@empireartdirect.com
+Dalila,Benz,Vice President of Commercial Sales,POLYWOOD,polywood.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/dalila-benz-863b3813/,DBenz@polywood.com
+Andrew,Beekman,Vice President Contract & Hospitality,Charleston Forge,charlestonforge.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/andrew-beekman-2228b3161/,ABeekman@charlestonforge.com
+Larry,Sandwick,Vice President Information Technology,"Sarreid, Ltd.",sarreid.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/larry-sandwick-164a3b14/,larry.sandwick@sarreid.com
+Belinda,Lavender,VP Sales and Marketing,Woodard Furniture,woodard-furniture.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/belinda-lavender-976091a3/,BLavender@woodard-furniture.com
+John,Wilson,VP Sales Mass Division,Woodard Furniture,woodard-furniture.com/,Furniture and Home Furnishings Manufacturing,57,https://www.linkedin.com/in/john-wilson-70551812,JWilson@woodard-furniture.com
+Michael,Tomas,VP Sales National Accounts,Empire Art Direct,empireartdirect.com,Furniture and Home Furnishings Manufacturing,7,https://www.linkedin.com/in/michaeltomas,Michael@empireartdirect.com
+Jon,Hueni,VP of Sales & Marketing,POLYWOOD,polywood.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/jon-hueni-666b3634/,jhueni@polywood.com
+Erin,Wyatt,VP Sales,Fiberbuilt Umbrellas & Cushion,fiberbuiltumbrellas.com/,Furniture and Home Furnishings Manufacturing,20,https://www.linkedin.com/in/erin-wyatt-2b462352,Erin@fiberbuiltumbrellas.com
+Andy,Boyce,VP Sales,Seaside Casual Furniture,seasidecasual.com/,Furniture and Home Furnishings Manufacturing,39,https://www.linkedin.com/in/andy-boyce-a8767311,ABoyce@seasidecasual.com
+Thomas,Michalek,VP Application Systems,Delta Children,deltachildren.com,Furniture and Home Furnishings Manufacturing,179,,TMichalek@deltachildren.com
+Nick,Ades,VP Hospitality Sales,Woodard Furniture & Craftmade International,woodard-furniture.com,Furniture and Home Furnishings Manufacturing,57,https://www.linkedin.com/company/craftmade-international,NAdes@woodard-furniture.com
+Rob,Edgerly,VP Brand Experience and Merchandising,American Homestead Furniture,americanhomesteadfurniture.com,Furniture and Home Furnishings Manufacturing,6,https://www.linkedin.com/pub/rob-edgerly/12/a46/998,Rob@americanhomesteadfurniture.com
+Phil,Todaro,"VP, Global Sales",Delta Children,deltachildren.com,Furniture and Home Furnishings Manufacturing,179,https://www.linkedin.com/in/phil-todaro-015653a,PTodaro@deltachildren.com
+Louis,Zelenka,VP Operations,Woodard Furniture,woodard-furniture.com/,Furniture and Home Furnishings Manufacturing,57,https://www.linkedin.com/in/louis-zelenka-64374319,LZelenka@woodard-furniture.com
+Ian,Geltner,VP Sales,Steve Silver Company,stevesilver.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/iangeltner/,IGeltner@stevesilver.com
+Josh,Block,Vice President U.S. Sales,Monarch Specialties Inc,monarchspec.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/josh-block-60a9177/,JoshB@monarchspec.com
+Tambra,Jones,Executive Director,Specialty Sleep Association,sleepinformation.org,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/tambra-jones-73b567a,Tambra@sleepinformation.org
+Aaron,Summerville,President & CFO,Regency & RGS Furniture,rgsfurniture.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/aaron-summerville-a6833114,Aaron@rgsfurniture.com
+Karl,Vorndran,Sales Manager,Regency & RGS Furniture,rgsfurniture.com,Furniture and Home Furnishings Manufacturing,,https://www.linkedin.com/in/karl-vorndran-823b7711,KarlV@rgsfurniture.com
+Bryan,Echols,Senior Vice President of Sales and Marketing,Lloyd Flanders,lloydflanders.com/,Furniture and Home Furnishings Manufacturing,45,https://www.linkedin.com/in/bryan-echols-08872b9,BEchols@lloydflanders.com
+Dudley,Flanders,CEO/President,Lloyd Flanders,lloydflanders.com/,Furniture and Home Furnishings Manufacturing,45,https://www.linkedin.com/in/dudley-flanders,DFlanders@lloydflanders.com
+Derek,Butler,Operations Manager,Lloyd Flanders,lloydflanders.com/,Furniture and Home Furnishings Manufacturing,45,https://www.linkedin.com/in/derek-butler-b4333168,DButler@lloydflanders.com
+Jessie,Flanders,CEO/Creative Director,Lloyd Flanders,lloydflanders.com/,Furniture and Home Furnishings Manufacturing,45,https://www.linkedin.com/company/lloyd-flanders,JFlanders@lloydflanders.com
+Vincent,Zhu,Vice President of Global Supply Chain & Products Management,"Zoy Home Furnishing Co., Ltd.",zoy-living.com,Furniture and Home Furnishings Manufacturing,58,https://www.linkedin.com/in/vincent-zhu-a6637469,vincentzhu@zoy-living.com
+Mukesh,Kumar,Head Sales and Category Analyst,"Zoy Home Furnishing Co., Ltd.",zoy-living.com,Furniture and Home Furnishings Manufacturing,58,https://in.linkedin.com/in/mukesh-kumar-14220626,mukesh@zoy-living.com
+David,Li,Sales Director,"Zoy Home Furnishing Co., Ltd.",zoy-living.com,Furniture and Home Furnishings Manufacturing,58,https://www.linkedin.com/in/david-li-0a627b89,david@zoy-living.com
+Suzanne,Hoffman,Chief Information Officer,Lloyd Flanders,lloydflanders.com/,Furniture and Home Furnishings Manufacturing,45,https://www.linkedin.com/in/sue-hoffman-611b5727,SHoffman@lloydflanders.com
+Doug,Rassi,CEO,Polywood,polywood.com/,Furniture and Home Furnishings Manufacturing,561,https://www.linkedin.com/company/polywoodllc,drassi@polywood.com
+Joseph,Fischel,I.T. Manager,Steve Silver Furniture,stevesilver.com,Furniture and Home Furnishings Manufacturing,125,https://www.linkedin.com/in/joseph-fischel-89a8a919,JFischel@stevesilver.com
+David,Ohara,COO,Steve Silver Furniture,stevesilver.com,Furniture and Home Furnishings Manufacturing,125,https://www.linkedin.com/in/david-o-hara-8b742a9,DOHara@stevesilver.com
+Ian,Geltner,VP Sales,Steve Silver Furniture,stevesilver.com,Furniture and Home Furnishings Manufacturing,125,https://www.linkedin.com/in/iangeltner,IGeltner@stevesilver.com
+Steve,Silver,CEO,Steve Silver Furniture,stevesilver.com,Furniture and Home Furnishings Manufacturing,125,https://www.linkedin.com/in/steve-silver-4718a414,Steve@stevesilver.com
+Luke,Silver,President,Steve Silver Furniture,stevesilver.com,Furniture and Home Furnishings Manufacturing,125,https://www.linkedin.com/in/luke-silver-6a3016175,LSilver@stevesilver.com
+Gianni,Arnaboldi,CEO,Tonin Casa USA,tonincasausa.com,Furniture and Home Furnishings Manufacturing,29,https://www.linkedin.com/company/tonincasa,gianni.arnaboldi@tonincasausa.com
+Silvana,Tregua,President of Sales and Operations,Tonin Casa USA,tonincasausa.com,Furniture and Home Furnishings Manufacturing,29,https://www.linkedin.com/in/silvana-tregua,silvana@tonincasausa.com
+James,Mischel,Chief Executive Officer (CEO),Electric Mirror,electricmirror.com/,Hospitality,169,https://www.linkedin.com/in/jimmischel,James@electricmirror.com
+James,Mischel,Chief Executive Officer,Electric Mirror,electricmirror.com,Hospitality,,https://www.linkedin.com/in/james-mischel-jr-b14a104/,James@electricmirror.com
+April,Hays Cis Citp,Director of Global Sales,Salamander Collection,salamanderhotels.com,Hospitality,,https://www.linkedin.com/in/april-hays/,AHays@salamanderhotels.com
+Larry,Zerr,Chief Technology Officer (CTO),Electric Mirror,electricmirror.com/,Hospitality,169,https://www.linkedin.com/in/larry-zerr-990286a9,Larry.Zerr@electricmirror.com
+Tracey,Anne Slavonia,Chief Sales & Marketing Officer,Salamander Collection,salamanderhotels.com,Hospitality,,https://www.linkedin.com/in/tracey-anne-latkovic-37412610/,TSlavonia@salamanderhotels.com
+Alex,Olson,Director of Sales,Paradigm Trends,paradigmtrends.com,Hospitality,29,,Alex@paradigmtrends.com
+Benjamin,Rapp,National Sales Leader,WingIts,wingits.com,Hospitality,,https://www.linkedin.com/in/benjamin-rapp-52140b24/,ben@wingits.com
+Thomas,Blaes,Information Technology Coordinator,WingIts,wingits.com,Hospitality,,https://www.linkedin.com/in/thomas-blaes-70b547193/,TBlaes@wingits.com
+Prem,Devadas,President,Salamander Collection,salamanderhotels.com,Hospitality,,https://www.linkedin.com/in/prem-devadas-9a7b1822/,PDevadas@salamanderhotels.com
+Bryan,Isackson,President,EVAN ROSS & CO,evanrossco.com,Hospitality,,https://www.linkedin.com/in/bryan-isackson-5744a713/,Bryan@evanrossco.com
+Ellen,Hackel Epstein,Owner,Gate House Furniture,gatehousefurniture.com,Hospitality,3,https://www.linkedin.com/company/gate-house-furniture,ellen@gatehousefurniture.com
+Ellen,Hackel Epstein,Owner,Gate House Furniture,gatehousefurniture.com,Hospitality,,https://www.linkedin.com/in/ellenepstein/,ellen@gatehousefurniture.com
+Seth,Lissak,Owner,Paradigm Trends,paradigmtrends.com,Hospitality,,https://www.linkedin.com/in/seth-lissak-19a6095/,Seth@paradigmtrends.com
+Bette,Lissak,Owner,Paradigm Trends,paradigmtrends.com,Hospitality,29,https://www.linkedin.com/in/bette-lissak-44464924,Bette@paradigmtrends.com
+Shawn,H Malik,Vice President,Amtrend Corporation,amtrend.com,Hospitality,24,https://www.linkedin.com/in/shawnmalik,Shawn@amtrend.com
+Ty,W Brassie,Vice President of Sales and Marketing,Salamander Collection,salamanderhotels.com,Hospitality,,https://www.linkedin.com/in/ty-w-brassie-8a29a57/,TBrassie@salamanderhotels.com
+Koji,L Akaboshi,Vice President of Food & Beverage,Salamander Collection,salamanderhotels.com,Hospitality,,https://www.linkedin.com/in/koji-akaboshi/,KAkaboshi@salamanderhotels.com
+Carolyn,Rebeck Allen,"Vice President, Leisure Sales",Salamander Collection,salamanderhotels.com,Hospitality,,https://www.linkedin.com/in/carolynrebeck/,CAllen@salamanderhotels.com
+Natasha,Plank Ottum,CEO/Owner,"LDPI, INC.",ldpi-inc.com/,Industrial Machinery Manufacturing,13,https://www.linkedin.com/in/natasha-plank-ottum-70ab44a,Natasha@ldpi-inc.com
+Bent,Jensen,CEO & Owner,LINAK,linak.com,Industrial Machinery Manufacturing,1376,https://www.linkedin.com/company/linak,jb@linak.com
+Stacey,Hobbs,Customer Sales Manager,LINAK,linak.com,Industrial Machinery Manufacturing,1376,http://linkedin.com/in/stacey-hobbs-a0b0b01,SH@linak.com
+Uno,B Steffensen,Finance & IT Director,LINAK,linak.com,Industrial Machinery Manufacturing,1376,http://linkedin.com/in/uno-b-steffensen-a0b0b01,ub@linak.com
+Benjamin,Buchanan,Executive Vice President,Los Angeles Lighting Manufacturing Company,lalighting.com,Industrial Machinery Manufacturing,,https://www.linkedin.com/in/benjaminbuchanan/,benjamin.b@lalighting.com
+Rory,Borsheim,"Manager, Operations","LDPI, INC.",ldpi-inc.com/,Industrial Machinery Manufacturing,13,,Rory@ldpi-inc.com
+Nicole,Boss,National Sales Manager,"LDPI, INC.",ldpi-inc.com/,Industrial Machinery Manufacturing,13,https://www.linkedin.com/in/nicole-boss-3ab6a310,NBoss@ldpi-inc.com
+Baxter,Hufham,National Sales & Marketing Manager,TiMOTION USA Inc.,timotion.com,Industrial Machinery Manufacturing,126,https://www.linkedin.com/in/baxterhufham,Baxter.Hufham@timotion.com
+Terri,Thornton,Regional Sales Manager,"LDPI, INC.",ldpi-inc.com/,Industrial Machinery Manufacturing,13,https://www.linkedin.com/in/terri-thornton-78656533,TThornton@ldpi-inc.com
+Andrew,Siwicki,VP Commercial Operations,LINAK,linak.com,Industrial Machinery Manufacturing,1376,https://www.linkedin.com/in/andrewjsiwicki,AS@linak.com
+Dave,Prescutti,Director of Information Technology,Minted,minted.com,Internet Marketplace Platforms,,https://www.linkedin.com/in/dave-prescutti-30b957/,Dave.Prescutti@minted.com
+Melissa,Kim,"Co-Founder, CEO",Minted,minted.com,Internet Marketplace Platforms,,https://www.linkedin.com/in/melissa-kim-73b802/,Melissa@minted.com
+Francois,Carrara,"Vice President, Strategic Operations",Minted,minted.com,Internet Marketplace Platforms,,https://www.linkedin.com/in/francoiscarrarasf/,Francois.Carrara@minted.com
+Yuh-mei,Hutt,Chief Executive Officer,Golden Lighting,goldenlighting.com,Manufacturing,41,https://www.linkedin.com/in/yuhmeihutt,YuhMei@goldenlighting.com
+Ashley,Budd,Chief Executive Officer,Jordan Manufacturing,jordanmanufacturing.com,Manufacturing,,https://www.linkedin.com/in/ashley-budd-70610412a/,ashley.b@jordanmanufacturing.com
+Yuh-mei,Liao,Chief Executive Officer,Golden Lighting,goldenlighting.com,Manufacturing,,https://www.linkedin.com/in/yuhmeiliao/,YuhMei@goldenlighting.com
+Phillip,Sikes,CFO,Junk Gypsy Co.,gypsyville.com/,Manufacturing,12,https://www.linkedin.com/in/phillip-sikes-658a5bb,Phillip@gypsyville.com
+John,Lewis,CEO/President,Capital Lighting Fixture Co.,capitallightingfixture.com,Manufacturing,54,https://www.linkedin.com/in/john-lewis-05994774,JLewis@capitallightingfixture.com
+Katieh,Katieh,CEO,Ameziel Inc.,songmics.com,Manufacturing,52,https://www.linkedin.com/in/katieh-katieh-190647212,Katieh@songmics.com
+Doug,Cofiell,CEO,Ivystone Group LLC,ivystone.com,Manufacturing,,https://www.linkedin.com/in/dougcofiell/,DCofiell@ivystone.com
+Cory,Shepherd,Director of Operations,Golden Lighting,goldenlighting.com,Manufacturing,41,https://www.linkedin.com/in/cory-shepherd-0b3b6a54,Cory@goldenlighting.com
+Shane,Robinson,Director of Information Technology,Craftmade International,craftmade.com,Manufacturing,,https://www.linkedin.com/in/shane-robinson-8275593/,SRobinson@craftmade.com
+Philip,Holloway,Commercial Director,Corston Architectural Detail,corston.com,Manufacturing,92,https://uk.linkedin.com/in/philipholloway,Philip.Holloway@corston.com
+Richard,Beas,COO,Business & Pleasure Co.,businessandpleasureco.com,Manufacturing,,https://www.linkedin.com/in/rbeas/,rich@businessandpleasureco.com
+Lisa,Shelisa Clark,Co-Founder and Creative Director,Candleberry Candle Company,candleberry.com/,Manufacturing,18,https://www.linkedin.com/in/shelisaclark,Lisa@candleberry.com
+Rick,Kovac,Chief Operating Officer,Golden Lighting,goldenlighting.com,Manufacturing,41,,Rick@goldenlighting.com
+Christopher,Peacock,Founder & CEO,Christopher Peacock,peacockhome.com,Manufacturing,49,https://www.linkedin.com/in/christopher-peacock-b209218a,CPeacock@peacockhome.com
+James,Morton,Executive Vice President,Christopher Peacock,peacockhome.com,Manufacturing,49,https://www.linkedin.com/in/james-morton-624618b,JMorton@peacockhome.com
+Brant,Moll,District Sales Manager,Christopher Radko,christopherradko.com,Manufacturing,20,https://www.linkedin.com/in/brant-moll-9a42393a,BMoll@christopherradko.com
+Dana,Hunt,Director Sales North America,Avanti Press & NIQUEA.D Greeting Cards,avantipress.com,Manufacturing,105,https://www.linkedin.com/in/danahunt,DanaHunt@avantipress.com
+Carolyn,Schulten,Director of Territory Sales,Avanti Press,avantipress.com,Manufacturing,,https://www.linkedin.com/in/carolyn-schulten-0658a6b/,CarolynSchulten@avantipress.com
+Kathy,Conroy,Director of Retail Sales / VP of Sales,Christopher Peacock,peacockhome.com,Manufacturing,49,https://www.linkedin.com/in/kathy-conroy-4302754,KConroy@peacockhome.com
+Larry,Kohn,"Director of Recruitment, Retention and Sales Development",Ivystone Group LLC,ivystone.com,Manufacturing,,https://www.linkedin.com/in/larry-kohn-6bb75614/,LKohn@ivystone.com
+Nick,Green,National Sales Manager,Fry Reglet,fryreglet.com,Manufacturing,116,https://www.linkedin.com/in/nick-green-338235a1,NickGreen@fryreglet.com
+Jack,Dickerson,IT Manager,Fry Reglet,fryreglet.com,Manufacturing,,https://www.linkedin.com/in/jack-dickerson-it/,JackDickerson@fryreglet.com
+Tom,Gray,International Sales Manager,Craftmade,craftmade.com/,Manufacturing,58,https://www.linkedin.com/in/tom-gray-7aa74023,TGray@craftmade.com
+Calley,Karstedt,Head Buyer and Warehouse/Shipping Manager,Junk Gypsy Co.,gypsyville.com/,Manufacturing,12,,Calley@gypsyville.com
+Rick,Ruffner,President,Avanti Press,avantipress.com,Manufacturing,105,https://www.linkedin.com/in/rick-ruffner-8358a915a,RickRuffner@avantipress.com
+Ollie,Edwards,President,Business & Pleasure Co.,businessandpleasureco.com,Manufacturing,40,https://www.linkedin.com/in/ollie-edwards-882452216,ollie@businessandpleasureco.com
+Chris,Penn,President,ProtectAll / Healthy Sleep,myprotectall.com,Manufacturing,121,https://www.linkedin.com/company/myprotectall,CPenn@myprotectall.com
+Robert,Ward,President,Fry Reglet,fryreglet.com,Manufacturing,,https://www.linkedin.com/in/robert-ward-3656bb26/,RobertWard@fryreglet.com
+John,Lewis,President,Capital Lighting Fixture Company,capitallightingfixture.com,Manufacturing,,https://www.linkedin.com/in/john-lewis-775890150/,jlewis@capitallightingfixture.com
+Ernie,Fowler,Owner,Candleberry Candle Company,candleberry.com/,Manufacturing,18,https://www.linkedin.com/in/ernie-fowler-80964730,Ernie@candleberry.com
+Rick,Decola,National Sales Manager and Global Sales Executive,Golden Lighting,goldenlighting.com,Manufacturing,41,https://www.linkedin.com/in/rick-decola-515aa36,Rick@goldenlighting.com
+David,Gray,"Product Director, Co-founder",Corston Architectural Detail,corston.com,Manufacturing,92,https://uk.linkedin.com/in/david-gray-7416396,David@corston.com
+Neal,Fowler,Vice President,Candleberry Candle Company,candleberry.com/,Manufacturing,18,https://www.linkedin.com/in/neal-fowler-35814123,Neal@candleberry.com
+Omar,Adra,Trade UK and EU Sales Manager,Corston Architectural Detail,corston.com,Manufacturing,92,https://uk.linkedin.com/in/omar-adra-8b98a22b,Omar.Adra@corston.com
+Raellen,Wellmann,Store Manager,Junk Gypsy Co.,gypsyville.com/,Manufacturing,12,https://www.linkedin.com/in/raellen-wellmann-b3348a97,Raellen@gypsyville.com
+Kirsty,Kingswell,Senior Operations Manager EMEA,Business & Pleasure Co.,businessandpleasureco.com,Manufacturing,40,https://uk.linkedin.com/in/kirstykingswell,kirsty@businessandpleasureco.com
+Bruce,Zheng,Senior Project Manager,"Ningbo Hyderon Hardware Co., Ltd.",hyderon.com,Manufacturing,7,https://cn.linkedin.com/in/bruce-zheng-3327b012,bruce@hyderon.com
+David,Rauschuber,Senior Vice President,Craftmade International,craftmade.com,Manufacturing,,https://www.linkedin.com/in/david-rauschuber-39880311/,DRauschuber@craftmade.com
+Christopher,Bourke,Sales Manager - Pro Channels,ARTIKA,artika.com/,Manufacturing,214,https://ca.linkedin.com/in/cjbourke,chris.bourke@artika.com
+Sharon,Folliard,Sales Leader Engineered Systems,Fry Reglet,fryreglet.com,Manufacturing,,https://www.linkedin.com/in/sharonfolliard/,SharonFolliard@fryreglet.com
+Lynn,Brammer,Sales Manager,Christopher Radko,christopherradko.com,Manufacturing,20,https://www.linkedin.com/in/lynn-brammer-b0ab9344,LBrammer@christopherradko.com
+Sharon,Martinez,Sales Director,Craftmade,craftmade.com/,Manufacturing,58,https://www.linkedin.com/in/sharonmartineztx,SMartinez@craftmade.com
+Nicole,Mccane,Sales Manager,Candleberry Candle Company,candleberry.com/,Manufacturing,18,https://www.linkedin.com/in/nicole-mccane-a4267627b,Nicole.McCane@candleberry.com
+Celia,Yang,Sales Director,SONGMICS HOME,songmics.com,Manufacturing,52,https://cn.linkedin.com/in/celia-yang-b0b6b210a,celia.yang@songmicshome.com
+Jonathan,Malka,"Vice President, Product Development",Artika,artika.com,Manufacturing,,https://www.linkedin.com/in/jmalka/,Jonathan.Malka@artika.com
+Steve,Sanders,Vice President Operations,Avanti Press,avantipress.com,Manufacturing,,https://www.linkedin.com/in/steve-sanders-89b2509/,SteveSanders@avantipress.com
+David,Laubach,"Vice President, Product",Avanti Press,avantipress.com,Manufacturing,,https://www.linkedin.com/in/davidlaubach/,DavidLaubach@avantipress.com
+Scott,Connell,Vice President of Sales and Business Development,Capital Lighting Fixture Company,capitallightingfixture.com,Manufacturing,,https://www.linkedin.com/in/scott-d-connell/,SConnell@capitallightingfixture.com
+John,Dolan,Vice President of Sales and Marketing,Rauch Brands,christopherradko.com,Manufacturing,20,https://www.linkedin.com/in/johndolan71,JDolan@christopherradko.com
+Patrick,Sullivan,"Vice President, Sales",Fry Reglet,fryreglet.com,Manufacturing,,https://www.linkedin.com/in/patrick-sullivan-5953a480/,PatrickSullivan@fryreglet.com
+Shane,Lekich,Vice President Information Technology,Avanti Press,avantipress.com,Manufacturing,105,https://theorg.com/org/avanti-press/org-chart/shane-lekich,ShaneLekich@avantipress.com
+Jon,Jenks,VP of Finance,Business & Pleasure Co.,businessandpleasureco.com,Manufacturing,,https://www.linkedin.com/in/jonjenks1/,jjenks@businessandpleasureco.com
+Nancy,Lee,VP,Ivystone,ivystone.com/,Manufacturing,282,https://www.linkedin.com/in/nancy-lee-9426b12a,NLee@ivystone.com
+Mike,Steidle,VP,Ivystone,ivystone.com/,Manufacturing,282,https://www.linkedin.com/in/mike-steidle-37148231,MSteidle@ivystone.com
+Monica,Loving,VP,Ivystone,ivystone.com/,Manufacturing,282,https://www.linkedin.com/in/monica-loving-2222597,Monica.Loving@ivystone.com
+Melissa,Kluger,CEO & Publisher,Precedent,lawandstyle.ca,Media Production,5,http://linkedin.com/in/melissa-kluger-b0b0b0b0,melissa@lawandstyle.ca
+Daniel,Fish,Editor,Precedent,lawandstyle.ca,Media Production,5,http://linkedin.com/in/daniel-fish-b0b0b0b0,daniel@precedentmagazine.com
+Jon,Melchi,President & CEO,American Lighting Association,alalighting.com/,Non-profit Organizations,15,https://www.zoominfo.com/p/Jon-Melchi/1587131856,Jon@alalighting.com
+Carrie,Kolles,Vice President of Membership and Engagement,American Lighting Association,alalighting.com,Non-profit Organizations,,https://www.linkedin.com/in/carrie-kolles-38a56a229/,Carrie@alalighting.com
+Wendy,Jones,Vice President Finance,American Lighting Association,alalighting.com,Non-profit Organizations,,https://www.linkedin.com/in/wendy-jones-217748294/,Wendy@alalighting.com
+Raelle,Bell,Vice President Marketing,American Lighting Association,alalighting.com,Non-profit Organizations,,https://www.linkedin.com/in/raelle-smiley-652ba946/,Raelle@alalighting.com
+Garry,Maddox,CEO and Principal,A. Pomerantz & Co.,pomerantz.com,Office Furniture and Fixtures Manufacturing,38,https://www.linkedin.com/company/a--pomerantz-&-company,GMaddox@pomerantz.com
+Linda,Rudi,Chief Operating Officer,A. Pomerantz & Co.,pomerantz.com,Office Furniture and Fixtures Manufacturing,38,https://www.linkedin.com/in/linda-rudi-4062b2b,Rudi@pomerantz.com
+Frank,Mcguire,Director of Sales,A. Pomerantz & Co.,pomerantz.com,Office Furniture and Fixtures Manufacturing,,https://www.linkedin.com/in/frankmcguire1/,McGuire@pomerantz.com
+Valerie,Feola,"Vice President, Marketing & Information Technology",A. Pomerantz & Co.,pomerantz.com,Office Furniture and Fixtures Manufacturing,38,https://www.linkedin.com/in/elisafeola,VFeola@pomerantz.com
+John,Doherty,Chief Information Officer,Columbia Forest Products,columbiaforestproducts.com,Paper and Forest Product Manufacturing,746,https://www.linkedin.com/in/johnjdoherty4,John.Doherty@columbiaforestproducts.com
+Chris,Groves,Director of Innovation & Technology,Columbia Forest Products,columbiaforestproducts.com,Paper and Forest Product Manufacturing,746,https://www.linkedin.com/in/chris-groves-934217103,CGroves@columbiaforestproducts.com
+Brandie,Rader,Director of Customer Service & Logistics,Columbia Forest Products,columbiaforestproducts.com,Paper and Forest Product Manufacturing,746,,BRader@columbiaforestproducts.com
+Robert,Buckmaster,IT Manager,Columbia Forest Products,columbiaforestproducts.com,Paper and Forest Product Manufacturing,,https://www.linkedin.com/in/robert-buckmaster-539172174/,RBuckmaster@columbiaforestproducts.com
+Greg,Pray,President and CEO,Columbia Forest Products,columbiaforestproducts.com,Paper and Forest Product Manufacturing,746,,GPray@columbiaforestproducts.com
+Gilles,Levesque,Vice President Operations,Columbia Forest Products,columbiaforestproducts.com,Paper and Forest Product Manufacturing,,https://www.linkedin.com/in/gilles-levesque-27b30074/,GLevesque@columbiaforestproducts.com
+John,Hampton,"Vice President of Sales, North America",Columbia Forest Products,columbiaforestproducts.com,Paper and Forest Product Manufacturing,746,https://www.linkedin.com/in/john-hampton-68288b14,JHampton@columbiaforestproducts.com
+Rocky,M Boucher,Sales Director,Columbia Forest Products,columbiaforestproducts.com,Paper and Forest Product Manufacturing,,https://www.linkedin.com/in/rocky-m-boucher-a71bb41a5/,RBoucher@columbiaforestproducts.com
+Mike,Young,Vice President Operations,Columbia Forest Products,columbiaforestproducts.com,Paper and Forest Product Manufacturing,,https://www.linkedin.com/in/mike-young-16226a315/,MYoung@columbiaforestproducts.com
+Cliff,Cayer,Vice President Information Technology,Columbia Forest Products,columbiaforestproducts.com,Paper and Forest Product Manufacturing,746,,CCayer@columbiaforestproducts.com
+Jeff,Wakefield,VP of US Plywood Operations,Columbia Forest Products,columbiaforestproducts.com,Paper and Forest Product Manufacturing,746,,JWakefield@columbiaforestproducts.com
+David,Koller,Managing Director,SLP Lighting,slplighting.com/,Plastics Manufacturing,33,https://www.linkedin.com/company/slp-lighting,DKoller@slplighting.com
+Robert,Pruitt,President & CEO,SoPoly,sopoly.com/,Plastics Manufacturing,14,https://www.linkedin.com/in/robert-pruitt-1a901992,Robert.Pruitt@sopoly.com
+Will,Barron,Vice President of Sales,SLP Lighting,slplighting.com,Plastics Manufacturing,,https://www.linkedin.com/in/will-barron-496109148/,WBarron@slplighting.com
+Matthew,White,Owner,Recycling the Past,recyclingthepast.com,Renewables & Environment,6,https://www.linkedin.com/in/matthew-white-638b9a26,matt@recyclingthepast.com
+David,Reid,Chief Operating & Financial Officer,Boll & Branch,bollandbranch.com,Retail,,https://www.linkedin.com/in/david-reid-44a14413/,David@bollandbranch.com
+Ray,Chacon,Chief Operating Officer,"MacKenzie-Childs, LLC",mackenzie-childs.com,Retail,,https://www.linkedin.com/in/ray-chacon-364208b/,RChacon@mackenzie-childs.com
+John,Ling,CEO,MacKenzie-Childs,mackenzie-childs.com/,Retail,213,https://www.linkedin.com/in/john-j-ling-6ba4444,JLing@mackenzie-childs.com
+Scott,Marcille,"Business Development Vice President, Wholesale",MacKenzie-Childs,mackenzie-childs.com/,Retail,213,https://www.linkedin.com/in/scott-marcille-0021b66,SMarcille@mackenzie-childs.com
+Jeffrey,Amico,Director of Information Technology,"MacKenzie-Childs, LLC",mackenzie-childs.com,Retail,,https://www.linkedin.com/in/jeffrey-amico-12740111/,JAmico@mackenzie-childs.com
+Tina,H,Director of Business Development,Impressions Vanity,impressionsvanity.com,Retail,45,https://www.linkedin.com/in/tina-h-054641123,Tina@impressionsvanity.com
+Stacy,Holmes,Company Owner,Agency Showroom,agencyshowroom.com,Retail,,https://www.linkedin.com/in/stacy-holmes-b5272b7b/,StacyHolmes@agencyshowroom.com
+Mariah,Spady,Client Relations Manager,Impressions Vanity,impressionsvanity.com,Retail,45,https://www.linkedin.com/in/mariah-strickland,mariah.s@impressionsvanity.com
+Scott,Tannen,Founder and CEO,Boll & Branch,bollandbranch.com,Retail,,https://www.linkedin.com/in/scotttannen/,Scott@bollandbranch.com
+Livia,Cowan,Founder & CEO,Mariposa,mariposa.com,Retail,,https://www.linkedin.com/in/livia-cowan-482b6310/,livia@mariposa.com
+Chris,Collins,Executive Vice President of Sales and Marketing,Zafferano America,zafferanoamerica.com,Retail,,https://www.linkedin.com/in/chris-collins-1a3951b/,Chris@zafferanoamerica.com
+Rohan,Blacker,Founder,Pooky Lighting,pooky.com,Retail,79,https://uk.linkedin.com/in/rohan-blacker-32154510b,Rohan@pooky.com
+Chris,H,Director of Software Development,"MacKenzie-Childs, LLC",mackenzie-childs.com,Retail,,https://www.linkedin.com/in/chaubner/,chaubner@mackenzie-childs.com
+Annette,Jensen,Director of Sales Corporate Business,"MacKenzie-Childs, LLC",mackenzie-childs.com,Retail,,https://www.linkedin.com/in/annette-jensen-2a306212/,AJensen@mackenzie-childs.com
+Micheline,Stone,Manager/Owner,Creative Living Modern Outdoor Decor,clden.com,Retail,,https://www.linkedin.com/in/micheline-stone-89645b196/,MStone@clden.com
+Cristina,Gaffey,Information System Manager,Sugarboo & Co.,sugarbooandco.com,Retail,,https://www.linkedin.com/in/cristina-gaffey-22b44a15/,Cristina@sugarbooandco.com
+David,Denton,General Manager,"Kendal Lighting, Inc.",kendallighting.com/,Retail,7,https://ca.linkedin.com/in/david-denton-2b369918,DDenton@kendallighting.com
+Matthew,Jones,President,MacKenzie-Childs,mackenzie-childs.com/,Retail,213,https://www.linkedin.com/in/matthew-jones-759bb887,MJones@mackenzie-childs.com
+Randy,Wells,President,Park Hill Collection,parkhillcollection.com,Retail,,https://www.linkedin.com/in/grwells/,RWells@parkhillcollection.com
+Barrett,Gross,President,Zafferano America,zafferanoamerica.com,Retail,,https://www.linkedin.com/in/barrett-gross-0196345/,Barrett@zafferanoamerica.com
+Karen,H Good,President,Lantern & Scroll,lanternandscroll.com,Retail,,https://www.linkedin.com/in/karen-h-good-5338028/,Karen@lanternandscroll.com
+Jovana,N Prica,Owner & President,"Koncept, Inc.",uni-koncept.com,Retail,2,https://ca.linkedin.com/in/jovana-n-prica-27910528,Jovana@uni-koncept.com
+Rebecca,Puig,Owner/Artist,Sugarboo & Co.,wholesale.sugarbooandco.com/,Retail,82,https://www.linkedin.com/in/rebecca-puig-19107712,Rebecca@sugarbooandco.com
+Stacy,Holmes,Owner,Agency Showroom,agencyshowroom.com,Retail,3,https://www.linkedin.com/in/stacy-holmes-b5272b7b,StacyHolmes@agencyshowroom.com
+Courtney,Garrigan,Owner,Coco & Dash,cocoanddash.com,Retail,1,https://www.linkedin.com/in/courtney-garrigan-69046332,Courtney@cocoanddash.com
+Amos,Beaverdam,Owner,Beaver Dam Woodworks,beaverdamwoodworks.com/,Retail,3,https://www.linkedin.com/in/amos-beaverdam-23ba2892,Amos@beaverdamwoodworks.com
+Courtney,Garrigan,Owner,Coco & Dash,cocoanddash.com,Retail,,https://www.linkedin.com/in/courtney-garrigan-69046332/,Courtney@cocoanddash.com
+Regan,W Iglesia,"President, US",Pooky Lights,pooky.com,Retail,,https://www.linkedin.com/in/regan-w-iglesia-6926897/,Regan@pooky.com
+Gino,Pinto,President,Amazing Bargains USA,amazingbargains.com,Retail,3,https://www.linkedin.com/in/gino-pinto-755626284,gino@themacgroups.com
+Karen,H Good,President,Lantern & Scroll,lanternandscroll.com,Retail,2,https://www.linkedin.com/in/karenhgood,Karen@lanternandscroll.com
+David,Kaye,"SVP, Strategic Initiatives",Boll & Branch,bollandbranch.com,Retail,,https://www.linkedin.com/in/david-kaye-07a33736/,DKaye@bollandbranch.com
+Michael,Lien,"Senior Vice President, Operations / Director of Operations",Impressions Vanity,impressionsvanity.com,Retail,45,https://www.linkedin.com/in/michael-lien-845b21166,Michael@impressionsvanity.com
+James,Murray,Senior Vice President of Design & Product Development,Simon Pearce,simonpearce.com,Retail,,https://www.linkedin.com/in/james-murray-94a2468/,James.Murray@simonpearce.com
+Michael,Carrozza,"Senior Vice President, Product Strategy",Boll & Branch,bollandbranch.com,Retail,,https://www.linkedin.com/in/michael-carrozza-6a20a612/,mike@bollandbranch.com
+Kristen,Mcentyre,"Vice President, Product Management",Simon Pearce,simonpearce.com,Retail,,https://www.linkedin.com/in/kristen-mcentyre-7357177/,Kristen.McEntyre@simonpearce.com
+Lisa,Rosse,Vice President of Wholesale,Simon Pearce,simonpearce.com,Retail,,https://www.linkedin.com/in/lisa-rosse-68149a2/,Lisa.Rosse@simonpearce.com
+Christian,Darby,Vice President Product & Design,Cozy Earth,cozyearth.com,Retail,,https://www.linkedin.com/in/christiandarby/,Christian@cozyearth.com
+Neil,Fleisher,Vice President of Sales,Zafferano America,zafferanoamerica.com,Retail,,https://www.linkedin.com/in/neil-fleisher/,Neil@zafferanoamerica.com
+Elizabeth,Mcgonigle Breen,Vice President of e-Commerce,Simon Pearce,simonpearce.com,Retail,,https://www.linkedin.com/in/elizabeth-mcgonigle-breen/,elizabeth.mcgonigle.breen@simonpearce.com
+Lonte,Wires,"Vice President Creative, Seasonal & Home",Park Hill Collection,parkhillcollection.com,Retail,,https://www.linkedin.com/in/lonte-wires-614ab914/,LWires@parkhillcollection.com
+Lauren,Renga,VP Sales and Marketing,SIT Outdoor,sitoutdoor.com,Retail,4,https://www.linkedin.com/in/lauren-renga-b8a6696,LRenga@sitoutdoor.com
+Carter,Everitt,VP Sales Manager,Mariposa,mariposa.com,Retail,,https://www.linkedin.com/in/carter-everitt-31b904152/,carter@mariposa.com
+Holloman,Niles,Business Analyst,Etuhome,wholesale.etuhome.com/,Retail,16,https://www.linkedin.com/in/holloman-niles-a78267139,Holloman.Niles@etuhome.com
+Krystal,Barillari,Director of Sales,Etuhome,wholesale.etuhome.com/,Retail,16,https://www.linkedin.com/in/krystal-barillari-5ab13330,Krystal.Barillari@etuhome.com
+Stacy,Borocz,Founder and President,Etuhome,wholesale.etuhome.com/,Retail,16,https://www.linkedin.com/in/stacy-borocz-19088646,Stacy.Borocz@etuhome.com
+Yuni,Wen,Director of Ecommerce,Cambridge Casual,cambridge-casual.com/,Retail Furniture and Home Furnishings,10,https://www.linkedin.com/in/yuni-wen-518360250,yuniwen@cambridge-casual.com
+Benardi,Wibowo,Head of Performance Marketing,Cambridge Casual,cambridge-casual.com/,Retail Furniture and Home Furnishings,10,https://id.linkedin.com/in/benardi-wibowo-72b2b3100,benardi@cambridge-casual.com
+Allie,Blanford,Owner/President,Lite Source Medical,litesourceinc.com,Retail Health and Personal Care Products,,https://www.linkedin.com/in/allieblanford/,Allie@litesourceinc.com
+Clint,Byrne,CFO,Juliska,juliska.com/,Retail Luxury Goods and Jewelry,90,https://www.linkedin.com/in/clint-byrne-cfo,Clint@juliska.com
+Melissa,Solorio,Asst. Manager,Annieglass,annieglass.com/,Retail Luxury Goods and Jewelry,10,,Melissa@annieglass.com
+Steven,Raptis,Director of Finance & IT,Juliska,juliska.com,Retail Luxury Goods and Jewelry,,https://www.linkedin.com/in/steven-raptis-30b5b471/,Steven@juliska.com
+Hayley,Still,Controller,Annieglass,annieglass.com/,Retail Luxury Goods and Jewelry,10,,Hayley@annieglass.com
+Suzanne,Leduke,Director Specialty Accounts,Juliska,juliska.com/,Retail Luxury Goods and Jewelry,90,https://www.linkedin.com/in/suzanne-leduke-46b2aa13,SuzanneL@juliska.com
+Rita,Rosenblum,"Director of Sales, Wholesale Division",Juliska,juliska.com,Retail Luxury Goods and Jewelry,,https://www.linkedin.com/in/rita-rosenblum-8241128b/,Rita@juliska.com
+Annie,Morhauser,"Founder & Designer & Business Owner, Owner",Annieglass,annieglass.com/,Retail Luxury Goods and Jewelry,10,,Annie@annieglass.com
+Lilly,Turnquist,"Vice President Risk Management, Legal Ops & Sustainability",Kendra Scott,kendrascott.com,Retail Luxury Goods and Jewelry,,https://www.linkedin.com/in/lilly-turnquist/,Lilly.Turnquist@kendrascott.com
+Maddie,Botti,"Vice President, Product Commercialization",Kendra Scott,kendrascott.com,Retail Luxury Goods and Jewelry,,https://www.linkedin.com/in/maddie-botti-68941915/,Maddie.Botti@kendrascott.com
+Sarah,Williams,Vice President of Marketing & Ecommerce,Juliska,juliska.com,Retail Luxury Goods and Jewelry,,https://www.linkedin.com/in/sarahdwilliams/,SarahW@juliska.com
+Shannon,Oliverio,Vice President of Merchandising and Design,Juliska,juliska.com,Retail Luxury Goods and Jewelry,,https://www.linkedin.com/in/shannon-oliverio-93370a4/,Shannon@juliska.com
+Amy,Hannah,Vice President of Brand Marketing,Kendra Scott,kendrascott.com,Retail Luxury Goods and Jewelry,,https://www.linkedin.com/in/amy-hannah-47828315/,Amy.Hannah@kendrascott.com
+Brian,Frankel,Chief Executive Officer,Dorell Fabrics,dorellfabrics.com,Textile Manufacturing,,https://www.linkedin.com/in/brian-frankel-42871541/,Brian@dorellfabrics.com
+Elie,Romano,CEO,Belle Maison Textile,bellemaisonusa.com,Textile Manufacturing,9,https://www.linkedin.com/in/elie-romano-9b046793,ERomano@bellemaisonusa.com
+Ronda,Kahan Wilson,COO/VP,Regal Fabrics Inc.,regalfabrics.com,Textile Manufacturing,34,https://www.linkedin.com/in/ronda-kahan-wilson-21559940,Ronda@regalfabrics.com
+Cheryl,Griffin,"Director, Strategic Sales Operations",Radiate Textiles,radiatetextiles.com,Textile Manufacturing,9,https://www.linkedin.com/in/cherylggriffin,Cheryl@radiatetextiles.com
+Christine,Soh,"Director, Operations & Information Technology",Dorell Fabrics,dorellfabrics.com,Textile Manufacturing,26,https://www.linkedin.com/in/christine-soh-16826a3,Christine.Soh@dorellfabrics.com
+Gil,Tavares,Manager - Business Development/VP Sales,Regal Fabrics Inc.,regalfabrics.com,Textile Manufacturing,34,https://www.linkedin.com/in/gil-tavares-4b3914b,Gil@regalfabrics.com
+Kevin,Simpson,"Manager, Information Technology",RM COCO,rmcoco.com,Textile Manufacturing,40,https://www.linkedin.com/pub/dir/Kevin/Simpson,kevin@rmcoco.com
+Greg,Rice,National Sales Manager,Barrow/Merrimac Textile,barrowindustries.com,Textile Manufacturing,37,https://www.linkedin.com/in/greg-rice-272a5b25,GRice@barrowindustries.com
+Paul,Cleary,General Manager,Barrow/Merrimac Textile,barrowindustries.com,Textile Manufacturing,37,https://www.linkedin.com/in/paul-cleary-69a05b64,PCleary@barrowindustries.com
+Steven,Kahan,President,Regal Fabrics Inc.,regalfabrics.com,Textile Manufacturing,34,https://www.linkedin.com/in/skahan,StevenK@regalfabrics.com
+Andy,Frankel,President,Dorell Fabrics,dorellfabrics.com,Textile Manufacturing,,https://www.linkedin.com/in/andy-frankel-03430b88/,Andy@dorellfabrics.com
+Hans,Fossez,President,Balta Rugs,baltarugs.com,Textile Manufacturing,,https://www.linkedin.com/in/hans-fossez-ab82406/,hans.fossez@baltagroup.com
+James,Romano,Partner,Belle Maison Textile,bellemaisonusa.com,Textile Manufacturing,9,https://www.linkedin.com/in/james-romano-95343a48,JRomano@bellemaisonusa.com
+Donna,B Marecle,President,Gum Tree Fabrics,gumtreefabrics.com,Textile Manufacturing,,https://www.linkedin.com/in/donna-b-marecle-26ab76b/,dmarecle@gumtreefabrics.com
+Vinamra,Laddha,Owner - COO,LR Home,lrhome.us,Textile Manufacturing,53,https://www.linkedin.com/in/vinamra-laddha-16518219,VLaddha@lrhome.us
+David,Titlebaum,President & Founder,Radiate Textiles,radiatetextiles.com,Textile Manufacturing,,https://www.linkedin.com/in/david-titlebaum-361959aa/,David@radiatetextiles.com
+Michael,Carr,President & CEO / Owner,RM COCO,rmcoco.com,Textile Manufacturing,,https://www.linkedin.com/in/michael-carr-8a24457/,mcarr@carrtextile.com
+Danny,Frankel,Vice President,Dorell Fabrics,dorellfabrics.com,Textile Manufacturing,26,https://www.linkedin.com/in/danny-frankel-b0087588,Danny@dorellfabrics.com
+Mike,Coco,Vice President,RM COCO,rmcoco.com,Textile Manufacturing,40,https://www.linkedin.com/in/mike-coco-39a2634a,mike@rmcoco.com
+Larry,Siegal,Territory Manager,RM COCO,rmcoco.com,Textile Manufacturing,40,https://www.linkedin.com/in/larry-siegal-57464611,larrys@rmcoco.com
+Brandon,Gavic,Senior Vice President of Sales and Marketing,Balta Rugs,baltarugs.com,Textile Manufacturing,24,https://www.linkedin.com/in/brandongavic,brandon.gavic@baltagroup.com
+Charlotte,Carr,Sales & Office Administrator,Dorell Fabrics,dorellfabrics.com,Textile Manufacturing,26,https://www.linkedin.com/in/charlotte-carr-9392a270,Charlotte.Carr@dorellfabrics.com
+Jake,Titlebaum,Sales Representative,Radiate Textiles,radiatetextiles.com,Textile Manufacturing,9,https://www.linkedin.com/in/jake-titlebaum-69843855,Jake@radiatetextiles.com
+Heath,Watson,Vice President of Sales,RM COCO,rmcoco.com,Textile Manufacturing,,https://www.linkedin.com/in/heathwaston/,heathw@rmcoco.com
+Stuart,Mcbrayer,Vice President of Business Development,LR Home,lrhome.us,Textile Manufacturing,,https://www.linkedin.com/in/stuart-mcbrayersalespro/,StuartM@lrhome.us
+Yisha,Situ,Vice President International Operations,"Barrow Industries, Inc.",barrowindustries.com,Textile Manufacturing,,https://www.linkedin.com/in/yisha-situ-540bba19/,YSitu@barrowindustries.com
+Luis,Cano,VP Operations,Radiate Textiles,radiatetextiles.com,Textile Manufacturing,9,https://www.linkedin.com/in/luis-cano-0b22159,LCano@radiatetextiles.com
+Heath,Watson,VP of Sales,RM COCO,rmcoco.com,Textile Manufacturing,40,https://www.linkedin.com/in/heathwaston,heathwatson@rmcoco.com
+Ken,Bryan,VP Distribution Operations,Barrow/Merrimac Textile,barrowindustries.com,Textile Manufacturing,37,https://www.linkedin.com/in/ken-bryan-2b983332,KBryan@barrowindustries.com
+Tom,Shepard,VP Sales,Dorell Fabrics,dorellfabrics.com,Textile Manufacturing,26,https://www.linkedin.com/in/tom-shepard-9301b97,TomS@dorellfabrics.com
+Dana,Stevens,"Vice President, Strategic Sales",LR Home,lrhome.us,Textile Manufacturing,,https://www.linkedin.com/in/danastevens16/,DStevens@lrhome.us
+Donna,B Marecle,President,Gum Tree Fabrics,gumtreefabrics.com,Textile Manufacturing,20,https://www.linkedin.com/company/gum-tree-fabrics,DMarecle@gumtreefabrics.com
+Amy,Smith,Regional Sales Manager,Sattler Outdura,outdura.com/residential/,Textile Manufacturing,13,https://www.linkedin.com/in/amy-smith-8131ab23b,Amy.Smith@outdura.com
+William,Bryant,"Manager, Sales & Solutions",Gulfstream Shippers Association,shipgulfstream.com,"Transportation, Logistics, Supply Chain and Storage",12,https://www.linkedin.com/in/william-bryant-3a4b8417a,William@shipgulfstream.com
+Garrett,Bowman,President & Chief Financial Officer,Gulfstream Shippers Association,shipgulfstream.com,"Transportation, Logistics, Supply Chain and Storage",,https://www.linkedin.com/in/garrett-bowman-0484b275/,Garrett@shipgulfstream.com
+Garrett,Bowman,President & Chief Financial Officer,Gulfstream Shippers Association,shipgulfstream.com,"Transportation, Logistics, Supply Chain and Storage",12,https://www.linkedin.com/in/garrett-bowman-0484b275,Garrett@shipgulfstream.com
+Jonathan,Bradshaw,"Vice President, Operations",Gulfstream Shippers Association,shipgulfstream.com,"Transportation, Logistics, Supply Chain and Storage",12,linkedin.com/in/jonathan-bradshaw-603b94127,Jonathan@shipgulfstream.com
+Mike,Pritchard,"Vice President of Pricing / Director, Pricing",Gulfstream Shippers Association,shipgulfstream.com,"Transportation, Logistics, Supply Chain and Storage",12,https://www.linkedin.com/in/mike-pritchard-2aaa127a,Mike@shipgulfstream.com
+Scott,Lombardo,"Vice President, Solutions",Gulfstream Shippers Association,shipgulfstream.com,"Transportation, Logistics, Supply Chain and Storage",12,https://www.linkedin.com/in/scott-a-lombardo,Scott@shipgulfstream.com
+Betsy,French,Retail Sales Manager,East Enterprises Inc.,downeast.com,Travel Arrangements,41,,BFrench@downeast.com
+Bob,Fernald,President & CEO,East Enterprises Inc.,downeast.com,Travel Arrangements,41,https://www.linkedin.com/in/bob-fernald-716124a,Bob.Fernald@downeast.com
+Patricia,Franks,Chief Financial Officer (CFO),United Steel Storage,ussipartners.com,Warehousing and Storage,65,,patf@ussipartners.com
+Kay,Bradberry,Director of Business Development,United Steel Storage,ussipartners.com,Warehousing and Storage,65,https://www.linkedin.com/in/kay-bradberry-82840155,KayB@ussipartners.com
+Shandi,Crawley,Marketing Manager,United Steel Storage,ussipartners.com,Warehousing and Storage,65,https://www.linkedin.com/in/shandi-crawley-333954114,ShandiC@ussipartners.com
+Daniel,Washburn,Industrial Engineer,United Steel Storage,ussipartners.com,Warehousing and Storage,65,https://www.linkedin.com/in/danielwashburn314,DanielW@ussipartners.com
+John,Merrifield,Founder & CEO,Candyl,candyl.co,Wellness and Fitness Services,,https://www.linkedin.com/in/johnforhire/,John@candyl.co
+John,Merrifield,"Inventor, Founder & CEO",Candyl LLC,candyl.co/,Wellness and Fitness Services,1,https://www.linkedin.com/in/johnforhire,John@candyl.co
+Paul,Koppers,CFO / Business Owner,Koppers Home,koppershome.com/,Wholesale,11,https://ca.linkedin.com/in/paul-koppers-846288195,P.Koppers@koppershome.com
+Albert,Damen,CFO,Koopman International,koopmanint.com/en/,Wholesale,512,https://nl.linkedin.com/in/albertdamen,Albert.Damen@koopmanint.com
+Ron,Koppers,CEO / Owner,Koppers Home,koppershome.com/,Wholesale,11,https://ca.linkedin.com/in/ron-koppers-83659470,R.Koppers@koppershome.com
+Cody,Ables,CEO and Founder,CODARUS,caseandcanvas.com,Wholesale,,https://www.linkedin.com/in/cody-hutcheson-ables-99949471/,Cody@codarus.com
+David,Burakoff,CEO,Danya B.,danyab.com,Wholesale,7,https://www.linkedin.com/in/david-burakoff-542a481b,David@danyab.com
+Noor,Hameed,CEO,CWI Lighting,cwilighting.com,Wholesale,19,https://ca.linkedin.com/in/noor-hameed-8341aa198,Noor@cwilighting.com
+Mac,Cooper,CEO,Uttermost,uttermost.com/,Wholesale,182,https://www.linkedin.com/in/mac-cooper-7b0919,mcooper@uttermost.com
+Richard,A Mettemeyer,CEO,Melrose International,melroseintl.com/,Wholesale,95,https://www.linkedin.com/in/rich-mettemeyer-5226a027,RMettemeyer@melroseintl.com
+Kathy,Phillips,CEO,Primitives by Kathy,primitivesbykathy.com,Wholesale,73,https://www.linkedin.com/in/kathy-phillips-8178a62a,KPhillips@primitivesbykathy.com
+Sal,Makhoul,Business Development Manager,CWI Lighting,cwilighting.com,Wholesale,19,https://ca.linkedin.com/in/sal-makhoul-922951114,Sal@cwilighting.com
+Paul,Koppers,Business Owner,Koppers Home,koppershome.com,Wholesale,,https://www.linkedin.com/in/paul-koppers-846288195/,P.Koppers@koppershome.com
+Yaryna,Stasinchuk,Director of Operations,Safavieh,safavieh.com,Wholesale,321,https://rocketreach.co/yaryna-stasinchuk-email_78329628,Yaryna.Stasinchuk@safavieh.com
+Eric,Bertram,Director of Operations,Accent Decor,accentdecor.com,Wholesale,126,https://www.linkedin.com/in/eric-bertram1008,Eric.Bertram@accentdecor.com
+Patrick,Mccaffery,Director of IT,Accent Decor,accentdecor.com,Wholesale,126,https://www.linkedin.com/in/patrickmccaffery,Patrick.McCaffery@accentdecor.com
+Brett,Behnken,Director of Key Account Sales,Primitives By Kathy,primitivesbykathy.com,Wholesale,,https://www.linkedin.com/in/brett-behnken-b2233a8/,BBehnken@primitivesbykathy.com
+Mark,Foster,Director of International Sales/National Accounts Manager,UTTERMOST,uttermost.com,Wholesale,,https://www.linkedin.com/in/mark-foster-a25a728/,mfoster@uttermost.com
+Brian,Mobley,Director of Information Systems & Analytics,"Mud Pie, LLC.",mudpie.com,Wholesale,,https://www.linkedin.com/in/bdmobley/,bmobley@mudpie.com
+Alex,Prieto,DC Operations Manager,Accent Decor,accentdecor.com,Wholesale,126,https://www.linkedin.com/in/alex-prieto-8b918212,Alex@accentdecor.com
+Julia,Hulse,Director of Product Development,Primitives by Kathy,primitivesbykathy.com,Wholesale,73,https://www.linkedin.com/in/julia-hulse-0b19b61a6,JHulse@primitivesbykathy.com
+Sara,Pridgen,"Director, Hospitality & Contract Sales",Fireside Lodge Furniture Company,woodedriver.com,Wholesale,11,https://www.linkedin.com/in/sara-pridgen-35928516,Sara@woodedriver.com
+Beverly,Adair,Director Of Product Development,Kalalou,kalalou.com,Wholesale,55,https://www.linkedin.com/in/beverly-adair-843a96a1,Beverly@kalalou.com
+Miriam,Burakoff,COO,Danya B.,danyab.com,Wholesale,7,https://www.linkedin.com/in/miriam-burakoff-b2043618,Miriam@danyab.com
+Miriam,Burakoff,Chief Operating Officer,Danya B.,danyab.com,Wholesale,,https://www.linkedin.com/in/miriam-burakoff-b2043618/,Miriam@danyab.com
+Marcia,Miller,Founder and CEO,Mud Pie,wholesale.mudpie.com/,Wholesale,240,https://www.linkedin.com/company/mud-pie-llc,mmiller@mudpie.com
+Maher,Shaheen,Executive Vice President Of Sales,CWI Lighting,cwilighting.com,Wholesale,,https://www.linkedin.com/in/maher-shaheen-6a55a36/,Maher@cwilighting.com
+Bryan,Williams,Executive Vice President,Porch View Home,porchviewhome.com/,Wholesale,4,https://www.linkedin.com/in/bryan-williams-3aa38623,BryanWilliams@porchviewhome.com
+Melchor,Negre,E-commerce and Product Management Specialist,Ameico Inc.,ameico.com/,Wholesale,22,https://www.linkedin.com/in/melchor-negre-a140b645,Melchor@ameico.com
+Jessica,Stephens,East Coast Sales Manager,Melrose International,melroseintl.com/,Wholesale,95,https://www.linkedin.com/in/jessica-stephens-4ab1b5b1,Jessica@melroseintl.com
+Paula,Blevins,Director of Sales,Darrah & Co.,darrahreps.com/,Wholesale,15,,PBlevins@darrahreps.com
+Jody,Shapiro,National Sales Manager,Safavieh,safavieh.com,Wholesale,321,https://www.linkedin.com/in/jody-shapiro-5362431a7,Jody.Shapiro@safavieh.com
+Scott,Doyle,National Sales Manager,Uttermost,uttermost.com/,Wholesale,182,https://www.linkedin.com/in/scott-doyle-38526934,sdoyle@uttermost.com
+Joseph,Amodeo,National Sales Manager,Napco Imports,napcoimports.com/,Wholesale,200,https://www.linkedin.com/in/joseph-amodeo-b9416b120,JAmodeo@napcoimports.com
+Molly,Mays,National Account & Development Manager,UTTERMOST,uttermost.com,Wholesale,,https://www.linkedin.com/in/molly-mays-ab218460/,mmays@uttermost.com
+Kaitlin,Koppers,Marketing & Product Designer / Creative Director,Koppers Home,koppershome.com/,Wholesale,11,https://ca.linkedin.com/in/kaitlin-koppers,K.Koppers@koppershome.com
+Amy,Taylor Hoffecker,National Key Account Sales Manager,Mud Pie,wholesale.mudpie.com/,Wholesale,240,https://www.linkedin.com/in/amy-taylor-hoffecker-9b41ab13,ataylor@mud-pie.com
+Kelly,Woodman,National Account Sales Manager,Wooded River,woodedriver.com,Wholesale,11,https://www.linkedin.com/in/kelly-woodman-b6887b4a,Kelly@woodedriver.com
+Shira,Lowry,Key Account Manager,Primitives by Kathy,primitivesbykathy.com,Wholesale,73,https://www.linkedin.com/in/lauran-golinsky,SLowry@primitivesbykathy.com
+Raul,Gil Parra,IT,Safavieh,safavieh.com,Wholesale,321,https://www.linkedin.com/in/raul-gil-parra-397940a,Raul.Parra@safavieh.com
+Joseph,Anderson,National Sales Manager,CWI Gifts,shopcwi.com/,Wholesale,31,https://www.linkedin.com/in/joseph-anderson-25b26043,joe.anderson@shopcwi.com
+Jack,Kasakian,National Sales Manager,Three Hands Corporation,threehands.com,Wholesale,35,https://www.linkedin.com/in/jack-kasakian-5a72a6b,JackK@threehands.com
+Lee,Kahre,Inside Sales Manager,Darrah & Co.,darrahreps.com/,Wholesale,15,,LKahre@darrahreps.com
+Joseph,Wiewel,Information Technology Manager,Melrose International,melroseintl.com/,Wholesale,95,https://www.linkedin.com/in/josephwiewel589,joe@melroseintl.com
+Michael,Fuchs,Geschäftsführer / General Manager,Stylex,stylex.de,Wholesale,10,https://www.linkedin.com/company/stylex-schreibwaren-gmbh,m.fuchs@stylex.de
+Cameron,Koppers,Head of Logistics & Operations / Owner,Koppers Home,koppershome.com/,Wholesale,11,https://www.linkedin.com/in/cameron-kirksey,C.Koppers@koppershome.com
+Farzin,Alavi,General Manager/Sales & Marketing Specialist,Tufan Rugs,tufanrugs.com,Wholesale,10,https://www.linkedin.com/in/farzin-alavi-67755959564,Farzin@tufanrugs.com
+Amy,Kunerth,General Manager,Wooded River,woodedriver.com,Wholesale,11,https://www.linkedin.com/in/amy-kunerth-4a41b5114,Amy@woodedriver.com
+Neil,B,General Manager,Safavieh,safavieh.com,Wholesale,321,https://www.linkedin.com/in/neil-b-307b3859,neil.baser@safavieh.com
+Gib,Carson,President,Gib Carson Associates,gibcarson.com/,Wholesale,46,https://www.linkedin.com/in/gib-carson-jr-576aaa19,gibjr@gibcarson.com
+Ezra,Erani,President,Enchanté Accessories,enchanteaccessories.com,Wholesale,,https://www.linkedin.com/in/ezra-erani-0ab3a9175/,ezra@ench.com
+Gib,Carson,President,Gib Carson Associates,gibcarson.com,Wholesale,,https://www.linkedin.com/in/gib-carson-jr-576aaa19/,gibjr@gibcarson.com
+Spencer,Beesley,Owner/COO,Candle Warmers Etc.,candlewarmers.com,Wholesale,,https://www.linkedin.com/in/spencer-beesley-4b44407/,Spencer@candlewarmers.com
+Josh,Ragon,Owner/General Manager,Ragon House,ragonhouse.com/,Wholesale,6,https://www.linkedin.com/in/josh-ragon-b6252012,JRagon@ragonhouse.com
+Brett,Heyland,Owner/President,Candle Warmers Etc.,candlewarmers.com,Wholesale,,https://www.linkedin.com/in/brett-heyland-70114045/,Brett@candlewarmers.com
+Ali,Hameed,Owner & President,CWI Lighting,cwilighting.com,Wholesale,19,https://ca.linkedin.com/in/ali-hameed-88825a50,Ali@cwilighting.com
+Carrie,Ritterbeck,Owner,Ragon House,ragonhouse.com/,Wholesale,6,https://www.linkedin.com/in/carrie-ritterbeck-70863b9a,CarrieR@ragonhouse.com
+Frank,Hofland,Owner,"ACCENT DECOR, Inc.",accentdecor.com,Wholesale,,https://www.linkedin.com/in/frankhofland/,Frank@accentdecor.com
+Peter,Kahane,Owner,Ameico Inc.,ameico.com/,Wholesale,22,https://www.linkedin.com/in/peter-kahane-362a72a,Peter@ameico.com
+Sophie,Sallinger,National Sales Manager,Porch View Home,porchviewhome.com/,Wholesale,4,https://www.linkedin.com/in/sophie-sallinger-50a29a111,SophieSallinger@porchviewhome.com
+John,Vlahopoulos,Regional Sales Manager,Safavieh,safavieh.com,Wholesale,321,https://www.linkedin.com/in/john-vlahopoulos-%E2%88%B4-1b398447,john.v@safavieh.com
+Patrick,Campagna,Representative,Titanium Technologie,titaniumtechnologie.com,Wholesale,4,https://ca.linkedin.com/in/pcampagna,Patrick.Campagna@titaniumtechnologie.com
+Michael,Helms,Regional Sales Director,OneCoast,onecoast.com,Wholesale,,https://www.linkedin.com/in/michael-helms-5503509a/,Michael.Helms@onecoast.com
+Craig,Wiechman,Regional Sales Director,OneCoast,onecoast.com,Wholesale,,https://www.linkedin.com/in/craig-wiechman-31668084/,Craig.Wiechman@onecoast.com
+Dee,Gleboff,President/Owner,Portico Collection Inc.,porticocollection.com/,Wholesale,42,https://www.linkedin.com/in/dee-gleboff-2946b46,Dee@porticocollection.com
+Sarah,Bagle,President & Chief Creative Officer (CCO),"ACCENT DECOR, Inc.",accentdecor.com,Wholesale,,https://www.linkedin.com/in/sarah-bagle-b470522b/,SBagle@accentdecor.com
+Shant,Anan,President/CEO,Three Hands Corporation,threehands.com,Wholesale,35,,ShantAnan@threehands.com
+Erkut,Aribas,President and Owner,Jatex International,jatexinternational.com/,Wholesale,2,https://www.linkedin.com/company/jatex-international-inc,Erkut@jatexinternational.com
+Doug,Williams,PRESIDENT,Kalalou,kalalou.com,Wholesale,,https://www.linkedin.com/in/doug-williams-62664b1a/,DOUG@kalalou.com
+Mary,Ragon,President,Ragon House,ragonhouse.com/,Wholesale,6,https://www.linkedin.com/in/mary-ragon-b8752b12,MaryRagon@ragonhouse.com
+Nathan,Burakoff,President,Danya B.,danyab.com,Wholesale,7,https://www.linkedin.com/in/nathan-burakoff-7b481938,nathan.b@danyab.com
+Marc,Kushner,President,Service Lamp Corporation,servicelamp.com,Wholesale,6,https://www.linkedin.com/company/service-lamp-corporation,Marc@servicelamp.com
+Lindsay,Demyer,President,Darrah & Co.,darrahreps.com/,Wholesale,15,,LDeMyer@darrahreps.com
+Kelly,Dierke Sapp,President,KBD Sales,kbdsales.com,Wholesale,11,,Kelly@kbdsales.com
+Brian,Sapp,President,KBD Sales,kbdsales.com,Wholesale,11,,Brian@kbdsales.com
+Karl,Venvertloh,President,Melrose International,melroseintl.com/,Wholesale,95,https://www.linkedin.com/in/karl-venvertloh-2246911a7,Karl@melroseintl.com
+Doug,Williams,President,Kalalou,kalalou.com,Wholesale,55,https://www.linkedin.com/in/doug-williams-62664b1a,Doug@kalalou.com
+Bernard,Skalny,President,Willow Group,willowgroupltd.com/Home.aspx,Wholesale,64,https://www.linkedin.com/in/bernard-skalny-68118812,BSkalny@willowgroupltd.com
+Randa,Crisler,Vice President,Portico Collection Inc.,porticocollection.com/,Wholesale,42,https://www.linkedin.com/in/randa-crisler-3ab424252,Randa@porticocollection.com
+David,Bailys,Vice President,NAPCO,napcoimports.com/,Wholesale,200,https://www.linkedin.com/in/david-bailys-120944b,DBailys@napcoimports.com
+Nahmat,Issa,Sr. Sales Manager,India House,indiahousebrass.com/,Wholesale,25,https://www.linkedin.com/in/nahmat-issa-18a57921,nahmat@indiahousebrass.com
+Tracy,Alvord,Sr. Regional Sales Director-Mud Pie,OneCoast,onecoast.com,Wholesale,,https://www.linkedin.com/in/tracy-alvord-503047146/,Tracy.Alvord@onecoast.com
+Renee,Loper Boyd,"Senior Vice President, Product Marketing",ANDMORE,andmore.com,Wholesale,,https://www.linkedin.com/in/renee-loper-boyd-a34622/,rloper-boyd@andmore.com
+Ryan,Mahoney,"Senior Vice President, Furniture Leasing",ANDMORE,andmore.com,Wholesale,,https://www.linkedin.com/in/ryan-mahoney-a0b58b8/,RMahoney@andmore.com
+Darioush,Yaraghi,Senior Vice President / Creative Director,Safavieh,safavieh.com,Wholesale,,https://www.linkedin.com/in/darioush-yaraghi-b15699b3/,Darioush.Yaraghi@safavieh.com
+Jeroen,De Meij,SAP Business Product Owner Purchase Administration,Koopman International,koopmanint.com/en/,Wholesale,512,https://nl.linkedin.com/in/jeroen-de-meij-55686475,jeroen.de.meij@koopmanint.com
+Mahsa,Shakibaei,Sales & Marketing Representative,Tufan Rugs,tufanrugs.com,Wholesale,10,https://www.linkedin.com/in/mahsa-shakibaei-b3844513b,Mahsa@tufanrugs.com
+Joey,Safdieh,Sales Manager,Enchante Accessories,enchanteaccessories.com,Wholesale,299,https://www.linkedin.com/in/joey-safdieh-73125913,joey@ench.com
+Joseph,Joe E Smith,Sales Manager,Ameico Inc.,ameico.com/,Wholesale,22,https://www.linkedin.com/in/joseph-joe-e-smith-iii-b8302a59,Joe@ameico.com
+Samir,Rahman,Sales Manager,Indus Design Imports,indusdesign.com,Wholesale,10,https://www.linkedin.com/in/samir-rahman-022613170,Samir@indusdesign.com
+Alan,Levy,sales manager,Enchante Accessories,enchanteaccessories.com,Wholesale,299,https://www.linkedin.com/in/alan-levy-59885845,alan@ench.com
+Kevin,Evans,Sales Director,Ameico Inc.,ameico.com/,Wholesale,22,https://www.linkedin.com/in/kevin-evans-6236b910,Kevin@ameico.com
+Lynn,Matthews,Sales Manager,Ragon House,ragonhouse.com/,Wholesale,6,https://www.linkedin.com/in/lynn-matthews-04b52b36,Lynn@ragonhouse.com
+Nicole,Conti,Sales Director,Enchanté Accessories,enchanteaccessories.com,Wholesale,,https://www.linkedin.com/in/nicoleconti/,nicolec@ench.com
+Steve,Bulla,Vice President Operations,"Mud Pie, LLC.",mudpie.com,Wholesale,,https://www.linkedin.com/in/steve-bulla-49057933/,sbulla@mudpie.com
+Eric,Brown,Vice President of Sales,Candle Warmers Etc.,candlewarmers.com,Wholesale,,https://www.linkedin.com/in/r-eric-brown/,Eric.Brown@candlewarmers.com
+Mark,Furlet,Vice President of Sales and Leasing,ANDMORE,andmore.com,Wholesale,,https://www.linkedin.com/in/markfurlet/,MFurlet@andmore.com
+Angie,Pfeifer,Vice President of Sales,Mud Pie,wholesale.mudpie.com/,Wholesale,240,https://www.linkedin.com/in/angiepfeifer,apfeifer@mudpie.com
+Jason,Neal,Vice President of Sales,"ACCENT DECOR, Inc.",accentdecor.com,Wholesale,,https://www.linkedin.com/in/jason-r-neal/,Jason.Neal@accentdecor.com
+Jeff,Doersom,Vice President of Finance,Primitives by Kathy,primitivesbykathy.com,Wholesale,73,https://www.linkedin.com/in/jdoersom,JDoersom@primitivesbykathy.com
+Juan,R Lugo,Vice-President of Finance,"Willow Group, Ltd.",willowgroupltd.com,Wholesale,,https://www.linkedin.com/in/juan-r-lugo-57258214/,JuanL@willowgroupltd.com
+Leanna,John Worrall,Vice President of Leasing,ANDMORE,andmore.com,Wholesale,,https://www.linkedin.com/in/leanna-john-worrall-4a289b3/,LWorrall@andmore.com
+Danielle,Hall,"Vice President of IT, Enterprise Applications",ANDMORE,andmore.com,Wholesale,,https://www.linkedin.com/in/dnwillishall/,DHall@andmore.com
+Ryan,Judkins,Vice President of Finance,Candle Warmers Etc.,candlewarmers.com,Wholesale,,https://www.linkedin.com/in/ryankentjudkins/,Ryan@candlewarmers.com
+Scott,Cohen,Vice President of Marketing,ARTCRAFT Lighting,artcraftlighting.com,Wholesale,,https://www.linkedin.com/in/scott-cohen-b32b8625/,Scott@artcraftlighting.com
+Natasha,Pantelides,Vice President of Design,"ACCENT DECOR, Inc.",accentdecor.com,Wholesale,,https://www.linkedin.com/in/natasha-pantelides-72b3429/,Natasha.Pantelides@accentdecor.com
+Victor,Ni,Vice President and Manager,Wholesale Glass Vases International,wholesaleglassvasesint.com,Wholesale,5,https://www.linkedin.com/in/victor-ni-39744010,victor@wholesaleglassvasesint.com
+Brad,Gullion,VP Sales and Marketing,Melrose International,melroseintl.com/,Wholesale,95,https://www.linkedin.com/in/brad-gullion-4355a413,Brad@melroseintl.com
+Josh,Mckay,VP Sales & Marketing,Kalalou,kalalou.com,Wholesale,55,https://www.linkedin.com/company/kalalou,JMcKay@kalalou.com
+Vik,Jain,VP Sales,India House,indiahousebrass.com/,Wholesale,25,https://www.linkedin.com/in/vik-jain-22b1939,vik@indiahousebrass.com
+Joe,Millman,V.P.,NAPCO,napcoimports.com/,Wholesale,200,https://www.linkedin.com/in/joemillman,JMillman@napcoimports.com
+Ariane,Lewis,"VP, Finance",CWI Gifts,shopcwi.com/,Wholesale,31,https://www.linkedin.com/in/ariane-lewis-86b06773,Ariane@shopcwi.com
+Neera,Jain,VP Merchandising,India House,indiahousebrass.com/,Wholesale,25,https://www.linkedin.com/in/neera-jain-4a8644b3,neera@indiahousebrass.com
+Scott,D Altman,VP of Sales,CTW Home Collection,ctwhomecollection.com,Wholesale,10,,scott@ctwhomecollection.com
+David,Parker,VP of Operations,CWI Gifts,shopcwi.com/,Wholesale,31,https://www.linkedin.com/in/david-parker-31638b90,David@shopcwi.com
+Taylor,Dierke,VP of Operations,KBD Sales,kbdsales.com,Wholesale,11,,Taylor@kbdsales.com
+Joel,Maldonado,President,Matthews Fan Co,matthewsfanco.com,"Wholesale Appliances, Electrical, and Electronics",,https://www.linkedin.com/in/joel-maldonado-33165b54/,Joel@matthewsfanco.com
+Ryan,Dode,Director Of Architectural Sales,Schluter Systems,schluter.com,Wholesale Building Materials,,https://www.linkedin.com/in/ryan-dode-4149333a/,RDode@schluter.com
+Brad,Van Brunt,Chief Operating Officer  - North America,Schluter Systems,schluter.com,Wholesale Building Materials,,https://www.linkedin.com/in/brad-van-brunt-38781912/,BVanBrunt@schluter.com
+Matthew,Crabtree,Director of Sales,American Woodmark,americanwoodmark.com,Wholesale Building Materials,,https://www.linkedin.com/in/matthew-crabtree-27677110/,mcrabtree@woodmark.com
+Gabe,Estrela,Owner and Founder,"ATLANTIC LIGHTING, INC.",atlantic-lighting.com/,Wholesale Building Materials,13,https://www.linkedin.com/company/atlantic-lighting,GEstrela@atlantic-lighting.com
+Mike,Miles,Retail Sales Director of Key Accounts - North America,Schluter Systems,schluter.com,Wholesale Building Materials,,https://www.linkedin.com/in/mike-miles-2abb869/,MMiles@schluter.com
+Scott,Culbreth,President and Chief Executive Officer,American Woodmark,americanwoodmark.com,Wholesale Building Materials,,https://www.linkedin.com/in/scott-culbreth-7613203/,scott.culbreth@americanwoodmark.com
+Michael,Cardoso,Vice President of Sales Canada,Schluter Systems,schluter.com,Wholesale Building Materials,,https://www.linkedin.com/in/michael-cardoso-49535619/,MCardoso@schluter.com
+Caleb,Kerr,Vice President of Manufacturing,American Woodmark,americanwoodmark.com,Wholesale Building Materials,,https://www.linkedin.com/in/kerrcaleb/,ckerr@woodmark.com
+Tony,Madonna Ep Ies Ida,Vice President of Business Development,"Modular International, Inc",modularinternational.com,Wholesale Building Materials,,https://www.linkedin.com/in/tony-madonna-ep-ies-ida-4116a960/,TMadonna@modularinternational.com
+Anne,Trobaugh,"VP, Quality and Customer Experience",American Woodmark,americanwoodmark.com,Wholesale Building Materials,,https://www.linkedin.com/in/anne-trobaugh/,atrobaugh@woodmark.com
+Phil,Woodruff,"VP of Sales , US Distribution",Schluter Systems,schluter.com,Wholesale Building Materials,,https://www.linkedin.com/in/phil-woodruff-33bba9b/,PWoodruff@schluter.com
+Georgina,Kidder,CEO & Co-Founder,Ross Alan Lumber,rossalanreclaimed.com,Wholesale Furniture and Home Furnishings,4,https://www.linkedin.com/company/rossalanreclaimed,georgie@rossalanreclaimed.com
+Mayra,Saidemberg Davila,CEO,Geo Contemporary,geocontemporary.com/,Wholesale Furniture and Home Furnishings,2,https://www.linkedin.com/in/mayra-saidemberg-d%E2%80%99avila-293886168,mayra@geocontemporary.com
+Hadi,Sebaaly,Business Owner,Whiteline Mod - Furniture Wholesale,whitelinemod.com,Wholesale Furniture and Home Furnishings,,https://www.linkedin.com/in/whitelinemod/,Hadi@whitelinemod.com
+Alesha,Strong,Account Executive,Geo Contemporary,geocontemporary.com/,Wholesale Furniture and Home Furnishings,2,https://www.linkedin.com/in/ajstrong,alesha@geocontemporary.com
+Adriana,Dionisio,Vice President Operations,Chintaly,chintaly.com,Wholesale Furniture and Home Furnishings,,https://www.linkedin.com/in/adriana-dionisio-07b01225/,adriana@chintaly.com
+Max,Bennett,Vice President of Sales,BENNETT To The Trade,bennetttothetrade.com,Wholesale Furniture and Home Furnishings,2,https://www.linkedin.com/in/max-bennett-05302b1b7,maxb@bennetthome.com
+Joshua,Rutstein,"VP, E-commerce & Legal",Chintaly Imports,chintaly.com,Wholesale Furniture and Home Furnishings,14,https://www.linkedin.com/in/joshua-rutstein-b8875065,josh@chintaly.com

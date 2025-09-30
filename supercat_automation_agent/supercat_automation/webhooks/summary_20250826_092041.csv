@@ -1,0 +1,4 @@
+company_name,domain,tier,psi_score,primary_edp,urgency,email,campaign_strategy
+9to5 Seating,9to5seating.com,TIER_2_ACTIVE,38.7,rep_performance_crisis,medium,ed.lachman@9to5seating.com,educational
+Abbott Collection,abbottcollection.com,TIER_3_NURTURE,23.7,rep_performance_crisis,none,lee.a@abbottcollection.com,nurture
+"A & B HOME GROUP, INC.",abhomeinc.com,TIER_2_ACTIVE,40.3,rep_performance_crisis,medium,emadb@abhongda.net,educational

@@ -1,0 +1,168 @@
+[
+  {
+    "webhook_type": "campaign",
+    "company_id": "cd5e7fec-d0c0-4c30-8b49-75da0feaf23f",
+    "company_name": "9to5 Seating",
+    "domain": "9to5seating.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 40.3,
+    "primary_edp": "rep_performance_crisis",
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "medium",
+    "campaign_strategy": "educational",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why 9to5 Seating's top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs 9to5 Seating approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed 9to5 Seating works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "campaign_timeline": {
+      "phase_1": "awareness_building",
+      "phase_2": "educational_content",
+      "phase_3": "soft_engagement",
+      "total_duration_days": 28
+    },
+    "follow_up_schedule": [
+      {
+        "day": 5,
+        "action": "follow_up_email",
+        "channel": "email"
+      },
+      {
+        "day": 12,
+        "action": "linkedin_message",
+        "channel": "linkedin"
+      },
+      {
+        "day": 21,
+        "action": "value_add_email",
+        "channel": "email"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Ed",
+      "last_name": "Lachman",
+      "email": "ed.lachman@9to5seating.com",
+      "title": "Chief Operating Officer",
+      "linkedin": "https://www.linkedin.com/in/ed-lachman-15b1a862/"
+    },
+    "campaign_metadata": {
+      "created_at": "2025-08-26T12:30:16.824070",
+      "expected_duration": 28,
+      "success_metrics": {
+        "primary_goal": "qualified_conversation",
+        "secondary_goal": "content_engagement",
+        "engagement_threshold": 0.3,
+        "response_target_days": 14
+      },
+      "optimization_notes": [
+        "Moderate pain - focus on education and ROI demonstration",
+        "Highlight performance tracking and coaching capabilities"
+      ]
+    },
+    "webhook_version": "4.0_campaign"
+  },
+  {
+    "webhook_type": "campaign",
+    "company_id": "4d37952b-e518-4b55-aa19-c6cd1486585f",
+    "company_name": "Abbott Collection",
+    "domain": "abbottcollection.com",
+    "tam_tier": "TIER_2_ACTIVE",
+    "psi_score": 40.3,
+    "primary_edp": "rep_performance_crisis",
+    "persona_type": "sales_leadership",
+    "backup_persona": "c_suite",
+    "persona_reason": "Primary EDP is rep_performance_crisis",
+    "urgency_level": "medium",
+    "campaign_strategy": "educational",
+    "days_until_show": -494,
+    "email_sequence": [
+      {
+        "day": 0,
+        "subject": "Why Abbott Collection's top reps are 10x more productive",
+        "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+      },
+      {
+        "day": 3,
+        "subject": "27% rep turnover is killing your growth",
+        "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs Abbott Collection approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+      }
+    ],
+    "linkedin_sequence": [
+      {
+        "type": "connection_request",
+        "message": "Hi {{first_name}}, noticed Abbott Collection works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+      },
+      {
+        "type": "follow_up_message",
+        "day": 7,
+        "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+      }
+    ],
+    "campaign_timeline": {
+      "phase_1": "awareness_building",
+      "phase_2": "educational_content",
+      "phase_3": "soft_engagement",
+      "total_duration_days": 28
+    },
+    "follow_up_schedule": [
+      {
+        "day": 5,
+        "action": "follow_up_email",
+        "channel": "email"
+      },
+      {
+        "day": 12,
+        "action": "linkedin_message",
+        "channel": "linkedin"
+      },
+      {
+        "day": 21,
+        "action": "value_add_email",
+        "channel": "email"
+      }
+    ],
+    "contact_info": {
+      "first_name": "Lee",
+      "last_name": "Abbott",
+      "email": "lee.a@abbottcollection.com",
+      "title": "Vice President",
+      "linkedin": "https://www.linkedin.com/in/lee-abbott-a789694b/"
+    },
+    "campaign_metadata": {
+      "created_at": "2025-08-26T12:30:23.140321",
+      "expected_duration": 28,
+      "success_metrics": {
+        "primary_goal": "qualified_conversation",
+        "secondary_goal": "content_engagement",
+        "engagement_threshold": 0.3,
+        "response_target_days": 14
+      },
+      "optimization_notes": [
+        "Moderate pain - focus on education and ROI demonstration",
+        "Highlight performance tracking and coaching capabilities"
+      ]
+    },
+    "webhook_version": "4.0_campaign"
+  }
+]

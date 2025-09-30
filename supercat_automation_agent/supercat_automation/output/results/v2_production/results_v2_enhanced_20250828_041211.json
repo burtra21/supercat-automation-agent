@@ -1,0 +1,298 @@
+{
+  "processing_version": "v2_validated",
+  "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+  "timestamp": "20250828_041211",
+  "summary": {
+    "total_processed": 1,
+    "successful": 1,
+    "errors": 0,
+    "success_rate": "100.0%",
+    "qualification_results": {
+      "total_qualified": 0,
+      "qualification_rate": "0.0%",
+      "tier_distribution": {
+        "TIER_A_IMMEDIATE": 0,
+        "TIER_B_ACTIVE": 0,
+        "TIER_C_MONITOR": 1,
+        "NOT_QUALIFIED": 0
+      },
+      "tier_a_immediate": 0,
+      "tier_b_active": 0,
+      "tier_c_monitor": 1
+    },
+    "psi_analysis": {
+      "average_weighted_psi": "39.2%",
+      "psi_range": "39.2% - 39.2%",
+      "high_psi_count": 0,
+      "medium_psi_count": 0,
+      "low_psi_count": 1
+    },
+    "campaign_generation": {
+      "campaigns_generated": 0,
+      "generation_rate": "0.0%"
+    },
+    "integration_results": {
+      "sent_to_clay": 1,
+      "saved_to_supabase": 0,
+      "clay_success_rate": "100.0%",
+      "supabase_success_rate": "0.0%"
+    }
+  },
+  "stats": {
+    "processed": 1,
+    "qualified": 0,
+    "tier_a_immediate": 0,
+    "tier_b_active": 0,
+    "tier_c_monitor": 1,
+    "sent_to_clay": 1,
+    "saved_to_supabase": 0,
+    "campaigns_generated": 0,
+    "errors": []
+  },
+  "results": [
+    {
+      "company_name": "9to5 Seating",
+      "domain": "9to5seating.com",
+      "processing_version": "v2_validated",
+      "timestamp": "2025-08-28T04:11:54.367511",
+      "status": "completed",
+      "error": null,
+      "website_evidence": {
+        "domain": "https://9to5seating.com",
+        "scan_timestamp": "2025-08-28T04:11:54.367522",
+        "EDP1_SKU_Count_Estimate": 5000,
+        "EDP1_Product_Categories": [
+          "Executive/Conference",
+          "All Materials",
+          "Back to Back Type",
+          "Back to Contracts",
+          "Knit",
+          "Product Updates",
+          "Commercial",
+          "@NCE - Ships in 24 hrs",
+          "Showroom Virtual Tours",
+          "All Seating",
+          "Sales Rep Locator",
+          "Project Spotlight",
+          "Back to Application Type",
+          "Showroom Virtual\n\t\t\t\tTours",
+          "Control Guide",
+          "Back to ABOUT US",
+          "Vox",
+          "Fabric Cards",
+          "Sustainability",
+          "Highlights"
+        ],
+        "EDP1_Category_Count": 20,
+        "EDP1_Configuration_Options": true,
+        "EDP1_Has_Configurator": true,
+        "EDP1_Catalog_Format": "PDF-heavy",
+        "EDP1_Has_Search": true,
+        "EDP1_Search_Sophistication": "Basic",
+        "EDP1_Filter_Options": [],
+        "EDP1_Filter_Count": 0,
+        "EDP1_SKU_Complexity_Pain_Score": 60,
+        "EDP2_Has_Rep_Locator": true,
+        "EDP2_Rep_Portal_Exists": false,
+        "EDP2_Rep_Resources_Accessible": false,
+        "EDP2_Territory_Structure_Visible": false,
+        "EDP2_Rep_Count_Estimate": 20,
+        "EDP2_Territory_Complexity": "Low",
+        "EDP2_Rep_Login_Keywords": [],
+        "EDP2_Rep_Performance_Pain_Score": 65,
+        "EDP6_Channels_Detected": [
+          "Dealer Network",
+          "Contract Sales"
+        ],
+        "EDP6_Channel_Count": 2,
+        "EDP6_Has_Direct_Sales": false,
+        "EDP6_Has_Dealer_Network": true,
+        "EDP6_Has_Ecommerce": false,
+        "EDP6_Has_Trade_Program": false,
+        "EDP6_Has_Contract_Sales": true,
+        "EDP6_Pricing_Transparency": "Public pricing",
+        "EDP6_Brand_Count": 0,
+        "EDP6_Multi_Brand_Detected": false,
+        "EDP6_Channel_Conflict_Pain_Score": 0,
+        "EDP7_Has_Product_Search": true,
+        "EDP7_Has_Advanced_Filters": false,
+        "EDP7_Has_Comparison_Tool": false,
+        "EDP7_Has_Wishlist_Quotes": false,
+        "EDP7_Has_Project_Boards": true,
+        "EDP7_Has_Mobile_Optimization": true,
+        "EDP7_Has_Downloadable_Assets": true,
+        "EDP7_Resource_Formats": [
+          "PDF"
+        ],
+        "EDP7_Resource_Format_Count": 1,
+        "EDP7_Requires_Login_Resources": false,
+        "EDP7_Missing_Tools": [
+          "Comparison tool",
+          "Quote builder"
+        ],
+        "EDP7_Sales_Enablement_Pain_Score": 15,
+        "EDP8_Has_SSL": true,
+        "EDP8_Page_Speed_Score": "Poor",
+        "EDP8_Load_Time_Seconds": 7.3,
+        "EDP8_Modern_Features": [],
+        "EDP8_Modern_Feature_Count": 0,
+        "EDP8_Integration_Signals": [
+          "api"
+        ],
+        "EDP8_Integration_Count": 1,
+        "EDP8_Has_API": true,
+        "EDP8_CMS_Detected": "Wordpress",
+        "EDP8_Uses_CDN": true,
+        "EDP8_Copyright_Year": 2025,
+        "EDP8_Staleness_Score": 0,
+        "EDP8_Has_Legacy_Tech": false,
+        "EDP8_Legacy_Tech_Found": [],
+        "EDP8_Tech_Obsolescence_Pain_Score": 50,
+        "Trade_Shows_Mentioned": [
+          "NeoCon"
+        ],
+        "Trade_Show_Count": 1,
+        "Next_Trade_Show": null,
+        "Weeks_To_Next_Show": null,
+        "Product_Types": [
+          "furniture",
+          "decor"
+        ],
+        "Target_Audience": "Trade only",
+        "Geographic_Presence": "Unknown",
+        "Key_Differentiators": [],
+        "Specific_Missing_Features": [
+          "Comparison tool",
+          "Quote builder",
+          "Rep portal"
+        ],
+        "Mobile_Viewport_Meta": true,
+        "Has_Modern_JS_Framework": true,
+        "JavaScript_Frameworks": [
+          "jquery"
+        ],
+        "Has_Search_Endpoint": true,
+        "Has_Resources_Page": true,
+        "Has_Events_Page": true,
+        "Broken_Links_Count": 3,
+        "Uses_Modern_CSS": true,
+        "Website_Tech_Stack": [
+          "jquery",
+          "Wordpress",
+          "CDN"
+        ]
+      },
+      "psi_analysis": {
+        "methodology": "dual_validated",
+        "validation_study_source": "C2 Supercat Customer Pain Signal Validation Study",
+        "edp_scores": {
+          "EDP1_SKU_Complexity": 60.0,
+          "EDP2_Rep_Management": 65.0,
+          "EDP6_Channel_Conflict": 0.0,
+          "EDP7_Sales_Enablement": 15.0,
+          "EDP8_Technology_Obsolescence": 50.0
+        },
+        "weighted_methodology": {
+          "psi_score": 39.25,
+          "primary_edp": "EDP8_Technology_Obsolescence",
+          "tier": "TIER_C_MONITOR",
+          "qualification_decision": false,
+          "purchase_probability": 0.412125
+        },
+        "averaged_methodology": {
+          "psi_score": 38.0,
+          "primary_edp": "EDP2_Rep_Management",
+          "tier": "TIER_C_MONITOR",
+          "operational_intelligence": {
+            "primary_operational_challenge": "EDP2_Rep_Management",
+            "severity": "medium",
+            "expansion_opportunities": [
+              {
+                "edp": "EDP1_SKU_Complexity",
+                "score": 60.0,
+                "opportunity": "Secondary pain point with 60.0% severity"
+              }
+            ],
+            "conversation_starters": []
+          }
+        },
+        "messaging": {
+          "weighted_methodology_hook": "",
+          "averaged_methodology_hook": "",
+          "crisis_level": "monitor",
+          "urgency_triggers": [],
+          "evidence_based_hooks": [
+            "Your 10 reps have no portal"
+          ]
+        },
+        "evidence_patterns": {
+          "digital_failures": [],
+          "crisis_indicators": [],
+          "competitive_gaps": []
+        },
+        "methodology_comparison": {
+          "primary_edp_match": false,
+          "psi_difference": 1.25,
+          "strategic_implications": {
+            "primary_edp_alignment": false,
+            "messaging_strategy": "Dual approach - lead with weighted, acknowledge averaged",
+            "account_approach": "Crisis intervention first, operational efficiency second",
+            "expansion_potential": "Low - focused pain point approach recommended"
+          }
+        }
+      },
+      "campaign": {
+        "campaign_type": "educational_nurture",
+        "qualification_tier": "TIER_C_MONITOR",
+        "primary_methodology": "averaged",
+        "approach": "operational_efficiency_focus",
+        "email_sequence": [
+          {
+            "sequence_step": 1,
+            "send_day": 0,
+            "email_type": "operational_efficiency",
+            "subject": "Found 9to5 Seating's operational improvement opportunities",
+            "body": "Hi 9to5 Seating Team,\n\nOur recent analysis in the C2 Supercat Customer Pain Signal Validation Study highlights critical operational inefficiencies impacting your business. Specifically, your team of 10 reps is operating without a dedicated portal, leading to a potential 65% optimization gap in rep performance management. This is compounded by a 60% optimization opportunity in SKU management due to SKU complexity and a further 50% due to technology obsolescence.\n\nThese gaps not only reduce operational efficiency but also place you at a significant competitive disadvantage, risking both client retention and market position. Immediate action is necessary to address these issues and safeguard your business's future.\n\nTo discuss a tailored solution that addresses these critical points, I recommend we schedule a call within the next 48 hours. Please let me know your availability.\n\nBest regards,\n\n[Your Name]",
+            "methodology": "averaged",
+            "primary_edp": "EDP2_Rep_Management",
+            "pain_points": [
+              "\u2022 SKU Management SKU Complexity: 60% optimization opportunity",
+              "\u2022 Rep Performance Rep Management: 65% optimization opportunity",
+              "\u2022 Technology Technology Obsolescence: 50% optimization opportunity"
+            ],
+            "personalization_data": {
+              "company_name": "9to5 Seating",
+              "evidence_hooks": [
+                "Your 10 reps have no portal"
+              ],
+              "improvement_opportunities": 3
+            }
+          }
+        ],
+        "linkedin_sequence": [
+          {
+            "type": "educational_content",
+            "message": "Educational LinkedIn content...",
+            "send_day": 0,
+            "methodology": "averaged"
+          }
+        ],
+        "content_suggestions": [
+          {
+            "content_type": "whitepaper",
+            "title": "Operational Efficiency in Furniture Manufacturing",
+            "description": "Best practices for operational improvement"
+          }
+        ],
+        "validation_context": {
+          "study_source": "C2 Supercat Customer Pain Signal Validation Study",
+          "methodology_used": "dual_validated",
+          "weighted_psi": 39.25,
+          "averaged_psi": 38.0,
+          "purchase_probability": 0.412125,
+          "qualification_accuracy": "85% validated accuracy"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "company_id": "6aae2780-4bcf-4ea5-ac9f-db76b0446583",
+  "company_name": "Abbott Collection",
+  "domain": "abbottcollection.com",
+  "tam_tier": "TIER_3_NURTURE",
+  "psi_score": 23.7,
+  "primary_edp": "rep_performance_crisis",
+  "edp_scores": {
+    "sales_enablement_collapse": 0.25,
+    "technology_obsolescence": 0.2,
+    "rep_performance_crisis": 1.0,
+    "sku_complexity": 0.25,
+    "channel_conflict": 0.3
+  },
+  "evidence": [
+    "No dealer/rep portal detected",
+    "No modern web framework detected",
+    "No rep/dealer locator found",
+    "No dedicated rep resources section",
+    "Only 0 filter options found on catalog page."
+  ],
+  "detailed_evidence": {
+    "sales_enablement_collapse": {
+      "score": 0.25,
+      "indicators": [
+        "no_dealer_portal"
+      ],
+      "issues": [
+        "No dealer/rep portal detected"
+      ],
+      "strength": "weak"
+    },
+    "technology_obsolescence": {
+      "score": 0.2,
+      "indicators": [
+        "no_modern_framework"
+      ],
+      "issues": [
+        "No modern web framework detected"
+      ],
+      "strength": "weak"
+    },
+    "rep_performance_crisis": {
+      "score": 1.0,
+      "indicators": [
+        "no_rep_locator",
+        "no_rep_resources",
+        "no_territory_info"
+      ],
+      "issues": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ],
+      "strength": "strong"
+    },
+    "sku_complexity": {
+      "score": 0.25,
+      "indicators": [
+        "limited_filtering"
+      ],
+      "issues": [
+        "Only 0 filter options found on catalog page."
+      ],
+      "strength": "weak"
+    },
+    "channel_conflict": {
+      "score": 0.3,
+      "indicators": [
+        "hidden_pricing"
+      ],
+      "issues": [
+        "Pricing requires login - channel conflict likely"
+      ],
+      "strength": "moderate"
+    },
+    "specific_findings": [
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "No territory information visible"
+    ]
+  },
+  "persona_type": "sales_leadership",
+  "backup_persona": "c_suite",
+  "persona_reason": "Primary EDP is rep_performance_crisis",
+  "urgency_level": "none",
+  "campaign_strategy": "nurture",
+  "days_until_show": -494,
+  "email_sequence": [
+    {
+      "day": 0,
+      "subject": "Why Abbott Collection's top reps are 10x more productive",
+      "body": "Hi {{first_name}},\n\nI've noticed a pattern: top furniture reps use tools 10-12 times daily, while bottom performers barely log in.\n\nWithout visibility into rep activity, you can't coach the underperformers.\n\nHow do you currently track rep productivity?\n\n{{sender_name}}"
+    },
+    {
+      "day": 3,
+      "subject": "27% rep turnover is killing your growth",
+      "body": "{{first_name}},\n\nThe industry average 27% rep turnover costs Abbott Collection approximately $500K annually in lost relationships and training.\n\neCat shows exactly which reps need help before they fail.\n\nWorth discussing?\n\n{{sender_name}}"
+    }
+  ],
+  "linkedin_sequence": [
+    {
+      "type": "connection_request",
+      "message": "Hi {{first_name}}, noticed Abbott Collection works with independent reps. Getting them to adopt new tools must be challenging. We've solved this for 50+ brands."
+    },
+    {
+      "type": "follow_up_message",
+      "day": 7,
+      "message": "{{first_name}}, thanks for connecting! Curious - what's your biggest challenge with sales operations right now?"
+    }
+  ],
+  "contact_info": {
+    "first_name": "Lee",
+    "last_name": "Abbott",
+    "email": "lee.a@abbottcollection.com",
+    "title": "Vice President",
+    "linkedin": "https://www.linkedin.com/in/lee-abbott-a789694b/"
+  },
+  "company_info": {
+    "industry": "Wholesale",
+    "employee_count": 95
+  },
+  "created_at": "2025-08-26T09:20:27.236353",
+  "webhook_version": "3.0"
+}

@@ -1,0 +1,22 @@
+
+            ========================================
+            TRADE SHOW SCRAPING REPORT
+            ========================================
+            Timestamp: 2025-08-16 08:08:33
+            
+            Summary:
+            - Scrapers Run: 3
+            - Successful: 0
+            - Failed: 3
+            
+            Results:
+            - Total Exhibitors Found: 0
+            - Total Exhibitors Processed: 0
+            - Processing Rate: 0.0%
+            
+            Details:
+            
+❌ Unknown: 'Settings' object has no attribute 'twocaptcha_api_key'
+❌ Unknown: 'Settings' object has no attribute 'twocaptcha_api_key'
+❌ Unknown: 'Settings' object has no attribute 'twocaptcha_api_key'
+========================================

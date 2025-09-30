@@ -1,0 +1,88 @@
+{
+  "webhook_type": "campaign",
+  "company_id": "81369b2a-033d-4942-b1b4-bc5e1b5d9336",
+  "company_name": "A & B HOME GROUP, INC.",
+  "domain": "abhomeinc.com",
+  "tam_tier": "TIER_3_NURTURE",
+  "psi_score": 23.7,
+  "primary_edp": "rep_performance_crisis",
+  "persona_type": "sales_leadership",
+  "backup_persona": "c_suite",
+  "persona_reason": "Primary EDP is rep_performance_crisis",
+  "urgency_level": "none",
+  "campaign_strategy": "nurture",
+  "days_until_show": -494,
+  "email_sequence": [
+    {
+      "day": 0,
+      "subject": "Rep productivity study results",
+      "body": "Hi {{first_name}},\n\nFurniture rep performance study: Top 20% use digital tools 8-12x daily. Bottom 20% use them less than 2x daily.\n\nHooker Furniture gained visibility into rep activity - improved bottom quartile performance by 45%.\n\nHow do you currently track rep engagement?\n\n{{sender_name}}"
+    },
+    {
+      "day": 3,
+      "subject": "Hooker Furniture case study",
+      "body": "{{first_name}},\n\nHooker Furniture's rep performance results:\n\n- 45% improvement in underperformer productivity\n- 23% reduction in rep turnover\n- Early warning system for at-risk reps\n\nTheir VP Sales calls it 'game-changing visibility.'\n\nInterested in their approach?\n\n{{sender_name}}"
+    },
+    {
+      "day": 7,
+      "subject": "Industry turnover costs",
+      "body": "{{first_name}},\n\nNational Furniture Rep Association data: Average replacement cost per rep is $47,000.\n\nCompany with similar profile reduced turnover from 31% to 19% using performance analytics.\n\nROI was 340% in year one.\n\nWorth exploring?\n\n{{sender_name}}"
+    }
+  ],
+  "linkedin_sequence": [
+    {
+      "type": "connection_request",
+      "message": "Hi {{first_name}}, noticed you work with sales reps - saw some interesting performance benchmarking data you might find valuable."
+    },
+    {
+      "type": "follow_up_message",
+      "day": 7,
+      "message": "{{first_name}}, thanks for connecting! What trends are you seeing in your sales operations lately?"
+    }
+  ],
+  "campaign_timeline": {
+    "phase_1": "relationship_building",
+    "phase_2": "value_demonstration",
+    "phase_3": "long_term_engagement",
+    "total_duration_days": 60
+  },
+  "follow_up_schedule": [
+    {
+      "day": 7,
+      "action": "educational_content",
+      "channel": "email"
+    },
+    {
+      "day": 21,
+      "action": "industry_insights",
+      "channel": "linkedin"
+    },
+    {
+      "day": 42,
+      "action": "check_in",
+      "channel": "email"
+    }
+  ],
+  "contact_info": {
+    "first_name": "Emad",
+    "last_name": "Botros",
+    "email": "emadb@abhongda.net",
+    "title": "Director of Operations & Logistics",
+    "linkedin": "https://www.linkedin.com/in/emadbotors/"
+  },
+  "campaign_metadata": {
+    "created_at": "2025-08-26T13:57:23.953891",
+    "expected_duration": 60,
+    "success_metrics": {
+      "primary_goal": "relationship_building",
+      "secondary_goal": "awareness_increase",
+      "engagement_threshold": 0.2,
+      "response_target_days": 30
+    },
+    "optimization_notes": [
+      "Lower pain - build relationship and awareness first",
+      "Highlight performance tracking and coaching capabilities"
+    ]
+  },
+  "webhook_version": "4.0_campaign"
+}

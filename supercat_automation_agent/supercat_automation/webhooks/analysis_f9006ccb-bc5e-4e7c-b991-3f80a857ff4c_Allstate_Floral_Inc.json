@@ -1,0 +1,120 @@
+{
+  "webhook_type": "analysis",
+  "company_id": "f9006ccb-bc5e-4e7c-b991-3f80a857ff4c",
+  "company_name": "Allstate Floral, Inc.",
+  "domain": "allstatefloral.com",
+  "tam_tier": "TIER_2_ACTIVE",
+  "psi_score": 50.3,
+  "primary_edp": "sales_enablement_collapse",
+  "edp_scores": {
+    "sales_enablement_collapse": 0.8,
+    "technology_obsolescence": 0.2,
+    "rep_performance_crisis": 1.0,
+    "sku_complexity": 0.1,
+    "channel_conflict": 0
+  },
+  "evidence": [
+    "No product search functionality found",
+    "Not mobile optimized - critical for trade shows",
+    "No modern web framework detected",
+    "No rep/dealer locator found",
+    "No dedicated rep resources section"
+  ],
+  "detailed_evidence": {
+    "sales_enablement_collapse": {
+      "score": 0.8,
+      "indicators": [
+        "no_product_search",
+        "no_mobile_optimization",
+        "no_dealer_portal"
+      ],
+      "issues": [
+        "No product search functionality found",
+        "Not mobile optimized - critical for trade shows",
+        "No dealer/rep portal detected"
+      ],
+      "strength": "strong"
+    },
+    "technology_obsolescence": {
+      "score": 0.2,
+      "indicators": [
+        "no_modern_framework"
+      ],
+      "issues": [
+        "No modern web framework detected"
+      ],
+      "strength": "weak"
+    },
+    "rep_performance_crisis": {
+      "score": 1.0,
+      "indicators": [
+        "no_rep_locator",
+        "no_rep_resources",
+        "no_territory_info"
+      ],
+      "issues": [
+        "No rep/dealer locator found",
+        "No dedicated rep resources section",
+        "No territory information visible"
+      ],
+      "strength": "strong"
+    },
+    "sku_complexity": {
+      "score": 0.1,
+      "indicators": [],
+      "issues": [
+        "Could not find a product or catalog page."
+      ],
+      "strength": "none"
+    },
+    "channel_conflict": {
+      "score": 0,
+      "indicators": [],
+      "issues": [],
+      "strength": "none"
+    },
+    "specific_findings": [
+      "No product search functionality found",
+      "Not mobile optimized - critical for trade shows",
+      "No dealer/rep portal detected",
+      "No rep/dealer locator found",
+      "No dedicated rep resources section",
+      "No territory information visible"
+    ]
+  },
+  "urgency_level": "high",
+  "website_analysis": {
+    "technology_stack": {},
+    "seo_metrics": {},
+    "content_analysis": {},
+    "user_experience": {}
+  },
+  "competitive_positioning": {
+    "market_segment": "smb",
+    "competitive_threats": [],
+    "differentiation_opportunities": []
+  },
+  "contact_info": {
+    "first_name": "Tim",
+    "last_name": "Turntine",
+    "email": NaN,
+    "title": "Vice President of Sales",
+    "linkedin": "https://www.linkedin.com/in/tim-turntine-60919b120/"
+  },
+  "company_info": {
+    "industry": "Wholesale",
+    "employee_count": 63,
+    "revenue_estimate": "",
+    "headquarters": ""
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-08-26T13:57:27.252579",
+    "data_sources": [
+      "website_analysis",
+      "contact_enrichment"
+    ],
+    "confidence_score": 0.8,
+    "last_updated": "2025-08-26T13:57:27.252608"
+  },
+  "webhook_version": "4.0_analysis"
+}

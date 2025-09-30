@@ -1,0 +1,6227 @@
+{
+  "stats": {
+    "processed": 72,
+    "qualified": 68,
+    "sent_to_clay": 68,
+    "saved_to_supabase": 0,
+    "errors": []
+  },
+  "results": [
+    {
+      "company": "9to5 Seating",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.45,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 38.666666666666664,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "Found 11 PDF downloads - indicates manual processes",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.45,
+            "indicators": [
+              "pdf_heavy",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "Found 11 PDF downloads - indicates manual processes",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "9to5seating"
+          },
+          {
+            "type": "trade_show",
+            "value": "neocon"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "",
+              "SEATING",
+              "Stool",
+              "Executive/Conference",
+              "Lounge"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Abbott Collection",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0.3
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0.3,
+            "indicators": [
+              "hidden_pricing"
+            ],
+            "issues": [
+              "Pricing requires login - channel conflict likely"
+            ],
+            "strength": "moderate"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Abbott Wholesale Home D\u00e9cor"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Company History",
+              "Digital Catalogues",
+              "Events, Shows, & Promotions",
+              "Our Team",
+              "Become a Retail Partner"
+            ]
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "A & B HOME GROUP, INC.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Allstate Floral, Inc.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.8,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "sales_enablement_collapse",
+        "psi_score": 50.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "Not mobile optimized - critical for trade shows",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.8,
+            "indicators": [
+              "no_product_search",
+              "no_mobile_optimization",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "Not mobile optimized - critical for trade shows",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "strong"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Allstate Floral, Inc"
+          }
+        ],
+        "urgency": "medium"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "A. Rudin",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "A Rudin"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "About",
+              "History",
+              "Videos",
+              "Press & Events",
+              "Green Policy"
+            ]
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Capel Rugs",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Could not find a product or catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Rugs Manufacturer in USA, Importer & Seller"
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Anne McGilvray & Company",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 0.6499999999999999,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0.3
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 29.25,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No dedicated rep resources section",
+          "No territory information visible",
+          "Only 2 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 0.6499999999999999,
+            "indicators": [
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 2 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0.3,
+            "indicators": [
+              "hidden_pricing"
+            ],
+            "issues": [
+              "Pricing requires login - channel conflict likely"
+            ],
+            "strength": "moderate"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Anne McGilvray & Company"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Brands",
+              "Categories",
+              "Apparel & Accessories",
+              "Gift",
+              "Candy"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Castelle",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.4,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 49.93333333333334,
+        "qualification_tier": "TIER_1_IMMEDIATE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "Copyright year is 1749 - site appears unmaintained",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.4,
+            "indicators": [
+              "outdated_copyright",
+              "no_modern_framework"
+            ],
+            "issues": [
+              "Copyright year is 1749 - site appears unmaintained",
+              "No modern web framework detected"
+            ],
+            "strength": "moderate"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "High Quality Handcrafted Luxury Outdoor Furniture - Castelle"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Products",
+              "Collection",
+              "Type",
+              "New Introductions",
+              "Gala"
+            ]
+          }
+        ],
+        "urgency": "high"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Atkore",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.4,
+          "rep_performance_crisis": 0.7,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 42.833333333333336,
+        "qualification_tier": "TIER_1_IMMEDIATE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "Copyright year is 26 - site appears unmaintained",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.4,
+            "indicators": [
+              "outdated_copyright",
+              "no_modern_framework"
+            ],
+            "issues": [
+              "Copyright year is 26 - site appears unmaintained",
+              "No modern web framework detected"
+            ],
+            "strength": "moderate"
+          },
+          "rep_performance_crisis": {
+            "score": 0.7,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Electrical Cable Management, Safety, & Infrastructure Solutions"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Careers",
+              "Investors",
+              "Locate an Agent"
+            ]
+          }
+        ],
+        "urgency": "high"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Golden Rabbit II, Inc.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "Copyright year is 2023 - site appears unmaintained",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "outdated_copyright"
+            ],
+            "issues": [
+              "Copyright year is 2023 - site appears unmaintained"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Crow Canyon Enamelware - Enamelware, Cookware and Splatterware"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Collections",
+              "By Brand",
+              "Crow Canyon Home",
+              "Catalina",
+              "Splatter"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Bernhardt Furniture Co",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 0.6499999999999999,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 29.25,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No dedicated rep resources section",
+          "No territory information visible",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 0.6499999999999999,
+            "indicators": [
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Luxury Furniture"
+          },
+          {
+            "type": "trade_show",
+            "value": "vegas market"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "",
+              "",
+              "",
+              "Change Password",
+              "Logout"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Big Ass Fans",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.4,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0.3
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 49.93333333333334,
+        "qualification_tier": "TIER_1_IMMEDIATE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "Copyright year is 2023 - site appears unmaintained",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.4,
+            "indicators": [
+              "outdated_copyright",
+              "no_modern_framework"
+            ],
+            "issues": [
+              "Copyright year is 2023 - site appears unmaintained",
+              "No modern web framework detected"
+            ],
+            "strength": "moderate"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0.3,
+            "indicators": [
+              "hidden_pricing"
+            ],
+            "issues": [
+              "Pricing requires login - channel conflict likely"
+            ],
+            "strength": "moderate"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Big Ass Fans"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "877-244-3267",
+              "Find a Distributor",
+              "Store Finder"
+            ]
+          }
+        ],
+        "urgency": "high"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Bulbrite Industries",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.4,
+          "rep_performance_crisis": 0.6499999999999999,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 41.65,
+        "qualification_tier": "TIER_1_IMMEDIATE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "Copyright year is 1926 - site appears unmaintained",
+          "No modern web framework detected",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.4,
+            "indicators": [
+              "outdated_copyright",
+              "no_modern_framework"
+            ],
+            "issues": [
+              "Copyright year is 1926 - site appears unmaintained",
+              "No modern web framework detected"
+            ],
+            "strength": "moderate"
+          },
+          "rep_performance_crisis": {
+            "score": 0.6499999999999999,
+            "indicators": [
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Turn Life On\n \u2013 Bulbrite"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "A-Shape",
+              "ST-Shape",
+              "Chandelier",
+              "Globe",
+              "Tubular"
+            ]
+          }
+        ],
+        "urgency": "high"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "burton + BURTON",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Could not find a product or catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Jackson Furniture Industries",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Jackson Catnapper"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "",
+              "Home",
+              "Products",
+              "Sofas",
+              "Reclining Sofas"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Century Furniture",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.5,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 40.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.5,
+            "indicators": [
+              "no_product_search",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Century Furniture - Infinite Possibilities. Unlimited Attention \u00ae"
+          }
+        ],
+        "urgency": "medium"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Coaster Company of America",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.5,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 40.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.5,
+            "indicators": [
+              "no_product_search",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Coaster Furniture - Home"
+          }
+        ],
+        "urgency": "medium"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "CTG Brands Inc.",
+      "analysis": {
+        "edp_scores": {},
+        "primary_edp": "unknown",
+        "psi_score": 0.0,
+        "qualification_tier": "NOT_QUALIFIED",
+        "key_evidence": [],
+        "detailed_evidence": {},
+        "personalization_data": [],
+        "urgency": "none"
+      },
+      "status": "not_qualified"
+    },
+    {
+      "company": "Cyncly",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0,
+          "rep_performance_crisis": 0.7,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 30.433333333333334,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page.",
+          "Product configurator detected - high complexity"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          },
+          "rep_performance_crisis": {
+            "score": 0.7,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "End-to-end Design Software Solutions"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "",
+              "Products",
+              "",
+              "View all available products",
+              "Industries"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Dovetail Furniture Pvt Ltd",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "School Furniture"
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "EGLO Leuchten",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0.3
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0.3,
+            "indicators": [
+              "hidden_pricing"
+            ],
+            "issues": [
+              "Pricing requires login - channel conflict likely"
+            ],
+            "strength": "moderate"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "EGLO"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Interior Lighting",
+              "Ceiling Lights",
+              "LED Ceiling Lights",
+              "Crystal Ceiling Lights",
+              "Fabric Ceiling Lights"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "World of Eichholtz",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.45,
+          "technology_obsolescence": 0.4,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 51.06666666666666,
+        "qualification_tier": "TIER_1_IMMEDIATE",
+        "key_evidence": [
+          "Found 22 PDF downloads - indicates manual processes",
+          "No dealer/rep portal detected",
+          "Copyright year is 2023 - site appears unmaintained",
+          "No modern web framework detected",
+          "No rep/dealer locator found"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.45,
+            "indicators": [
+              "pdf_heavy",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "Found 22 PDF downloads - indicates manual processes",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.4,
+            "indicators": [
+              "outdated_copyright",
+              "no_modern_framework"
+            ],
+            "issues": [
+              "Copyright year is 2023 - site appears unmaintained",
+              "No modern web framework detected"
+            ],
+            "strength": "moderate"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Eichholtz Official"
+          },
+          {
+            "type": "trade_show",
+            "value": "high point market"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "de\nDeutsch",
+              "es\nEspa\u00f1ol",
+              "fr\nFran\u00e7ais"
+            ]
+          }
+        ],
+        "urgency": "high"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "EJ Victor",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.5,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 40.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.5,
+            "indicators": [
+              "no_product_search",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "EJ Victor  Quality Hand-Crafted Furniture"
+          }
+        ],
+        "urgency": "medium"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "ERG International",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.4,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 36.06666666666667,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "Copyright year is 2019 - site appears unmaintained",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.4,
+            "indicators": [
+              "outdated_copyright",
+              "no_modern_framework"
+            ],
+            "issues": [
+              "Copyright year is 2019 - site appears unmaintained",
+              "No modern web framework detected"
+            ],
+            "strength": "moderate"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Welcome to ERG International"
+          },
+          {
+            "type": "trade_show",
+            "value": "neocon"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "",
+              "",
+              "PRODUCTS",
+              "New",
+              "Tables"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Fairmont Designs",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Fairmont Designs \u2013 From premium hotel brands and casinos to boutiques and resorts."
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Fanimation",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.45,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 52.53333333333333,
+        "qualification_tier": "TIER_1_IMMEDIATE",
+        "key_evidence": [
+          "Found 8 PDF downloads - indicates manual processes",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.45,
+            "indicators": [
+              "pdf_heavy",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "Found 8 PDF downloads - indicates manual processes",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Fanimation"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Products",
+              "All Products",
+              "Damp Rated Fans",
+              "Wet Rated Fans",
+              "Help Center"
+            ]
+          }
+        ],
+        "urgency": "high"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Feizy Rugs",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.5,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 40.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.5,
+            "indicators": [
+              "no_product_search",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [],
+        "urgency": "medium"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "F&H Group A/S",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "F&H Group \u2013 A global brand house in Kitchen Living Dining"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Brands",
+              "Zone Denmark",
+              "Rosti",
+              "Hoptimist",
+              "BITZ"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Fine Art Handcrafted Lighting",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.4,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 49.93333333333334,
+        "qualification_tier": "TIER_1_IMMEDIATE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "Copyright year is 1400 - site appears unmaintained",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.4,
+            "indicators": [
+              "outdated_copyright",
+              "no_modern_framework"
+            ],
+            "issues": [
+              "Copyright year is 1400 - site appears unmaintained",
+              "No modern web framework detected"
+            ],
+            "strength": "moderate"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Handcrafted Luxury Lighting: Modern & Classic Elegance"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Sign in",
+              "Register",
+              "Products",
+              "Indoor",
+              "Accessory"
+            ]
+          }
+        ],
+        "urgency": "high"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "HTL International Holdings Ltd",
+      "analysis": {
+        "edp_scores": {},
+        "primary_edp": "unknown",
+        "psi_score": 0.0,
+        "qualification_tier": "NOT_QUALIFIED",
+        "key_evidence": [],
+        "detailed_evidence": {},
+        "personalization_data": [],
+        "urgency": "none"
+      },
+      "status": "not_qualified"
+    },
+    {
+      "company": "Indiana Furniture",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0.3
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page.",
+          "Product configurator detected - high complexity"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0.3,
+            "indicators": [
+              "hidden_pricing"
+            ],
+            "issues": [
+              "Pricing requires login - channel conflict likely"
+            ],
+            "strength": "moderate"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Desk, Office & Chair Furniture Manufacturers Company Jasper"
+          },
+          {
+            "type": "trade_show",
+            "value": "neocon"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "All Products",
+              "Search",
+              "Careers",
+              "Find a Sales Rep",
+              "Sales Rep Login"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Jaipur Living",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Jaipur Living"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Rugs",
+              "New Arrivals",
+              "All Rugs",
+              "Best Sellers",
+              "In Stock"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "JANUS et Cie",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Could not find a product or catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Just a moment..."
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Kaleen Rugs",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "HOME - Kaleen"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "RUGS",
+              "FEATURED",
+              "All Collections",
+              "New Arrivals",
+              "Display & Samples"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Keystone Collections Group",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Could not find a product or catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Keystone Collections Group"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Home",
+              "About",
+              "About Keystone",
+              "Services",
+              "Careers"
+            ]
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Career Break",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Upscale Home Furnishings"
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Loloi Rugs",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.5,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 40.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.5,
+            "indicators": [
+              "no_product_search",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Loloi Rugs"
+          }
+        ],
+        "urgency": "medium"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "OFS",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0.3
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0.3,
+            "indicators": [
+              "hidden_pricing"
+            ],
+            "issues": [
+              "Pricing requires login - channel conflict likely"
+            ],
+            "strength": "moderate"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "OFS - Homepage"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Imagine a Place",
+              "Welcome",
+              "The Journal",
+              "Publications",
+              "Issue 1"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Orica",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Could not find a product or catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Just a moment..."
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Oriental Weavers",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Home"
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Outdoor Interiors",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Could not find a product or catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Teak and Eucalyptus Wood Outdoor Furniture, Tables and Chairs"
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Phillip Jeffries Ltd",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Phillip Jeffries"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "What's New",
+              "Now In Stock",
+              "Categories",
+              "Books & Binders",
+              "Fan Decks"
+            ]
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Porcelanosa",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.5,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 40.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.5,
+            "indicators": [
+              "no_product_search",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "The URL you requested has been blocked"
+          }
+        ],
+        "urgency": "medium"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Gerson - Louis M. Gerson Co., Inc.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Homepage - Gerson"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Home",
+              "About Us",
+              "Quality",
+              "Gerson Product Catalog",
+              "Products"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Self employed",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page.",
+          "Product configurator detected - high complexity"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Global Views"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Shop",
+              "New Introductions",
+              "Art Glass",
+              "Barware+",
+              "Serveware"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Green Furniture Concept",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Home - Green Furniture Concept"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "",
+              "Products",
+              "Products",
+              "Ascent Seating",
+              "Nova C Seating"
+            ]
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Kaemingk International",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 0.7,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 16.566666666666666,
+        "qualification_tier": "NOT_QUALIFIED",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Could not find a product or catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 0.7,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Kaemingk.com"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Contact",
+              "Werken bij Kaemingk",
+              "Deutsch",
+              "English",
+              "Espa\u00f1ol"
+            ]
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "not_qualified"
+    },
+    {
+      "company": "Quorum",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Disaster Recovery & Ransomware Protection Solution - Quorum"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "",
+              "",
+              "",
+              "Resources",
+              "Resource Library"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "K&K Interiors, Inc.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "K&K Interiors"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "",
+              "",
+              "LOGIN | REGISTER",
+              "My Account",
+              "Contact Us"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "RAZ Imports Inc.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "RAZ Imports, Inc - Seasonal Wholesale Importer"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "800.443.3540",
+              "Retailer Registration",
+              "Sign In",
+              "Forgot Password?",
+              ""
+            ]
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Gruppo Mastrotto",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Could not find a product or catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Gruppo Mastrotto - World Leader in Leather Production - Gruppo Mastrotto"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "My Express"
+            ]
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Okamura",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.8,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "sales_enablement_collapse",
+        "psi_score": 50.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "Not mobile optimized - critical for trade shows",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.8,
+            "indicators": [
+              "no_product_search",
+              "no_mobile_optimization",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "Not mobile optimized - critical for trade shows",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "strong"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "ERROR: The request could not be satisfied"
+          }
+        ],
+        "urgency": "medium"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "pacific home & garden",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0.3
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page.",
+          "Pricing requires login - channel conflict likely"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0.3,
+            "indicators": [
+              "hidden_pricing"
+            ],
+            "issues": [
+              "Pricing requires login - channel conflict likely"
+            ],
+            "strength": "moderate"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Pacific Home & Garden - Pottery Wholesale"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "",
+              "Shop by Collection",
+              "Outdoor",
+              "Le Beau",
+              "Planters"
+            ]
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Riverside Furniture Corporation",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.4,
+          "rep_performance_crisis": 0.6499999999999999,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 41.65,
+        "qualification_tier": "TIER_1_IMMEDIATE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "Copyright year is 1999 - site appears unmaintained",
+          "No modern web framework detected",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.4,
+            "indicators": [
+              "outdated_copyright",
+              "no_modern_framework"
+            ],
+            "issues": [
+              "Copyright year is 1999 - site appears unmaintained",
+              "No modern web framework detected"
+            ],
+            "strength": "moderate"
+          },
+          "rep_performance_crisis": {
+            "score": 0.6499999999999999,
+            "indicators": [
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Home Page"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Collections",
+              "Cottage",
+              "Aberdeen",
+              "Bennett",
+              "Cora"
+            ]
+          }
+        ],
+        "urgency": "high"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Ashley Furniture Industries",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Sagebrook Home"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Decor",
+              "Decorative Accessories",
+              "Bookends",
+              "Bowls",
+              "Boxes"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Steinel America Inc.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 0.6499999999999999,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 29.25,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No dedicated rep resources section",
+          "No territory information visible",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 0.6499999999999999,
+            "indicators": [
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "STEINEL"
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Sanderson Design Group plc.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Could not find a product or catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Homepage"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "About us",
+              "About us",
+              "Overview",
+              "Strategy and Sustainability",
+              "Purpose and Values"
+            ]
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Vice President Business Development",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.5,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 40.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.5,
+            "indicators": [
+              "no_product_search",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Sunny Designs Home"
+          }
+        ],
+        "urgency": "medium"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Satco Products, Incorporated",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 0.6499999999999999,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 29.25,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No dedicated rep resources section",
+          "No territory information visible",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 0.6499999999999999,
+            "indicators": [
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "SATCO/NUVO"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Starfish",
+              "About",
+              "Our Business",
+              "History",
+              "New Products"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Sherrill Furniture Brands",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 0.6499999999999999,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 29.25,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No dedicated rep resources section",
+          "No territory information visible",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 0.6499999999999999,
+            "indicators": [
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Furniture Company, USA Manufacturer"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "NEW",
+              "All",
+              "9600/9700 Design Your Own",
+              "9800 Sherrill Your Way",
+              "THE TRUMAN COLLECTION"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Vanguard Furniture",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.4,
+          "rep_performance_crisis": 0.6499999999999999,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 41.65,
+        "qualification_tier": "TIER_1_IMMEDIATE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "Copyright year is 833 - site appears unmaintained",
+          "No modern web framework detected",
+          "No dedicated rep resources section",
+          "No territory information visible"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.4,
+            "indicators": [
+              "outdated_copyright",
+              "no_modern_framework"
+            ],
+            "issues": [
+              "Copyright year is 833 - site appears unmaintained",
+              "No modern web framework detected"
+            ],
+            "strength": "moderate"
+          },
+          "rep_performance_crisis": {
+            "score": 0.6499999999999999,
+            "indicators": [
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Vanguard Furniture"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "All",
+              "Beds",
+              "Benches and Ottomans",
+              "Dressers and Chests",
+              "Mirrors"
+            ]
+          }
+        ],
+        "urgency": "high"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Spoonflower",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "Copyright year is 2008 - site appears unmaintained",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 1 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "outdated_copyright"
+            ],
+            "issues": [
+              "Copyright year is 2008 - site appears unmaintained"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 1 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Spoonflower \u2013 Design & Shop Custom Fabric, Wallpaper, Home D\u00e9cor"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Inspiration",
+              "Inspiration",
+              "All Rooms",
+              "Bathroom",
+              "Bedroom"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Standard Fiber",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.8,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "sales_enablement_collapse",
+        "psi_score": 50.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "Not mobile optimized - critical for trade shows",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.8,
+            "indicators": [
+              "no_product_search",
+              "no_mobile_optimization",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "Not mobile optimized - critical for trade shows",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "strong"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [],
+        "urgency": "medium"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Acme furniture",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.45,
+          "technology_obsolescence": 0.4,
+          "rep_performance_crisis": 0.6499999999999999,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 56.65,
+        "qualification_tier": "TIER_1_IMMEDIATE",
+        "key_evidence": [
+          "Found 15 PDF downloads - indicates manual processes",
+          "No dealer/rep portal detected",
+          "Copyright year is 2019 - site appears unmaintained",
+          "No modern web framework detected",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.45,
+            "indicators": [
+              "pdf_heavy",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "Found 15 PDF downloads - indicates manual processes",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.4,
+            "indicators": [
+              "outdated_copyright",
+              "no_modern_framework"
+            ],
+            "issues": [
+              "Copyright year is 2019 - site appears unmaintained",
+              "No modern web framework detected"
+            ],
+            "strength": "moderate"
+          },
+          "rep_performance_crisis": {
+            "score": 0.6499999999999999,
+            "indicators": [
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Acme Furniture - The best source of fine home furnishings"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "On Sale",
+              "Clearance Sale",
+              "High Demand Best Seller",
+              "Popular",
+              "Trending Style"
+            ]
+          }
+        ],
+        "urgency": "high"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Steve Silver Company",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page.",
+          "Product configurator detected - high complexity"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Home - Steve Silver Company"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "ABOUT US",
+              "IN THE PRESS",
+              "CURRENT CATALOG",
+              "FLIP CATALOG",
+              "VIRTUAL SHOWROOM OCTOBER 2024"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "AHF",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.5,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 0.7,
+          "sku_complexity": 0.25,
+          "channel_conflict": 0
+        },
+        "primary_edp": "sales_enablement_collapse",
+        "psi_score": 33.23333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.5,
+            "indicators": [
+              "no_product_search",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 0.7,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.25,
+            "indicators": [
+              "limited_filtering"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page."
+            ],
+            "strength": "weak"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "AHF"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "",
+              "Connect",
+              "",
+              "",
+              "Our Brands"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Benjamin Moore",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 0.7,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 30.433333333333334,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 0.7,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Benjamin Moore Paints & Exterior Stains"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Skip To Main Content",
+              "",
+              "",
+              "",
+              "Skip To Main Content"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Bradley Company",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.5,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 40.333333333333336,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No product search functionality found",
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.5,
+            "indicators": [
+              "no_product_search",
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No product search functionality found",
+              "No dealer/rep portal detected"
+            ],
+            "strength": "moderate"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Bradley Corp"
+          }
+        ],
+        "urgency": "medium"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Streamline Art & Frame",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.1,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 23.666666666666668,
+        "qualification_tier": "TIER_3_NURTURE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Could not find a product or catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.1,
+            "indicators": [],
+            "issues": [
+              "Could not find a product or catalog page."
+            ],
+            "strength": "none"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Just a moment..."
+          }
+        ],
+        "urgency": "none"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "The Tommy Bahama Group",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0,
+          "rep_performance_crisis": 0.7,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 30.433333333333334,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 1 filter options found on catalog page.",
+          "Product configurator detected - high complexity"
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          },
+          "rep_performance_crisis": {
+            "score": 0.7,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 1 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0,
+            "indicators": [],
+            "issues": [],
+            "strength": "none"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Tommy Bahama: Men's & Women's Clothing, Beach & Home"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Men",
+              "New Arrivals",
+              "Best Sellers",
+              "Linen Shop",
+              "Shirts"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "Transpac Imports Inc.",
+      "analysis": {
+        "edp_scores": {
+          "sales_enablement_collapse": 0.25,
+          "technology_obsolescence": 0.2,
+          "rep_performance_crisis": 1.0,
+          "sku_complexity": 0.65,
+          "channel_conflict": 0.3
+        },
+        "primary_edp": "rep_performance_crisis",
+        "psi_score": 37.53333333333333,
+        "qualification_tier": "TIER_2_ACTIVE",
+        "key_evidence": [
+          "No dealer/rep portal detected",
+          "No modern web framework detected",
+          "No rep/dealer locator found",
+          "No dedicated rep resources section",
+          "Only 0 filter options found on catalog page."
+        ],
+        "detailed_evidence": {
+          "sales_enablement_collapse": {
+            "score": 0.25,
+            "indicators": [
+              "no_dealer_portal"
+            ],
+            "issues": [
+              "No dealer/rep portal detected"
+            ],
+            "strength": "weak"
+          },
+          "technology_obsolescence": {
+            "score": 0.2,
+            "indicators": [
+              "no_modern_framework"
+            ],
+            "issues": [
+              "No modern web framework detected"
+            ],
+            "strength": "weak"
+          },
+          "rep_performance_crisis": {
+            "score": 1.0,
+            "indicators": [
+              "no_rep_locator",
+              "no_rep_resources",
+              "no_territory_info"
+            ],
+            "issues": [
+              "No rep/dealer locator found",
+              "No dedicated rep resources section",
+              "No territory information visible"
+            ],
+            "strength": "strong"
+          },
+          "sku_complexity": {
+            "score": 0.65,
+            "indicators": [
+              "limited_filtering",
+              "complex_configurations"
+            ],
+            "issues": [
+              "Only 0 filter options found on catalog page.",
+              "Product configurator detected - high complexity"
+            ],
+            "strength": "strong"
+          },
+          "channel_conflict": {
+            "score": 0.3,
+            "indicators": [
+              "hidden_pricing"
+            ],
+            "issues": [
+              "Pricing requires login - channel conflict likely"
+            ],
+            "strength": "moderate"
+          }
+        },
+        "personalization_data": [
+          {
+            "type": "company_name",
+            "value": "Transpac Brands"
+          },
+          {
+            "type": "product_categories",
+            "value": [
+              "Transpac",
+              "VIP Home & Garden",
+              "Season's Designs",
+              "Totalee Gift",
+              "Apply to Become a Customer"
+            ]
+          }
+        ],
+        "urgency": "low"
+      },
+      "status": "qualified"
+    },
+    {
+      "company": "MSI",
+      "analysis": {
+        "edp_scores": {},
+        "primary_edp": "unknown",
+        "psi_score": 0.0,
+        "qualification_tier": "NOT_QUALIFIED",
+        "key_evidence": [],
+        "detailed_evidence": {},
+        "personalization_data": [],
+        "urgency": "none"
+      },
+      "status": "not_qualified"
+    }
+  ],
+  "timestamp": "20250826_154552",
+  "using_enhanced": true
+}
