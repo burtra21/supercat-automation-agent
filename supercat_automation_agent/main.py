@@ -14,6 +14,9 @@ from flask import Flask, request, jsonify
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Force Railway redeploy timestamp
+DEPLOY_VERSION = "2025-09-30-17:06:30"
+
 # Initialize Flask app
 app = Flask(__name__)
 
