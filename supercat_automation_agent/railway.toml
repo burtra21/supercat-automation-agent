@@ -2,7 +2,7 @@
 builder = "NIXPACKS"
 
 [deploy]
-startCommand = "python supercat_automation/pain_signal_receiver.py"
+startCommand = "pip install flask && python webhook_receiver.py"
 healthcheckPath = "/health"
 healthcheckTimeout = 300
 restartPolicyType = "ON_FAILURE"
