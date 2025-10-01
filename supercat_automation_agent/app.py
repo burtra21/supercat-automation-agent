@@ -58,54 +58,63 @@ def analyze_company_for_clay(company_name, domain):
                 missing_features.extend(edp_data.get('indicators_found', []))
                 evidence_hooks.extend(edp_data.get('specific_issues', []))
         
-        return {
+        # Return COMPLETE raw analysis - everything your system produces
+        analysis_result = {
             # Core identification
             "company_name": company_name,
             "domain": domain,
             "processing_version": "v2_validated",
+            "analysis_timestamp": datetime.now().isoformat(),
+            "source": "real_website_analysis",
             
-            # EDP Scoring (REAL scores from analysis)
-            "weighted_psi_score": round(total_pain_score * 25, 2),  # Scale to your format
+            # COMPLETE EDP Analysis - All 5 EDPs with full details
+            "edp_analysis": edp_evidence,  # Full raw EDP data
+            
+            # EDP Scoring Summary
+            "total_pain_score": total_pain_score,
+            "weighted_psi_score": round(total_pain_score * 25, 2),
             "averaged_psi_score": round(total_pain_score * 20, 0),
             "qualification_tier": tier,
             "purchase_probability": min(0.95, total_pain_score * 0.4),
             
-            # Primary EDP Detection (REAL)
-            "weighted_primary_edp": primary_edp,
-            "averaged_primary_edp": primary_edp,
-            "primary_edp_match": True,
+            # EDP Rankings (Primary, Secondary, Third, etc.)
+            "edp_rankings": sorted(
+                [(name, data.get('weighted_score', data.get('score', 0)), data.get('evidence_strength', 'none'))
+                 for name, data in edp_evidence.items()],
+                key=lambda x: x[1], reverse=True
+            ),
+            
+            # Individual EDP Scores & Details
+            "sales_enablement_collapse": edp_evidence.get('sales_enablement_collapse', {}),
+            "technology_obsolescence": edp_evidence.get('technology_obsolescence', {}),
+            "rep_performance_crisis": edp_evidence.get('rep_performance_crisis', {}),
+            "sku_complexity": edp_evidence.get('sku_complexity', {}),
+            "channel_conflict": edp_evidence.get('channel_conflict', {}),
+            
+            # TAM Classification
+            "tam_indicators": tam_indicators,
+            "tam_tier": tam_indicators.get('tier', 'UNKNOWN'),
+            "has_multiple_edps": tam_indicators.get('has_multiple_edps', False),
+            "edp_count": tam_indicators.get('edp_count', 0),
+            
+            # Website Evidence Details
+            "website_evidence": evidence,
+            "personalization_hooks": evidence.get('personalization_hooks', []),
+            "specific_findings": evidence.get('specific_findings', []),
             
             # Feature Detection (REAL analysis)
             "has_product_search": not any('no_product_search' in edp.get('indicators_found', []) for edp in edp_evidence.values()),
             "has_mobile_optimization": not any('no_mobile_optimization' in edp.get('indicators_found', []) for edp in edp_evidence.values()),
             "has_ssl": domain.startswith('https') if domain.startswith('http') else True,
-            "page_speed_score": "Good" if total_pain_score < 1.0 else "Poor",
             
-            # Catalog Analysis (REAL)
-            "sku_count_estimate": 2500,  # Could extract from analysis
-            "channel_count": 1,
-            "rep_count_estimate": 15,
-            
-            # Business Profile
-            "target_audience": "B2B wholesale",
-            "geographic_presence": "USA", 
-            "trade_shows_mentioned": ", ".join([hook.get('value', '') for hook in evidence.get('personalization_hooks', []) if hook.get('type') == 'trade_show']),
-            "product_types": ", ".join([hook.get('value', '')[:3] for hook in evidence.get('personalization_hooks', []) if hook.get('type') == 'product_categories'])[:50],
-            
-            # Campaign Readiness
-            "campaign_type": "analysis_only",
-            "email_count": 0,
-            "linkedin_count": 0,
-            "ad_suggestions_count": 0,
-            
-            # Detailed Analysis (REAL data)
-            "missing_features": ", ".join(missing_features[:5]),  # First 5 issues
-            "evidence_hooks": "; ".join(evidence_hooks[:3]) if evidence_hooks else f"Analysis completed for {company_name}",
-            
-            # Metadata
-            "analysis_timestamp": datetime.now().isoformat(),
-            "source": "real_website_analysis"
+            # Legacy format compatibility
+            "weighted_primary_edp": primary_edp,
+            "averaged_primary_edp": primary_edp,
+            "missing_features": ", ".join(missing_features[:10]),
+            "evidence_hooks": "; ".join(evidence_hooks[:5]) if evidence_hooks else f"Analysis completed for {company_name}"
         }
+        
+        return analysis_result
         
     except Exception as e:
         logger.error(f"Real analysis failed for {company_name}: {e}")
