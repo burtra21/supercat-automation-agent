@@ -7,6 +7,7 @@ Returns complete EDP analysis in your existing pipeline format
 import json
 import logging
 import os
+import requests
 from datetime import datetime
 from flask import Flask, request, jsonify
 
@@ -16,6 +17,9 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 analysis_storage = []
+
+# Clay webhook URL for outbound data
+CLAY_WEBHOOK_URL = "https://api.clay.com/v3/sources/webhook/pull-in-data-from-a-webhook-ba8d0100-6e0f-4c26-8523-fac369f75a18"
 
 def analyze_company_for_clay(company_name, domain):
     """
@@ -140,6 +144,30 @@ def analyze_company_for_clay(company_name, domain):
             "source": "fallback_analysis"
         }
 
+def send_to_clay_webhook(analysis_result):
+    """
+    Send EDP analysis results to Clay webhook
+    """
+    try:
+        payload = {
+            "company_name": analysis_result.get('company_name'),
+            "domain": analysis_result.get('domain'),
+            "analysis": analysis_result  # Send complete analysis
+        }
+        
+        response = requests.post(CLAY_WEBHOOK_URL, json=payload, timeout=30)
+        
+        if response.status_code == 200:
+            logger.info(f"✅ Sent complete EDP analysis to Clay webhook")
+            return True
+        else:
+            logger.error(f"❌ Clay webhook failed: {response.status_code} - {response.text}")
+            return False
+            
+    except Exception as e:
+        logger.error(f"❌ Exception sending to Clay webhook: {e}")
+        return False
+
 @app.route("/pain-signal-webhook", methods=["POST", "GET"])
 @app.route("/analyze", methods=["POST", "GET"])
 @app.route("/", methods=["POST", "GET"])
@@ -183,6 +211,58 @@ def analyze_endpoint():
         
     except Exception as e:
         logger.error(f"❌ Analysis error: {e}")
+        return jsonify({
+            "status": "error",
+            "message": str(e)
+        }), 500
+
+@app.route("/analyze-and-send", methods=["POST", "GET"])
+@app.route("/analyze-send-to-clay", methods=["POST", "GET"])
+def analyze_and_send_endpoint():
+    """
+    ANALYZE + SEND TO CLAY ENDPOINT
+    Analyzes company AND sends results to Clay webhook
+    """
+    if request.method == "GET":
+        return jsonify({
+            "service": "🐱 Supercat EDP Analysis API - CLAY INTEGRATION",
+            "status": "✅ ACTIVE",
+            "endpoints": ["/analyze-and-send", "/analyze-send-to-clay"],
+            "usage": {
+                "method": "POST",
+                "body": {"company_name": "ABC Corp", "domain": "abc.com"},
+                "returns": "Complete EDP analysis + sends to Clay webhook",
+                "clay_webhook": CLAY_WEBHOOK_URL
+            }
+        }), 200
+    
+    # POST method - Analyze AND Send to Clay
+    try:
+        data = request.get_json() or {}
+        company_name = data.get('company_name', 'Unknown Company')
+        domain = data.get('domain', 'unknown.com')
+        
+        logger.info(f"🔍 Analyzing {company_name} ({domain}) and sending to Clay")
+        
+        # Get complete EDP analysis
+        analysis_result = analyze_company_for_clay(company_name, domain)
+        analysis_storage.append(analysis_result)
+        
+        # Send to Clay webhook
+        clay_success = send_to_clay_webhook(analysis_result)
+        
+        logger.info(f"✅ Analysis complete for {company_name}, Clay webhook: {'✅' if clay_success else '❌'}")
+        
+        return jsonify({
+            "status": "success",
+            "analysis": analysis_result,
+            "clay_webhook_ sent": clay_success,
+            "clay_webhook_url": CLAY_WEBHOOK_URL,
+            "timestamp": datetime.now().isoformat()
+        }), 200
+        
+    except Exception as e:
+        logger.error(f"❌ Analysis and send error: {e}")
         return jsonify({
             "status": "error",
             "message": str(e)
