@@ -26,7 +26,14 @@ def analyze_company_for_clay(company_name, domain):
     try:
         # Import your existing analysis system
         import sys
-        sys.path.append('supercat_automation')
+        import os
+        
+        # Add the supercat_automation directory to Python path
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        supercat_dir = os.path.join(current_dir, 'supercat_automation')
+        if supercat_dir not in sys.path:
+            sys.path.insert(0, supercat_dir)
+            
         from scrapers.website_evidence import WebsiteEvidenceExtractor
         
         # Perform REAL website analysis
